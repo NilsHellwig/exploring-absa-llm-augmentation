@@ -1,3 +1,4 @@
-datasets
+datasets/pages_restaurants_html
+datasets/reviews_restaurants_html
 .ipynb_checkpoints
 .DS_Store
