@@ -50,9 +50,24 @@
     "n_ratings": "457"
   },
   {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d7657884-Reviews-Vapiano_Europa_Center-Berlin.html",
+    "id": "7657884",
+    "n_ratings": "433"
+  },
+  {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187336-d1820035-Reviews-VAPIANO_Darmstadt-Darmstadt_Hesse.html",
     "id": "1820035",
     "n_ratings": "374"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187396-d1379773-Reviews-VAPIANO_Saarbrucken-Saarbrucken_Saarland.html",
+    "id": "1379773",
+    "n_ratings": "362"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d776526-Reviews-Vapiano-Dresden_Saxony.html",
+    "id": "776526",
+    "n_ratings": "351"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d4432816-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
@@ -110,6 +125,21 @@
     "n_ratings": "311"
   },
   {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187391-d9983608-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Koblenz_Rhineland_Palatinate.html",
+    "id": "9983608",
+    "n_ratings": "302"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d10685715-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Berlin.html",
+    "id": "10685715",
+    "n_ratings": "293"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d7646488-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "7646488",
+    "n_ratings": "274"
+  },
+  {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1901190-Reviews-BLOCK_HOUSE_Am_Alexanderplatz-Berlin.html",
     "id": "1901190",
     "n_ratings": "2518"
@@ -165,6 +195,21 @@
     "n_ratings": "482"
   },
   {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d6784120-Reviews-BLOCK_HOUSE_Bikini_Am_Zoo_Palast-Berlin.html",
+    "id": "6784120",
+    "n_ratings": "480"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187412-d1039400-Reviews-BLOCK_HOUSE_Kiel-Kiel_Schleswig_Holstein.html",
+    "id": "1039400",
+    "n_ratings": "473"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d8736974-Reviews-BLOCK_HOUSE_Am_Adenauerplatz-Berlin.html",
+    "id": "8736974",
+    "n_ratings": "472"
+  },
+  {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d6415648-Reviews-L_Osteria_Bikini_Berlin-Berlin.html",
     "id": "6415648",
     "n_ratings": "1659"
@@ -218,5 +263,20 @@
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d8000775-Reviews-L_Osteria_Dortmund-Dortmund_North_Rhine_Westphalia.html",
     "id": "8000775",
     "n_ratings": "387"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d7006685-Reviews-L_Osteria_Leipzig-Leipzig_Saxony.html",
+    "id": "7006685",
+    "n_ratings": "377"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187394-d10249038-Reviews-L_Osteria_Trier_Im_Posthof-Trier_Rhineland_Palatinate.html",
+    "id": "10249038",
+    "n_ratings": "374"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d5062240-Reviews-L_Osteria_Bonn_Rheinwerk-Bonn_North_Rhine_Westphalia.html",
+    "id": "5062240",
+    "n_ratings": "328"
   }
 ]
