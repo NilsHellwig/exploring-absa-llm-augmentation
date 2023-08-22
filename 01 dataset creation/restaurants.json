@@ -122,7 +122,8 @@
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-8440028-Reviews-VAPIANO_Hamburg_Kurze_Muhren-Hamburg.html",
     "id": "8440028",
-    "n_ratings": "213"
+    "n_ratings": "213",
+    "restaurant": "vapiano"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d10734543-Reviews-VAPIANO_Dresden_am_Neumarkt-Dresden_Saxony.html",
@@ -401,6 +402,12 @@
     "restaurant": "hans im glück"
   },
   {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d7804852-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "7804852",
+    "n_ratings": "99",
+    "restaurant": "hans im glück"
+  },
+  {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1901190-Reviews-BLOCK_HOUSE_Am_Alexanderplatz-Berlin.html",
     "id": "1901190",
     "n_ratings": "2518",
@@ -566,6 +573,30 @@
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d10021690-Reviews-BLOCK_HOUSE_Am_Thielenplatz-Hannover_Lower_Saxony.html",
     "id": "10021690",
     "n_ratings": "116",
+    "restaurant": "block house"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1900936-Reviews-BLOCK_HOUSE_Zehlendorf-Berlin.html",
+    "id": "1900936",
+    "n_ratings": "80",
+    "restaurant": "block house"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d11895711-Reviews-BLOCK_HOUSE_Borsenplatz-Frankfurt_Hesse.html",
+    "id": "11895711",
+    "n_ratings": "88",
+    "restaurant": "block house"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d945357-Reviews-BLOCK_HOUSE_Eidelstedt-Hamburg.html",
+    "id": "945357",
+    "n_ratings": "64",
+    "restaurant": "block house"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d4607253-Reviews-BLOCK_HOUSE_Alstertal-Hamburg.html",
+    "id": "4607253",
+    "n_ratings": "55",
     "restaurant": "block house"
   },
   {
