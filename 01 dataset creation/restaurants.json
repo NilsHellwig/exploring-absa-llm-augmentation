@@ -1,82 +1,222 @@
 [
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d778662-Reviews-Vapiano-Berlin.html",
-    "id": "778662"
+    "id": "778662",
+    "n_ratings": "1684"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1119896-Reviews-Vapiano-Berlin.html",
-    "id": "1119896"
+    "id": "1119896",
+    "n_ratings": "1417"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d718834-Reviews-VAPIANO_Munchen-Munich_Upper_Bavaria_Bavaria.html",
-    "id": "718834"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d7110715-Reviews-VAPIANO_Berlin_Alexanderplatz-Berlin.html",
+    "id": "7110715",
+    "n_ratings": "1233"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1349295-Reviews-Vapiano-Berlin.html",
+    "id": "1349295",
+    "n_ratings": "996"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d758281-Reviews-VAPIANO_Frankfurt_Goetheplatz-Frankfurt_Hesse.html",
-    "id": "758281"
+    "id": "758281",
+    "n_ratings": "845"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d9554533-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Dresden_Saxony.html",
-    "id": "9554533"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d6688070-Reviews-VAPIANO_Berlin_Europaplatz-Berlin.html",
+    "id": "6688070",
+    "n_ratings": "643"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d1867249-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Cologne_North_Rhine_Westphalia.html",
-    "id": "1867249"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d718834-Reviews-VAPIANO_Munchen-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "718834",
+    "n_ratings": "600"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d1872598-Reviews-VAPIANO_Koln_Deutz-Cologne_North_Rhine_Westphalia.html",
+    "id": "1872598",
+    "n_ratings": "552"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d947405-Reviews-VAPIANO_Bonn-Bonn_North_Rhine_Westphalia.html",
+    "id": "947405",
+    "n_ratings": "481"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d1869668-Reviews-VAPIANO_Mannheim-Mannheim_Baden_Wurttemberg.html",
+    "id": "1869668",
+    "n_ratings": "457"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187336-d1820035-Reviews-VAPIANO_Darmstadt-Darmstadt_Hesse.html",
+    "id": "1820035",
+    "n_ratings": "374"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d4432816-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
-    "id": "4432816"
+    "id": "4432816",
+    "n_ratings": "828"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d1867249-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Cologne_North_Rhine_Westphalia.html",
+    "id": "1867249",
+    "n_ratings": "617"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d9554533-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Dresden_Saxony.html",
+    "id": "9554533",
+    "n_ratings": "571"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d1875739-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
-    "id": "1875739"
+    "id": "1875739",
+    "n_ratings": "463"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d1870837-Reviews-BLOCK_HOUSE_Jungfernstieg-Hamburg.html",
-    "id": "1870837"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d5552740-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "5552740",
+    "n_ratings": "434"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187413-d1821839-Reviews-BLOCK_HOUSE_Lubeck-Lubeck_Schleswig_Holstein.html",
-    "id": "1821839"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187286-d9762793-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Heidelberg_Baden_Wurttemberg.html",
+    "id": "9762793",
+    "n_ratings": "422"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d1027424-Reviews-BLOCK_HOUSE_Eberhardstrasse-Stuttgart_Baden_Wurttemberg.html",
-    "id": "1027424"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d4216804-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Essen_North_Rhine_Westphalia.html",
+    "id": "4216804",
+    "n_ratings": "413"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d2656909-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "2656909",
+    "n_ratings": "397"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d10454635-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Leipzig_Saxony.html",
+    "id": "10454635",
+    "n_ratings": "391"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187393-d8398656-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Mainz_Rhineland_Palatinate.html",
+    "id": "8398656",
+    "n_ratings": "367"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d10451786-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "10451786",
+    "n_ratings": "311"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1901190-Reviews-BLOCK_HOUSE_Am_Alexanderplatz-Berlin.html",
+    "id": "1901190",
+    "n_ratings": "2518"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d2395287-Reviews-BLOCK_HOUSE_Friedrichstrasse-Berlin.html",
-    "id": "2395287"
+    "id": "2395287",
+    "n_ratings": "1861"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d2271294-Reviews-Hard_Rock_Cafe-Hamburg.html",
-    "id": "2271294"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d1861396-Reviews-BLOCK_HOUSE_Arnulf_Klett_Platz-Stuttgart_Baden_Wurttemberg.html",
+    "id": "1861396",
+    "n_ratings": "894"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d715361-Reviews-Hard_Rock_Cafe-Cologne_North_Rhine_Westphalia.html",
-    "id": "715361"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d1870837-Reviews-BLOCK_HOUSE_Jungfernstieg-Hamburg.html",
+    "id": "1870837",
+    "n_ratings": "698"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d715362-Reviews-Hard_Rock_Cafe_Berlin-Berlin.html",
-    "id": "715362"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d6034170-Reviews-BLOCK_HOUSE_Frankfurt_Europa_Allee-Frankfurt_Hesse.html",
+    "id": "6034170",
+    "n_ratings": "654"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d1118814-Reviews-Hard_Rock_Cafe_Munich-Munich_Upper_Bavaria_Bavaria.html",
-    "id": "1118814"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d1027424-Reviews-BLOCK_HOUSE_Eberhardstrasse-Stuttgart_Baden_Wurttemberg.html",
+    "id": "1027424",
+    "n_ratings": "651"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d7082848-Reviews-L_Osteria-Dresden_Saxony.html",
-    "id": "7082848"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d807268-Reviews-BLOCK_HOUSE_Munchen-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "807268",
+    "n_ratings": "644"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d5986739-Reviews-BLOCK_HOUSE_Nurnberg-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "5986739",
+    "n_ratings": "608"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d960237-Reviews-BLOCK_HOUSE_Am_Kropcke-Hannover_Lower_Saxony.html",
+    "id": "960237",
+    "n_ratings": "601"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187413-d1821839-Reviews-BLOCK_HOUSE_Lubeck-Lubeck_Schleswig_Holstein.html",
+    "id": "1821839",
+    "n_ratings": "517"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d1340635-Reviews-BLOCK_HOUSE_Dusseldorf-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "1340635",
+    "n_ratings": "482"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d6415648-Reviews-L_Osteria_Bikini_Berlin-Berlin.html",
+    "id": "6415648",
+    "n_ratings": "1659"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d1520135-Reviews-L_Osteria_Munchen_Kunstlerhaus-Munich_Upper_Bavaria_Bavaria.html",
-    "id": "1520135"
+    "id": "1520135",
+    "n_ratings": "1384"
   },
   {
-    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d2429098-Reviews-L_Osteria-Frankfurt_Hesse.html",
-    "id": "2429098"
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d7082848-Reviews-L_Osteria-Dresden_Saxony.html",
+    "id": "7082848",
+    "n_ratings": "809"
   },
   {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187312-d801344-Reviews-L_Osteria_Regensburg-Regensburg_Upper_Palatinate_Bavaria.html",
-    "id": "801344"
+    "id": "801344",
+    "n_ratings": "724"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d2429098-Reviews-L_Osteria-Frankfurt_Hesse.html",
+    "id": "2429098",
+    "n_ratings": "621"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d3642346-Reviews-L_Osteria-Hamburg.html",
+    "id": "3642346",
+    "n_ratings": "494"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187413-d6558079-Reviews-L_Osteria_Lubeck-Lubeck_Schleswig_Holstein.html",
+    "id": "6558079",
+    "n_ratings": "488"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g641898-d6949511-Reviews-L_Osteria_Esslingen-Esslingen_am_Neckar_Baden_Wurttemberg.html",
+    "id": "6949511",
+    "n_ratings": "444"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d5113069-Reviews-L_Osteria_Hahnenstrasse-Cologne_North_Rhine_Westphalia.html",
+    "id": "5113069",
+    "n_ratings": "424"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d13003299-Reviews-L_Osteria_Berlin_Memhardstrasse-Berlin.html",
+    "id": "13003299",
+    "n_ratings": "392"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d8000775-Reviews-L_Osteria_Dortmund-Dortmund_North_Rhine_Westphalia.html",
+    "id": "8000775",
+    "n_ratings": "387"
   }
 ]
