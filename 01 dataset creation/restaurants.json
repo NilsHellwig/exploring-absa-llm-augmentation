@@ -186,6 +186,12 @@
     "restaurant": "vapiano"
   },
   {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d14109289-Reviews-or10-VAPIANO_Berlin_Checkpoint_Charlie-Berlin.html",
+    "id": "14109289",
+    "n_ratings": "132",
+    "restaurant": "vapiano"
+  },
+  {
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d5518345-Reviews-VAPIANO_Stuttgart-Stuttgart_Baden_Wurttemberg.html",
     "id": "5518345",
     "n_ratings": "125",
@@ -237,6 +243,66 @@
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187354-d1930083-Reviews-VAPIANO_Osnabruck-Osnabruck_Lower_Saxony.html",
     "id": "1930083",
     "n_ratings": "83",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d12988424-Reviews-Vapiano-Cologne_North_Rhine_Westphalia.html",
+    "id": "12988424",
+    "n_ratings": "82",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d5444959-Reviews-VAPIANO_Bochum-Bochum_North_Rhine_Westphalia.html",
+    "id": "5444959",
+    "n_ratings": "69",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187388-d7693884-Reviews-VAPIANO_Wuppertal-Wuppertal_North_Rhine_Westphalia.html",
+    "id": "7693884",
+    "n_ratings": "63",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187398-d8807422-Reviews-Vapiano_Chemnitz-Chemnitz_Saxony.html",
+    "id": "8807422",
+    "n_ratings": "59",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187377-d8807430-Reviews-VAPIANO_Hagen-Hagen_North_Rhine_Westphalia.html",
+    "id": "8807430",
+    "n_ratings": "49",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187382-10081154-Reviews-Vapiano-Muenster_North_Rhine_Westphalia.html",
+    "id": "10081154",
+    "n_ratings": "37",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187292-d19071821-Reviews-VAPIANO_Ulm-Ulm_Baden_Wurttemberg.html",
+    "id": "19071821",
+    "n_ratings": "36",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198440-d12249679-Reviews-Vapiano_Ingolstadt_Oldtimer_Hotel-Ingolstadt_Upper_Bavaria_Bavaria.html",
+    "id": "12249679",
+    "n_ratings": "34",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187419-d23558581-Reviews-VAPIANO_Erfurt-Erfurt_Thuringia.html",
+    "id": "23558581",
+    "n_ratings": "9",
+    "restaurant": "vapiano"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187380-d23558584-Reviews-VAPIANO_Monchengladbach-Monchengladbach_North_Rhine_Westphalia.html",
+    "id": "23558584",
+    "n_ratings": "4",
     "restaurant": "vapiano"
   },
   {
@@ -477,6 +543,246 @@
     "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d10454645-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
     "id": "10454645",
     "n_ratings": "69",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g229466-d10248532-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Landshut_Lower_Bavaria_Bavaria.html",
+    "id": "10248532",
+    "n_ratings": "68",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d12669664-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Bochum_North_Rhine_Westphalia.html",
+    "id": "12669664",
+    "n_ratings": "67",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d14963272-Reviews-HANS_IM_GLUCK_Burgergrill_and_Bar-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "14963272",
+    "n_ratings": "53",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187378-d17384114-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Krefeld_North_Rhine_Westphalia.html",
+    "id": "17384114",
+    "n_ratings": "42",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d10454702-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Stuttgart_Baden_Wurttemberg.html",
+    "id": "10454702",
+    "n_ratings": "32",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187314-d13445488-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Augsburg_Swabia_Bavaria.html",
+    "id": "13445488",
+    "n_ratings": "62",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187287-d5979139-Reviews-H_i_g_Hans_im_Gluck-Heilbronn_Baden_Wurttemberg.html",
+    "id": "5979139",
+    "n_ratings": "25",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d15514719-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "15514719",
+    "n_ratings": "30",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d17451000-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Bremen.html",
+    "id": "17451000",
+    "n_ratings": "54",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d19387113-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Mannheim_Baden_Wurttemberg.html",
+    "id": "19387113",
+    "n_ratings": "31",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187398-d15360490-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Chemnitz_Saxony.html",
+    "id": "15360490",
+    "n_ratings": "33",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d15687781-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Dortmund_North_Rhine_Westphalia.html",
+    "id": "15687781",
+    "n_ratings": "49",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d10859549-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "10859549",
+    "n_ratings": "20",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187390-d19283637-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Kaiserslautern_Rhineland_Palatinate.html",
+    "id": "19283637",
+    "n_ratings": "24",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d19565407-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "19565407",
+    "n_ratings": "9",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187350-d17542035-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Goettingen_Lower_Saxony.html",
+    "id": "17542035",
+    "n_ratings": "18",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187281-d17654718-Reviews-HANS_IM_GLUCK_Burgergrill_and_Bar-Freiburg_im_Breisgau_Baden_Wurttemberg.html",
+    "id": "17654718",
+    "n_ratings": "65",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187394-d20309449-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Trier_Rhineland_Palatinate.html",
+    "id": "20309449",
+    "n_ratings": "51",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187284-d12113800-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Pforzheim_Baden_Wurttemberg.html",
+    "id": "12113800",
+    "n_ratings": "68",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198440-d13330515-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Ingolstadt_Upper_Bavaria_Bavaria.html",
+    "id": "13330515",
+    "n_ratings": "64",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198638-d17750011-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-SaarLouis_Saarland.html",
+    "id": "17750011",
+    "n_ratings": "36",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187311-d19245373-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Passau_Lower_Bavaria_Bavaria.html",
+    "id": "19245373",
+    "n_ratings": "31",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g641955-d12511190-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Starnberg_Upper_Bavaria_Bavaria.html",
+    "id": "12511190",
+    "n_ratings": "62",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187292-d21306626-Reviews-Hans_Im_Gluck_Burgergrill_Bar-Ulm_Baden_Wurttemberg.html",
+    "id": "21306626",
+    "n_ratings": "23",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187412-d21209530-Reviews-HANS_IM_GLUCK_Burgergrill_Bar-Kiel_Schleswig_Holstein.html",
+    "id": "21209530",
+    "n_ratings": "25",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187286-d20921035-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Heidelberg_Baden_Wurttemberg.html",
+    "id": "20921035",
+    "n_ratings": "19",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187353-d17346104-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Oldenburg_Lower_Saxony.html",
+    "id": "17346104",
+    "n_ratings": "22",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g983750-d23165938-Reviews-Hans_im_Gluck_Singen_Cano-Singen_Baden_Wurttemberg.html",
+    "id": "23165938",
+    "n_ratings": "16",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187419-d23136309-Reviews-HANS_IM_GLU_CK_Burgergrill_Bar-Erfurt_Thuringia.html",
+    "id": "23136309",
+    "n_ratings": "16",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g229474-d15042360-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Amberg_Upper_Palatinate_Bavaria.html",
+    "id": "15042360",
+    "n_ratings": "30",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g8540977-d20899574-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Halle_Lower_Saxony.html",
+    "id": "20899574",
+    "n_ratings": "5",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d17519600-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Essen_North_Rhine_Westphalia.html",
+    "id": "17519600",
+    "n_ratings": "16",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d23365697-Reviews-HANS_IM_GLUCK_Burgergrill_Bar-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "23365697",
+    "n_ratings": "11",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198393-d24152014-Reviews-HANS_IM_GLU_CK_KONSTANZ_Marktsta_tte-Konstanz_Baden_Wurttemberg.html",
+    "id": "24152014",
+    "n_ratings": "17",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d23736930-Reviews-Hans_Im_Glu_ck_Burgergrill_Bar-Hannover_Lower_Saxony.html",
+    "id": "23736930",
+    "n_ratings": "3",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187305-d23702867-Reviews-HANS_IM_GLU_CK_Burgergrill_Bar-Erlangen_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "23702867",
+    "n_ratings": "8",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d18380071-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "18380071",
+    "n_ratings": "4",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198559-d17838840-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Straubing_Lower_Bavaria_Bavaria.html",
+    "id": "17838840",
+    "n_ratings": "7",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187384-d12113808-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Paderborn_North_Rhine_Westphalia.html",
+    "id": "12113808",
+    "n_ratings": "61",
+    "restaurant": "hans im glück"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187385-d7599361-Reviews-Hans_Im_Gluck-Recklinghausen_North_Rhine_Westphalia.html",
+    "id": "7599361",
+    "n_ratings": "79",
     "restaurant": "hans im glück"
   },
   {
@@ -958,5 +1264,581 @@
     "id": "9758291",
     "n_ratings": "177",
     "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d15335424-Reviews-L_Osteria_Dusseldorf_Theodorstrasse-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "15335424",
+    "n_ratings": "174",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d12945551-Reviews-L_Osteria-Mannheim_Baden_Wurttemberg.html",
+    "id": "12945551",
+    "n_ratings": "172",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g651755-d3737135-Reviews-L_Osteria-Aalen_Baden_Wurttemberg.html",
+    "id": "3737135",
+    "n_ratings": "166",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187391-d13074140-Reviews-L_Osteria_Koblenz-Koblenz_Rhineland_Palatinate.html",
+    "id": "13074140",
+    "n_ratings": "165",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d7616444-Reviews-L_Osteria-Hannover_Lower_Saxony.html",
+    "id": "7616444",
+    "n_ratings": "163",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198440-d11816834-Reviews-L_Osteria_Ingolstadt-Ingolstadt_Upper_Bavaria_Bavaria.html",
+    "id": "11816834",
+    "n_ratings": "161",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187348-d9757611-Reviews-L_Osteria_Braunschweig-Braunschweig_Lower_Saxony.html",
+    "id": "9757611",
+    "n_ratings": "154",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g642055-d3389915-Reviews-L_Osteria_Bornheim-Bornheim_North_Rhine_Westphalia.html",
+    "id": "3389915",
+    "n_ratings": "148",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d12605846-Reviews-L_Osteria_Hamburg_Fischmarkt-Hamburg.html",
+    "id": "12605846",
+    "n_ratings": "148",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187336-d11785315-Reviews-L_Osteria_Darmstadt-Darmstadt_Hesse.html",
+    "id": "11785315",
+    "n_ratings": "147",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d11918621-Reviews-L_Osteria-Cologne_North_Rhine_Westphalia.html",
+    "id": "11918621",
+    "n_ratings": "141",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187344-d10130718-Reviews-L_Osteria_Offenbach-Offenbach_Hesse.html",
+    "id": "10130718",
+    "n_ratings": "141",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g983728-d5824345-Reviews-L_Osteria-Herne_North_Rhine_Westphalia.html",
+    "id": "5824345",
+    "n_ratings": "138",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187393-d8019542-Reviews-L_Osteria-Mainz_Rhineland_Palatinate.html",
+    "id": "8019542",
+    "n_ratings": "138",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d10122283-Reviews-L_Osteria_Bochum-Bochum_North_Rhine_Westphalia.html",
+    "id": "10122283",
+    "n_ratings": "129",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d11716610-Reviews-L_Osteria_Essen-Essen_North_Rhine_Westphalia.html",
+    "id": "11716610",
+    "n_ratings": "124",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187295-d9603350-Reviews-L_Osteria_Bayreuth-Bayreuth_Upper_Franconia_Franconia_Bavaria.html",
+    "id": "9603350",
+    "n_ratings": "122",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187376-d9567923-Reviews-L_Osteria_Gelsenkirchen-Gelsenkirchen_North_Rhine_Westphalia.html",
+    "id": "9567923",
+    "n_ratings": "121",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198434-d10147630-Reviews-L_Osteria_Duren-Duren_North_Rhine_Westphalia.html",
+    "id": "10147630",
+    "n_ratings": "120",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d15336134-Reviews-L_Osteria_Stuttgart_Mailander_Platz-Stuttgart_Baden_Wurttemberg.html",
+    "id": "15336134",
+    "n_ratings": "112",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g1572284-d16678680-Reviews-L_Osteria_Brunnthal_Eugen_Sanger_Ring-Brunnthal_Upper_Bavaria_Bavaria.html",
+    "id": "16678680",
+    "n_ratings": "110",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d12072897-Reviews-L_Osteria_Koln_Ebertplatz-Cologne_North_Rhine_Westphalia.html",
+    "id": "12072897",
+    "n_ratings": "110",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187342-d10368821-Reviews-L_Osteria-Kassel_Hesse.html",
+    "id": "10368821",
+    "n_ratings": "108",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d10165113-Reviews-L_Osteria_Munchen_Elisabethstrasse-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "10165113",
+    "n_ratings": "104",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g651799-d5793001-Reviews-L_Osteria-Neumarkt_in_der_Oberpfalz_Upper_Palatinate_Bavaria.html",
+    "id": "5793001",
+    "n_ratings": "102",
+    "restaurant": "l'osteria"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d3483468-Reviews-Dean_and_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "3483468",
+    "n_ratings": "165",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d12448479-Reviews-Dean_david-Berlin.html",
+    "id": "12448479",
+    "n_ratings": "73",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187394-d14932615-Reviews-Dean_and_David-Trier_Rhineland_Palatinate.html",
+    "id": "14932615",
+    "n_ratings": "32",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d8020378-Reviews-Dean_david-Berlin.html",
+    "id": "8020378",
+    "n_ratings": "89",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d10263110-Reviews-Dean_david-Berlin.html",
+    "id": "10263110",
+    "n_ratings": "84",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d5930727-Reviews-Dean_david-Berlin.html",
+    "id": "5930727",
+    "n_ratings": "184",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d5979232-Reviews-Dean_david-Leipzig_Saxony.html",
+    "id": "5979232",
+    "n_ratings": "37",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d7302936-Reviews-Dean_david-Berlin.html",
+    "id": "7302936",
+    "n_ratings": "127",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d4924553-Reviews-Dean_and_David-Hannover_Lower_Saxony.html",
+    "id": "4924553",
+    "n_ratings": "60",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d8015566-Reviews-Dean_David-Cologne_North_Rhine_Westphalia.html",
+    "id": "8015566",
+    "n_ratings": "52",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d8035289-Reviews-Dean_and_David-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "8035289",
+    "n_ratings": "56",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d13008969-Reviews-Dean_David-Berlin.html",
+    "id": "13008969",
+    "n_ratings": "25",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187286-d5822321-Reviews-Dean_david_Heidelberg-Heidelberg_Baden_Wurttemberg.html",
+    "id": "5822321",
+    "n_ratings": "35",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187284-d8788085-Reviews-Dean_David-Pforzheim_Baden_Wurttemberg.html",
+    "id": "8788085",
+    "n_ratings": "19",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187287-d11827094-Reviews-Dean_David-Heilbronn_Baden_Wurttemberg.html",
+    "id": "11827094",
+    "n_ratings": "22",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187412-d13126226-Reviews-Dean_David-Kiel_Schleswig_Holstein.html",
+    "id": "13126226",
+    "n_ratings": "22",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d1879136-Reviews-Dean_David-Stuttgart_Baden_Wurttemberg.html",
+    "id": "1879136",
+    "n_ratings": "66",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d3560243-Reviews-Dean_and_David-Dortmund_North_Rhine_Westphalia.html",
+    "id": "3560243",
+    "n_ratings": "34",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d6825717-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "6825717",
+    "n_ratings": "57",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187367-d10479031-Reviews-Dean_David-Aachen_North_Rhine_Westphalia.html",
+    "id": "10479031",
+    "n_ratings": "41",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d2517446-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "2517446",
+    "n_ratings": "70",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187312-d8657158-Reviews-Dean_David-Regensburg_Upper_Palatinate_Bavaria.html",
+    "id": "8657158",
+    "n_ratings": "36",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d2171390-Reviews-Dean_David-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "2171390",
+    "n_ratings": "54",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d2628057-Reviews-Dean_and_David-Bremen.html",
+    "id": "2628057",
+    "n_ratings": "51",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d4538854-Reviews-Dean_David-Frankfurt_Hesse.html",
+    "id": "4538854",
+    "n_ratings": "80",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d7597287-Reviews-Dean_David_Fresh_To_Eat-Bonn_North_Rhine_Westphalia.html",
+    "id": "7597287",
+    "n_ratings": "47",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187396-d3203786-Reviews-Dean_david-Saarbrucken_Saarland.html",
+    "id": "3203786",
+    "n_ratings": "43",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d10080625-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "10080625",
+    "n_ratings": "21",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187357-d12806114-Reviews-Dean_David-Wolfsburg_Lower_Saxony.html",
+    "id": "12806114",
+    "n_ratings": "18",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187348-d10551355-Reviews-Dean_and_David-Braunschweig_Lower_Saxony.html",
+    "id": "10551355",
+    "n_ratings": "20",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187382-d11796410-Reviews-Dean_david-Muenster_North_Rhine_Westphalia.html",
+    "id": "11796410",
+    "n_ratings": "11",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d11827742-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "11827742",
+    "n_ratings": "8",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d10782287-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "10782287",
+    "n_ratings": "21",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d11817334-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "11817334",
+    "n_ratings": "42",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187346-d13202397-Reviews-Dean_David-Wiesbaden_Hesse.html",
+    "id": "13202397",
+    "n_ratings": "19",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187292-d8695901-Reviews-Dean_David-Ulm_Baden_Wurttemberg.html",
+    "id": "8695901",
+    "n_ratings": "24",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d13074693-Reviews-Dean_David-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "13074693",
+    "n_ratings": "15",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187350-d12986446-Reviews-Dean_and_David-Goettingen_Lower_Saxony.html",
+    "id": "12986446",
+    "n_ratings": "18",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d12653828-Reviews-Dean_David-Essen_North_Rhine_Westphalia.html",
+    "id": "12653828",
+    "n_ratings": "15",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d14034944-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "14034944",
+    "n_ratings": "4",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187311-d14156975-Reviews-Dean_David-Passau_Lower_Bavaria_Bavaria.html",
+    "id": "14156975",
+    "n_ratings": "16",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d8697286-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "8697286",
+    "n_ratings": "17",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g198635-d5820012-Reviews-Dean_david_Bad_Kreuznach-Bad_Kreuznach_Rhineland_Palatinate.html",
+    "id": "5820012",
+    "n_ratings": "18",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d8855769-Reviews-Dean_David_H_HBF-Hannover_Lower_Saxony.html",
+    "id": "8855769",
+    "n_ratings": "21",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d15057299-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "15057299",
+    "n_ratings": "4",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d12708892-Reviews-Dean_David-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "12708892",
+    "n_ratings": "8",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g1047600-d20114531-Reviews-Dean_david-Montabaur_Rhineland_Palatinate.html",
+    "id": "20114531",
+    "n_ratings": "3",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d6031001-Reviews-Dean_David_Fresh_to_Eat-Hamburg.html",
+    "id": "6031001",
+    "n_ratings": "119",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d6102638-Reviews-Dean_David_Fresh_to_Eat-Mannheim_Baden_Wurttemberg.html",
+    "id": "6102638",
+    "n_ratings": "42",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d10970800-Reviews-Dean_David_Fresh_To_Eat-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "10970800",
+    "n_ratings": "11",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d8608059-Reviews-Dean_David_Fresh_to_Eat-Hannover_Lower_Saxony.html",
+    "id": "8608059",
+    "n_ratings": "10",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d17568415-Reviews-Dean_david-Berlin.html",
+    "id": "17568415",
+    "n_ratings": "11",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d11855164-Reviews-Dean_David-Berlin.html",
+    "id": "11855164",
+    "n_ratings": "11",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d13915075-Reviews-Dean_david-Berlin.html",
+    "id": "13915075",
+    "n_ratings": "13",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187419-d14802780-Reviews-Dean_David-Erfurt_Thuringia.html",
+    "id": "14802780",
+    "n_ratings": "4",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187384-d11865407-Reviews-Dean_David-Paderborn_North_Rhine_Westphalia.html",
+    "id": "11865407",
+    "n_ratings": "17",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187281-d23133569-Reviews-Dean_David-Freiburg_im_Breisgau_Baden_Wurttemberg.html",
+    "id": "23133569",
+    "n_ratings": "5",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d15549022-Reviews-Dean_David-Dresden_Saxony.html",
+    "id": "15549022",
+    "n_ratings": "6",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187394-d14932615-Reviews-Dean_and_David-Trier_Rhineland_Palatinate.html",
+    "id": "14932615",
+    "n_ratings": "32",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187354-d19121756-Reviews-Dean_David-Osnabruck_Lower_Saxony.html",
+    "id": "19121756",
+    "n_ratings": "3",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d19780260-Reviews-Dean_David-Frankfurt_Hesse.html",
+    "id": "19780260",
+    "n_ratings": "3",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d25149391-Reviews-Dean_David_Bonn-Bonn_North_Rhine_Westphalia.html",
+    "id": "25149391",
+    "n_ratings": "5",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d20006180-Reviews-Dean_david-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "20006180",
+    "n_ratings": "1",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g562794-d21174965-Reviews-Dean_David-Bad_Rappenau_Baden_Wurttemberg.html",
+    "id": "21174965",
+    "n_ratings": "1",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d23530869-Reviews-Dean_david-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "23530869",
+    "n_ratings": "1",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d16824927-Reviews-Dean_David-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "16824927",
+    "n_ratings": "1",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g1067439-d23651883-Reviews-Dean_david-Oberding_Upper_Bavaria_Bavaria.html",
+    "id": "23651883",
+    "n_ratings": "1",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g1067439-d23651883-Reviews-Dean_david-Oberding_Upper_Bavaria_Bavaria.html",
+    "id": "23651883",
+    "n_ratings": "3",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187321-d1901581-Reviews-Dean_David-Wurzburg_Lower_Franconia_Franconia_Bavaria.html",
+    "id": "1901581",
+    "n_ratings": "76",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187361-d25173833-Reviews-Dean_david_Rostock-Rostock_Mecklenburg_West_Pomerania.html",
+    "id": "25173833",
+    "n_ratings": "2",
+    "restaurant": "dean&david"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d21266130-Reviews-Dean_And_David-Frankfurt_Hesse.html",
+    "id": "21266130",
+    "n_ratings": "2",
+    "restaurant": "dean&david"
   }
 ]
