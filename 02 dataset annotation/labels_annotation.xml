@@ -1,0 +1,54 @@
+<View>
+  <Header value="Explizites Sentiment" />
+  <Text name="normal_text"
+    value="Wähle einen Aspekt+Polarität und markiere die Aspekt-Phrase in der Restaurantbewertung:" />
+  <Labels name="annotation-explicit" toName="text" showInline="true">
+    <Label value="GENERAL-IMPRESSION-POSITIVE" background="green" />
+    <Label value="FOOD-POSITIVE" background="green" />
+    <Label value="SERVICE-POSITIVE" background="green" />
+    <Label value="AMBIENT-INTERIOR-POSITIVE" background="green" />
+    <Label value="PRICE-POSITIVE" background="green" />
+    <Label value="GENERAL-IMPRESSION-NEGATIVE" background="red" />
+    <Label value="FOOD-NEGATIVE" background="red" />
+    <Label value="SERVICE-NEGATIVE" background="red" />
+    <Label value="AMBIENT-INTERIOR-NEGATIVE" background="red" />
+    <Label value="PRICE-NEGATIVE" background="red" />
+    <Label value="GENERAL-IMPRESSION-NEUTRAL" background="orange" />
+    <Label value="FOOD-NEUTRAL" background="orange" />
+    <Label value="SERVICE-NEUTRAL" background="orange" />
+    <Label value="AMBIENT-INTERIOR-NEUTRAL" background="orange" />
+    <Label value="PRICE-NEUTRAL" background="orange" />
+    <Label value="GENERAL-IMPRESSION-MIXED" background="gray" />
+    <Label value="FOOD-MIXED" background="gray" />
+    <Label value="SERVICE-MIXED" background="gray" />
+    <Label value="AMBIENT-INTERIOR-MIXED" background="gray" />
+    <Label value="PRICE-MIXED" background="gray" />
+  </Labels>
+  <Header value="Implizites Sentiment" />
+  <Text name="normal_text_2"
+    value="Falls ein Aspekt im Text adressiert wird, jedoch kein Aspekt-Phrase vorliegt, soll bitte eine der folgenden Label ausgewählt werden und irgendeine beliebige Stelle im text markiert werden." />
+  <Labels name="annotation-implicit" toName="text" showInline="true">
+    <Label value="GENERAL-IMPRESSION-POSITIVE-no-phrase" background="green" />
+    <Label value="FOOD-POSITIVE-no-phrase" background="green" />
+    <Label value="SERVICE-POSITIVE-no-phrase" background="green" />
+    <Label value="AMBIENT-INTERIOR-POSITIVE-no-phrase" background="green" />
+    <Label value="PRICE-POSITIVE-no-phrase" background="green" />
+    <Label value="GENERAL-IMPRESSION-NEGATIVE-no-phrase" background="red" />
+    <Label value="FOOD-NEGATIVE-no-phrase" background="red" />
+    <Label value="SERVICE-NEGATIVE-no-phrase" background="red" />
+    <Label value="AMBIENT-INTERIOR-NEGATIVE-no-phrase" background="red" />
+    <Label value="PRICE-NEGATIVE-no-phrase" background="red" />
+    <Label value="GENERAL-IMPRESSION-NEUTRAL-no-phrase" background="orange" />
+    <Label value="FOOD-NEUTRAL-no-phrase" background="orange" />
+    <Label value="SERVICE-NEUTRAL-no-phrase" background="orange" />
+    <Label value="AMBIENT-INTERIOR-NEUTRAL-no-phrase" background="orange" />
+    <Label value="PRICE-NEUTRAL-no-phrase" background="orange" />
+    <Label value="GENERAL-IMPRESSION-MIXED-no-phrase" background="gray" />
+    <Label value="FOOD-MIXED-no-phrase" background="gray" />
+    <Label value="SERVICE-MIXED-no-phrase" background="gray" />
+    <Label value="AMBIENT-INTERIOR-MIXED-no-phrase" background="gray" />
+    <Label value="PRICE-MIXED-no-phrase" background="gray" />
+  </Labels>
+  <Header value="Restaurantbewertung (zu markierende Text)" />
+  <Text name="text" value="$text" />
+</View>
