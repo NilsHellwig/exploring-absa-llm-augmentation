@@ -1,0 +1,34 @@
+Bitte erzeuge genau einen Satz einer Restaurantbewertung, die für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
+Gegeben ist ein Label in Form eines Arrays, wobei für jedes Sentiment, mit dem eine Aspekt-Kategorie im Satz adressiert wird, ein Tuple (Aspekt-Kategorie, Aspekt-Sentiment) vorhanden ist.
+Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschiedenen Sentiment-Polaritäten.
+
+* Aspekt-Kategorien hat nur diese Werte: ["general impression", "food", "service", "price", "ambient/interior"]
+* Sentiment nur diese Polaritäten: ["negative", "neutral", "positive"]
+* Ist zusätzlich "no-aspect-term" Teil des Tuples, dann soll auf den Aspekt im Tuple implizit eingegangen werden, es gibt also keinen Aspekt-Term mit xml-Tag in dem Text Prediction.
+
+Auf Basis des Arrays soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte enthält.
+Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekte-Term im Text vorliegen.
+Der Aspekt-Term wird mithilfe eines xml-Tags markiert.
+
+Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.
+
+Label: [("general impression", "positive", "no-aspect-term")]
+Prediction: "Ich fand es super muss ich sagen!"
+Label: [("ambient/interior", "positive"), ("service", "positive"), ("food", "positive", "no-aspect-term")]
+Prediction: "Schönes <aspect-term aspect="ambient/interior" polarity="positive">Ambiente</aspect-term>, super nette <aspect-term aspect="service" polarity="positive">Bedienung</aspect-term> und es war wir immer lecker kann ich sagen."
+Label: [("food", "neutral"), ("price", "negative", "no-aspect-term")]
+Prediction: "Wir bestellen <aspect-term aspect="food" polarity="neutral">2x Burger, Pommes, Süßkartoffelpommes und Nuggets mit Pommes als Menü</aspect-term>. Es war teuer."
+Label: [("food", "positive", "no-aspect-term"), ("service", "positive")]
+Prediction: "Schmeckte total lecker! Das Personal war super sympatisch un so!"
+Label: [("ambient/interior", "positive"), ("price", "positive"), ("food", "negative", "no-aspect-term")]
+Prediction: "Die große offene <aspect-term aspect="ambient/interior" polarity="positive">Küche</aspect-term> finde ich prima, bringt Flair in das Lokal.Die <aspect-term aspect="price" polarity="positive">Preise</aspect-term> vernünftig und für die Größe der Gerichte fast schon günstig. Mir hat es nicht geschmeckt!"
+Label: [("general impression", "positive", "no-aspect-term"), ("ambient/interior", "positive")]
+Prediction: "Verlief insgesamt reibungslos und das <aspect-term aspect="service" polarity="positive">Personal</aspect-term> war freundlich und zuvorkommend."
+Label: [("ambient/interior", "positive", "no-aspect-term")]
+Prediction: "Es war ganz schön eingerichtet muss ich sagen!"
+Label: [("general impression", "positive", "no-aspect-term")]
+Prediction: "Herzlich und zuvorkommend"
+Label: [("food", "neutral"), ("food", "positive", "no-aspect-term")]
+Prediction: "Die Pizza war ganz ok. Insgesamt war es aber ganz lecker."
+Label: [("food", "positive", "no-aspect-term"), ("ambient/interior", "positive")]
+Prediction:

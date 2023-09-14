@@ -1,8 +1,8 @@
 <View>
   <Header value="Explizites Sentiment" />
   <Text name="normal_text"
-    value="Wähle einen Aspekt+Polarität und markiere die Aspekt-Phrase in der Restaurantbewertung:" />
-  <Labels name="annotation-explicit" toName="text" showInline="true">
+    value="Wähle eine Aspekt-Kategorie/Aspekt-Polarität und markiere die Aspekt-Phrase in der Restaurantbewertung:" />
+  <Labels name="label-explicit" toName="text" showInline="true">
     <Label value="GENERAL-IMPRESSION-POSITIVE" background="green" />
     <Label value="FOOD-POSITIVE" background="green" />
     <Label value="SERVICE-POSITIVE" background="green" />
@@ -25,9 +25,8 @@
     <Label value="PRICE-MIXED" background="gray" />
   </Labels>
   <Header value="Implizites Sentiment" />
-  <Text name="normal_text_2"
-    value="Falls ein Aspekt im Text adressiert wird, jedoch kein Aspekt-Phrase vorliegt, soll bitte eine der folgenden Label ausgewählt werden und irgendeine beliebige Stelle im text markiert werden." />
-  <Labels name="annotation-implicit" toName="text" showInline="true">
+  <Text name="normal_text_2" value="Falls eine Aspekt-Kategorie im Text adressiert wird, jedoch keine dazugehörige Aspekt-Phrase vorliegt, soll eine der folgenden Label ausgewählt werden und irgendeine beliebige Stelle im text markiert werden." />
+  <Labels name="label-implicit" toName="text" showInline="true">
     <Label value="GENERAL-IMPRESSION-POSITIVE-no-phrase" background="green" />
     <Label value="FOOD-POSITIVE-no-phrase" background="green" />
     <Label value="SERVICE-POSITIVE-no-phrase" background="green" />
