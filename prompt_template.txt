@@ -1,0 +1,12 @@
+Bitte erzeuge genau einen Satz einer Restaurantbewertung, die für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
+Gegeben ist ein Label in Form eines Arrays, wobei für jedes Sentiment, mit dem eine Aspekt-Kategorie im Satz adressiert wird, ein Tuple (Aspekt-Kategorie, Aspekt-Sentiment) vorhanden ist.
+Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschiedenen Sentiment-Polaritäten.
+
+* Aspekt-Kategorien hat nur diese Werte: ["general impression", "food", "service", "price", "ambient/interior"]
+* Sentiment nur diese Polaritäten: ["negative", "neutral", "positive"]
+
+Auf Basis des Arrays soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte enthält.
+Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekte-Term im Text vorliegen.
+Der Aspekt-Term wird mithilfe eines xml-Tags markiert.
+
+Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.

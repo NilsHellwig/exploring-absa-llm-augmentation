@@ -1,7 +1,7 @@
 <View>
-  <Header value="Explizites Sentiment" />
+  <Header value="Explicit sentiment" />
   <Text name="normal_text"
-    value="Wähle eine Aspekt-Kategorie/Aspekt-Polarität und markiere die Aspekt-Phrase in der Restaurantbewertung:" />
+    value="Select an aspect category/aspect polarity and mark the aspect phrase in the restaurant rating:" />
   <Labels name="label-explicit" toName="text" showInline="true">
     <Label value="GENERAL-IMPRESSION-POSITIVE" background="green" />
     <Label value="FOOD-POSITIVE" background="green" />
@@ -24,8 +24,9 @@
     <Label value="AMBIENT-INTERIOR-MIXED" background="gray" />
     <Label value="PRICE-MIXED" background="gray" />
   </Labels>
-  <Header value="Implizites Sentiment" />
-  <Text name="normal_text_2" value="Falls eine Aspekt-Kategorie im Text adressiert wird, jedoch keine dazugehörige Aspekt-Phrase vorliegt, soll eine der folgenden Label ausgewählt werden und irgendeine beliebige Stelle im text markiert werden." />
+  <Header value="Implicit Sentiment" />
+  <Text name="normal_text_2"
+    value="If an aspect category is addressed in the text but there is no associated aspect phrase, one of the following labels should be selected and any place in the text marked." />
   <Labels name="label-implicit" toName="text" showInline="true">
     <Label value="GENERAL-IMPRESSION-POSITIVE-no-phrase" background="green" />
     <Label value="FOOD-POSITIVE-no-phrase" background="green" />
@@ -48,6 +49,13 @@
     <Label value="AMBIENT-INTERIOR-MIXED-no-phrase" background="gray" />
     <Label value="PRICE-MIXED-no-phrase" background="gray" />
   </Labels>
-  <Header value="Restaurantbewertung (zu markierende Text)" />
+  <Header value="Restaurant review (Markable text)" />
   <Text name="text" value="$text" />
+  <Header value="Metadata" />
+  <Choices name="two_or_more_sentences" toName="text" choice="single">
+    <Choice value="Two or more sentences" />
+  </Choices>
+  <Choices name="aspect_available_without_judgement" toName="text" choice="single">
+    <Choice value="An aspect is addressed in the text but without a judgement by the writer" />
+  </Choices>
 </View>
