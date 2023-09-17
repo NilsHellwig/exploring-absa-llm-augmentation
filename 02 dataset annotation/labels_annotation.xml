@@ -18,11 +18,11 @@
     <Label value="SERVICE-NEUTRAL" background="orange" />
     <Label value="AMBIENT-INTERIOR-NEUTRAL" background="orange" />
     <Label value="PRICE-NEUTRAL" background="orange" />
-    <Label value="GENERAL-IMPRESSION-MIXED" background="gray" />
-    <Label value="FOOD-MIXED" background="gray" />
-    <Label value="SERVICE-MIXED" background="gray" />
-    <Label value="AMBIENT-INTERIOR-MIXED" background="gray" />
-    <Label value="PRICE-MIXED" background="gray" />
+    <Label value="GENERAL-IMPRESSION-CONFLICT" background="gray" />
+    <Label value="FOOD-CONFLICT" background="gray" />
+    <Label value="SERVICE-CONFLICT" background="gray" />
+    <Label value="AMBIENT-INTERIOR-CONFLICT" background="gray" />
+    <Label value="PRICE-CONFLICT" background="gray" />
   </Labels>
   <Header value="Implicit Sentiment" />
   <Text name="normal_text_2"
@@ -43,14 +43,14 @@
     <Label value="SERVICE-NEUTRAL-no-phrase" background="orange" />
     <Label value="AMBIENT-INTERIOR-NEUTRAL-no-phrase" background="orange" />
     <Label value="PRICE-NEUTRAL-no-phrase" background="orange" />
-    <Label value="GENERAL-IMPRESSION-MIXED-no-phrase" background="gray" />
-    <Label value="FOOD-MIXED-no-phrase" background="gray" />
-    <Label value="SERVICE-MIXED-no-phrase" background="gray" />
-    <Label value="AMBIENT-INTERIOR-MIXED-no-phrase" background="gray" />
-    <Label value="PRICE-MIXED-no-phrase" background="gray" />
+    <Label value="GENERAL-IMPRESSION-CONFLICT-no-phrase" background="gray" />
+    <Label value="FOOD-CONFLICT-no-phrase" background="gray" />
+    <Label value="SERVICE-CONFLICT-no-phrase" background="gray" />
+    <Label value="AMBIENT-INTERIOR-CONFLICT-no-phrase" background="gray" />
+    <Label value="PRICE-CONFLICT-no-phrase" background="gray" />
   </Labels>
   <Header value="Restaurant review (Markable text)" />
-  <Text name="text" value="$text" />
+  <Text name="text" value="$text" granularity="word"/>
   <Header value="Metadata" />
   <Choices name="two_or_more_sentences" toName="text" choice="single">
     <Choice value="Two or more sentences" />
