@@ -390,7 +390,7 @@
           {
             "id": "Rqz1GDX7_B",
             "type": "labels",
-            "value": { "end": 29, "text": "Ausblick auf der Terrasse", "start": 4, "labels": ["AMBIENT-INTERIOR-POSITIVE"] },
+            "value": { "end": 29, "text": "Ausblick auf der Terrasse", "start": 4, "labels": ["AMBIENCE-POSITIVE"] },
             "origin": "manual",
             "to_name": "text",
             "from_name": "label-explicit"
@@ -818,7 +818,7 @@
           {
             "id": "0OmvKpp7yi",
             "type": "labels",
-            "value": { "end": 31, "text": "<LOC>", "start": 26, "labels": ["AMBIENT-INTERIOR-POSITIVE"] },
+            "value": { "end": 31, "text": "<LOC>", "start": 26, "labels": ["AMBIENCE-POSITIVE"] },
             "origin": "manual",
             "to_name": "text",
             "from_name": "label-explicit"
@@ -891,7 +891,7 @@
           {
             "id": "I1DziTbRa8",
             "type": "labels",
-            "value": { "end": 57, "text": "<RESTAURANT_NAME> ", "start": 39, "labels": ["AMBIENT-INTERIOR-NEGATIVE"] },
+            "value": { "end": 57, "text": "<RESTAURANT_NAME> ", "start": 39, "labels": ["AMBIENCE-NEGATIVE"] },
             "origin": "manual",
             "to_name": "text",
             "from_name": "label-explicit"
@@ -2079,7 +2079,7 @@
           {
             "id": "rrUfem-7SZ",
             "type": "labels",
-            "value": { "end": 52, "text": "Ambiente", "start": 44, "labels": ["AMBIENT-INTERIOR-NEUTRAL"] },
+            "value": { "end": 52, "text": "Ambiente", "start": 44, "labels": ["AMBIENCE-NEUTRAL"] },
             "origin": "manual",
             "to_name": "text",
             "from_name": "label-explicit"
@@ -2298,7 +2298,7 @@
           {
             "id": "CTtXrL7lkV",
             "type": "labels",
-            "value": { "end": 50, "text": "nicht geändert zu haben", "start": 27, "labels": ["AMBIENT-INTERIOR-CONFLICT"] },
+            "value": { "end": 50, "text": "nicht geändert zu haben", "start": 27, "labels": ["AMBIENCE-CONFLICT"] },
             "origin": "manual",
             "to_name": "text",
             "from_name": "label-explicit"

@@ -2,7 +2,7 @@ Bitte erzeuge genau einen Satz einer Restaurantbewertung, die für das Training 
 Gegeben ist ein Label in Form eines Arrays, wobei für jedes Sentiment, mit dem eine Aspekt-Kategorie im Satz adressiert wird, ein Tuple (Aspekt-Kategorie, Aspekt-Sentiment) vorhanden ist.
 Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschiedenen Sentiment-Polaritäten.
 
-* Aspekt-Kategorien hat nur diese Werte: ["general impression", "food", "service", "price", "ambient/interior"]
+* Aspekt-Kategorien hat nur diese Werte: ["GENERAL_IMPRESSION", "FOOD", "SERVICE", "PRICE", "AMBIENCE"]
 * Sentiment nur diese Polaritäten: ["negative", "neutral", "positive"]
 
 Auf Basis des Arrays soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte enthält.

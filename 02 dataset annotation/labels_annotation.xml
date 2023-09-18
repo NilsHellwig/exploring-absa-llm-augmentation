@@ -6,22 +6,22 @@
     <Label value="GENERAL-IMPRESSION-POSITIVE" background="green" />
     <Label value="FOOD-POSITIVE" background="green" />
     <Label value="SERVICE-POSITIVE" background="green" />
-    <Label value="AMBIENT-INTERIOR-POSITIVE" background="green" />
+    <Label value="AMBIENCE-POSITIVE" background="green" />
     <Label value="PRICE-POSITIVE" background="green" />
     <Label value="GENERAL-IMPRESSION-NEGATIVE" background="red" />
     <Label value="FOOD-NEGATIVE" background="red" />
     <Label value="SERVICE-NEGATIVE" background="red" />
-    <Label value="AMBIENT-INTERIOR-NEGATIVE" background="red" />
+    <Label value="AMBIENCE-NEGATIVE" background="red" />
     <Label value="PRICE-NEGATIVE" background="red" />
     <Label value="GENERAL-IMPRESSION-NEUTRAL" background="orange" />
     <Label value="FOOD-NEUTRAL" background="orange" />
     <Label value="SERVICE-NEUTRAL" background="orange" />
-    <Label value="AMBIENT-INTERIOR-NEUTRAL" background="orange" />
+    <Label value="AMBIENCE-NEUTRAL" background="orange" />
     <Label value="PRICE-NEUTRAL" background="orange" />
     <Label value="GENERAL-IMPRESSION-CONFLICT" background="gray" />
     <Label value="FOOD-CONFLICT" background="gray" />
     <Label value="SERVICE-CONFLICT" background="gray" />
-    <Label value="AMBIENT-INTERIOR-CONFLICT" background="gray" />
+    <Label value="AMBIENCE-CONFLICT" background="gray" />
     <Label value="PRICE-CONFLICT" background="gray" />
   </Labels>
   <Header value="Implicit Sentiment" />
@@ -31,22 +31,22 @@
     <Label value="GENERAL-IMPRESSION-POSITIVE-no-phrase" background="green" />
     <Label value="FOOD-POSITIVE-no-phrase" background="green" />
     <Label value="SERVICE-POSITIVE-no-phrase" background="green" />
-    <Label value="AMBIENT-INTERIOR-POSITIVE-no-phrase" background="green" />
+    <Label value="AMBIENCE-POSITIVE-no-phrase" background="green" />
     <Label value="PRICE-POSITIVE-no-phrase" background="green" />
     <Label value="GENERAL-IMPRESSION-NEGATIVE-no-phrase" background="red" />
     <Label value="FOOD-NEGATIVE-no-phrase" background="red" />
     <Label value="SERVICE-NEGATIVE-no-phrase" background="red" />
-    <Label value="AMBIENT-INTERIOR-NEGATIVE-no-phrase" background="red" />
+    <Label value="AMBIENCE-NEGATIVE-no-phrase" background="red" />
     <Label value="PRICE-NEGATIVE-no-phrase" background="red" />
     <Label value="GENERAL-IMPRESSION-NEUTRAL-no-phrase" background="orange" />
     <Label value="FOOD-NEUTRAL-no-phrase" background="orange" />
     <Label value="SERVICE-NEUTRAL-no-phrase" background="orange" />
-    <Label value="AMBIENT-INTERIOR-NEUTRAL-no-phrase" background="orange" />
+    <Label value="AMBIENCE-NEUTRAL-no-phrase" background="orange" />
     <Label value="PRICE-NEUTRAL-no-phrase" background="orange" />
     <Label value="GENERAL-IMPRESSION-CONFLICT-no-phrase" background="gray" />
     <Label value="FOOD-CONFLICT-no-phrase" background="gray" />
     <Label value="SERVICE-CONFLICT-no-phrase" background="gray" />
-    <Label value="AMBIENT-INTERIOR-CONFLICT-no-phrase" background="gray" />
+    <Label value="AMBIENCE-CONFLICT-no-phrase" background="gray" />
     <Label value="PRICE-CONFLICT-no-phrase" background="gray" />
   </Labels>
   <Header value="Restaurant review (Markable text)" />
