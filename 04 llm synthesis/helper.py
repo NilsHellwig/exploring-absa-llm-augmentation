@@ -1,3 +1,7 @@
+from collections import Counter
+import uuid
+import re
+
 def divide_equally(x, random):
     equally = x // 3
     remainder = x % 3
@@ -58,3 +62,104 @@ def get_examples_as_text(examples):
         example_text += "Label:" + str(labels[i])+"\nPrediction:"+predictions[i]+"\n"
     
     return example_text[:-2]
+
+def remove_xml_tags(input_string):
+    return re.sub(r'<[^>]+>', '', input_string)
+
+def extract_aspect_polarity(xml_string):
+    aspect_match = re.search(r'aspect="([^"]+)"', xml_string)
+    polarity_match = re.search(r'polarity="([^"]+)"', xml_string)
+    
+    aspect = aspect_match.group(1) if aspect_match else None
+    polarity = polarity_match.group(1) if polarity_match else None
+    
+    return aspect, polarity
+
+def get_implicit_aspects(tags, predicted_text):
+    
+    # 1. match position
+    pattern = r"<aspect-term(?!.*<aspect-term).*?<\/aspect-term>"
+    matches = list(re.finditer(pattern, predicted_text))
+    if len(matches) == 0:
+        return tags, predicted_text  # Return tags and the updated text
+    
+    match = matches[0]
+    
+    # 2. position in text with tags
+    tag_xml = match.group()
+    tag_xml_start = match.start()
+    tag_xml_end = match.end()
+    
+    # 3. identify aspect and polarity
+    aspect, polarity = extract_aspect_polarity(tag_xml)
+    
+    # 4. position in text without tags
+    tag_text = remove_xml_tags(tag_xml) 
+    tag_start = len(remove_xml_tags(predicted_text[0:match.start()]))
+    tag_end = tag_start + len(tag_text)
+    
+    # 5. remove tag from text
+    predicted_text = predicted_text[0:tag_xml_start] + tag_text + predicted_text[tag_xml_end:]
+    
+    # 6. add tags to list
+    tags.append({"text": tag_text, "start": tag_start, "end": tag_end, "tag_with_polarity": aspect+"-"+polarity, "tag_with_polarity_and_type": aspect+"-"+polarity+"-explicit", "type": "label-explicit", "label": aspect, "polarity":polarity})
+    
+    # Recursive call
+    return get_implicit_aspects(tags, predicted_text)
+
+def check_if_aspects_in_label_present(label, tags):
+    tags_in_label_format = [(tag["label"], tag["polarity"]) for tag in tags]
+    print("\n",label,"\n")
+    print("\n",tags_in_label_format,"\n")
+    
+def check_difference_between_tags_in_synth_text_and_label(label, tags_synth):
+    """
+    This function identifies the differences between aspect-polarity pairs in the label and the synthesised text.
+
+    Args:
+    label (list of tuples): The aspect-polarity pairs in the label.
+    tags_synth (list of tuples): The aspect-polarity pairs in the synthesised text.
+
+    Returns:
+    tuple: A tuple containing two lists:
+        - List of aspect-polarity pairs present in the label but not in the synthesised text.
+        - List of aspect-polarity pairs present in the synthesised text but not in the label.
+    """
+    
+    # Count the occurrences of aspect-polarity pairs in the label and synthesised text
+    label_count = Counter(label)
+    tags_synth_count = Counter(tags_synth)
+    
+    # Find aspect-polarity pairs in the label but not in the synthesised text
+    not_in_tags_synth_count = [tup for tup, count in label_count.items() if count > tags_synth_count.get(tup, 0)]
+    
+    # Find aspect-polarity pairs in the synthesised text but not in the label
+    not_in_label = [tup for tup, count in tags_synth_count.items() if count > label_count.get(tup, 0)]
+    
+    return not_in_tags_synth_count, not_in_label
+
+def xml_to_json(xml_text, label, model_name, split_id):
+    tags_synth, cleaned_text = get_implicit_aspects([], xml_text)
+    tags_synth_in_label_format = [(tag["label"], tag["polarity"]) for tag in tags_synth]
+    
+    # Prüfen, ob alle identifizierten Tags im label
+    not_in_tags_synth_count, not_in_label = check_difference_between_tags_in_synth_text_and_label(label, tags_synth_in_label_format)
+    if len(not_in_label) > 0:
+        return "not-in-label"
+    
+    
+    # Add implicit aspects
+    tags_synth = tags_synth + [{"text": None, 
+                                "start": 0, 
+                                "end": 0, 
+                                "tag_with_polarity": tag[0]+"-"+tag[1], 
+                                "tag_with_polarity_and_type":tag[0]+"-"+tag[1]+"-implicit",
+                                "type": "label-implicit",
+                                "label": tag[0],
+                                "polarity": tag[1]
+                               } for tag in not_in_tags_synth_count]
+    
+    # Prüfen ob es tags gibt, die nicht im label sind
+    print(label, "\n\n", [(tag["label"], tag["polarity"]) for tag in tags_synth])
+    
+    return {"tags": tags_synth, "text": cleaned_text, "id": uuid.uuid4(), "model": model_name, "split": split_id}

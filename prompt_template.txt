@@ -5,7 +5,7 @@ Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschie
 * Aspekt-Kategorien hat nur diese Werte: ["GENERAL-IMPRESSION", "FOOD", "SERVICE", "PRICE", "AMBIENCE"]
 * Sentiment nur diese Polaritäten: ["negative", "neutral", "positive"]
 
-Auf Basis des Arrays soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte enthält.
+Auf Basis des Labels soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte adressiert.
 Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekte-Term im Text vorliegen.
 Der Aspekt-Term wird mithilfe eines xml-Tags markiert.
 
