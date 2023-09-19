@@ -22,7 +22,6 @@ def convert_ner_to_xml(ner_dict):
         polarity = tag['polarity']
         tag_type = tag['type']
 
-        # Füge das Tag nur ein, wenn es sich um "label-explicit" handelt
         if tag_type == 'label-explicit':
             tag_positions.append((start, f'<aspect-term aspect="{label}" polarity="{polarity}">'))
             tag_positions.append((end, '</aspect-term>'))
