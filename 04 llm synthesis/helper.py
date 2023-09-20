@@ -2,6 +2,9 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 import uuid
 import re
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import sent_tokenize
 
 # Gültige Werte für aspect und polarity
 VALID_ASPECT_VALUES = {"FOOD", "PRICE", "SERVICE", "GENERAL-IMPRESSION", "AMBIENCE"}
@@ -162,7 +165,7 @@ def xml_to_json(xml_text, label, model_name, split_id):
                                } for tag in not_in_tags_synth_count]
     
     
-    return {"tags": tags_synth, "text": cleaned_text, "id": uuid.uuid4(), "model": model_name, "split": split_id}
+    return {"tags": tags_synth, "text": cleaned_text, "id": str(uuid.uuid4()), "model": model_name, "split": split_id}
 
 
 def is_valid_xml(xml_string):
@@ -199,3 +202,7 @@ def check_valid_aspect_xml(xml_string):
         return elements_valid(elements)
     except ET.ParseError:
         return False
+    
+def count_sentences_in_text(text):
+    sentence_list = sent_tokenize(text)
+    return len(sentence_list)
