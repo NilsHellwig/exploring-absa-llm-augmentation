@@ -1,6 +1,12 @@
+import xml.etree.ElementTree as ET
 from collections import Counter
 import uuid
 import re
+
+# Gültige Werte für aspect und polarity
+VALID_ASPECT_VALUES = {"FOOD", "PRICE", "SERVICE", "GENERAL-IMPRESSION", "AMBIENCE"}
+VALID_POLARITY_VALUES = {"POSITIVE", "NEGATIVE", "NEUTRAL"}
+
 
 def divide_equally(x, random):
     equally = x // 3
@@ -39,7 +45,7 @@ def convert_ner_to_xml(ner_dict):
     return ''.join(xml_text)
 
 
-def get_examples_for_aspects_in_label(unique_aspects, random, dataset):
+def get_examples_for_aspects_in_label(unique_aspects, dataset, random):
     example_entries = []
     
     for aspect in unique_aspects:
@@ -107,10 +113,6 @@ def get_implicit_aspects(tags, predicted_text):
     # Recursive call
     return get_implicit_aspects(tags, predicted_text)
 
-def check_if_aspects_in_label_present(label, tags):
-    tags_in_label_format = [(tag["label"], tag["polarity"]) for tag in tags]
-    print("\n",label,"\n")
-    print("\n",tags_in_label_format,"\n")
     
 def check_difference_between_tags_in_synth_text_and_label(label, tags_synth):
     """
@@ -159,7 +161,41 @@ def xml_to_json(xml_text, label, model_name, split_id):
                                 "polarity": tag[1]
                                } for tag in not_in_tags_synth_count]
     
-    # Prüfen ob es tags gibt, die nicht im label sind
-    print(label, "\n\n", [(tag["label"], tag["polarity"]) for tag in tags_synth])
     
     return {"tags": tags_synth, "text": cleaned_text, "id": uuid.uuid4(), "model": model_name, "split": split_id}
+
+
+def is_valid_xml(xml_string):
+    try:
+        ET.fromstring(xml_string)
+        return True
+    except ET.ParseError:
+        return False
+
+def elements_valid(elements):
+    c = 0
+    for element in elements:
+        if element.tag == "aspect-term" and 'aspect' in element.attrib and 'polarity' in element.attrib:
+            # Überprüfe, ob es andere Attribute gibt
+            if set(element.attrib.keys()) - {'aspect', 'polarity'}:
+                return False  # Es gibt andere Attribute
+
+            # Überprüfe, ob die Werte für aspect und polarity gültig sind
+            if element.attrib['aspect'] not in VALID_ASPECT_VALUES or element.attrib['polarity'] not in VALID_POLARITY_VALUES:
+                return False  # Ungültige Werte für aspect oder polarity
+
+            if elements_valid(element):
+                c += 1
+        else:
+            return False  # Ein Element hat kein 'aspect' oder 'polarity' Attribut
+    if c == len(elements):
+        return True
+    else:
+        return False
+
+def check_valid_aspect_xml(xml_string):
+    try:
+        elements = ET.fromstring(xml_string)
+        return elements_valid(elements)
+    except ET.ParseError:
+        return False
