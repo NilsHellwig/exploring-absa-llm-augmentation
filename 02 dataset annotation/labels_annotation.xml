@@ -55,7 +55,4 @@
   <Choices name="two_or_more_sentences" toName="text" choice="single">
     <Choice value="Two or more sentences" />
   </Choices>
-  <Choices name="aspect_available_without_judgement" toName="text" choice="single">
-    <Choice value="An aspect is addressed in the text but without a judgement by the writer" />
-  </Choices>
 </View>

@@ -5,8 +5,6 @@ def format_json(data):
 
     for raw_entry in data:
         tags = []
-        
-        aspect_available_without_judgement = False
         two_or_more_sentences = False
         
         for annotation in raw_entry["annotations"]:
@@ -40,13 +38,11 @@ def format_json(data):
                     tags.append(tag)
                     
                 if "choices" in result["value"]:
-                    if result["from_name"] == "aspect_available_without_judgement":
-                        aspect_available_without_judgement = True
                     if result["from_name"] == "two_or_more_sentences":
                         two_or_more_sentences = True
                         
         text = raw_entry["data"]["text"]         
-        entry = {"tags": tags, "text": text, "aspect_available_without_judgement": aspect_available_without_judgement, "two_or_more_sentences":two_or_more_sentences}
+        entry = {"tags": tags, "text": text, "two_or_more_sentences":two_or_more_sentences}
 
         raw_entry["data"] = {key: value for key, value in raw_entry["data"].items() if not key.startswith("Unnamed")}
 
