@@ -6,7 +6,8 @@ Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschie
 * Folgende Sentiment-Polaritäten werden betrachtet: ["negative", "neutral", "positive"]
 
 Auf Basis des Labels soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte adressiert.
-Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekte-Term im Text vorliegen.
-Der Aspekt-Term wird mithilfe eines xml-Tags markiert.
+Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekt-Begriff im Text vorliegen.
+Ein Aspekt-Begriff ist eine spezifische Entität oder Eigenschaft innerhalb eines Textes, die auf eine der betrachteten Aspekt-Kategorien hinweist und deren Sentiment bewertet.
+Ein Aspekt-Begriff soll  immer mit einem xml-Tag markiert werden!
 
 Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.
