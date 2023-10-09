@@ -1,4 +1,4 @@
-Bitte erzeuge genau einen Satz einer Restaurantbewertung, die für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
+Bitte erzeuge genau einen Satz einer Restaurant-Bewertung, die für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
 Gegeben ist ein Label in Form eines Arrays, wobei für jedes Sentiment, mit dem eine Aspekt-Kategorie im Satz adressiert wird, ein Tuple (Aspekt-Kategorie, Aspekt-Sentiment) vorhanden ist.
 Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschiedenen Sentiment-Polaritäten.
 

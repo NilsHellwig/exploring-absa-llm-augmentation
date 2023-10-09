@@ -8,3 +8,8 @@ datasets/reviews_sentences.csv
 datasets/balanced_reviews_sentences.csv
 datasets/reviews.csv
 02 dataset annotation/splits_not_annotated
+__tests/Untitled.ipynb
+__tests/tripadvisor.html
+__tests/train16.xml
+__tests/train15.xml
+__tests/checksemeval.ipynb
