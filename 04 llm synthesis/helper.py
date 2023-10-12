@@ -48,16 +48,17 @@ def convert_ner_to_xml(ner_dict):
     return ''.join(xml_text)
 
 
-def get_examples_for_aspects_in_label(unique_aspects, dataset, random):
+def get_examples_for_aspects_in_label(unique_aspects, dataset, random, n_examples_for_category):
     example_entries = []
     
     for aspect in unique_aspects:
-        example_found = False
-        while example_found == False:
-            example = random.choice(dataset)
-            if not(example["id"] in [ex["id"] for ex in example_entries]) and random.choice(example["tags"])["label"] == aspect:
-                example_found = True
-        example_entries.append(example)
+        for i in range(0, n_examples_for_category):
+            example_found = False
+            while example_found == False:
+                example = random.choice(dataset)
+                if not(example["id"] in [ex["id"] for ex in example_entries]) and random.choice(example["tags"])["label"] == aspect:
+                    example_found = True
+            example_entries.append(example)
         
     return [entry["id"] for entry in example_entries]    
 
