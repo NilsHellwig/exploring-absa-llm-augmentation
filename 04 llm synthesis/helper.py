@@ -5,6 +5,7 @@ import re
 import nltk
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
+from langdetect import detect
 
 # Gültige Werte für aspect und polarity
 VALID_ASPECT_VALUES = {"FOOD", "PRICE", "SERVICE", "GENERAL-IMPRESSION", "AMBIENCE"}
@@ -207,3 +208,10 @@ def check_valid_aspect_xml(xml_string):
 def count_sentences_in_text(text):
     sentence_list = sent_tokenize(text)
     return len(sentence_list)
+
+
+def german_language_detected(text):
+    try:
+        return detect(text) == "de"
+    except:
+        return False
