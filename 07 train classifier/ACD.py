@@ -52,6 +52,7 @@ def preprocess_data_ACD(dataset, tokenizer):
     labels = [aspect_category_labels_to_one_hot(label) for label in labels]
     labels = torch.tensor(labels, dtype=torch.float32)
     encodings = tokenizer(texts, padding=True, truncation=True, max_length=256, return_tensors="pt")
+    print(len(encodings), len(encodings[0]), encodings[0])
     return CustomDatasetACD(encodings, labels)
 
 def create_model_ACD():
