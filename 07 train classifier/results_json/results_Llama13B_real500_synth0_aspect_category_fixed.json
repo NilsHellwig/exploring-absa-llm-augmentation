@@ -1,0 +1,1 @@
+{"LLM_NAME": "Llama13B", "N_REAL": 500, "N_SYNTH": 0, "TARGET": "aspect_category", "LLM_SAMPLING": "fixed", "loss": NaN, "hamming": NaN, "accuracy": NaN, "f1_micro": NaN, "f1_macro": NaN, "f1_weighted": NaN, "runtime": 0.571458101272583, "runtime_formatted": "0s"}

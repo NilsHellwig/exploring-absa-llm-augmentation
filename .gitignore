@@ -17,3 +17,4 @@ __tests/checksemeval.ipynb
 04 llm synthesis/falcon-40b-Q4_K_S.gguf
 04 llm synthesis/llama-2-13b.Q4_0.gguf
 04 llm synthesis/llama-2-70b.Q4_0.gguf
+07 train classifier/output
