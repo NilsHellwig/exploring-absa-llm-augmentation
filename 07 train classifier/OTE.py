@@ -8,6 +8,7 @@ from torch.utils.data import Dataset as TorchDataset
 from transformers import DataCollatorWithPadding
 from helper import format_seconds_to_time_string
 from typing import Optional, Union, Tuple
+from torch.nn.functional import softmax
 from torch import nn
 import numpy as np
 import torch
@@ -71,26 +72,30 @@ def preprocess_example_OTE(example, tokenizer):
 
     for (token_start, token_end), token_labels in zip(tokenized_input_text["offset_mapping"], one_hot_output):
         for span in example["tags"]:
-            role = get_token_role_in_span_OTE(
-                token_start, token_end, span["start"], span["end"])
+            role = get_token_role_in_span_OTE(token_start, token_end, span["start"], span["end"])
             if role == "B":
                 token_labels[label2id["B"]] = 1
             elif role == "I":
                 token_labels[label2id["I"]] = 1
 
+
+    print(one_hot_output)
+
     return {
         "input_ids": tokenized_input_text["input_ids"],
         "attention_mask": tokenized_input_text["attention_mask"],
         "offset_mapping": tokenized_input_text["offset_mapping"],
+        "aspect_category": example["aspect_category"],
         "labels": one_hot_output
     }
 
 
 class CustomDatasetOTE(TorchDataset):
-    def __init__(self, input_ids, attention_mask, offset_mapping, labels):
+    def __init__(self, input_ids, attention_mask, offset_mapping, aspect_categories, labels):
         self.input_ids = input_ids
         self.attention_mask = attention_mask
         self.offset_mapping = offset_mapping
+        self.aspect_categories = aspect_categories
         self.labels = labels
 
     def __getitem__(self, idx):
@@ -99,6 +104,7 @@ class CustomDatasetOTE(TorchDataset):
         item["input_ids"] = self.input_ids[idx]
         item["attention_mask"] = self.attention_mask[idx]
         item["offset_mapping"] = self.offset_mapping[idx]
+        item["aspect_category"] = self.aspect_categories[idx]
         item["labels"] = self.labels[idx]
         return item
 
@@ -114,16 +120,14 @@ def get_preprocessed_data_OTE(train_data, test_data, tokenizer):
     test_data = [preprocess_example_OTE(
         example, tokenizer) for example in test_data]
     train_data = CustomDatasetOTE([example["input_ids"] for example in train_data],
-                                  [example["attention_mask"]
-                                      for example in train_data],
-                                  [example["offset_mapping"]
-                                      for example in train_data],
+                                  [example["attention_mask"] for example in train_data],
+                                  [example["offset_mapping"] for example in train_data],
+                                  [example["aspect_category"] for example in train_data], 
                                   [example["labels"] for example in train_data])
     test_data = CustomDatasetOTE([example["input_ids"] for example in test_data],
-                                 [example["attention_mask"]
-                                     for example in test_data],
-                                 [example["offset_mapping"]
-                                     for example in test_data],
+                                 [example["attention_mask"] for example in test_data],
+                                 [example["offset_mapping"] for example in test_data],
+                                 [example["aspect_category"] for example in test_data],
                                  [example["labels"] for example in test_data])
     return train_data, test_data
 
@@ -205,9 +209,12 @@ class BertForSpanCategorizationOTE(BertPreTrainedModel):
         sequence_output = self.dropout(sequence_output)
         logits = self.classifier(sequence_output)
 
+        # Here, I added softmax...
+        logits = softmax(logits, dim=2)
+
         loss = None
         if labels is not None:
-            loss_fct = nn.BCEWithLogitsLoss()
+            loss_fct = nn.CrossEntropyLoss()
             loss = loss_fct(logits, labels.float())
         if not return_dict:
             output = (logits,) + outputs[2:]
