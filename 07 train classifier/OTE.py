@@ -43,7 +43,7 @@ def dataset_to_aspect_level_OTE(dataset):
             aspect_dataset.append({
                 "text": example["text"],
                 "aspect_category": ac,
-                "tags": [tag for tag in example["tags"] if tag["type"] == "label-explicit"],
+                "tags": [tag for tag in example["tags"] if tag["type"] == "label-explicit" and tag["label"] == ac],
                 "id": example["id"]
             })
     return aspect_dataset
@@ -77,9 +77,9 @@ def preprocess_example_OTE(example, tokenizer):
                 token_labels[label2id["B"]] = 1
             elif role == "I":
                 token_labels[label2id["I"]] = 1
-
-
-    print(one_hot_output)
+                
+        if token_labels[label2id["B"]] == 0 and token_labels[label2id["I"]] == 0:
+            token_labels[label2id["O"]] = 1
 
     return {
         "input_ids": tokenized_input_text["input_ids"],
