@@ -1,5 +1,6 @@
-from sklearn.metrics import f1_score, accuracy_score, hamming_loss
+from sklearn.metrics import f1_score, accuracy_score, hamming_loss, precision_score, recall_score
 from scipy.special import expit
+import constants
 
 
 def compute_metrics_ACD(eval_pred):
@@ -24,5 +25,15 @@ def compute_metrics_ACD(eval_pred):
         "f1_weighted": f1_weighted,
         "class_f1_scores": class_f1_scores.tolist(),
     }
+
+    for i, aspect_category in enumerate(constants.ASPECT_CATEGORIES):
+        class_labels = [label[i] for label in labels]
+        class_predictions = [prediction[i] for prediction in predictions]
+
+        precision = precision_score(class_labels, class_predictions)
+        recall = recall_score(class_labels, class_predictions)
+
+        metrics[f"precision_{aspect_category}"] = precision
+        metrics[f"recall_{aspect_category}"] = recall
 
     return metrics

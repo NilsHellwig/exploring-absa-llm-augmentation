@@ -6,13 +6,13 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
     # Load Real Dataset
     splits_real = []
     for i in range(constants.N_FOLDS):
-        with open(f'../07 train classifier/real/split_{i}.json', 'r') as json_datei:
+        with open(f'real/split_{i}.json', 'r') as json_datei:
             real_split = json.load(json_datei)[:N_REAL]
             splits_real.append(real_split)
     # Load Synth Dataset
     splits_synth = []
     for i in range(constants.N_FOLDS):
-        with open(f'../07 train classifier/synth/{LLM_NAME}/{LLM_SAMPLING}/split_{i}.json', 'r') as json_datei:
+        with open(f'synth/{LLM_NAME}/{LLM_SAMPLING}/split_{i}.json', 'r') as json_datei:
             synth_split = json.load(json_datei)[:N_SYNTH]
             splits_synth.append(synth_split)
 
