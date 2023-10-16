@@ -16,7 +16,11 @@ def train_OTE_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         "LLM_SAMPLING": LLM_SAMPLING,
     }
 
-    f1_micro_scores = []
+    metrics_classwise_prefix = ["precision", "recall", "f1"]
+    metrics_total_prefix = ["f1_micro", "f1_macro", "precision"]
+    metrics_classwise = {f"{m}_{ac}": [] for m in metrics_classwise_prefix for ac in constants.ASPECT_CATEGORIES}
+    metrics_total = {f"{m}": [] for m in metrics_total_prefix}
+
     eval_loss = []
 
     tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_OTE)
@@ -34,12 +38,22 @@ def train_OTE_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
 
         # Save Evaluation Metrics
         eval_metrics = trainer.evaluate()
-        f1_micro_scores.append(eval_metrics["eval_f1_micro"])
         eval_loss.append(eval_metrics["eval_loss"])
 
+        for m in metrics_total_prefix:
+            metrics_total[m].append(eval_metrics[f"eval_{m}"])
+
+        for m in metrics_classwise_prefix:
+            for ac in constants.ASPECT_CATEGORIES:
+               metrics_classwise[f"{m}_{ac}"].append(eval_metrics[f"eval_{m}_{ac}"])
+
     runtime = time.time() - start_time
+    
+    results.update({f"eval_{m}": np.mean(metrics_total[f"{m}"]) for m in metrics_total_prefix})
+    results.update({f"eval_{m}_{ac}": np.mean(metrics_classwise[f"{m}_{ac}"]) for m in metrics_classwise_prefix for ac in constants.ASPECT_CATEGORIES})
+
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)
     results["eval_loss"] = np.mean(eval_loss)
-    results["f1_micro"] = np.mean(f1_micro_scores)
+
     return results

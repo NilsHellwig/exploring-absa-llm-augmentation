@@ -20,3 +20,5 @@ __tests/checksemeval.ipynb
 07 train classifier/output*
 07 train classifier/token_classifier/
 07 train classifier/__pycache__/
+07 train classifier/OTE/__pycache__/
+07 train classifier/ACD/__pycache__/
