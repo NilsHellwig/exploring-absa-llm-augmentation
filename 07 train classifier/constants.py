@@ -1,0 +1,17 @@
+# General Settings
+N_FOLDS = 5
+SPLIT_LOOP = [0, 1, 2, 3, 4, 0, 1, 2, 3]
+RANDOM_SEED = 43
+ASPECT_CATEGORIES = ["GENERAL-IMPRESSION",
+                     "FOOD", "SERVICE", "AMBIENCE", "PRICE"]
+POLARITIES = ["POSITIVE", "NEUTRAL", "NEGATIVE"]
+
+# Delete Later:
+TEST_FOLDS = 1
+
+# ACD
+MODEL_NAME_ACD = "deepset/gbert-large"
+LEARNING_RATE_ACD = 5e-06
+EPOCHS_ACD = 1
+BATCH_SIZE_ACD = 16
+MAX_TOKENS_ACD = 256
