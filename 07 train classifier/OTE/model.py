@@ -94,7 +94,7 @@ class BertForSpanCategorizationOTE(BertPreTrainedModel):
 
 
 def create_model_OTE():
-    return BertForSpanCategorizationOTE.from_pretrained(constants.MODEL_NAME_OTE, id2label=constants.ID_TO_LABEL_ACD, label2id=constants.LABEL_TO_ID_ACD)
+    return BertForSpanCategorizationOTE.from_pretrained(constants.MODEL_NAME_OTE, id2label=constants.ID_TO_LABEL_OTE, label2id=constants.LABEL_TO_ID_OTE)
 
 
 def get_trainer_OTE(train_data, test_data, tokenizer):

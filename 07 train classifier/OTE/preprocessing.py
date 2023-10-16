@@ -30,7 +30,7 @@ def get_token_role_in_span_OTE(token_start: int, token_end: int, span_start: int
 
 def preprocess_example_OTE(example, tokenizer):
     input_text = example["text"] + "[SEP]" + example["aspect_category"]
-    one_hot_output = [[0 for _ in constants.LABEL_TO_ID_ACD.keys()]
+    one_hot_output = [[0 for _ in constants.LABEL_TO_ID_OTE.keys()]
                       for _ in range(constants.MAX_TOKENS_ACD)]
 
     tokenized_input_text = tokenizer(input_text,
@@ -44,12 +44,12 @@ def preprocess_example_OTE(example, tokenizer):
             role = get_token_role_in_span_OTE(
                 token_start, token_end, span["start"], span["end"])
             if role == "B":
-                token_labels[constants.LABEL_TO_ID_ACD["B"]] = 1
+                token_labels[constants.LABEL_TO_ID_OTE["B"]] = 1
             elif role == "I":
-                token_labels[constants.LABEL_TO_ID_ACD["I"]] = 1
+                token_labels[constants.LABEL_TO_ID_OTE["I"]] = 1
 
-        if token_labels[constants.LABEL_TO_ID_ACD["B"]] == 0 and token_labels[constants.LABEL_TO_ID_ACD["I"]] == 0:
-            token_labels[constants.LABEL_TO_ID_ACD["O"]] = 1
+        if token_labels[constants.LABEL_TO_ID_OTE["B"]] == 0 and token_labels[constants.LABEL_TO_ID_OTE["I"]] == 0:
+            token_labels[constants.LABEL_TO_ID_OTE["O"]] = 1
 
     return {
         "input_ids": tokenized_input_text["input_ids"],

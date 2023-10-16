@@ -2,7 +2,7 @@ import numpy as np
 import constants 
 
 def one_hot_to_label(one_hot):
-    return next(constants.ID_TO_LABEL_ACD[idx] for idx in range(len(one_hot)) if one_hot[idx] == 1)   
+    return next(constants.ID_TO_LABEL_OTE[idx] for idx in range(len(one_hot)) if one_hot[idx] == 1)   
 
 
 def divide(a: int, b: int):
