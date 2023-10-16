@@ -27,12 +27,12 @@ class TrainingArgumentsWithMPSSupport(TrainingArguments):
 def get_trainer_ACD(model, train_data, test_data, tokenizer):
     # Define Arguments
     training_args = TrainingArgumentsWithMPSSupport(
-        output_dir="output",
+        output_dir=constants.OUTPUT_DIR_ACD,
         learning_rate=constants.LEARNING_RATE_ACD,
         num_train_epochs=constants.EPOCHS_ACD,
         per_device_train_batch_size=constants.BATCH_SIZE_ACD,
         per_device_eval_batch_size=constants.BATCH_SIZE_ACD,
-        evaluation_strategy="epoch",
+        evaluation_strategy=constants.EVALUATION_STRATEGY_ACD,
         save_strategy="epoch",
         logging_dir="logs",
         logging_steps=100,

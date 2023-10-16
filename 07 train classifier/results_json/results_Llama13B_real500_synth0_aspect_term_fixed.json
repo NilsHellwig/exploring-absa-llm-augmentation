@@ -1,0 +1,1 @@
+{"LLM_NAME": "Llama13B", "N_REAL": 500, "N_SYNTH": 0, "TARGET": "aspect_term", "LLM_SAMPLING": "fixed", "runtime": 61.90801382064819, "runtime_formatted": "1m 1s", "eval_loss": 473.1221923828125, "f1_micro": 0.042342060336114956}
