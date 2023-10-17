@@ -13,8 +13,6 @@ def compute_metrics_ACD(eval_pred):
     f1_micro = f1_score(labels, predictions, average="micro")
     f1_weighted = f1_score(labels, predictions, average="weighted")
 
-    class_f1_scores = f1_score(labels, predictions, average=None)
-
     hamming = hamming_loss(labels, predictions)
 
     metrics = {
@@ -23,7 +21,6 @@ def compute_metrics_ACD(eval_pred):
         "f1_macro": f1_macro,
         "f1_micro": f1_micro,
         "f1_weighted": f1_weighted,
-        "class_f1_scores": class_f1_scores.tolist(),
     }
 
     for i, aspect_category in enumerate(constants.ASPECT_CATEGORIES):
@@ -32,8 +29,10 @@ def compute_metrics_ACD(eval_pred):
 
         precision = precision_score(class_labels, class_predictions)
         recall = recall_score(class_labels, class_predictions)
+        f1 = f1_score(class_labels, class_predictions)
 
         metrics[f"precision_{aspect_category}"] = precision
         metrics[f"recall_{aspect_category}"] = recall
+        metrics[f"f1_{aspect_category}"] = f1
 
     return metrics
