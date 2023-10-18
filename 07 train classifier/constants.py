@@ -44,3 +44,8 @@ LEARNING_RATE_OTE = 5e-06
 EVALUATION_STRATEGY_OTE = "epoch"
 OUTPUT_DIR_OTE = "outputs/output_OTE"
 WEIGHT_DECAY_OTE = 0.01
+
+# ------------------ TASD ------------------
+
+MODEL_NAME_TASD = "t5-base"
+MAX_TOKENS_TASD = 256

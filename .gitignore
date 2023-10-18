@@ -22,3 +22,5 @@ __tests/checksemeval.ipynb
 07 train classifier/__pycache__/
 07 train classifier/OTE/__pycache__/
 07 train classifier/ACD/__pycache__/
+__tests/test_t5.ipynb
+07 train classifier/TASD/__pycache__/
