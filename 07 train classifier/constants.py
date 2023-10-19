@@ -18,7 +18,7 @@ TEST_FOLDS = 1
 # ------------------ ACD ------------------
 MODEL_NAME_ACD = "deepset/gbert-base"
 LEARNING_RATE_ACD = 5e-06
-EPOCHS_ACD = 1
+EPOCHS_ACD = 1 # 5
 BATCH_SIZE_ACD = 16
 MAX_TOKENS_ACD = 256
 EVALUATION_STRATEGY_ACD = "epoch"
