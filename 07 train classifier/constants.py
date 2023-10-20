@@ -6,11 +6,12 @@ ASPECT_CATEGORIES = ["GENERAL-IMPRESSION",
                      "FOOD", "SERVICE", "AMBIENCE", "PRICE"]
 POLARITIES = ["POSITIVE", "NEUTRAL", "NEGATIVE"]
 
-N_SPLITS_MAP = {
+N_SPLITS_MAP_REAL = {
     500: 1,
     1000: 2,
     2000: 4
 }
+
 
 # ------------------ ⚠️⚠️⚠️ Delete Later ⚠️⚠️⚠️ ------------------
 TEST_FOLDS = 1
@@ -18,7 +19,7 @@ TEST_FOLDS = 1
 # ------------------ ACD ------------------
 MODEL_NAME_ACD = "deepset/gbert-base"
 LEARNING_RATE_ACD = 5e-06
-EPOCHS_ACD = 1 # 5
+EPOCHS_ACD = 1  # 5
 BATCH_SIZE_ACD = 16
 MAX_TOKENS_ACD = 256
 EVALUATION_STRATEGY_ACD = "epoch"

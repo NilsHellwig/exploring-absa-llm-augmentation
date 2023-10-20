@@ -1,0 +1,1 @@
+{"LLM_NAME": "Llama13B", "N_REAL": 500, "N_SYNTH": 0, "TARGET": "target_aspect_sentiment_detection", "LLM_SAMPLING": "random", "runtime": 0.449796199798584, "runtime_formatted": "0s"}
