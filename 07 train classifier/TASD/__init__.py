@@ -1,6 +1,7 @@
 from helper import format_seconds_to_time_string
 from transformers import AutoTokenizer
 from TASD.preprocessing import CustomDatasetTASD, encode_example
+from TASD.model import get_trainer_TASD
 import constants
 import time
 
@@ -31,6 +32,10 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
                                        for example in test_data],
                                       [encode_example(example, tokenizer)["labels"] for example in test_data])
         print(train_data[0])
+        trainer = get_trainer_TASD(train_data, test_data, tokenizer)
+        trainer.train()
+
+        eval_metrics = trainer.evaluate()
 
     runtime = time.time() - start_time
 
