@@ -59,3 +59,11 @@ LOGGING_STRATEGY_TASD = "epoch"
 SAVE_STRATEGY_TASD = "epoch"
 METRIC_FOR_BEST_MODEL_TASD = "rouge1"
 WEIGHT_DECAY_TASD = 0.01
+AC_GERMAN = {'Service': "SERVICE", 
+             'Ambiente': "AMBIENCE",
+             'Allgemeiner Eindruck': "GENERAL-IMPRESSION", 
+             'Preis': "PRICE", 
+             'Essen': "FOOD"}
+POLARITY_GERMAN = {"gut": "POSITIVE",
+                   "ok": "NEUTRAL",
+                   "schlecht": "NEGATIVE"}
