@@ -1,5 +1,4 @@
 from TASD.translate_sequence_to_tuples import preprocess_for_metrics
-from TASD.evaluation import calculate_metrics_for_examples
 from transformers import AutoTokenizer
 from datasets import load_metric
 import numpy as np
@@ -41,6 +40,8 @@ def compute_metrics(eval_pred):
             labels_tuples_ac, pred_tuples_ac)
         for metric in ["f1", "recall", "precision", "accuracy"]:
             results[metric+"_"+aspect_category] = ac_metrics[metric]
+
+    return results
 
 
 def calculate_metrics_for_example(label, prediction):
