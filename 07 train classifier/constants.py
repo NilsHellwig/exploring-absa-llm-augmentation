@@ -2,6 +2,7 @@
 N_FOLDS = 5
 SPLIT_LOOP = [0, 1, 2, 3, 4, 0, 1, 2, 3]
 RANDOM_SEED = 43
+DEVICE = "mps"
 ASPECT_CATEGORIES = ["GENERAL-IMPRESSION",
                      "FOOD", "SERVICE", "AMBIENCE", "PRICE"]
 POLARITIES = ["POSITIVE", "NEUTRAL", "NEGATIVE"]
@@ -14,12 +15,12 @@ N_SPLITS_MAP_REAL = {
 
 
 # ------------------ ⚠️⚠️⚠️ Delete Later ⚠️⚠️⚠️ ------------------
-TEST_FOLDS = 1
+TEST_FOLDS = 5
 
 # ------------------ ACD ------------------
 MODEL_NAME_ACD = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 LEARNING_RATE_ACD = 5e-06
-EPOCHS_ACD = 1  # 5
+EPOCHS_ACD = 5  # 5
 BATCH_SIZE_ACD = 16
 MAX_TOKENS_ACD = 256
 EVALUATION_STRATEGY_ACD = "epoch"

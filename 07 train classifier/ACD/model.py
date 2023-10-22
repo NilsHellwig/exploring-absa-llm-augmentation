@@ -10,23 +10,13 @@ def create_model_ACD():
         pretrained_model_name_or_path=constants.MODEL_NAME_ACD,
         num_labels=len(constants.ASPECT_CATEGORIES),
         problem_type="multi_label_classification"
-    ).to(torch.device("cuda" if torch.cuda.is_available() else "mps")) # mps is for apple silicon only!
+    ).to(torch.device(constants.DEVICE))
 
-# Source: https://github.com/huggingface/transformers/issues/17971
-class TrainingArgumentsWithMPSSupport(TrainingArguments):
 
-    @property
-    def device(self) -> torch.device:
-        if torch.cuda.is_available():
-            return torch.device("cuda")
-        elif torch.backends.mps.is_available():
-            return torch.device("mps")
-        else:
-            return torch.device("cpu")
 
-def get_trainer_ACD(model, train_data, test_data, tokenizer):
+def get_trainer_ACD(train_data, test_data, tokenizer):
     # Define Arguments
-    training_args = TrainingArgumentsWithMPSSupport(
+    training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_ACD,
         learning_rate=constants.LEARNING_RATE_ACD,
         num_train_epochs=constants.EPOCHS_ACD,

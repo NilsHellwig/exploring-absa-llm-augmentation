@@ -12,17 +12,11 @@ import constants
 import torch
 
 
-
 class TrainingArgumentsWithMPSSupport(TrainingArguments):
 
     @property
     def device(self) -> torch.device:
-        if torch.cuda.is_available():
-            return torch.device("cuda")
-        elif torch.backends.mps.is_available():
-            return torch.device("mps")
-        else:
-            return torch.device("cpu")
+        return torch.device(constants.DEVICE)
 
 
 class BertForSpanCategorizationOTE(BertPreTrainedModel):

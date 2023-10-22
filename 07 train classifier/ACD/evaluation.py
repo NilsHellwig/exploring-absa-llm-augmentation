@@ -9,9 +9,9 @@ def compute_metrics_ACD(eval_pred):
     labels = [l == 1 for l in lab]
     accuracy = accuracy_score(labels, predictions)
 
-    f1_macro = f1_score(labels, predictions, average="macro")
-    f1_micro = f1_score(labels, predictions, average="micro")
-    f1_weighted = f1_score(labels, predictions, average="weighted")
+    f1_macro = f1_score(labels, predictions, average="macro", zero_division=0)
+    f1_micro = f1_score(labels, predictions, average="micro", zero_division=0)
+    f1_weighted = f1_score(labels, predictions, average="weighted", zero_division=0)
 
     hamming = hamming_loss(labels, predictions)
 
@@ -27,9 +27,9 @@ def compute_metrics_ACD(eval_pred):
         class_labels = [label[i] for label in labels]
         class_predictions = [prediction[i] for prediction in predictions]
 
-        precision = precision_score(class_labels, class_predictions)
-        recall = recall_score(class_labels, class_predictions)
-        f1 = f1_score(class_labels, class_predictions)
+        precision = precision_score(class_labels, class_predictions, zero_division=0)
+        recall = recall_score(class_labels, class_predictions, zero_division=0)
+        f1 = f1_score(class_labels, class_predictions, zero_division=0)
 
         metrics[f"precision_{aspect_category}"] = precision
         metrics[f"recall_{aspect_category}"] = recall
