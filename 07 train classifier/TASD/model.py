@@ -25,6 +25,7 @@ def get_trainer_TASD(train_data, test_data, tokenizer):
         seed=constants.RANDOM_SEED,
         fp16=torch.cuda.is_available(),
         report_to="none",
+        generation_max_length=256
     )
     
     data_collator = DataCollatorForSeq2Seq(tokenizer)

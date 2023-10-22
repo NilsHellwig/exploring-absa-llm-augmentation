@@ -11,6 +11,8 @@ def compute_metrics(eval_pred):
     metric = load_metric("rouge")
 
     predictions, labels = eval_pred
+    predictions = np.where(predictions != -100, predictions, tokenizer.pad_token_id)
+    
     decoded_preds = tokenizer.batch_decode(
         predictions, skip_special_tokens=True)
 
