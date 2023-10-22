@@ -1,8 +1,9 @@
+from TASD.translate_sequence_to_tuples import preprocess_for_metrics
+from TASD.evaluation import calculate_metrics_for_examples
 from transformers import AutoTokenizer
 from datasets import load_metric
 import numpy as np
 import constants
-import nltk
 
 
 def compute_metrics(eval_pred):
@@ -11,35 +12,35 @@ def compute_metrics(eval_pred):
     metric = load_metric("rouge")
 
     predictions, labels = eval_pred
-    predictions = np.where(predictions != -100,
-                           predictions, tokenizer.pad_token_id)
+    # Preprocess predictions
+    decoded_preds, decoded_labels, pred_tuples, labels_tuples = preprocess_for_metrics(
+        predictions, labels, tokenizer)
 
-    decoded_preds = tokenizer.batch_decode(
-        predictions, skip_special_tokens=True)
+    # Text Based Metrics
+    results = metric.compute(predictions=decoded_preds,
+                             references=decoded_labels, use_stemmer=True)
+    results = {key: value.mid.fmeasure * 100 for key, value in results.items()}
+    prediction_lens = [np.count_nonzero(
+        pred != tokenizer.pad_token_id) for pred in predictions]
+    results["gen_len"] = np.mean(prediction_lens)
+    results = {k: round(v, 4) for k, v in results.items()}
 
-    # Replace -100 in the labels as we can't decode them.
-    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+    # Calculate Total Metrics
+    total_metrics = calculate_metrics_for_examples(labels_tuples, pred_tuples)
 
-    # Rouge expects a newline after each sentence
-    decoded_preds = ["\n".join(nltk.sent_tokenize(pred.strip()))
-                     for pred in decoded_preds]
-    decoded_labels = ["\n".join(nltk.sent_tokenize(label.strip()))
-                      for label in decoded_labels]
+    for metric in ["f1", "recall", "precision", "accuracy"]:
+        results[metric] = total_metrics[metric]
 
-    # Compute ROUGE scores
-    result = metric.compute(predictions=decoded_preds, references=decoded_labels,
-                            use_stemmer=True)
-
-    # Extract ROUGE f1 scores
-    result = {key: value.mid.fmeasure * 100 for key, value in result.items()}
-
-    # Add mean generated length to metrics
-    prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id)
-                       for pred in predictions]
-    result["gen_len"] = np.mean(prediction_lens)
-
-    return {k: round(v, 4) for k, v in result.items()}
+    # Calculate metrics for each aspect category
+    for aspect_category in constants.ASPECT_CATEGORIES:
+        pred_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
+                           == aspect_category] for example in pred_tuples]
+        labels_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
+                             == aspect_category] for example in labels_tuples]
+        ac_metrics = calculate_metrics_for_examples(
+            labels_tuples_ac, pred_tuples_ac)
+        for metric in ["f1", "recall", "precision", "accuracy"]:
+            results[metric+"_"+aspect_category] = ac_metrics[metric]
 
 
 def calculate_metrics_for_example(label, prediction):
