@@ -12,13 +12,6 @@ import constants
 import torch
 
 
-class TrainingArgumentsWithMPSSupport(TrainingArguments):
-
-    @property
-    def device(self) -> torch.device:
-        return torch.device(constants.DEVICE)
-
-
 class BertForSpanCategorizationOTE(BertPreTrainedModel):
     _keys_to_ignore_on_load_unexpected = [r"pooler"]
     _keys_to_ignore_on_load_missing = [r"position_ids"]
@@ -92,7 +85,7 @@ def create_model_OTE():
 
 
 def get_trainer_OTE(train_data, test_data, tokenizer):
-    training_args = TrainingArgumentsWithMPSSupport(
+    training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_OTE,
         evaluation_strategy=constants.EVALUATION_STRATEGY_OTE,
         learning_rate=constants.LEARNING_RATE_OTE,
