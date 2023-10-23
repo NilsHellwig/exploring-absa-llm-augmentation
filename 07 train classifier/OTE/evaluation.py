@@ -82,6 +82,16 @@ def compute_metrics_for_subset(examples_predictions, examples_labels):
     return tp, tn, fp, fn
 
 
+
+def calculate_f1_micro(metrics):
+    tp_total = sum([metrics[f"tp_{ac}"] for ac in constants.ASPECT_CATEGORIES])
+    fp_total = sum([metrics[f"fp_{ac}"] for ac in constants.ASPECT_CATEGORIES])
+    fn_total = sum([metrics[f"fn_{ac}"] for ac in constants.ASPECT_CATEGORIES])
+    precision_total = tp_total / (tp_total + fp_total)
+    recall_total = tp_total / (tp_total + fn_total)
+
+    return 2 * (precision_total * recall_total) / (precision_total + recall_total)
+
 def compute_metrics_OTE(test_data):
 
     def compute_metrics(p):
@@ -114,7 +124,7 @@ def compute_metrics_OTE(test_data):
             metrics[f"n_samples_{ac}"] = len(ac_predictions)
 
         # Calculate f1_micro via f1 scores of all classes
-        metrics["f1_micro"] = sum(metrics[key] for key in [f"f1_{ac}" for ac in constants.ASPECT_CATEGORIES]) / (len(constants.ASPECT_CATEGORIES) - 1)
+        metrics["f1_micro"] = calculate_f1_micro(metrics)
 
         # Calculate F1 macro score
         metrics["f1_macro"] = sum(metrics[key] for key in [f"f1_{ac}" for ac in constants.ASPECT_CATEGORIES]) / len(constants.ASPECT_CATEGORIES)
