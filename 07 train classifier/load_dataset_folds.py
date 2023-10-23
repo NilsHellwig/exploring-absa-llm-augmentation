@@ -2,6 +2,21 @@ import constants
 import random
 import json
 
+# This function double-checks if there are any training examples that are also used for testing
+# - this should for sure not be the case, however I'm checking it here once more
+
+
+def check_for_duplicate_ids(train_dataset, test_dataset):
+    for split_id in range(len(train_dataset)):
+        ids_train = [example["id"] for example in train_dataset[split_id]]
+        ids_test = [example["id"] for example in test_dataset[split_id]]
+        common_ids = set(ids_train) & set(ids_test)
+
+        if len(common_ids):
+            raise ValueError(
+                "Ids, die sowohl bei Trainingsdaten als auch Testdaten verwendet werden: " + common_ids)
+
+
 
 def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
     if LLM_SAMPLING == "fixed" and N_SYNTH == 0:
@@ -59,5 +74,7 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
 
     print(len(train_dataset[0]), len(train_dataset))
     print(len(test_dataset[0]), len(test_dataset))
+
+    check_for_duplicate_ids(train_dataset, test_dataset)
 
     return train_dataset, test_dataset
