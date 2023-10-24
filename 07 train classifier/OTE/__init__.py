@@ -22,6 +22,8 @@ def train_OTE_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
     metrics_total = {f"{m}": [] for m in metrics_total_prefix}
 
     eval_loss = []
+    n_samples_train = []
+    n_samples_test = []
 
     tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_OTE)
 
@@ -39,6 +41,8 @@ def train_OTE_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         # Save Evaluation Metrics
         eval_metrics = trainer.evaluate()
         eval_loss.append(eval_metrics["eval_loss"])
+        n_samples_train.append(len(train_data))
+        n_samples_test.append(len(test_data))
 
         for m in metrics_total_prefix:
             metrics_total[m].append(eval_metrics[f"eval_{m}"])
@@ -55,5 +59,9 @@ def train_OTE_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)
     results["eval_loss"] = np.mean(eval_loss)
+    results["n_samples_train"] = n_samples_train
+    results["n_samples_train_mean"] = np.mean(n_samples_train)
+    results["n_samples_test"] = n_samples_test
+    results["n_samples_test_mean"] = np.mean(n_samples_test)
 
     return results
