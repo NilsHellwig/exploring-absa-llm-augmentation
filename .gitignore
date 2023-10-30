@@ -26,3 +26,4 @@ __tests/test_t5.ipynb
 07 train classifier/TASD/__pycache__/
 04 llm synthesis/llm_models/
 __tests/old dataframes/
+__tests/
