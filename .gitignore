@@ -1,6 +1,5 @@
 01 dataset creation/pages_restaurants_html
 01 dataset creation/reviews_restaurants_html
-01 dataset creation/reviews_dataset
 .ipynb_checkpoints
 .DS_Store
 datasets/reviews_urls.csv
