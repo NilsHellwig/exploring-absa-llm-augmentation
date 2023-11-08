@@ -73,10 +73,6 @@ def df_statistics(dataset_json, synthetic=False):
     for ac in ASPECT_CATEGORIES:
         statistics[f"most_frequent_aspect_terms_{ac}"] = Counter(
             tag['text'] for entry in dataset_json for tag in entry['tags'] if tag['type'] == 'label-explicit' and tag["label"] == ac).most_common(10)
-        statistics[f"most_frequent_tokens_in_text_{ac}"] = Counter(
-            tag['text'] for entry in dataset_json for tag in entry['tags'] if tag['type'] == 'label-explicit' and tag["label"] == ac).most_common(10)
-        statistics[f"most_frequent_aspect_terms_{ac}"] = Counter(
-            tag['text'] for entry in dataset_json for tag in entry['tags'] if tag['type'] == 'label-explicit' and tag["label"] == ac).most_common(10)
         statistics[f"unique_aspect_terms_{ac}"] = len(set(
             tag['text'] for entry in dataset_json for tag in entry['tags'] if tag['type'] == 'label-explicit' and tag["label"] == ac))
         statistics[f"number_of_implicit_aspects_{ac}"] = len([tag for entry in dataset_json for tag in entry['tags'] if tag['type'] == 'label-implicit' and tag["label"] == ac]
