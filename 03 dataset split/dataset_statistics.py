@@ -147,6 +147,12 @@ def df_statistics(dataset_json, synthetic=False):
         for polarity in POLARITIES:
             statistics[f"{ac}-{polarity}-frequency"] = aspect_category_and_polarity[f'{ac}-{polarity}']
 
+    # Calculate frequency of each combination of aspect category, polarity and implicit vs explicit
+    for ac in ASPECT_CATEGORIES:
+        for polarity in POLARITIES:
+            for mention_type in ["label-explicit", "label-implicit"]:
+                statistics[f"{ac}-{polarity}-{mention_type}-frequency"] = len([tag for example in dataset_json for tag in example["tags"] if tag["polarity"] == polarity and tag["label"] == ac and tag["type"] == mention_type])
+
     # 14. Count Average Number of Words in Text
     word_counts = [len(word_tokenize(entry['text'], language='german'))
                    for entry in dataset_json]
