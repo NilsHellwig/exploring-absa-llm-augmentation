@@ -26,9 +26,9 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
         raise Exception(
             "If Few-Shot Examples are fixed, N_SYNTH needs to be 0, 490, 990 or 1990")
 
-    if LLM_SAMPLING == "random" and N_SYNTH not in [0, 500, 1000, 2000]:
+    if LLM_SAMPLING == "random" and N_SYNTH not in [0, 500, 1000, 1500]:
         raise Exception(
-            "If Few-Shot Examples are fixed, N_SYNTH needs to be 0, 500, 1000 or 2000")
+            "If Few-Shot Examples are fixed, N_SYNTH needs to be 0, 500, 1000 or 1500")
 
     # 2. Load Test Data
     test_dataset = []

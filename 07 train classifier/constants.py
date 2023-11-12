@@ -10,7 +10,7 @@ POLARITIES = ["POSITIVE", "NEUTRAL", "NEGATIVE"]
 N_SPLITS_MAP_REAL = {
     500: 1,
     1000: 2,
-    2000: 4
+    1500: 3
 }
 
 
