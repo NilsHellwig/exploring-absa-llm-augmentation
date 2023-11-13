@@ -10,6 +10,6 @@ Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-
 Ein Aspekt-Begriff ist eine  Entität oder Eigenschaft innerhalb eines Textes, die auf eine der betrachteten Aspekt-Kategorien hinweist und deren Sentiment bewertet.
 Indikatoren für Subjektivität (d. h. Wörter/Phrasen, die Meinungen, Bewertungen usw. ausdrücken) gelten nicht als Aspekt-Begriffe oder Bestandteile von Aspekt-Begriffen.
 Ein im Tuple vorgegebener Aspekt kann im Text auch implizit adressiert werden, wobei für einen solchen Aspekt kein Aspekt-Begriff im Text markiert werden soll.
-Ein Aspekt-Begriff soll immer mit einem xml-Tag markiert werden.
+Sehr Wichtig: Markiere Aspekt-Begriffe so wie in den Beispielen immer mit einem xml-Tag!
 
 Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.
