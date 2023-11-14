@@ -30,7 +30,7 @@ def compute_metrics_ACD(eval_pred):
         precision = precision_score(class_labels, class_predictions, zero_division=0)
         recall = recall_score(class_labels, class_predictions, zero_division=0)
         f1 = f1_score(class_labels, class_predictions, zero_division=0)
-        accuracy = accuracy(class_labels, class_predictions)
+        accuracy = accuracy_score(class_labels, class_predictions)
 
         metrics[f"precision_{aspect_category}"] = precision
         metrics[f"recall_{aspect_category}"] = recall
