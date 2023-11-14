@@ -11,6 +11,6 @@ Ein Aspekt-Begriff ist eine  Entität oder Eigenschaft innerhalb eines Textes, d
 Indikatoren für Subjektivität (d. h. Wörter/Phrasen, die Meinungen, Bewertungen usw. ausdrücken) gelten nicht als Aspekt-Begriffe oder Bestandteile von Aspekt-Begriffen.
 Ein im Tuple vorgegebener Aspekt kann im Text auch implizit adressiert werden, wobei für einen solchen Aspekt kein Aspekt-Begriff im Text markiert werden soll.
 
-Sehr wichtig: Markiere alle Aspekt-Begriffe im Text immer so wie in den Beispielen mit einem xml-Tag!
+**Sehr wichtig: Markiere alle Aspekt-Begriffe im Text immer so wie in den Beispielen mit einem xml-Tag!**
 
 Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.
