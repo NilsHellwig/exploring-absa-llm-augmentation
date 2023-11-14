@@ -7,4 +7,9 @@ This repository contains the code and resources related to my Master Thesis on A
 In this thesis, I explore the potential of leveraging Large Language Models, such as GPT-3.5 or Llama2 to generate synthetic data for aspect-based sentiment analysis. By utilizing the power of LLMs, my aim is to augment the existing labeled datasets and improve the performance of ABSA models in real-world scenarios where labeled data may be limited.
 
 
+## Installation
 
+```
+pip install llvmlite --ignore-installed
+pip install -r requirements.txt
+```
