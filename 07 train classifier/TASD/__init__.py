@@ -39,6 +39,7 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         trainer.train()
 
         eval_metrics = trainer.evaluate()
+        print(f"Split {cross_idx}:", eval_metrics)
 
         for metric in eval_metrics.keys():
             if metric not in results:

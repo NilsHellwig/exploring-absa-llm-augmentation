@@ -4,6 +4,7 @@ from datasets import load_metric
 import constants
 import torch
 
+
 def create_model_TASD():
     return AutoModelForSeq2SeqLM.from_pretrained(constants.MODEL_NAME_TASD).to("cuda")
 
@@ -11,9 +12,8 @@ def create_model_TASD():
 def get_trainer_TASD(train_data, test_data, tokenizer):
     args = Seq2SeqTrainingArguments(
         output_dir=constants.OUTPUT_DIR_TASD,
-        evaluation_strategy=constants.EVALUATION_STRATEGY_TASD,
         logging_strategy=constants.LOGGING_STRATEGY_TASD,
-        save_strategy=constants.SAVE_STRATEGY_TASD,
+        save_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         learning_rate=constants.LEARNING_RATE_TASD,
         num_train_epochs=constants.EPOCHS_TASD,
         per_device_train_batch_size=constants.BATCH_SIZE_TASD,
@@ -25,9 +25,11 @@ def get_trainer_TASD(train_data, test_data, tokenizer):
         seed=constants.RANDOM_SEED,
         fp16=torch.cuda.is_available(),
         report_to="none",
+        do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
+        evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         generation_max_length=256
     )
-    
+
     data_collator = DataCollatorForSeq2Seq(tokenizer)
 
     trainer = Seq2SeqTrainer(

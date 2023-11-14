@@ -22,8 +22,7 @@ def get_trainer_ACD(train_data, test_data, tokenizer):
         num_train_epochs=constants.EPOCHS_ACD,
         per_device_train_batch_size=constants.BATCH_SIZE_ACD,
         per_device_eval_batch_size=constants.BATCH_SIZE_ACD,
-        evaluation_strategy=constants.EVALUATION_STRATEGY_ACD,
-        save_strategy="epoch",
+        save_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         logging_dir="logs",
         logging_steps=100,
         logging_strategy="epoch",
@@ -31,6 +30,8 @@ def get_trainer_ACD(train_data, test_data, tokenizer):
         metric_for_best_model="f1_micro",
         fp16=torch.cuda.is_available(),
         report_to="none",
+        do_eval = True if constants.EVALUATE_AFTER_EPOCH == True else False,
+        evaluation_strategy = "epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         seed=constants.RANDOM_SEED,
     )
 

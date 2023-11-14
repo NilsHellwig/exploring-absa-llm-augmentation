@@ -40,6 +40,7 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
 
         # Save Evaluation of Test Data
         eval_metrics = trainer.evaluate()
+        print(f"Split {cross_idx}:", eval_metrics)
 
         # Save Metrics for fold
         for m in metrics_prefixes:

@@ -40,6 +40,7 @@ def train_OTE_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
 
         # Save Evaluation Metrics
         eval_metrics = trainer.evaluate()
+        print(f"Split {cross_idx}:", eval_metrics)
         eval_loss.append(eval_metrics["eval_loss"])
         n_samples_train.append(len(train_data))
         n_samples_test.append(len(test_data))
