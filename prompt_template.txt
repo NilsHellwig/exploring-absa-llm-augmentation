@@ -1,16 +1,15 @@
 Bitte erzeuge genau einen Satz einer Restaurant-Bewertung, die für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
-Gegeben ist ein Label in Form eines Arrays, wobei für jedes Sentiment, mit dem eine Aspekt-Kategorie im Satz adressiert wird, ein Tuple (Aspekt-Kategorie, Aspekt-Sentiment) vorhanden ist.
-Eine Aspekt-Kategorie kann mehrfach im Satz adressiert werden, auch mit verschiedenen Sentiment-Polaritäten.
+Gegeben ist ein Label in Form eines Arrays, wobei ein oder mehrere Tuple (Aspekt-Kategorie, Aspekt-Sentiment) gegeben sind.
+Für ein Label wird dann eine deutschsprachige Prediction erzeugt, wobei die Prediction ausschließlich die in dem Label definierten Kombinationen aus Aspekt-Kategorie und Aspekt-Sentiment adressiert.
 
 * Folgende Aspekt-Kategorien werden betrachtet: ["GENERAL-IMPRESSION", "FOOD", "SERVICE", "PRICE", "AMBIENCE"]
 * Folgende Sentiment-Polaritäten werden betrachtet: ["negative", "neutral", "positive"]
 
-Auf Basis des Labels soll genau ein deutscher Satz erzeugt werden, der die in den Tuple definierten Aspekte adressiert.
 Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekt-Begriff im Text vorliegen.
-Ein Aspekt-Begriff ist eine  Entität oder Eigenschaft innerhalb eines Textes, die auf eine der betrachteten Aspekt-Kategorien hinweist und deren Sentiment bewertet.
-Indikatoren für Subjektivität (d. h. Wörter/Phrasen, die Meinungen, Bewertungen usw. ausdrücken) gelten nicht als Aspekt-Begriffe oder Bestandteile von Aspekt-Begriffen.
+Ein Aspekt-Begriff ist eine Entität oder Eigenschaft innerhalb eines Textes, die auf eine der betrachteten Aspekt-Kategorien hinweist und deren Sentiment bewertet.
+Indikatoren für Subjektivität (d.h. Wörter/Phrasen, die Meinungen, Bewertungen usw. ausdrücken) gelten nicht als Aspekt-Begriffe oder Bestandteile von Aspekt-Begriffen.
 Ein im Tuple vorgegebener Aspekt kann im Text auch implizit adressiert werden, wobei für einen solchen Aspekt kein Aspekt-Begriff im Text markiert werden soll.
 
-**Sehr wichtig: Markiere alle Aspekt-Begriffe im Text immer so wie in den Beispielen mit einem xml-Tag!**
+Sehr wichtig: Markiere alle Aspekt-Begriffe im Text immer mit einem xml-Tag, so wie in den folgenden Beispielen!
 
-Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.
+Gebe nur die Prediction zurück, in Anführungszeichen, ohne Kommentare oder zusätzlichen Text.
