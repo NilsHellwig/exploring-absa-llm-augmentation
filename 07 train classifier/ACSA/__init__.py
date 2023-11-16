@@ -1,3 +1,4 @@
+from ACSA.model import get_trainer_ACSA
 from ACSA.preprocessing import preprocess_data_ACSA
 from transformers import AutoTokenizer
 import constants
@@ -26,3 +27,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         # Load Data
         train_data = preprocess_data_ACSA(train_dataset[cross_idx], tokenizer)
         test_data = preprocess_data_ACSA(test_dataset[cross_idx], tokenizer)
+
+        # Train Model
+        trainer = get_trainer_ACSA(train_data, test_data, tokenizer)
+        trainer.train()
