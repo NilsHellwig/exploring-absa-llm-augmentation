@@ -6,6 +6,7 @@ DEVICE = "mps"
 ASPECT_CATEGORIES = ["GENERAL-IMPRESSION",
                      "FOOD", "SERVICE", "AMBIENCE", "PRICE"]
 POLARITIES = ["POSITIVE", "NEUTRAL", "NEGATIVE"]
+ASPECT_CATEGORY_POLARITIES = [f"{ac}-{pol}" for ac in ASPECT_CATEGORIES for pol in POLARITIES]
 
 N_SPLITS_MAP_REAL = {
     500: 1,
@@ -26,6 +27,14 @@ EPOCHS_ACD = 5  # 5
 BATCH_SIZE_ACD = 16
 MAX_TOKENS_ACD = 256
 OUTPUT_DIR_ACD = "outputs/output_ACD"
+
+# ------------------ ACSA ------------------
+MODEL_NAME_ACSA = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
+LEARNING_RATE_ACSA = 5e-06
+EPOCHS_ACSA = 5  # 5
+BATCH_SIZE_ACSA = 16
+MAX_TOKENS_ACSA = 256
+OUTPUT_DIR_ACSA = "outputs/output_ACSA"
 
 
 # ------------------ OTE ------------------
@@ -58,10 +67,10 @@ OUTPUT_DIR_TASD = "outputs/output_TASD"
 LOGGING_STRATEGY_TASD = "epoch"
 METRIC_FOR_BEST_MODEL_TASD = "rouge1"
 WEIGHT_DECAY_TASD = 0.01
-AC_GERMAN = {'Service': "SERVICE", 
+AC_GERMAN = {'Service': "SERVICE",
              'Ambiente': "AMBIENCE",
-             'Allgemeiner Eindruck': "GENERAL-IMPRESSION", 
-             'Preis': "PRICE", 
+             'Allgemeiner Eindruck': "GENERAL-IMPRESSION",
+             'Preis': "PRICE",
              'Essen': "FOOD"}
 POLARITY_GERMAN = {"gut": "POSITIVE",
                    "ok": "NEUTRAL",
