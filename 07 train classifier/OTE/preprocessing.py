@@ -31,12 +31,12 @@ def get_token_role_in_span_OTE(token_start: int, token_end: int, span_start: int
 def preprocess_example_OTE(example, tokenizer):
     input_text = example["text"] + "[SEP]" + example["aspect_category"]
     one_hot_output = [[0 for _ in constants.LABEL_TO_ID_OTE.keys()]
-                      for _ in range(constants.MAX_TOKENS_ACD)]
+                      for _ in range(constants.MAX_TOKENS_OTE)]
 
     tokenized_input_text = tokenizer(input_text,
                                      return_offsets_mapping=True,
                                      padding="max_length",
-                                     max_length=constants.MAX_TOKENS_ACD,
+                                     max_length=constants.MAX_TOKENS_OTE,
                                      truncation=True)
 
     for (token_start, token_end), token_labels in zip(tokenized_input_text["offset_mapping"], one_hot_output):
@@ -50,6 +50,7 @@ def preprocess_example_OTE(example, tokenizer):
 
         if token_labels[constants.LABEL_TO_ID_OTE["B"]] == 0 and token_labels[constants.LABEL_TO_ID_OTE["I"]] == 0:
             token_labels[constants.LABEL_TO_ID_OTE["O"]] = 1
+
 
     return {
         "input_ids": tokenized_input_text["input_ids"],

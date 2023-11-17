@@ -6,7 +6,8 @@ DEVICE = "mps"
 ASPECT_CATEGORIES = ["GENERAL-IMPRESSION",
                      "FOOD", "SERVICE", "AMBIENCE", "PRICE"]
 POLARITIES = ["POSITIVE", "NEUTRAL", "NEGATIVE"]
-ASPECT_CATEGORY_POLARITIES = [f"{ac}-{pol}" for ac in ASPECT_CATEGORIES for pol in POLARITIES]
+ASPECT_CATEGORY_POLARITIES = [
+    f"{ac}-{pol}" for ac in ASPECT_CATEGORIES for pol in POLARITIES]
 
 N_SPLITS_MAP_REAL = {
     500: 1,
@@ -15,7 +16,6 @@ N_SPLITS_MAP_REAL = {
     2000: 4
 }
 EVALUATE_AFTER_EPOCH = True
-
 
 # ------------------ ⚠️⚠️⚠️ Delete Later ⚠️⚠️⚠️ ------------------
 TEST_FOLDS = 5
@@ -36,6 +36,22 @@ BATCH_SIZE_ACSA = 16
 MAX_TOKENS_ACSA = 256
 OUTPUT_DIR_ACSA = "outputs/output_ACSA"
 
+# ------------------ E2E ------------------
+LABEL_TO_ID_E2E = {f"{tag}_{polarity}": index for index,
+                   tag in enumerate(["B", "I"]) for polarity in POLARITIES}
+LABEL_TO_ID_E2E.update({"O": len(LABEL_TO_ID_E2E)})
+
+ID_TO_LABEL_E2E = {index: f"{tag}_{polarity}" for index,
+                   tag in enumerate(["B", "I"]) for polarity in POLARITIES}
+ID_TO_LABEL_E2E.update({len(ID_TO_LABEL_E2E): "O"})
+
+MODEL_NAME_E2E = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
+MAX_TOKENS_E2E = 256
+BATCH_SIZE_E2E = 16
+EPOCHS_E2E = 1
+LEARNING_RATE_E2E = 5e-06
+OUTPUT_DIR_E2E = "outputs/output_E2E"
+WEIGHT_DECAY_E2E = 0.01
 
 # ------------------ OTE ------------------
 LABEL_TO_ID_OTE = {
