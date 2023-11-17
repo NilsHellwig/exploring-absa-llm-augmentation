@@ -57,9 +57,6 @@ def calculate_tp_tn_fp_fn_spans(pred, label):
     fn_set = label_set - tp_set
     fn = len(fn_set)
 
-    # Calculate true negatives by considering all possible pairs and subtracting TP, FP, and FN.
-    total_possible_pairs = len(pred) * len(label)
-
     return tp, 0, fp, fn
 
 

@@ -1,4 +1,5 @@
 from E2E.preprocessing import get_preprocessed_data_E2E
+from E2E.model import get_trainer_E2E
 from transformers import AutoTokenizer
 import constants
 import time
@@ -33,3 +34,6 @@ def train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         test_data = test_dataset[cross_idx]
 
         train_data, test_data = get_preprocessed_data_E2E(train_data, test_data, tokenizer)
+        trainer = get_trainer_E2E(train_data, test_data, tokenizer)
+
+        trainer.train()

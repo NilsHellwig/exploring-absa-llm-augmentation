@@ -1,3 +1,4 @@
+from torch.utils.data import Dataset as TorchDataset
 import constants
 
 
@@ -48,8 +49,6 @@ def preprocess_example_E2E(example, tokenizer):
                 if role == t:
                     token_labels[constants.LABEL_TO_ID_E2E[t]] = 1
 
-        if not 1 in token_labels:
-            token_labels[constants.LABEL_TO_ID_E2E["O"]] = 1
 
     return {
         "input_ids": tokenized_input_text["input_ids"],
@@ -57,6 +56,25 @@ def preprocess_example_E2E(example, tokenizer):
         "offset_mapping": tokenized_input_text["offset_mapping"],
         "labels": one_hot_output
     }
+
+
+class CustomDatasetE2E(TorchDataset):
+    def __init__(self, input_ids, attention_mask, offset_mapping, labels):
+        self.input_ids = input_ids
+        self.attention_mask = attention_mask
+        self.offset_mapping = offset_mapping
+        self.labels = labels
+
+    def __getitem__(self, idx):
+        item = {}
+        item["input_ids"] = self.input_ids[idx]
+        item["attention_mask"] = self.attention_mask[idx]
+        item["offset_mapping"] = self.offset_mapping[idx]
+        item["labels"] = self.labels[idx]
+        return item
+
+    def __len__(self):
+        return len(self.labels)
 
 
 def get_preprocessed_data_E2E(train_data, test_data, tokenizer):
@@ -68,9 +86,16 @@ def get_preprocessed_data_E2E(train_data, test_data, tokenizer):
     test_data = [preprocess_example_E2E(
         example, tokenizer) for example in test_data]
 
-    # train_data = CustomDatasetE2E([example["input_ids"] for example in train_data],
-    #                               [example["attention_mask"]
-    #                                   for example in train_data],
-    #                               [example["offset_mapping"]
-    #                                   for example in train_data],
-    #                               [example["labels"] for example in train_data])
+    train_data = CustomDatasetE2E([example["input_ids"] for example in train_data],
+                                  [example["attention_mask"]
+                                      for example in train_data],
+                                  [example["offset_mapping"]
+                                      for example in train_data],
+                                  [example["labels"] for example in train_data])
+    test_data = CustomDatasetE2E([example["input_ids"] for example in test_data],
+                                 [example["attention_mask"]
+                                     for example in test_data],
+                                 [example["offset_mapping"]
+                                     for example in test_data],
+                                 [example["labels"] for example in test_data])
+    return train_data, test_data
