@@ -37,13 +37,21 @@ MAX_TOKENS_ACSA = 256
 OUTPUT_DIR_ACSA = "outputs/output_ACSA"
 
 # ------------------ E2E ------------------
-LABEL_TO_ID_E2E = {f"{tag}_{polarity}": index for index,
-                   tag in enumerate(["B", "I"]) for polarity in POLARITIES}
-LABEL_TO_ID_E2E.update({"O": len(LABEL_TO_ID_E2E)})
+LABEL_TO_ID_E2E = {'B_POSITIVE': 0,
+                   'B_NEUTRAL': 1,
+                   'B_NEGATIVE': 2,
+                   'I_POSITIVE': 3,
+                   'I_NEUTRAL': 4,
+                   'I_NEGATIVE': 5,
+                   'O': 6}
 
-ID_TO_LABEL_E2E = {index: f"{tag}_{polarity}" for index,
-                   tag in enumerate(["B", "I"]) for polarity in POLARITIES}
-ID_TO_LABEL_E2E.update({len(ID_TO_LABEL_E2E): "O"})
+ID_TO_LABEL_E2E = {0: 'B_POSITIVE',
+                   1: 'B_NEUTRAL',
+                   2: 'B_NEGATIVE',
+                   3: 'I_POSITIVE',
+                   4: 'I_NEUTRAL',
+                   5: 'I_NEGATIVE',
+                   6: 'O'}
 
 MODEL_NAME_E2E = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 MAX_TOKENS_E2E = 256

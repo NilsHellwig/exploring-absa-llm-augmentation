@@ -46,10 +46,10 @@ def preprocess_example_E2E(example, tokenizer):
 
             for t in constants.LABEL_TO_ID_E2E:
                 if role == t:
-                    token_labels[constants.LABEL_TO_ID_OTE[t]] = 1
+                    token_labels[constants.LABEL_TO_ID_E2E[t]] = 1
 
         if not 1 in token_labels:
-            token_labels[constants.LABEL_TO_ID_OTE["O"]] = 1
+            token_labels[constants.LABEL_TO_ID_E2E["O"]] = 1
 
     return {
         "input_ids": tokenized_input_text["input_ids"],
