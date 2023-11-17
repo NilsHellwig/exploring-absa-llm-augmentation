@@ -18,6 +18,8 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
     }
 
     loss = []
+    n_samples_train = []
+    n_samples_test = []
 
     start_time = time.time()
 
@@ -31,6 +33,9 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         # Load Data
         train_data = preprocess_data_ACD(train_dataset[cross_idx], tokenizer)
         test_data = preprocess_data_ACD(test_dataset[cross_idx], tokenizer)
+
+        n_samples_train.append(len(train_data))
+        n_samples_test.append(len(test_data))
 
         # Train Model
         trainer = get_trainer_ACD(train_data, test_data, tokenizer)
@@ -55,4 +60,10 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
 
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)
+
+    results["n_samples_train"] = n_samples_train
+    results["n_samples_train_mean"] = np.mean(n_samples_train)
+    results["n_samples_test"] = n_samples_test
+    results["n_samples_test_mean"] = np.mean(n_samples_test)
+
     return results

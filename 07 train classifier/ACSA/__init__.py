@@ -17,6 +17,9 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
     }
 
     loss = []
+    n_samples_train = []
+    n_samples_test = []
+
     start_time = time.time()
 
     tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_ACSA)
@@ -29,6 +32,9 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         # Load Data
         train_data = preprocess_data_ACSA(train_dataset[cross_idx], tokenizer)
         test_data = preprocess_data_ACSA(test_dataset[cross_idx], tokenizer)
+
+        n_samples_train.append(len(train_data))
+        n_samples_test.append(len(test_data))
 
         # Train Model
         trainer = get_trainer_ACSA(train_data, test_data, tokenizer)
@@ -53,4 +59,9 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)
+    results["n_samples_train"] = n_samples_train
+    results["n_samples_train_mean"] = np.mean(n_samples_train)
+    results["n_samples_test"] = n_samples_test
+    results["n_samples_test_mean"] = np.mean(n_samples_test)
+
     return results

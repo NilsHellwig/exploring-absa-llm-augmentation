@@ -18,6 +18,9 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
     tokenizer = T5Tokenizer.from_pretrained(constants.MODEL_NAME_TASD)
 
+    n_samples_train = []
+    n_samples_test = []
+
     start_time = time.time()
 
     metrics_models = []
@@ -26,6 +29,10 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         # Load Data
         train_data = train_dataset[cross_idx]
         test_data = test_dataset[cross_idx]
+
+        n_samples_train.append(len(train_data))
+        n_samples_test.append(len(test_data))
+
         train_data = CustomDatasetTASD([encode_example(example, tokenizer)["input_ids"] for example in train_data],
                                        [encode_example(example, tokenizer)["attention_mask"]
                                            for example in train_data],
@@ -55,5 +62,9 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)
+    results["n_samples_train"] = n_samples_train
+    results["n_samples_train_mean"] = np.mean(n_samples_train)
+    results["n_samples_test"] = n_samples_test
+    results["n_samples_test_mean"] = np.mean(n_samples_test)
 
     return results
