@@ -25,3 +25,18 @@ __tests/test_t5.ipynb
 04 llm synthesis/llm_models/
 __tests/old dataframes/
 __tests/
+07 train classifier/ACSA/__pycache__/preprocessing.cpython-311.pyc
+07 train classifier/ACSA/__pycache__/model.cpython-311.pyc
+07 train classifier/ACSA/__pycache__/evaluation.cpython-311.pyc
+07 train classifier/ACSA/__pycache__/__init__.cpython-311.pyc
+07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train classifier/E2E/__pycache__/model.cpython-311.pyc
+07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
+07 train classifier/E2E/__pycache__/evaluation.cpython-311.pyc
+07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
+07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
+07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
+*.pyc
+07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
