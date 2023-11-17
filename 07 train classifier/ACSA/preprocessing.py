@@ -34,6 +34,7 @@ def preprocess_data_ACSA(dataset, tokenizer):
 
     labels = [aspect_category_sentiment_labels_to_one_hot(
         label) for label in labels]
+    labels = torch.tensor(labels, dtype=torch.float32)
     encodings = tokenizer(texts, padding=True, truncation=True,
                           max_length=constants.MAX_TOKENS_ACSA, return_tensors="pt")
     return CustomDatasetACSA(encodings, labels)
