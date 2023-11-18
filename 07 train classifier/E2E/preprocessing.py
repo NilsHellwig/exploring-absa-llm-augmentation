@@ -1,12 +1,19 @@
+from more_itertools import unique_everseen
+import json
 from torch.utils.data import Dataset as TorchDataset
 import constants
 
+def dict_to_tuple(d):
+    return tuple(sorted(d.items()))
 
 def dataset_to_aspect_level_E2E(dataset):
     aspect_dataset = []
     for example in dataset:
-        explicit_aspects = [tag for tag in example["tags"]
+        explicit_aspects = [{"start": tag["start"], "end": tag["end"], "polarity": tag["polarity"]} for tag in example["tags"]
                             if tag["type"] == "label-explicit"]
+        
+        explicit_aspects = [dict(t) for t in {frozenset(d.items()) for d in explicit_aspects}]
+
         if len(explicit_aspects) > 0:
             aspect_dataset.append({
                 "text": example["text"],
@@ -49,7 +56,6 @@ def preprocess_example_E2E(example, tokenizer):
                 if role == t:
                     token_labels[constants.LABEL_TO_ID_E2E[t]] = 1
 
-
     return {
         "input_ids": tokenized_input_text["input_ids"],
         "attention_mask": tokenized_input_text["attention_mask"],
@@ -77,9 +83,36 @@ class CustomDatasetE2E(TorchDataset):
         return len(self.labels)
 
 
+def transform_and_save_to_jsonl(dataset, filename):
+    transformed_data = []
+
+    for item in dataset:
+        transformed_item = {
+            "tags": [],
+            "id": item["id"],
+            "text": item["text"]
+        }
+
+        for tag_info in item["tags"]:
+            transformed_tag = {
+                "end": tag_info["end"],
+                "start": tag_info["start"],
+                "tag": tag_info["polarity"]
+            }
+            transformed_item["tags"].append(transformed_tag)
+
+        transformed_data.append(transformed_item)
+
+    with open(filename, 'w', encoding='utf-8') as jsonl_file:
+        for item in transformed_data:
+            json_line = json.dumps(item, ensure_ascii=False)
+            jsonl_file.write(json_line + '\n')
+
 def get_preprocessed_data_E2E(train_data, test_data, tokenizer):
     train_data = dataset_to_aspect_level_E2E(train_data)
     test_data = dataset_to_aspect_level_E2E(test_data)
+
+    print(sum([len(p["tags"]) for p in test_data]))
 
     train_data = [preprocess_example_E2E(
         example, tokenizer) for example in train_data]
@@ -92,6 +125,7 @@ def get_preprocessed_data_E2E(train_data, test_data, tokenizer):
                                   [example["offset_mapping"]
                                       for example in train_data],
                                   [example["labels"] for example in train_data])
+
     test_data = CustomDatasetE2E([example["input_ids"] for example in test_data],
                                  [example["attention_mask"]
                                      for example in test_data],
