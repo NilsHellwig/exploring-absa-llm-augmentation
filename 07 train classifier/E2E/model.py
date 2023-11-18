@@ -10,6 +10,8 @@ from torch.nn.functional import softmax
 from torch import nn
 import constants
 import torch
+
+
 class BertForSpanCategorizationE2E(BertPreTrainedModel):
     _keys_to_ignore_on_load_unexpected = [r"pooler"]
     _keys_to_ignore_on_load_missing = [r"position_ids"]
@@ -74,8 +76,10 @@ class BertForSpanCategorizationE2E(BertPreTrainedModel):
             attentions=outputs.attentions,
         )
 
+
 def create_model_E2E():
     return BertForSpanCategorizationE2E.from_pretrained(constants.MODEL_NAME_E2E, id2label=constants.ID_TO_LABEL_E2E, label2id=constants.LABEL_TO_ID_E2E)
+
 
 def get_trainer_E2E(train_data, test_data, tokenizer):
     training_args = TrainingArguments(
@@ -90,7 +94,7 @@ def get_trainer_E2E(train_data, test_data, tokenizer):
         logging_steps=100,
         logging_strategy="epoch",
         load_best_model_at_end=True,
-        metric_for_best_model="f1_micro",
+        metric_for_best_model="f1_macro",
         fp16=torch.cuda.is_available(),
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,

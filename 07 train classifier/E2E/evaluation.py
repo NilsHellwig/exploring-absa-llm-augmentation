@@ -98,6 +98,8 @@ def compute_metrics_E2E(test_data):
 
     def compute_metrics(p):
         predictions, true_labels = p
+        predictions = np.where(predictions > 0, np.ones(predictions.shape), np.zeros(predictions.shape))
+        
         # Convert prediction to phrases
         predictions = [get_predicted_phrases(
             example) for example in predictions]
