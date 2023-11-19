@@ -1,4 +1,4 @@
-def get_examples_for_fixed_label(unique_aspects, dataset, random, n_examples_for_category):
+def get_examples_for_classes(unique_aspects, dataset, random, n_examples_for_category):
     example_entries = []
     
     for aspect in unique_aspects:
