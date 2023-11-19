@@ -42,7 +42,7 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
                                        for example in test_data],
                                       [encode_example(example, tokenizer)["labels"] for example in test_data])
 
-        trainer = get_trainer_TASD(train_data, test_data, tokenizer)
+        trainer = get_trainer_TASD(train_data, test_data, tokenizer, results, cross_idx)
         trainer.train()
 
         eval_metrics = trainer.evaluate()

@@ -38,7 +38,7 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         n_samples_test.append(len(test_data))
 
         # Train Model
-        trainer = get_trainer_ACD(train_data, test_data, tokenizer)
+        trainer = get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx)
         trainer.train()
 
         # Save Evaluation of Test Data

@@ -37,7 +37,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         n_samples_test.append(len(test_data))
 
         # Train Model
-        trainer = get_trainer_ACSA(train_data, test_data, tokenizer)
+        trainer = get_trainer_ACSA(train_data, test_data, tokenizer, results, cross_idx)
         trainer.train()
 
         # Save Evaluation of Test Data

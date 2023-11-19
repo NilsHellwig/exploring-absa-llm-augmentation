@@ -39,7 +39,9 @@ def train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
 
         train_data, test_data = get_preprocessed_data_E2E(
             train_data, test_data, tokenizer)
-        trainer = get_trainer_E2E(train_data, test_data, tokenizer)
+        
+        # in order to save the prediction and labels for each split, results will also be handed over
+        trainer = get_trainer_E2E(train_data, test_data, tokenizer, results, cross_idx)
 
         trainer.train()
 
