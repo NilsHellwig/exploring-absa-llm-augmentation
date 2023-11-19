@@ -1,47 +1,53 @@
 from TASD.translate_sequence_to_tuples import preprocess_for_metrics
+from helper import save_pred_and_labels
 from transformers import AutoTokenizer
 from datasets import load_metric
 import numpy as np
 import constants
 
 
-def compute_metrics(eval_pred):
-    # Evtl später übertragen
-    tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_TASD)
-    metric = load_metric("rouge")
+def compute_metrics_TASD(test_data, results, cross_idx):
+    def compute_metrics(eval_pred):
+        # Evtl später übertragen
+        tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_TASD)
+        metric = load_metric("rouge")
 
-    predictions, labels = eval_pred
-    # Preprocess predictions
-    decoded_preds, decoded_labels, pred_tuples, labels_tuples = preprocess_for_metrics(
-        predictions, labels, tokenizer)
+        predictions, labels = eval_pred
+        save_pred_and_labels(predictions, labels, results, cross_idx)
 
-    # Text Based Metrics
-    results = metric.compute(predictions=decoded_preds,
-                             references=decoded_labels, use_stemmer=True)
-    results = {key: value.mid.fmeasure * 100 for key, value in results.items()}
-    prediction_lens = [np.count_nonzero(
-        pred != tokenizer.pad_token_id) for pred in predictions]
-    results["gen_len"] = np.mean(prediction_lens)
-    results = {k: round(v, 4) for k, v in results.items()}
+        # Preprocess predictions
+        decoded_preds, decoded_labels, pred_tuples, labels_tuples = preprocess_for_metrics(
+            predictions, labels, tokenizer)
 
-    # Calculate Total Metrics
-    total_metrics = calculate_metrics_for_examples(labels_tuples, pred_tuples)
+        # Text Based Metrics
+        metrics = metric.compute(predictions=decoded_preds,
+                                 references=decoded_labels, use_stemmer=True)
+        metrics = {key: value.mid.fmeasure *
+                   100 for key, value in metrics.items()}
+        prediction_lens = [np.count_nonzero(
+            pred != tokenizer.pad_token_id) for pred in predictions]
+        metrics["gen_len"] = np.mean(prediction_lens)
+        metrics = {k: round(v, 4) for k, v in metrics.items()}
 
-    for metric in ["f1", "recall", "precision", "accuracy"]:
-        results[metric] = total_metrics[metric]
+        # Calculate Total Metrics
+        total_metrics = calculate_metrics_for_examples(
+            labels_tuples, pred_tuples)
 
-    # Calculate metrics for each aspect category
-    for aspect_category in constants.ASPECT_CATEGORIES:
-        pred_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
-                           == aspect_category] for example in pred_tuples]
-        labels_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
-                             == aspect_category] for example in labels_tuples]
-        ac_metrics = calculate_metrics_for_examples(
-            labels_tuples_ac, pred_tuples_ac)
         for metric in ["f1", "recall", "precision", "accuracy"]:
-            results[metric+"_"+aspect_category] = ac_metrics[metric]
+            metrics[metric] = total_metrics[metric]
 
-    return results
+        # Calculate metrics for each aspect category
+        for aspect_category in constants.ASPECT_CATEGORIES:
+            pred_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
+                               == aspect_category] for example in pred_tuples]
+            labels_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
+                                 == aspect_category] for example in labels_tuples]
+            ac_metrics = calculate_metrics_for_examples(
+                labels_tuples_ac, pred_tuples_ac)
+            for metric in ["f1", "recall", "precision", "accuracy"]:
+                metrics[metric+"_"+aspect_category] = ac_metrics[metric]
+        return metrics
+    return compute_metrics
 
 
 def calculate_metrics_for_example(label, prediction):
