@@ -1,16 +1,21 @@
+import xml.etree.ElementTree as ET
+from collections import Counter
+import os
+
+
 def get_examples_for_classes(unique_aspects, dataset, random, n_examples_for_category):
     example_entries = []
-    
+
     for aspect in unique_aspects:
         for i in range(0, n_examples_for_category):
             example_found = False
             while example_found == False:
                 example = random.choice(dataset)
-                if not(example["id"] in [ex["id"] for ex in example_entries]) and random.choice(example["tags"])["label"] == aspect:
+                if not (example["id"] in [ex["id"] for ex in example_entries]) and random.choice(example["tags"])["label"] == aspect:
                     example_found = True
             example_entries.append(example)
-        
-    return [entry["id"] for entry in example_entries]   
+
+    return [entry["id"] for entry in example_entries]
 
 
 def calculate_aspect_category_frequency(labels_example, CLASSES):
@@ -22,40 +27,62 @@ def calculate_aspect_category_frequency(labels_example, CLASSES):
             category_count[aspect] += 1
 
     total_labels = len(labels_example)
-    frequency_aspect_categories = {category: count / total_labels for category, count in category_count.items()}
+    frequency_aspect_categories = {
+        category: count / total_labels for category, count in category_count.items()}
 
     return frequency_aspect_categories
 
-def generate_labels_from_ratio(label_ratio, n_examples=10):
-    aspect_list = []
-    for aspekt, score in label_ratio.items():
-        repetitions = int(score * n_examples)
-        aspect_list.extend([aspekt] * repetitions)
 
-    while len(aspect_list) < n_examples:
-        max_aspekt = max(label_ratio, key=label_ratio.get)
-        aspect_list.append(max_aspekt)
+def round_dict_to_target_sum(input_dict, target_sum):
+    values = list(input_dict.values())
+    rounded_values = [round(num) for num in values]
+    diff = target_sum - sum(rounded_values)
+    rounded_values[-1] += diff
+    rounded_dict = {key: rounded_values[i] for i, key in enumerate(
+        input_dict) if rounded_values[i] >= 1}
+    return rounded_dict
 
-    aspect_list = aspect_list[:n_examples]
-    if len(aspect_list) != n_examples:
-        raise Exception(f"Weniger als {n_examples} Beispiele aus der gegebenen ratio erzeugt.")
-    return aspect_list
 
-def get_random_examples_for_given_aspects(aspect_list, dataset, random):
-    example_entries = []
+def get_opinion_counts(filepath):
 
-    for aspect in aspect_list:
-        example_found = False
-        while example_found == False:
-            example = random.choice(dataset)
-            if not (example["id"] in [ex["id"] for ex in example_entries]) and random.choice(example["tags"])["label"] == aspect:
-                example_found = True
-        example_entries.append(example)
+    tree = ET.parse(filepath)
+    root = tree.getroot()
 
-    return [entry["id"] for entry in example_entries]
+    opinion_counts = []
 
-def get_random_examples(n_examples, labels_example, dataset, random, CLASSES):
-    ac_frequency = calculate_aspect_category_frequency(labels_example, CLASSES)
-    balanced_labels_10 = generate_labels_from_ratio(ac_frequency, n_examples)
-    examples_id_for_label = get_random_examples_for_given_aspects(balanced_labels_10, dataset, random)
-    return examples_id_for_label
+    for review in root.findall('.//sentence'):
+        opinion_count = len(review.findall('.//Opinion'))
+        opinion_counts.append(opinion_count)
+
+    return opinion_counts
+
+
+def get_label_ratio_fixed(size):
+    total_opinion_counts = []
+
+    for filename in os.listdir("semeval"):
+        if filename.endswith(".xml"):
+            file_path = os.path.join("semeval", filename)
+            total_opinion_counts += get_opinion_counts(file_path)
+        pass
+
+    total_opinion_counts = [
+        count for count in total_opinion_counts if count != 0]
+    label_ratio = Counter(total_opinion_counts)
+    n_opinions = sum([label_ratio[v] for v in label_ratio.keys()])
+
+    for key in label_ratio.keys():
+        label_ratio[key] = label_ratio[key] / n_opinions * size
+
+    label_ratio = round_dict_to_target_sum(label_ratio, size)
+
+    return label_ratio
+
+
+def get_label_ratio_random(size, dataset):
+    n_labels = [len(example["tags"]) for example in dataset]
+    label_ratio = Counter(n_labels)
+    for key in label_ratio.keys():
+        label_ratio[key] = label_ratio[key] / len(dataset) * size
+
+    return label_ratio

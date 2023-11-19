@@ -44,3 +44,4 @@ __tests/
 07 train classifier/split_results/
 07 train classifier/results_json/
 07 train classifier/results_csv/
+04 llm synthesis/semeval/
