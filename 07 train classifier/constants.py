@@ -54,8 +54,8 @@ ID_TO_LABEL_E2E = {0: 'B_POSITIVE',
 MODEL_NAME_E2E = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 MAX_TOKENS_E2E = 256
 BATCH_SIZE_E2E = 16
-EPOCHS_E2E = 1
-LEARNING_RATE_E2E = 5e-06
+EPOCHS_E2E = 100
+LEARNING_RATE_E2E = 2.5e-4
 OUTPUT_DIR_E2E = "outputs/output_E2E"
 WEIGHT_DECAY_E2E = 0.01
 

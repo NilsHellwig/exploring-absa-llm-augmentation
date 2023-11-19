@@ -1,32 +1,47 @@
-from transformers import TrainingArguments, Trainer
 from transformers.models.bert.modeling_bert import (BERT_INPUTS_DOCSTRING)
 from transformers.utils import (add_start_docstrings_to_model_forward)
 from transformers.modeling_outputs import TokenClassifierOutput
-from transformers import BertModel, BertPreTrainedModel
-from E2E.evaluation import compute_metrics_E2E
+from transformers import BertPreTrainedModel, BertModel
+from transformers import TrainingArguments, Trainer
 from transformers import DataCollatorWithPadding
+from E2E.evaluation import compute_metrics_E2E
+from transformers.utils import (
+    add_code_sample_docstrings,
+    add_start_docstrings,
+    add_start_docstrings_to_model_forward,
+)
+from transformers.models.bert.modeling_bert import (
+    BERT_INPUTS_DOCSTRING,
+    BERT_START_DOCSTRING,
+    _CONFIG_FOR_DOC
+)
+
+
 from typing import Optional, Union, Tuple
-from torch.nn.functional import softmax
+from transformers import AutoTokenizer
 from torch import nn
+import numpy as np
 import constants
 import torch
-
-
+# source: https://huggingface.co/transformers/v3.5.1/_modules/transformers/modeling_bert.html
+@add_start_docstrings(
+    """
+    Bert Model with a token classification head on top (a linear layer on top of the hidden-states output) e.g. for
+    Named-Entity-Recognition (NER) tasks.
+    """,
+    BERT_START_DOCSTRING,
+)
 class BertForSpanCategorizationE2E(BertPreTrainedModel):
     _keys_to_ignore_on_load_unexpected = [r"pooler"]
-    _keys_to_ignore_on_load_missing = [r"position_ids"]
 
     def __init__(self, config):
         super().__init__(config)
         self.num_labels = config.num_labels
         self.bert = BertModel(config, add_pooling_layer=False)
-        classifier_dropout = (
-            config.classifier_dropout if config.classifier_dropout is not None else config.hidden_dropout_prob
-        )
-        self.dropout = nn.Dropout(classifier_dropout)
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
         # Initialize weights and apply final processing
-        self.post_init()
+        self.init_weights()
 
     @add_start_docstrings_to_model_forward(BERT_INPUTS_DOCSTRING.format("batch_size, sequence_length"))
     def forward(
