@@ -14,7 +14,7 @@ def create_model_ACD():
 
 
 
-def get_trainer_ACD(train_data, test_data, tokenizer):
+def get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx):
     # Define Arguments
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_ACD,
@@ -35,6 +35,8 @@ def get_trainer_ACD(train_data, test_data, tokenizer):
         seed=constants.RANDOM_SEED,
     )
 
+    compute_metrics_ACD_fcn = compute_metrics_ACD(test_data, results, cross_idx)
+
     trainer = Trainer(
         model_init=create_model_ACD,
         args=training_args,
@@ -42,7 +44,7 @@ def get_trainer_ACD(train_data, test_data, tokenizer):
         eval_dataset=test_data,
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics_ACD
+        compute_metrics=compute_metrics_ACD_fcn
     )
 
     return trainer

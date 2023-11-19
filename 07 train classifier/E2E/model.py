@@ -96,7 +96,7 @@ def create_model_E2E():
     return BertForSpanCategorizationE2E.from_pretrained(constants.MODEL_NAME_E2E, id2label=constants.ID_TO_LABEL_E2E, label2id=constants.LABEL_TO_ID_E2E)
 
 
-def get_trainer_E2E(train_data, test_data, tokenizer):
+def get_trainer_E2E(train_data, test_data, tokenizer, results, cross_idx):
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_E2E,
         learning_rate=constants.LEARNING_RATE_E2E,
@@ -117,7 +117,7 @@ def get_trainer_E2E(train_data, test_data, tokenizer):
         seed=constants.RANDOM_SEED,
     )
 
-    compute_metrics_E2E_fcn = compute_metrics_E2E(test_data)
+    compute_metrics_E2E_fcn = compute_metrics_E2E(test_data, results, cross_idx)
 
     trainer = Trainer(
         model_init=create_model_E2E,

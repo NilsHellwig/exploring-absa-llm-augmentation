@@ -1,4 +1,4 @@
-from helper import divide
+from helper import divide, save_pred_and_labels
 import numpy as np
 import constants
 
@@ -94,12 +94,14 @@ def calculate_f1_micro(metrics):
     return divide(2 * (precision_total * recall_total), (precision_total + recall_total))
 
 
-def compute_metrics_E2E(test_data):
+def compute_metrics_E2E(test_data, results, cross_idx):
 
     def compute_metrics(p):
         predictions, true_labels = p
-        predictions = np.where(predictions > 0, np.ones(predictions.shape), np.zeros(predictions.shape))
-        
+        save_pred_and_labels(predictions, true_labels, results, cross_idx)
+        predictions = np.where(predictions > 0, np.ones(
+            predictions.shape), np.zeros(predictions.shape))
+
         # Convert prediction to phrases
         predictions = [get_predicted_phrases(
             example) for example in predictions]
@@ -118,6 +120,8 @@ def compute_metrics_E2E(test_data):
         metrics["f1_micro"] = calculate_f1_micro(metrics)
         metrics["f1_macro"] = sum(metrics[key] for key in [
                                   f"f1_{pol}" for pol in constants.POLARITIES]) / len(constants.POLARITIES)
+
+        #print(sum([len(p) for p in true_labels]))
         metrics.update(calculate_popular_metrics(predictions, true_labels))
 
         return metrics
