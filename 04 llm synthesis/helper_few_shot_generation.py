@@ -82,7 +82,8 @@ def get_label_ratio_fixed(size):
 def get_label_ratio_random(size, dataset):
     n_labels = [len(example["tags"]) for example in dataset]
     label_ratio = Counter(n_labels)
+    label_ratio = round_dict_to_target_sum(label_ratio, size)
     for key in label_ratio.keys():
-        label_ratio[key] = label_ratio[key] / len(dataset) * size
+        label_ratio[key] = int(label_ratio[key] / len(dataset) * size)
 
     return label_ratio
