@@ -22,9 +22,9 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
     if LLM_SAMPLING == "fixed" and N_SYNTH == 0:
         raise Exception(
             "Fixed adds 10 real samples. Please use random for LLM_SAMPLING to evaluate only real examples.")
-    if LLM_SAMPLING == "fixed" and N_SYNTH not in [490, 990, 1990]:
+    if LLM_SAMPLING == "fixed" and N_SYNTH not in [475, 975, 1975]:
         raise Exception(
-            "If Few-Shot Examples are fixed, N_SYNTH needs to be 0, 490, 990 or 1990")
+            "If Few-Shot Examples are fixed, N_SYNTH needs to be 475, 975, 1975")
 
     if LLM_SAMPLING == "random" and N_SYNTH not in [0, 500, 1000, 1500]:
         raise Exception(
