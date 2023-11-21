@@ -2,10 +2,6 @@
 01 dataset creation/reviews_restaurants_html
 .ipynb_checkpoints
 .DS_Store
-datasets/reviews_urls.csv
-datasets/reviews_sentences.csv
-datasets/balanced_reviews_sentences.csv
-datasets/reviews.csv
 __tests/Untitled.ipynb
 __tests/tripadvisor.html
 __tests/train16.xml

@@ -9,7 +9,9 @@ In this thesis, I explore the potential of leveraging Large Language Models, suc
 
 ## Installation
 
+
 ```
+# only for schlaubox.de
 pip install llvmlite --ignore-installed
 pip install -r requirements.txt
 ```
