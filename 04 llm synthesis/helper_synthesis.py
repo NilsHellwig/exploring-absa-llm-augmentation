@@ -55,7 +55,7 @@ def get_examples_as_text(examples):
     example_text = "\n"
     
     for i in range(len(examples)):
-        example_text += "Label:" + str(labels[i])+'\nPrediction:"'+predictions[i]+'"\n'
+        example_text += "Label:" + str(labels[i])+'\nPrediction:'+predictions[i]+'\n'
     
     return example_text[:-2]
 
