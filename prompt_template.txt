@@ -3,7 +3,7 @@ Gegeben ist ein Label in Form eines Arrays, wobei ein oder mehrere Tuple (Aspekt
 Für ein Label wird dann eine deutschsprachige Prediction erzeugt, wobei die Prediction ausschließlich die in dem Label definierten Kombinationen aus Aspekt-Kategorie und Aspekt-Sentiment adressiert.
 
 * Folgende Aspekt-Kategorien werden betrachtet: ["GENERAL-IMPRESSION", "FOOD", "SERVICE", "PRICE", "AMBIENCE"]
-* Folgende Sentiment-Polaritäten werden betrachtet: ["negative", "neutral", "positive"]
+* Folgende Sentiment-Polaritäten werden betrachtet: ["NEGATIVE", "NEUTRAL", "POSITIVE"]
 
 Zusätzlich kann für ein im Label vorgegebenes Tuple (Aspekt-Kategorie, Aspekt-Sentiment) ein Aspekt-Begriff im Text vorliegen.
 Ein Aspekt-Begriff ist eine Entität oder Eigenschaft innerhalb eines Textes, die auf eine der betrachteten Aspekt-Kategorien hinweist und deren Sentiment bewertet.

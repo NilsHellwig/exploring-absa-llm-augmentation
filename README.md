@@ -14,4 +14,5 @@ In this thesis, I explore the potential of leveraging Large Language Models, suc
 # only for schlaubox.de
 pip install llvmlite --ignore-installed
 pip install -r requirements.txt
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 ```
