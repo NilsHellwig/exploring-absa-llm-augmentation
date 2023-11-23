@@ -17,7 +17,7 @@ print(time.strftime("%d.%m.%Y %H:%M:%S"))
 load_dotenv()
 
 # Default values
-SPLIT = 3
+SPLIT = 0
 MODEL_ID = 0
 FEW_SHOTS = "random"
 
@@ -27,8 +27,6 @@ if len(sys.argv) > 1:
     SPLIT = int(sys.argv[1])
     MODEL_ID = int(sys.argv[2])
     FEW_SHOTS = sys.argv[3]
-
-print(SPLIT, MODEL_ID, FEW_SHOTS)
 
 DATASET_PATH = f'../07 train classifier/real/split_{SPLIT}.json'
 LABELS_AND_EXAMPLES_PATH = f"few_shot_examples/few_shot_examples_{FEW_SHOTS}.json"
@@ -61,6 +59,10 @@ MODEL_NAME = MODELS[MODEL_ID]
 
 SYNTH_PATH = f"../07 train classifier/synth/{MODEL_NAME}/{FEW_SHOTS}/split_{SPLIT}.json"
 
+
+# Status
+
+print("Split:", SPLIT, "Model:", MODELS[MODEL_ID], "Few-Shot Setting:", FEW_SHOTS)
 
 ############### Code ###############
 
