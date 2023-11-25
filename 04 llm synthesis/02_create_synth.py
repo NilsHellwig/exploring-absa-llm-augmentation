@@ -2,7 +2,6 @@ from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, ch
 from IPython.display import clear_output
 from dotenv import load_dotenv
 from llama_cpp import Llama
-import random
 import openai
 import json
 import uuid
@@ -48,8 +47,6 @@ COMBINATIONS = [(aspect, polarity)
                 for polarity in POLARITIES for aspect in CLASSES]
 
 STOP_CRITERIA = ["\n"]
-
-random.seed(SEED)
 
 MODELS = ["Llama13B", "Llama70B", "Falcon40B", "GPT-3"]
 # 175B, 70B und 40B

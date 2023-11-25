@@ -11,19 +11,6 @@ from langdetect import detect
 VALID_ASPECT_VALUES = {"FOOD", "PRICE", "SERVICE", "GENERAL-IMPRESSION", "AMBIENCE"}
 VALID_POLARITY_VALUES = {"POSITIVE", "NEGATIVE", "NEUTRAL"}
 
-
-def divide_equally(x, random):
-    equally = x // 3
-    remainder = x % 3
-    values = [equally, equally, equally]
-
-    for i in range(remainder):
-        values[i] += 1
-
-    random.shuffle(values)
-
-    return values
-
 def convert_ner_to_xml(ner_dict):
     text = ner_dict['text']
     tags = ner_dict['tags']
