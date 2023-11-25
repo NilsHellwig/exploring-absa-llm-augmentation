@@ -12,4 +12,4 @@ Ein im Tuple vorgegebener Aspekt kann im Text auch implizit adressiert werden, w
 
 Sehr wichtig: Markiere alle Aspekt-Begriffe im Text immer mit einem xml-Tag, so wie in den folgenden Beispielen!
 
-Gebe nur die Prediction zurück, in Anführungszeichen, ohne Kommentare oder zusätzlichen Text.
+Gebe nur die Prediction zurück, ohne Kommentare oder zusätzlichen Text.

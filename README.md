@@ -16,3 +16,5 @@ pip install llvmlite --ignore-installed
 pip install -r requirements.txt
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 ```
+
+CMAKE_ARGS="-DLLAMA_OPENBLAS=1" pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir

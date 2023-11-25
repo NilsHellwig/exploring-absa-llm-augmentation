@@ -24,7 +24,7 @@ TEST_FOLDS = 5
 MODEL_NAME_ACD = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 LEARNING_RATE_ACD = 5e-06
 EPOCHS_ACD = 5  # 5
-BATCH_SIZE_ACD = 16
+BATCH_SIZE_ACD = 32
 MAX_TOKENS_ACD = 256
 OUTPUT_DIR_ACD = "outputs/output_ACD"
 
@@ -32,7 +32,7 @@ OUTPUT_DIR_ACD = "outputs/output_ACD"
 MODEL_NAME_ACSA = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 LEARNING_RATE_ACSA = 5e-06
 EPOCHS_ACSA = 5  # 5
-BATCH_SIZE_ACSA = 16
+BATCH_SIZE_ACSA = 32
 MAX_TOKENS_ACSA = 256
 OUTPUT_DIR_ACSA = "outputs/output_ACSA"
 
@@ -54,8 +54,8 @@ ID_TO_LABEL_E2E = {0: 'B_POSITIVE',
 MODEL_NAME_E2E = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 MAX_TOKENS_E2E = 256
 BATCH_SIZE_E2E = 16
-EPOCHS_E2E = 100
-LEARNING_RATE_E2E = 2.5e-4
+EPOCHS_E2E = 3
+LEARNING_RATE_E2E = 5e-05
 OUTPUT_DIR_E2E = "outputs/output_E2E"
 WEIGHT_DECAY_E2E = 0.01
 
@@ -87,7 +87,7 @@ LEARNING_RATE_TASD = 4e-5
 EPOCHS_TASD = 20
 OUTPUT_DIR_TASD = "outputs/output_TASD"
 LOGGING_STRATEGY_TASD = "epoch"
-METRIC_FOR_BEST_MODEL_TASD = "rouge1"
+METRIC_FOR_BEST_MODEL_TASD = "f1"
 WEIGHT_DECAY_TASD = 0.01
 AC_GERMAN = {'Service': "SERVICE",
              'Ambiente': "AMBIENCE",

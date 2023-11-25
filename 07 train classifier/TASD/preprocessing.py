@@ -36,7 +36,7 @@ def tag_to_text(tag):
         aspect_term_text = "es"
     ac_text = format_aspect_category(tag["label"])
     polarity_text = format_polarity(tag["polarity"])
-    return f"{ac_text} ist {polarity_text} weil {aspect_term_text} {polarity_text} ist"
+    return f"{ac_text} ist {polarity_text}, weil {aspect_term_text} {polarity_text} ist"
 
 
 def encode_example(example, tokenizer):
@@ -50,6 +50,7 @@ def encode_example(example, tokenizer):
         output_text += f"{formatted_triple} [SSEP] "
 
     output_text = output_text[:-1]
+    print(output_text)
 
     input_encodings = tokenizer(input_text,
                                 #   padding=True,

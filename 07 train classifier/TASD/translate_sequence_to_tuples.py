@@ -21,7 +21,7 @@ def extract_polarity_from_string(sub_sentence):
 
 
 def extract_aspect_term_from_string(sub_sentence):
-    pattern = fr"weil (.*?)({'|'.join(constants.POLARITY_GERMAN.keys())}) ist"
+    pattern = fr", weil (.*?)({'|'.join(constants.POLARITY_GERMAN.keys())}) ist"
     match = re.search(pattern, sub_sentence)
     if match:
         aspect_term = match.group(1).strip()

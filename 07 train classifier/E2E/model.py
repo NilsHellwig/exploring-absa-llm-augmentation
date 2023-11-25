@@ -109,7 +109,7 @@ def get_trainer_E2E(train_data, test_data, tokenizer, results, cross_idx):
         logging_steps=100,
         logging_strategy="epoch",
         load_best_model_at_end=True,
-        metric_for_best_model="f1_macro",
+        metric_for_best_model="f1_micro",
         fp16=torch.cuda.is_available(),
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
