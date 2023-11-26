@@ -41,7 +41,7 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
     # 3. Load Real Train Data
     train_dataset = []
 
-    # 3.1 Add 10 real samples if condition is fixed examples
+    # 3.1 Add 25 real samples if condition is fixed examples
     if LLM_SAMPLING == "fixed":
         for split_idx in constants.SPLIT_LOOP[1:constants.N_FOLDS+1]:
             with open(f'../07 train classifier/real_fixed/split_{split_idx}.json', 'r') as json_datei:
