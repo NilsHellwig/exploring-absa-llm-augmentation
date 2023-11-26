@@ -21,7 +21,7 @@ def check_for_duplicate_ids(train_dataset, test_dataset):
 def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
     if LLM_SAMPLING == "fixed" and N_SYNTH == 0:
         raise Exception(
-            "Fixed adds 10 real samples. Please use random for LLM_SAMPLING to evaluate only real examples.")
+            "Fixed adds 25 real samples. Please use random for LLM_SAMPLING to evaluate only real examples.")
     if LLM_SAMPLING == "fixed" and N_SYNTH not in [475, 975, 1975]:
         raise Exception(
             "If Few-Shot Examples are fixed, N_SYNTH needs to be 475, 975, 1975")
@@ -42,12 +42,16 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING):
     train_dataset = []
 
     # 3.1 Add 25 real samples if condition is fixed examples
-    if LLM_SAMPLING == "fixed":
+    if LLM_SAMPLING == "fixed" and N_REAL == 25:
         for split_idx in constants.SPLIT_LOOP[1:constants.N_FOLDS+1]:
             with open(f'../07 train classifier/real_fixed/split_{split_idx}.json', 'r') as json_datei:
                 real_split = json.load(json_datei)
                 random.shuffle(real_split)
                 train_dataset.append(real_split)
+    # This is for the language analysis - (we also need the opportunity to only load the synthetic fixed examples)
+    if LLM_SAMPLING == "fixed" and N_REAL == 0:
+        for split_idx in constants.SPLIT_LOOP[1:constants.N_FOLDS+1]:
+            train_dataset.append([])
 
     # 3.2 Add real samples if condtion is random or N_SYNTH = 0 (condtions without llms)
     if LLM_SAMPLING == "random" or N_SYNTH == 0:
