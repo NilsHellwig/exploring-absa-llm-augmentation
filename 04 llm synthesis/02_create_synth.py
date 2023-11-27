@@ -3,6 +3,7 @@ from IPython.display import clear_output
 from dotenv import load_dotenv
 from llama_cpp import Llama
 import openai
+import time
 import json
 import uuid
 import os
@@ -23,8 +24,8 @@ FEW_SHOTS = "random"
 # Check if command-line arguments are provided
 if len(sys.argv) > 1:
     # Parse command-line arguments
-    SPLIT = int(sys.argv[1])
-    MODEL_ID = int(sys.argv[2])
+    MODEL_ID = int(sys.argv[1])
+    SPLIT = int(sys.argv[2])
     FEW_SHOTS = sys.argv[3]
 
 DATASET_PATH = f'../07 train classifier/real/split_{SPLIT}.json'
@@ -146,7 +147,11 @@ for idx, label in enumerate(labels):
             prompt = PROMPT_TEMPLATE + examples_text + prompt_footer
 
             # Execute LLM
+            start_time_prediction = time.time()
             prediction = llm_model(prompt).lstrip()
+            end_time_prediction = time.time()
+            prediction_duration = end_time_prediction - start_time_prediction
+            print("prediction took:", prediction_duration)
 
             if is_valid_xml(f'<input>{prediction}</input>') == False:
                 invalid_xml_schema += 1
@@ -175,6 +180,7 @@ for idx, label in enumerate(labels):
                                 synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
                                 synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
                                 synth_example["llm_no_german_language"] = no_german_language
+                                synth_example["llm_prediction_duration"] = prediction_duration
                                 for key in prediction_as_json.keys():
                                     synth_example[key] = prediction_as_json[key]
                                 found_valid_example = True
@@ -189,8 +195,7 @@ for idx, label in enumerate(labels):
                 # Save Statistics of retries
                 retry_statistic = {}
                 retry_statistic["llm_label"] = label
-                retry_statistic["llm_examples"] = [example["id"]
-                                                   for example in few_shot_examples]
+                retry_statistic["llm_examples"] = [example["id"] for example in few_shot_examples]
                 retry_statistic["llm_prompt"] = prompt
                 retry_statistic["llm_prediction_raw"] = prediction
                 retry_statistic["llm_invalid_xml_schema"] = invalid_xml_schema
@@ -200,6 +205,7 @@ for idx, label in enumerate(labels):
                 retry_statistic["llm_no_german_language"] = no_german_language
                 retry_statistic["llm_change_examples"] = new_example_idx
                 retry_statistic["llm_retries_for_example_set"] = retry
+                retry_statistic["llm_prediction_duration"] = prediction_duration
                 synth_example["llm_retry_statistic"].append(retry_statistic)
 
         if found_valid_example:
