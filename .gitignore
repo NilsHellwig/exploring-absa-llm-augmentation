@@ -37,7 +37,4 @@ __tests/
 07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
 07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
 
-07 train classifier/split_results/
-07 train classifier/results_json/
-07 train classifier/results_csv/
 04 llm synthesis/semeval/
