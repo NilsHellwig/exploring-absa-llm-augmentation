@@ -1,6 +1,6 @@
 # ------------------ General Settings ------------------
 N_FOLDS = 5
-SPLIT_LOOP = [0, 1, 2, 3, 4, 0, 1, 2, 3]
+SPLIT_LOOP = [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
 RANDOM_SEED = 43
 DEVICE = "mps"
 ASPECT_CATEGORIES = ["GENERAL-IMPRESSION",
