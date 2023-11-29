@@ -3,7 +3,7 @@ from helper import save_pred_and_labels
 from scipy.special import expit
 import constants
 
-def compute_metrics_ACD(test_data, results, cross_idx):
+def compute_metrics_ACD(results, cross_idx):
 
     def compute_metrics(eval_pred):
         predictions, lab = eval_pred

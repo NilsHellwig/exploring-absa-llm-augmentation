@@ -1,5 +1,4 @@
-from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer
-from transformers import DataCollatorWithPadding
+from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding, EarlyStoppingCallback
 from ACD.evaluation import compute_metrics_ACD
 import constants
 import torch
@@ -14,7 +13,7 @@ def create_model_ACD():
 
 
 
-def get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx):
+def get_trainer_ACD(train_data, validation_data, tokenizer, results, cross_idx):
     # Define Arguments
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_ACD,
@@ -35,16 +34,17 @@ def get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx):
         seed=constants.RANDOM_SEED,
     )
 
-    compute_metrics_ACD_fcn = compute_metrics_ACD(test_data, results, cross_idx)
+    compute_metrics_ACD_fcn = compute_metrics_ACD(results, cross_idx)
 
     trainer = Trainer(
         model_init=create_model_ACD,
         args=training_args,
         train_dataset=train_data,
-        eval_dataset=test_data,
+        eval_dataset=validation_data,
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics_ACD_fcn
+        compute_metrics=compute_metrics_ACD_fcn,
+        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
 
     return trainer

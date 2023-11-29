@@ -17,13 +17,15 @@ N_SPLITS_MAP_REAL = {
 }
 EVALUATE_AFTER_EPOCH = True
 
+N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
+
 # ------------------ ⚠️⚠️⚠️ Delete Later ⚠️⚠️⚠️ ------------------
 TEST_FOLDS = 5
 
 # ------------------ ACD ------------------
 MODEL_NAME_ACD = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 LEARNING_RATE_ACD = 5e-06
-EPOCHS_ACD = 5  # 5
+EPOCHS_ACD = 1000  # 5
 BATCH_SIZE_ACD = 32
 MAX_TOKENS_ACD = 256
 OUTPUT_DIR_ACD = "outputs/output_ACD"
@@ -31,7 +33,7 @@ OUTPUT_DIR_ACD = "outputs/output_ACD"
 # ------------------ ACSA ------------------
 MODEL_NAME_ACSA = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 LEARNING_RATE_ACSA = 5e-06
-EPOCHS_ACSA = 5  # 5
+EPOCHS_ACSA = 1000  # 5
 BATCH_SIZE_ACSA = 32
 MAX_TOKENS_ACSA = 256
 OUTPUT_DIR_ACSA = "outputs/output_ACSA"
@@ -73,7 +75,7 @@ ID_TO_LABEL_OTE = {
 MODEL_NAME_OTE = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 MAX_TOKENS_OTE = 256
 BATCH_SIZE_OTE = 16
-EPOCHS_OTE = 100
+EPOCHS_OTE = 1000
 LEARNING_RATE_OTE = 5e-06
 OUTPUT_DIR_OTE = "outputs/output_OTE"
 WEIGHT_DECAY_OTE = 0.01
@@ -84,7 +86,7 @@ MODEL_NAME_TASD = "t5-base"  # ⚠️⚠️⚠️ Später ändern zu large
 MAX_TOKENS_TASD = 256
 BATCH_SIZE_TASD = 8
 LEARNING_RATE_TASD = 4e-5
-EPOCHS_TASD = 20
+EPOCHS_TASD = 1000
 OUTPUT_DIR_TASD = "outputs/output_TASD"
 LOGGING_STRATEGY_TASD = "epoch"
 METRIC_FOR_BEST_MODEL_TASD = "f1"

@@ -65,22 +65,22 @@ for folder in folders:
 
 ## Load Dataset
 
-train_dataset, test_dataset = load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING)
+train_dataset, test_dataset, validation_dataset = load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING)
 
 ## Load Model
 
 if TARGET == "aspect_category":
     results = train_ACD_model(
-        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
+        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
     
 if TARGET == "aspect_category_sentiment":
-    results = train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
+    results = train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
 
 if TARGET == "end_2_end_absa":
-    results = train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
+    results = train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
 
 if TARGET == "target_aspect_sentiment_detection":
-    results = train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
+    results = train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
     
 ## Save Results
 

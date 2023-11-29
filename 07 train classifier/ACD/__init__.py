@@ -8,7 +8,7 @@ import constants
 import time
 
 
-def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset):
+def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset):
     results = {
         "LLM_NAME": LLM_NAME,
         "N_REAL": N_REAL,
@@ -20,6 +20,7 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
     loss = []
     n_samples_train = []
     n_samples_test = []
+    n_samples_validation = []
 
     start_time = time.time()
 
@@ -33,16 +34,18 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         # Load Data
         train_data = preprocess_data_ACD(train_dataset[cross_idx], tokenizer)
         test_data = preprocess_data_ACD(test_dataset[cross_idx], tokenizer)
+        validation_data = preprocess_data_ACD(validation_dataset[cross_idx], tokenizer)
 
         n_samples_train.append(len(train_data))
         n_samples_test.append(len(test_data))
+        n_samples_validation.append(len(validation_data))
 
         # Train Model
-        trainer = get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx)
+        trainer = get_trainer_ACD(train_data, validation_data, tokenizer, results, cross_idx)
         trainer.train()
 
         # Save Evaluation of Test Data
-        eval_metrics = trainer.evaluate()
+        eval_metrics = trainer.evaluate(test_data)
         print(f"Split {cross_idx}:", eval_metrics)
 
         # Save Metrics for fold
@@ -65,5 +68,7 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
     results["n_samples_train_mean"] = np.mean(n_samples_train)
     results["n_samples_test"] = n_samples_test
     results["n_samples_test_mean"] = np.mean(n_samples_test)
+    results["n_samples_validation"] = n_samples_validation
+    results["n_samples_validation_mean"] = np.mean(n_samples_validation)
 
     return results
