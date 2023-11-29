@@ -34,7 +34,7 @@ LABELS_AND_EXAMPLES_PATH = f"few_shot_examples/few_shot_examples_{FEW_SHOTS}.jso
 # LLM Settings
 MAX_TOKENS = 512
 CONTEXT_SIZE = 4096
-TEMPERATURE = 0.8
+TEMPERATURE = 1.0
 
 # Set Seed
 SEED = int(str(43) + str(SPLIT) + str(MODEL_ID))
