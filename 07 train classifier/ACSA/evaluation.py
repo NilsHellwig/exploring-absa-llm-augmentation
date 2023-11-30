@@ -4,7 +4,7 @@ from helper import save_pred_and_labels
 import constants
 
 
-def compute_metrics_ACSA(test_data, results, cross_idx):
+def compute_metrics_ACSA(results, cross_idx):
     def compute_metrics(eval_pred):
         predictions, lab = eval_pred
         save_pred_and_labels(predictions, lab, results, cross_idx)
