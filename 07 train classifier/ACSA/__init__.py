@@ -42,7 +42,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         n_samples_validation.append(len(validation_data))
 
         # Train Model
-        trainer = get_trainer_ACSA(train_data, test_data, tokenizer, results, cross_idx)
+        trainer = get_trainer_ACSA(train_data, validation_data, tokenizer, results, cross_idx)
         trainer.train()
 
         # Get index of best epoch on validation data / save log history
@@ -50,7 +50,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         log_history[cross_idx] = trainer.state.log_history
 
         # Save Evaluation of Test Data
-        eval_metrics = trainer.evaluate()
+        eval_metrics = trainer.evaluate(test_data)
         print(f"Split {cross_idx}:", eval_metrics)
 
         # Save Metrics for fold

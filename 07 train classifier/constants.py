@@ -16,8 +16,7 @@ N_SPLITS_MAP_REAL = {
     2000: 4
 }
 EVALUATE_AFTER_EPOCH = True
-
-N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
+N_EPOCHS_EARLY_STOPPING_PATIENCE = 1
 
 # ------------------ ⚠️⚠️⚠️ Delete Later ⚠️⚠️⚠️ ------------------
 TEST_FOLDS = 5
@@ -56,7 +55,7 @@ ID_TO_LABEL_E2E = {0: 'B_POSITIVE',
 MODEL_NAME_E2E = "deepset/gbert-base"  # ⚠️⚠️⚠️ Später ändern zu large
 MAX_TOKENS_E2E = 256
 BATCH_SIZE_E2E = 16
-EPOCHS_E2E = 3
+EPOCHS_E2E = 1000
 LEARNING_RATE_E2E = 5e-05
 OUTPUT_DIR_E2E = "outputs/output_E2E"
 WEIGHT_DECAY_E2E = 0.01

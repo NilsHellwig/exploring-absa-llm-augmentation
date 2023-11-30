@@ -1,9 +1,7 @@
+from transformers import BertPreTrainedModel, BertModel, TrainingArguments, Trainer, DataCollatorWithPadding, EarlyStoppingCallback
 from transformers.models.bert.modeling_bert import (BERT_INPUTS_DOCSTRING)
 from transformers.utils import (add_start_docstrings_to_model_forward)
 from transformers.modeling_outputs import TokenClassifierOutput
-from transformers import BertPreTrainedModel, BertModel
-from transformers import TrainingArguments, Trainer
-from transformers import DataCollatorWithPadding
 from E2E.evaluation import compute_metrics_E2E
 from transformers.utils import (
     add_code_sample_docstrings,
@@ -96,7 +94,7 @@ def create_model_E2E():
     return BertForSpanCategorizationE2E.from_pretrained(constants.MODEL_NAME_E2E, id2label=constants.ID_TO_LABEL_E2E, label2id=constants.LABEL_TO_ID_E2E)
 
 
-def get_trainer_E2E(train_data, test_data, tokenizer, results, cross_idx):
+def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_E2E,
         learning_rate=constants.LEARNING_RATE_E2E,
@@ -117,16 +115,17 @@ def get_trainer_E2E(train_data, test_data, tokenizer, results, cross_idx):
         seed=constants.RANDOM_SEED,
     )
 
-    compute_metrics_E2E_fcn = compute_metrics_E2E(test_data, results, cross_idx)
+    compute_metrics_E2E_fcn = compute_metrics_E2E(results, cross_idx)
 
     trainer = Trainer(
         model_init=create_model_E2E,
         args=training_args,
         train_dataset=train_data,
-        eval_dataset=test_data,
+        eval_dataset=validation_data,
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics_E2E_fcn
+        compute_metrics=compute_metrics_E2E_fcn,
+        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
 
     return trainer

@@ -15,13 +15,13 @@ import json
 import sys
 import os
 
-### Parameters
+# Parameters
 
 LLM_NAME = sys.argv[1]
 N_REAL = int(sys.argv[2])
 N_SYNTH = int(sys.argv[3])
 TARGET = sys.argv[4]
-if TARGET not in ["aspect_category", "aspect_category_sentiment", "end_2_end_absa" ,"target_aspect_sentiment_detection"]:
+if TARGET not in ["aspect_category", "aspect_category_sentiment", "end_2_end_absa", "target_aspect_sentiment_detection"]:
     raise ValueError("Error: Not a valid target")
 
 LLM_SAMPLING = sys.argv[5]
@@ -30,11 +30,11 @@ if LLM_SAMPLING not in ["random", "fixed"]:
 
 print(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING)
 
-### Settings
+# Settings
 
 # Change modelname if no synthetic data used for training
 if N_SYNTH == 0:
-  LLM_NAME = "only_real"
+    LLM_NAME = "only_real"
 
 # Set seeds
 torch.device(constants.DEVICE)
@@ -54,45 +54,44 @@ warnings.filterwarnings("ignore", category=FutureWarning,
 # Disable Pycache
 sys.dont_write_bytecode = True
 
-### Code
+# Code
 
-## Create Folders for Results
-
+# Create Folders for Results
 folders = ['split_results', 'results_csv', 'results_json']
 for folder in folders:
     if not os.path.exists(folder):
         os.makedirs(folder)
 
-## Load Dataset
+# Load Dataset
+train_dataset, test_dataset, validation_dataset = load_dataset_folds(
+    LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING)
 
-train_dataset, test_dataset, validation_dataset = load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING)
-
-## Load Model
-
+# Load Model
 if TARGET == "aspect_category":
     results = train_ACD_model(
         LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
-    
+
 if TARGET == "aspect_category_sentiment":
-    results = train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
+    results = train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
+                               LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
 
 if TARGET == "end_2_end_absa":
-    results = train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
+    results = train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
+                              LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
 
 if TARGET == "target_aspect_sentiment_detection":
-    results = train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
-    
-## Save Results
+    results = train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
+                               LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
 
-
-
+# Save Results
 with open(f'results_json/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}_{LLM_SAMPLING}.json', 'w') as json_file:
     json.dump(results, json_file)
 
 df = pd.DataFrame([results])
-df.to_csv(f'results_csv/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}_{LLM_SAMPLING}.csv', index=False)
+df.to_csv(
+    f'results_csv/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}_{LLM_SAMPLING}.csv', index=False)
 
-## Remove useless folders
+# Remove useless folders
 
 try:
     shutil.rmtree("outputs")

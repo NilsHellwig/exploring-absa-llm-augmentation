@@ -24,13 +24,14 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
     n_epochs_best_validation_score = []
     log_history = {}
 
-    start_time = time.time()
 
     tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_ACD)
 
     metrics_prefixes = ["accuracy", "hamming_loss", "f1_macro", "f1_micro", "f1_weighted"] + [
         f"{m}_{ac}" for ac in constants.ASPECT_CATEGORIES for m in ["precision", "recall", "f1", "accuracy"]]
     metrics_total = {f"{m}": [] for m in metrics_prefixes}
+
+    start_time = time.time()
 
     for cross_idx in range(constants.N_FOLDS)[0:constants.TEST_FOLDS]:
         # Load Data
