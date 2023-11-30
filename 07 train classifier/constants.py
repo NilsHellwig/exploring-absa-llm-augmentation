@@ -16,7 +16,7 @@ N_SPLITS_MAP_REAL = {
     2000: 4
 }
 EVALUATE_AFTER_EPOCH = True
-N_EPOCHS_EARLY_STOPPING_PATIENCE = 1
+N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
 
 # ------------------ ⚠️⚠️⚠️ Delete Later ⚠️⚠️⚠️ ------------------
 TEST_FOLDS = 5
