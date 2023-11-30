@@ -91,7 +91,13 @@ class BertForSpanCategorizationE2E(BertPreTrainedModel):
 
 
 def create_model_E2E():
-    return BertForSpanCategorizationE2E.from_pretrained(constants.MODEL_NAME_E2E, id2label=constants.ID_TO_LABEL_E2E, label2id=constants.LABEL_TO_ID_E2E)
+    label2id_with_O = constants.LABEL_TO_ID_E2E.copy()
+    label2id_with_O["O"] = len(label2id_with_O)
+
+    id2label_with_O = constants.ID_TO_LABEL_E2E.copy()
+    id2label_with_O[len(id2label_with_O)] = "O"
+
+    return BertForSpanCategorizationE2E.from_pretrained(constants.MODEL_NAME_E2E, id2label=id2label_with_O, label2id=label2id_with_O)
 
 
 def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):

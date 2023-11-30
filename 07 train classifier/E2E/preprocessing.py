@@ -43,7 +43,7 @@ def get_token_role_in_span_E2E(token_start: int, token_end: int, tag: dict):
 
 def preprocess_example_E2E(example, tokenizer):
     input_text = example["text"]
-    one_hot_output = [[0 for _ in constants.LABEL_TO_ID_E2E.keys()]
+    one_hot_output = [[0 for _ in range(len(constants.LABEL_TO_ID_E2E.keys()) + 1)]
                       for _ in range(constants.MAX_TOKENS_E2E)]
     tokenized_input_text = tokenizer(input_text,
                                      return_offsets_mapping=True,
@@ -52,12 +52,16 @@ def preprocess_example_E2E(example, tokenizer):
                                      truncation=True)
 
     for (token_start, token_end), token_labels in zip(tokenized_input_text["offset_mapping"], one_hot_output):
+        found_tags_for_token = 0
         for tag in example["tags"]:
             role = get_token_role_in_span_E2E(token_start, token_end, tag)
 
             for t in constants.LABEL_TO_ID_E2E:
                 if role == t:
                     token_labels[constants.LABEL_TO_ID_E2E[t]] = 1
+                    found_tags_for_token+=1
+        if found_tags_for_token == 0:
+            token_labels[len(token_labels)-1] = 1
 
     return {
         "input_ids": tokenized_input_text["input_ids"],
@@ -139,10 +143,10 @@ def get_preprocessed_data_E2E(train_data, test_data, valid_data, tokenizer):
                                  [example["labels"] for example in test_data])
 
     valid_data = CustomDatasetE2E([example["input_ids"] for example in valid_data],
-                                 [example["attention_mask"]
-                                     for example in valid_data],
-                                 [example["offset_mapping"]
-                                     for example in valid_data],
-                                 [example["labels"] for example in valid_data])
+                                  [example["attention_mask"]
+                                   for example in valid_data],
+                                  [example["offset_mapping"]
+                                   for example in valid_data],
+                                  [example["labels"] for example in valid_data])
 
     return train_data, test_data, valid_data

@@ -61,7 +61,6 @@ def get_predicted_phrases(example):
             if B_tag_val == 1:
                 tags_for_polarity.append({"start": i, "polarity": polarity})
 
-    # print([d for d in total_tags if 'end' not in d])
     return total_tags
 
 
@@ -98,6 +97,9 @@ def compute_metrics_E2E(results, cross_idx):
 
     def compute_metrics(p):
         predictions, true_labels = p
+        predictions = predictions[:, :, :-1]
+        true_labels = true_labels[:, :, :-1]
+
         save_pred_and_labels(predictions, true_labels, results, cross_idx)
         predictions = np.where(predictions > 0, np.ones(
             predictions.shape), np.zeros(predictions.shape))
@@ -121,7 +123,7 @@ def compute_metrics_E2E(results, cross_idx):
         metrics["f1_macro"] = sum(metrics[key] for key in [
                                   f"f1_{pol}" for pol in constants.POLARITIES]) / len(constants.POLARITIES)
 
-        #print(sum([len(p) for p in true_labels]))
+
         metrics.update(calculate_popular_metrics(predictions, true_labels))
 
         return metrics
