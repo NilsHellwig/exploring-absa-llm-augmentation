@@ -6,7 +6,7 @@ import numpy as np
 import constants
 
 
-def compute_metrics_TASD(test_data, results, cross_idx):
+def compute_metrics_TASD(results, cross_idx):
     def compute_metrics(eval_pred):
         # Evtl später übertragen
         tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_TASD)

@@ -1,4 +1,4 @@
-from transformers import AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
+from transformers import AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer, EarlyStoppingCallback
 from TASD.evaluation import compute_metrics_TASD
 from datasets import load_metric
 import constants
@@ -6,10 +6,10 @@ import torch
 
 
 def create_model_TASD():
-    return AutoModelForSeq2SeqLM.from_pretrained(constants.MODEL_NAME_TASD).to("cuda")
+    return AutoModelForSeq2SeqLM.from_pretrained(constants.MODEL_NAME_TASD).to(constants.DEVICE)
 
 
-def get_trainer_TASD(train_data, test_data, tokenizer, results, cross_idx):
+def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
     args = Seq2SeqTrainingArguments(
         output_dir=constants.OUTPUT_DIR_TASD,
         logging_strategy=constants.LOGGING_STRATEGY_TASD,
@@ -32,16 +32,17 @@ def get_trainer_TASD(train_data, test_data, tokenizer, results, cross_idx):
 
     data_collator = DataCollatorForSeq2Seq(tokenizer)
 
-    compute_metrics_TASD_fcn = compute_metrics_TASD(test_data, results, cross_idx)
+    compute_metrics_TASD_fcn = compute_metrics_TASD(results, cross_idx)
 
 
     trainer = Seq2SeqTrainer(
         model_init=create_model_TASD,
         args=args,
         train_dataset=train_data,
-        eval_dataset=test_data,
+        eval_dataset=valid_data,
         data_collator=data_collator,
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics_TASD_fcn
+        compute_metrics=compute_metrics_TASD_fcn,
+        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
     return trainer

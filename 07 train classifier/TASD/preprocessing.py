@@ -50,7 +50,6 @@ def encode_example(example, tokenizer):
         output_text += f"{formatted_triple} [SSEP] "
 
     output_text = output_text[:-1]
-    print(output_text)
 
     input_encodings = tokenizer(input_text,
                                 #   padding=True,
