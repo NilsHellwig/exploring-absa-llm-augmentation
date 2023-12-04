@@ -151,6 +151,7 @@ for idx, label in enumerate(labels):
             prediction = llm_model(prompt).lstrip()
             end_time_prediction = time.time()
             prediction_duration = end_time_prediction - start_time_prediction
+            print(f'\nLabel:{str(label)}\n')
             print("prediction took:", prediction_duration)
 
             if is_valid_xml(f'<input>{prediction}</input>') == False:
