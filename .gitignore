@@ -1,5 +1,5 @@
-01 dataset creation/pages_restaurants_html
-01 dataset creation/reviews_restaurants_html
+01 corpus acquisition/pages_restaurants_html
+01 corpus acquisition/reviews_restaurants_html
 .ipynb_checkpoints
 .DS_Store
 __tests/Untitled.ipynb

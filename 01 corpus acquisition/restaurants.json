@@ -1,0 +1,752 @@
+[
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d2005104-Reviews-Augustiner_am_Gendarmenmarkt-Berlin.html",
+    "id": "2005104",
+    "n_ratings": "5648",
+    "city": "berlin"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d947082-Reviews-Burgermeister_Schlesisches_Tor-Berlin.html",
+    "id": "947082",
+    "n_ratings": "5211",
+    "city": "berlin"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1341041-Reviews-Mustafa_s_Gemuese_Kebab-Berlin.html",
+    "id": "1341041",
+    "n_ratings": "4554",
+    "city": "berlin"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d2060315-Reviews-Restaurant_Sphere-Berlin.html",
+    "id": "2060315",
+    "n_ratings": "4122",
+    "city": "berlin"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187323-d1575778-Reviews-Monsieur_Vuong-Berlin.html",
+    "id": "1575778",
+    "n_ratings": "3639",
+    "city": "berlin"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d1483463-Reviews-Bullerei-Hamburg.html",
+    "id": "1483463",
+    "n_ratings": "3110",
+    "city": "hamburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d954454-Reviews-ALEX_Hamburg-Hamburg.html",
+    "id": "954454",
+    "n_ratings": "2822",
+    "city": "hamburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d2271294-Reviews-Hard_Rock_Cafe-Hamburg.html",
+    "id": "2271294",
+    "n_ratings": "1947",
+    "city": "hamburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d695667-Reviews-Fischereihafen_Restaurant-Hamburg.html",
+    "id": "695667",
+    "n_ratings": "1671",
+    "city": "hamburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187331-d10322027-Reviews-Ola_Lisboa-Hamburg.html",
+    "id": "10322027",
+    "n_ratings": "1597",
+    "city": "hamburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d742684-Reviews-Hofbrauhaus-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "742684",
+    "n_ratings": "30955",
+    "city": "münchen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d964526-Reviews-Ratskeller_Munchen-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "964526",
+    "n_ratings": "5946",
+    "city": "münchen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d947503-Reviews-Augustiner_Stammhaus-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "947503",
+    "n_ratings": "5723",
+    "city": "münchen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d807825-Reviews-Augustiner_Keller-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "807825",
+    "n_ratings": "5262",
+    "city": "münchen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d718846-Reviews-Schneider_Brauhaus-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "718846",
+    "n_ratings": "3005",
+    "city": "münchen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d7235024-Reviews-Fruh_am_Dom-Cologne_North_Rhine_Westphalia.html",
+    "id": "7235024",
+    "n_ratings": "5087",
+    "city": "köln"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d1837141-Reviews-Gaffel_am_Dom-Cologne_North_Rhine_Westphalia.html",
+    "id": "1837141",
+    "n_ratings": "2268",
+    "city": "köln"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d718270-Reviews-Peters_Brauhaus-Cologne_North_Rhine_Westphalia.html",
+    "id": "718270",
+    "n_ratings": "2201",
+    "city": "köln"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d966524-Reviews-Cafe_Relchard-Cologne_North_Rhine_Westphalia.html",
+    "id": "966524",
+    "n_ratings": "1654",
+    "city": "köln"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187371-d695516-Reviews-Bei_Oma_Kleinmann-Cologne_North_Rhine_Westphalia.html",
+    "id": "695516",
+    "n_ratings": "1484",
+    "city": "köln"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d1190751-Reviews-Trattoria_i_Siciliani-Frankfurt_Hesse.html",
+    "id": "1190751",
+    "n_ratings": "2326",
+    "city": "frankfurt"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d1155072-Reviews-Apfelwein_Wagner-Frankfurt_Hesse.html",
+    "id": "1155072",
+    "n_ratings": "2219",
+    "city": "frankfurt"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d6847690-Reviews-Thai_Turf_Steakhouse-Frankfurt_Hesse.html",
+    "id": "6847690",
+    "n_ratings": "1784",
+    "city": "frankfurt"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d1341959-Reviews-Atschel-Frankfurt_Hesse.html",
+    "id": "1341959",
+    "n_ratings": "1589",
+    "city": "frankfurt"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187337-d2520807-Reviews-Ariston-Frankfurt_Hesse.html",
+    "id": "2520807",
+    "n_ratings": "1443",
+    "city": "frankfurt"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d803960-Reviews-Restaurant_Ochs_n_Willi-Stuttgart_Baden_Wurttemberg.html",
+    "id": "803960",
+    "n_ratings": "1534",
+    "city": "stuttgart"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d2142723-Reviews-5-Stuttgart_Baden_Wurttemberg.html",
+    "id": "2142723",
+    "n_ratings": "1158",
+    "city": "stuttgart"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d1087012-Reviews-CUBE_Restaurant-Stuttgart_Baden_Wurttemberg.html",
+    "id": "1087012",
+    "n_ratings": "1041",
+    "city": "stuttgart"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d956602-Reviews-Alte_Kanzlei_Stuttgart-Stuttgart_Baden_Wurttemberg.html",
+    "id": "956602",
+    "n_ratings": "1023",
+    "city": "stuttgart"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187291-d12901499-Reviews-Paulaner_am_alten_Postplatz-Stuttgart_Baden_Wurttemberg.html",
+    "id": "12901499",
+    "n_ratings": "827",
+    "city": "stuttgart"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d1098160-Reviews-Brauerei_Schumacher-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "1098160",
+    "n_ratings": "2493",
+    "city": "düsseldorf"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d965262-Reviews-Uerige_Hausbrauerei-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "965262",
+    "n_ratings": "2015",
+    "city": "düsseldorf"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d4545071-Reviews-Ristorante_La_Luce_Due-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "4545071",
+    "n_ratings": "2006",
+    "city": "düsseldorf"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d984093-Reviews-Brauerei_Im_Fuchschen-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "984093",
+    "n_ratings": "1785",
+    "city": "düsseldorf"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187373-d1340438-Reviews-Fischhaus-Dusseldorf_North_Rhine_Westphalia.html",
+    "id": "1340438",
+    "n_ratings": "1489",
+    "city": "düsseldorf"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d743213-Reviews-Auerbachs_Keller_Leipzig-Leipzig_Saxony.html",
+    "id": "743213",
+    "n_ratings": "1869",
+    "city": "leipzig"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d2084055-Reviews-Ratskeller-Leipzig_Saxony.html",
+    "id": "2084055",
+    "n_ratings": "1850",
+    "city": "leipzig"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d1041475-Reviews-Bayerischer_Bahnhof-Leipzig_Saxony.html",
+    "id": "1041475",
+    "n_ratings": "1099",
+    "city": "leipzig"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d1340567-Reviews-Cafe_Madrid-Leipzig_Saxony.html",
+    "id": "1340567",
+    "n_ratings": "680",
+    "city": "leipzig"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187400-d743219-Reviews-Cafe_Riquet-Leipzig_Saxony.html",
+    "id": "743219",
+    "n_ratings": "567",
+    "city": "leipzig"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d718273-Reviews-Pfefferkorn-Dortmund_North_Rhine_Westphalia.html",
+    "id": "718273",
+    "n_ratings": "1108",
+    "city": "dortmund"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d983970-Reviews-Zum_alten_Markt-Dortmund_North_Rhine_Westphalia.html",
+    "id": "983970",
+    "n_ratings": "557",
+    "city": "dortmund"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d742986-Reviews-Hovels_Hausbrauerei-Dortmund_North_Rhine_Westphalia.html",
+    "id": "742986",
+    "n_ratings": "550",
+    "city": "dortmund"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d695534-Reviews-Brauhaus_Wenkers-Dortmund_North_Rhine_Westphalia.html",
+    "id": "695534",
+    "n_ratings": "401",
+    "city": "dortmund"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187372-d8000775-Reviews-L_Osteria_Dortmund-Dortmund_North_Rhine_Westphalia.html",
+    "id": "8000775",
+    "n_ratings": "387",
+    "city": "dortmund"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d2410350-Reviews-Pfefferkorn-Essen_North_Rhine_Westphalia.html",
+    "id": "2410350",
+    "n_ratings": "540",
+    "city": "essen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d8488255-Reviews-Cowboystyle_Steakhouse-Essen_North_Rhine_Westphalia.html",
+    "id": "8488255",
+    "n_ratings": "474",
+    "city": "essen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d4216804-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Essen_North_Rhine_Westphalia.html",
+    "id": "4216804",
+    "n_ratings": "414",
+    "city": "essen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d1005340-Reviews-DAMPFE_das_Borbecker_Brauhaus-Essen_North_Rhine_Westphalia.html",
+    "id": "1005340",
+    "n_ratings": "393",
+    "city": "essen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187375-d2420584-Reviews-Restaurant_Tablo-Essen_North_Rhine_Westphalia.html",
+    "id": "2420584",
+    "n_ratings": "383",
+    "city": "essen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d1343851-Reviews-Bremer_Ratskeller-Bremen.html",
+    "id": "1343851",
+    "n_ratings": "1722",
+    "city": "bremen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d1884768-Reviews-Kleiner_Olymp-Bremen.html",
+    "id": "1884768",
+    "n_ratings": "646",
+    "city": "bremen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d3726798-Reviews-Edel_Weiss-Bremen.html",
+    "id": "3726798",
+    "n_ratings": "762",
+    "city": "bremen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d2049557-Reviews-Schuttinger_Gasthausbrauerei-Bremen.html",
+    "id": "2049557",
+    "n_ratings": "700",
+    "city": "bremen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187325-d742761-Reviews-El_Mundo-Bremen.html",
+    "id": "742761",
+    "n_ratings": "680",
+    "city": "bremen"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d8009090-Reviews-Mamma_Mia-Dresden_Saxony.html",
+    "id": "8009090",
+    "n_ratings": "1657",
+    "city": "dresden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d782343-Reviews-Sophienkeller-Dresden_Saxony.html",
+    "id": "782343",
+    "n_ratings": "1258",
+    "city": "dresden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d1827752-Reviews-Augustiner_an_der_Frauenkirche-Dresden_Saxony.html",
+    "id": "1827752",
+    "n_ratings": "1253",
+    "city": "dresden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d967507-Reviews-Coselpalais_Restaurant_Grand_Cafe-Dresden_Saxony.html",
+    "id": "967507",
+    "n_ratings": "1108",
+    "city": "dresden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187399-d782302-Reviews-PulverTurm_an_der_Frauenkirche-Dresden_Saxony.html",
+    "id": "782302",
+    "n_ratings": "1008",
+    "city": "dresden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d960240-Reviews-Brauhaus_Ernst_August-Hannover_Lower_Saxony.html",
+    "id": "960240",
+    "n_ratings": "912",
+    "city": "hannover"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d1340640-Reviews-Gondel_Restaurant-Hannover_Lower_Saxony.html",
+    "id": "1340640",
+    "n_ratings": "879",
+    "city": "hannover"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d1118853-Reviews-Bavarium-Hannover_Lower_Saxony.html",
+    "id": "1118853",
+    "n_ratings": "746",
+    "city": "hannover"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d2075957-Reviews-Al_Dar-Hannover_Lower_Saxony.html",
+    "id": "2075957",
+    "n_ratings": "733",
+    "city": "hannover"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187351-d960237-Reviews-BLOCK_HOUSE_Am_Kropcke-Hannover_Lower_Saxony.html",
+    "id": "960237",
+    "n_ratings": "602",
+    "city": "hannover"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d1390048-Reviews-Bratwursthausle-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "1390048",
+    "n_ratings": "2790",
+    "city": "nürnberg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d1475656-Reviews-Bratwurst_Roeslein-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "1475656",
+    "n_ratings": "2124",
+    "city": "nürnberg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187309-d1341713-Reviews-Gaststatte_Nurnberger_Bratwurst_Glockl_am_Dom-Munich_Upper_Bavaria_Bavaria.html",
+    "id": "1341713",
+    "n_ratings": "1174",
+    "city": "nürnberg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d1220514-Reviews-Padelle_d_Italia-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "1220514",
+    "n_ratings": "1054",
+    "city": "nürnberg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187310-d1963787-Reviews-Wirtshaus_Hutt_n-Nuremberg_Middle_Franconia_Franconia_Bavaria.html",
+    "id": "1963787",
+    "n_ratings": "1030",
+    "city": "nürnberg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187374-d1534888-Reviews-Webster_Brauhaus-Duisburg_North_Rhine_Westphalia.html",
+    "id": "1534888",
+    "n_ratings": "403",
+    "city": "duisburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187374-d1748302-Reviews-Nuh_s_Thai_Schnellrestaurant-Duisburg_North_Rhine_Westphalia.html",
+    "id": "1748302",
+    "n_ratings": "296",
+    "city": "duisburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187374-d7656030-Reviews-L_Osteria_Duisburg-Duisburg_North_Rhine_Westphalia.html",
+    "id": "7656030",
+    "n_ratings": "214",
+    "city": "duisburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187374-d3766208-Reviews-Pesas_AllSteaks-Duisburg_North_Rhine_Westphalia.html",
+    "id": "3766208",
+    "n_ratings": "203",
+    "city": "duisburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187374-d1907650-Reviews-VAPIANO_Duisburg-Duisburg_North_Rhine_Westphalia.html",
+    "id": "1907650",
+    "n_ratings": "193",
+    "city": "duisburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d1340099-Reviews-Bratwursthaus-Bochum_North_Rhine_Westphalia.html",
+    "id": "1340099",
+    "n_ratings": "469",
+    "city": "bochum"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d3974982-Reviews-Trattoria_Momo-Bochum_North_Rhine_Westphalia.html",
+    "id": "3974982",
+    "n_ratings": "448",
+    "city": "bochum"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d1504431-Reviews-Yamas_meze_restaurant_weinbar-Bochum_North_Rhine_Westphalia.html",
+    "id": "1504431",
+    "n_ratings": "448",
+    "city": "bochum"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d6931269-Reviews-Franz_Ferdinand-Bochum_North_Rhine_Westphalia.html",
+    "id": "6931269",
+    "n_ratings": "302",
+    "city": "bochum"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187369-d3511448-Reviews-Nhy_Star-Bochum_North_Rhine_Westphalia.html",
+    "id": "3511448",
+    "n_ratings": "298",
+    "city": "bochum"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187388-d1981670-Reviews-Wuppertaler_Brauhaus-Wuppertal_North_Rhine_Westphalia.html",
+    "id": "1981670",
+    "n_ratings": "300",
+    "city": "wuppertal"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187388-d1040833-Reviews-Alaturka-Wuppertal_North_Rhine_Westphalia.html",
+    "id": "1040833",
+    "n_ratings": "298",
+    "city": "wuppertal"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187388-d7381559-Reviews-Amalfi_Il_Ristorante-Wuppertal_North_Rhine_Westphalia.html",
+    "id": "7381559",
+    "n_ratings": "297",
+    "city": "wuppertal"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187388-d2719907-Reviews-NOI-Wuppertal_North_Rhine_Westphalia.html",
+    "id": "2719907",
+    "n_ratings": "291",
+    "city": "wuppertal"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187388-d4102892-Reviews-HANS_IM_GLUECK_Burgergrill_Bar-Wuppertal_North_Rhine_Westphalia.html",
+    "id": "4102892",
+    "n_ratings": "271",
+    "city": "wuppertal"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d1342313-Reviews-Jivino_Enoteca-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "1342313",
+    "n_ratings": "498",
+    "city": "bielefeld"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d1307732-Reviews-GluckundSeligkeit-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "1307732",
+    "n_ratings": "390",
+    "city": "bielefeld"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d1307731-Reviews-The_Bernstein-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "1307731",
+    "n_ratings": "388",
+    "city": "bielefeld"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d2306664-Reviews-Argentina_Steak_Mehr-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "2306664",
+    "n_ratings": "371",
+    "city": "bielefeld"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187368-d1041084-Reviews-Brauhaus_Joh_Albrecht-Bielefeld_North_Rhine_Westphalia.html",
+    "id": "1041084",
+    "n_ratings": "356",
+    "city": "bielefeld"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d960967-Reviews-Brauhaus_Bonnsch-Bonn_North_Rhine_Westphalia.html",
+    "id": "960967",
+    "n_ratings": "1051",
+    "city": "bonn"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d813006-Reviews-Pizzeria_Tuscolo-Bonn_North_Rhine_Westphalia.html",
+    "id": "813006",
+    "n_ratings": "923",
+    "city": "bonn"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d3196403-Reviews-Olive-Bonn_North_Rhine_Westphalia.html",
+    "id": "3196403",
+    "n_ratings": "782",
+    "city": "bonn"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d4719224-Reviews-EisLabor-Bonn_North_Rhine_Westphalia.html",
+    "id": "4719224",
+    "n_ratings": "637",
+    "city": "bonn"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187370-d6376676-Reviews-Tuscolo_Muensterblick-Bonn_North_Rhine_Westphalia.html",
+    "id": "6376676",
+    "n_ratings": "636",
+    "city": "bonn"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187382-d947380-Reviews-Altes_Gasthaus_Leve-Muenster_North_Rhine_Westphalia.html",
+    "id": "947380",
+    "n_ratings": "851",
+    "city": "münster"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187281-d1101506-Reviews-Hotel_Oberkirchs_Weinstuben-Freiburg_im_Breisgau_Baden_Wurttemberg.html",
+    "id": "1101506",
+    "n_ratings": "615",
+    "city": "münster"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187382-d743080-Reviews-Gasthaus_Grosser_Kiepenkerl-Muenster_North_Rhine_Westphalia.html",
+    "id": "743080",
+    "n_ratings": "606",
+    "city": "münster"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187382-d1340365-Reviews-Kleiner_Kiepenkerl_Gerda_Deckenbrock-Muenster_North_Rhine_Westphalia.html",
+    "id": "1340365",
+    "n_ratings": "486",
+    "city": "münster"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187382-d2140545-Reviews-Mocca_d_or-Muenster_North_Rhine_Westphalia.html",
+    "id": "2140545",
+    "n_ratings": "479",
+    "city": "münster"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d2481134-Reviews-Da_Vino-Mannheim_Baden_Wurttemberg.html",
+    "id": "2481134",
+    "n_ratings": "764",
+    "city": "mannheim"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d7244219-Reviews-Die_Metzgerei-Mannheim_Baden_Wurttemberg.html",
+    "id": "7244219",
+    "n_ratings": "541",
+    "city": "mannheim"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d788467-Reviews-Tokyo_Sushi_Bar-Mannheim_Baden_Wurttemberg.html",
+    "id": "788467",
+    "n_ratings": "525",
+    "city": "mannheim"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d1869668-Reviews-VAPIANO_Mannheim-Mannheim_Baden_Wurttemberg.html",
+    "id": "1869668",
+    "n_ratings": "456",
+    "city": "mannheim"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187290-d4414868-Reviews-Memoires_d_Indochine-Mannheim_Baden_Wurttemberg.html",
+    "id": "4414868",
+    "n_ratings": "441",
+    "city": "mannheim"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d4054709-Reviews-Toro_Tapasbar-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "4054709",
+    "n_ratings": "598",
+    "city": "karlsruhe"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d1340360-Reviews-Vogelbrau-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "1340360",
+    "n_ratings": "520",
+    "city": "karlsruhe"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d4155288-Reviews-Bratar_Erbprinzen_27-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "4155288",
+    "n_ratings": "494",
+    "city": "karlsruhe"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d7236591-Reviews-Restaurant_Terra_Mare-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "7236591",
+    "n_ratings": "437",
+    "city": "karlsruhe"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187289-d908561-Reviews-Anders_auf_dem_Turmberg-Karlsruhe_Baden_Wurttemberg.html",
+    "id": "908561",
+    "n_ratings": "407",
+    "city": "karlsruhe"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187314-d7322855-Reviews-SteakManufaktur-Augsburg_Swabia_Bavaria.html",
+    "id": "7322855",
+    "n_ratings": "1128",
+    "city": "augsburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187314-d2002547-Reviews-Ratskeller_Augsburg-Augsburg_Swabia_Bavaria.html",
+    "id": "2002547",
+    "n_ratings": "1035",
+    "city": "augsburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187314-d2640161-Reviews-Riegele_WirtsHaus-Augsburg_Swabia_Bavaria.html",
+    "id": "2640161",
+    "n_ratings": "635",
+    "city": "augsburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187314-d956952-Reviews-Konig_von_Flandern-Augsburg_Swabia_Bavaria.html",
+    "id": "956952",
+    "n_ratings": "421",
+    "city": "augsburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187314-d1353140-Reviews-Berghof-Augsburg_Swabia_Bavaria.html",
+    "id": "1353140",
+    "n_ratings": "386",
+    "city": "augsburg"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187346-d2049344-Reviews-Cafe_Maldaner-Wiesbaden_Hesse.html",
+    "id": "2049344",
+    "n_ratings": "904",
+    "city": "wiesbaden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187346-d1005252-Reviews-Benner_s_Bistronomie-Wiesbaden_Hesse.html",
+    "id": "1005252",
+    "n_ratings": "651",
+    "city": "wiesbaden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187346-d3134244-Reviews-Ristorante_Comeback-Wiesbaden_Hesse.html",
+    "id": "3134244",
+    "n_ratings": "434",
+    "city": "wiesbaden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187346-d2098301-Reviews-Der_Andechser_im_Ratskeller-Wiesbaden_Hesse.html",
+    "id": "2098301",
+    "n_ratings": "378",
+    "city": "wiesbaden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187346-d6870943-Reviews-Thai_Banyan_Restaurant-Wiesbaden_Hesse.html",
+    "id": "6870943",
+    "n_ratings": "372",
+    "city": "wiesbaden"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187380-d7897841-Reviews-Asiatisches_Restaurant_Kaiser_Garten-Monchengladbach_North_Rhine_Westphalia.html",
+    "id": "7897841",
+    "n_ratings": "404",
+    "city": "mönchengladbach"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187380-d6541566-Reviews-L_Osteria_Monchengladbach-Monchengladbach_North_Rhine_Westphalia.html",
+    "id": "6541566",
+    "n_ratings": "308",
+    "city": "mönchengladbach"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187380-d13144674-Reviews-Frenzen_Restaurant_Event-Monchengladbach_North_Rhine_Westphalia.html",
+    "id": "13144674",
+    "n_ratings": "288",
+    "city": "mönchengladbach"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187380-d1040771-Reviews-La_Pampa_Argentinisches_Steakhaus-Monchengladbach_North_Rhine_Westphalia.html",
+    "id": "1040771",
+    "n_ratings": "281",
+    "city": "mönchengladbach"
+  },
+  {
+    "url": "https://www.tripadvisor.de/Restaurant_Review-g187380-d5207419-Reviews-Brauerei_zum_Stefanus-Monchengladbach_North_Rhine_Westphalia.html",
+    "id": "5207419",
+    "n_ratings": "274",
+    "city": "mönchengladbach"
+  }
+]
