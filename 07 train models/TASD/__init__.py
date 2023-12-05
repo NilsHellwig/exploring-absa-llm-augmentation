@@ -28,7 +28,7 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
     tokenizer = T5Tokenizer.from_pretrained(constants.MODEL_NAME_TASD)
 
-    for cross_idx in range(constants.N_FOLDS)[0:constants.TEST_FOLDS]:
+    for cross_idx in range(constants.N_FOLDS):
         # Load Data
         train_data = train_dataset[cross_idx]
         test_data = test_dataset[cross_idx]

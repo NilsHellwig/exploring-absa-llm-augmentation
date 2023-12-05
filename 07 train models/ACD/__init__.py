@@ -33,7 +33,7 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
 
     start_time = time.time()
 
-    for cross_idx in range(constants.N_FOLDS)[0:constants.TEST_FOLDS]:
+    for cross_idx in range(constants.N_FOLDS):
         # Load Data
         train_data = preprocess_data_ACD(train_dataset[cross_idx], tokenizer)
         test_data = preprocess_data_ACD(test_dataset[cross_idx], tokenizer)

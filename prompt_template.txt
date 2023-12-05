@@ -10,10 +10,10 @@ Folgende Aspekt-Kategorien werden betrachtet:
 * "AMBIENCE" - Aspekte in Bezug auf das Ambiente im allgemeinen oder die Umgebung des Innen- und Außenbereichs des Restaurants, dessen Ausstattung und Unterhaltungsmöglichkeiten
 * "GENERAL-IMPRESSION" - Aspekte in Bezug auf das Restaurant als Ganzes ohne Fokus auf die oben genannten Aspekt-Kategorien
 
-Folgende Sentiment-Polaritäten werden betrachtet: 
+Gegenüber einem Aspekt können folgende Stimmungen geäußert werden: 
 
 * "POSITIVE"
-* "NEUTRAL" 
+* "NEUTRAL"
 * "NEGATIVE"
 
 Zusätzlich kann für ein im Label vorgegebenes Tupel (Aspekt-Kategorie, Aspekt-Polrität) ein Aspekt-Begriff im Text vorliegen.
