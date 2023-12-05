@@ -11,33 +11,33 @@ __tests/checksemeval.ipynb
 04 llm synthesis/falcon-40b-Q4_K_S.gguf
 04 llm synthesis/llama-2-13b.Q4_0.gguf
 04 llm synthesis/llama-2-70b.Q4_0.gguf
-07 train classifier/output*
-07 train classifier/token_classifier/
-07 train classifier/__pycache__/
-07 train classifier/OTE/__pycache__/
-07 train classifier/ACD/__pycache__/
+07 train models/output*
+07 train models/token_classifier/
+07 train models/__pycache__/
+07 train models/OTE/__pycache__/
+07 train models/ACD/__pycache__/
 __tests/test_t5.ipynb
-07 train classifier/TASD/__pycache__/
+07 train models/TASD/__pycache__/
 04 llm synthesis/llm_models/
 __tests/old dataframes/
 __tests/
-07 train classifier/ACSA/__pycache__/preprocessing.cpython-311.pyc
-07 train classifier/ACSA/__pycache__/model.cpython-311.pyc
-07 train classifier/ACSA/__pycache__/evaluation.cpython-311.pyc
-07 train classifier/ACSA/__pycache__/__init__.cpython-311.pyc
-07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
-07 train classifier/E2E/__pycache__/model.cpython-311.pyc
-07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
-07 train classifier/E2E/__pycache__/evaluation.cpython-311.pyc
-07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
-07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
-07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
-07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/ACSA/__pycache__/preprocessing.cpython-311.pyc
+07 train models/ACSA/__pycache__/model.cpython-311.pyc
+07 train models/ACSA/__pycache__/evaluation.cpython-311.pyc
+07 train models/ACSA/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/E2E/__pycache__/model.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/evaluation.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
 *.pyc
-07 train classifier/E2E/__pycache__/preprocessing.cpython-311.pyc
-07 train classifier/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
 
-07 train classifier/split_results/
-07 train classifier/results_json/
-07 train classifier/results_csv/
+07 train models/split_results/
+07 train models/results_json/
+07 train models/results_csv/
 04 llm synthesis/semeval/

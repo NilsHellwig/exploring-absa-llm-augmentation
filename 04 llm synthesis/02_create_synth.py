@@ -28,7 +28,7 @@ if len(sys.argv) > 1:
     SPLIT = int(sys.argv[2])
     FEW_SHOTS = sys.argv[3]
 
-DATASET_PATH = f'../07 train classifier/real/split_{SPLIT}.json'
+DATASET_PATH = f'../07 train models/real/split_{SPLIT}.json'
 LABELS_AND_EXAMPLES_PATH = f"few_shot_examples/few_shot_examples_{FEW_SHOTS}.json"
 
 # LLM Settings
@@ -55,7 +55,7 @@ MODEL_PATHS = {"Llama13B": "llm_models/llama-2-13b.Q4_0.gguf",
                "Llama70B": "llm_models/llama-2-70b.Q4_0.gguf", "Falcon40B": "llm_models/falcon-40b-Q4_K_S.gguf"}
 MODEL_NAME = MODELS[MODEL_ID]
 
-SYNTH_PATH = f"../07 train classifier/synth/{MODEL_NAME}/{FEW_SHOTS}/split_{SPLIT}.json"
+SYNTH_PATH = f"../07 train models/synth/{MODEL_NAME}/{FEW_SHOTS}/split_{SPLIT}.json"
 
 
 # Status
