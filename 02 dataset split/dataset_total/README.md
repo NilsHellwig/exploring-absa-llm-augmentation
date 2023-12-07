@@ -27,7 +27,7 @@ Datasets in `/dataset_total`:
 
   `dataset_total/raw_annotations.json`
 
-- Raw dataset of 5,000 annotations A+B as .json (without filtering conflict, > 2 sentences, sentences without aspects)
+- Raw dataset of 5,000 annotations A+B as .json (without filtering conflict, > 2 sentences, sentences without aspects):
 
   `dataset_total/raw_dataset.json`
 
