@@ -1,4 +1,4 @@
-from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, check_valid_aspect_xml, count_sentences_in_text, german_language_detected
+from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, check_valid_aspect_xml, count_sentences_in_text
 from IPython.display import clear_output
 from dotenv import load_dotenv
 from llama_cpp import Llama
@@ -60,7 +60,8 @@ SYNTH_PATH = f"../07 train models/synth/{MODEL_NAME}/{FEW_SHOTS}/split_{SPLIT}.j
 
 # Status
 
-print("Split:", SPLIT, "Model:", MODELS[MODEL_ID], "Few-Shot Setting:", FEW_SHOTS)
+print("Split:", SPLIT, "Model:",
+      MODELS[MODEL_ID], "Few-Shot Setting:", FEW_SHOTS)
 
 ############### Code ###############
 
@@ -125,7 +126,6 @@ for idx, label in enumerate(labels):
     invalid_xml_tags = 0
     aspect_polarity_in_text_but_not_in_label = 0
     more_than_one_sentences = 0
-    no_german_language = 0
 
     # save total time to create example
     start_time_example = time.time()
@@ -171,28 +171,24 @@ for idx, label in enumerate(labels):
                         if count_sentences_in_text(prediction_as_json["text"]) > 1:
                             more_than_one_sentences += 1
                         else:
-                            if german_language_detected(prediction_as_json["text"]) == False:
-                                no_german_language += 1
-                            else:
-                                synth_example["id"] = str(uuid.uuid4())
-                                # save total time
-                                end_time_example = time.time()
-                                prediction_duration_example = end_time_example - start_time_example
-                                synth_example["total_time_example"] = prediction_duration_example
+                            synth_example["id"] = str(uuid.uuid4())
+                            # save total time
+                            end_time_example = time.time()
+                            prediction_duration_example = end_time_example - start_time_example
+                            synth_example["total_time_example"] = prediction_duration_example
 
-                                synth_example["llm_label"] = label
-                                synth_example["llm_examples"] = few_shot_examples
-                                synth_example["llm_prompt"] = prompt
-                                synth_example["llm_prediction_raw"] = prediction
-                                synth_example["llm_invalid_xml_schema"] = invalid_xml_schema
-                                synth_example["llm_invalid_xml_tags"] = invalid_xml_tags
-                                synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
-                                synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
-                                synth_example["llm_no_german_language"] = no_german_language
-                                synth_example["llm_prediction_duration"] = prediction_duration
-                                for key in prediction_as_json.keys():
-                                    synth_example[key] = prediction_as_json[key]
-                                found_valid_example = True
+                            synth_example["llm_label"] = label
+                            synth_example["llm_examples"] = few_shot_examples
+                            synth_example["llm_prompt"] = prompt
+                            synth_example["llm_prediction_raw"] = prediction
+                            synth_example["llm_invalid_xml_schema"] = invalid_xml_schema
+                            synth_example["llm_invalid_xml_tags"] = invalid_xml_tags
+                            synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
+                            synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
+                            synth_example["llm_prediction_duration"] = prediction_duration
+                            for key in prediction_as_json.keys():
+                                synth_example[key] = prediction_as_json[key]
+                            found_valid_example = True
 
             # Log current generation
             print(
@@ -204,14 +200,14 @@ for idx, label in enumerate(labels):
                 # Save Statistics of retries
                 retry_statistic = {}
                 retry_statistic["llm_label"] = label
-                retry_statistic["llm_examples"] = [example["id"] for example in few_shot_examples]
+                retry_statistic["llm_examples"] = [example["id"]
+                                                   for example in few_shot_examples]
                 retry_statistic["llm_prompt"] = prompt
                 retry_statistic["llm_prediction_raw"] = prediction
                 retry_statistic["llm_invalid_xml_schema"] = invalid_xml_schema
                 retry_statistic["llm_invalid_xml_tags"] = invalid_xml_tags
                 retry_statistic["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
                 retry_statistic["llm_more_than_one_sentences"] = more_than_one_sentences
-                retry_statistic["llm_no_german_language"] = no_german_language
                 retry_statistic["llm_change_examples"] = new_example_idx
                 retry_statistic["llm_retries_for_example_set"] = retry
                 retry_statistic["llm_prediction_duration"] = prediction_duration
