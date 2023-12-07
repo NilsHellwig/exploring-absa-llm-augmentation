@@ -127,6 +127,9 @@ for idx, label in enumerate(labels):
     more_than_one_sentences = 0
     no_german_language = 0
 
+    # save total time to create example
+    start_time_example = time.time()
+
     # Setup JSON for new synth example
     synth_example = {}
     synth_example["llm_retry_statistic"] = []
@@ -172,6 +175,11 @@ for idx, label in enumerate(labels):
                                 no_german_language += 1
                             else:
                                 synth_example["id"] = str(uuid.uuid4())
+                                # save total time
+                                end_time_example = time.time()
+                                prediction_duration_example = end_time_example - start_time_example
+                                synth_example["total_time_example"] = prediction_duration_example
+
                                 synth_example["llm_label"] = label
                                 synth_example["llm_examples"] = few_shot_examples
                                 synth_example["llm_prompt"] = prompt
