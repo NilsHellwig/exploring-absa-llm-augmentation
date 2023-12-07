@@ -2,15 +2,15 @@
 
 Datasets in `/dataset_total`:
 
-- Annotations by Annotator A of the first 1,000 examples:
-
-  `dataset_total/raw_annotations_1000_annotator_a.json`
-
 - Annotations by Annotator A of the first 4,000 examples:
 
   `dataset_total/raw_annotations_4000_annotator_a.json`
 
-- Annotations by Annotator B of the 5,000 examples:
+- Annotations by Annotator A of the first 1,000 examples:
+
+  `dataset_total/raw_annotations_1000_annotator_a.json`
+
+- Annotations by Annotator B (2 annotators, 2,500 annotations each) of the 5,000 examples:
 
   \_1: `raw_annotations_2500_annotator_b_1.csv`
   \_2: `raw_annotations_2500_annotator_b_2.csv`
