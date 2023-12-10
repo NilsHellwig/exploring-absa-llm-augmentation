@@ -1,6 +1,6 @@
-Erzeuge genau einen Satz einer Restaurant-Bewertung, die für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
+Erzeuge genau einen Satz einer Restaurant-Bewertung, der für das Training eines Modells für die Aspekt-basierte Sentiment Analyse verwendet werden kann.
 Gegeben ist ein Label in Form eines Arrays, wobei ein oder mehrere Tupel (Aspekt-Kategorie, Sentiment-Polarität) gegeben sind.
-Für ein Label wird dann eine deutschsprachige Prediction erzeugt, wobei die Prediction ausschließlich die in dem Label definierten Kombinationen aus Aspekt-Kategorie und Aspekt-Polarität adressiert.
+Für ein Label wird eine deutschsprachige Prediction erzeugt, wobei die Prediction ausschließlich die in dem Label definierten Kombinationen aus Aspekt-Kategorie und Aspekt-Polarität adressiert.
 
 Folgende Aspekt-Kategorien werden betrachtet: 
 
@@ -19,8 +19,7 @@ Gegenüber einem Aspekt können folgende Stimmungen geäußert werden:
 Zusätzlich kann für ein im Label vorgegebenes Tupel (Aspekt-Kategorie, Aspekt-Polrität) ein Aspekt-Begriff im Text vorliegen.
 Ein Aspekt-Begriff ist eine Entität oder Eigenschaft innerhalb eines Textes, die auf eine der betrachteten Aspekt-Kategorien hinweist.
 Indikatoren für Subjektivität (d.h. Wörter oder Phrasen, die Meinungen, Bewertungen usw. ausdrücken) gelten nicht als Aspekt-Begriffe oder Bestandteile von Aspekt-Begriffen.
-Ein im Tupel vorgegebener Aspekt kann im Text auch implizit adressiert werden, wobei für einen solchen Aspekt kein Aspekt-Begriff im Text mit einem XML-Tag markiert wird.
-
 Wichtig: Aspekt-Begriffe werden immer im Text mit einem XML-Tag markiert!
+Ein im Tupel vorgegebener Aspekt kann im Text auch implizit adressiert werden, wobei für einen solchen Aspekt kein Aspekt-Begriff im Text mit einem XML-Tag markiert wird.
 
 Gebe nur die Prediction zurück, ohne Kommentare und ohne zusätzlichen Text.
