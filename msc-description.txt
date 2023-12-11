@@ -5,8 +5,8 @@ Thema                                  : Data Augmentation with Large Language M
 Art_thesistypes                        : MA
 BetreuerIn_thesisadvisor               : Jakob Fehle
 BearbeiterIn                           : Nils Constantin Hellwig
-ErstgutachterIn_thesisprofessor        : 
-ZweitgutachterIn_secondthesisprofessor : 
+ErstgutachterIn_thesisprofessor        : Christian Wolff
+ZweitgutachterIn_secondthesisprofessor : David Elsweiler
 Status_thesisstate                     : in Bearbeitung
 Stichworte_thesiskeywords              : Sentiment Analysis, Natural Language Processing, Large Language Models, Sentiment Analyse, Sprachverarbeitung, Sprachmodelle
 angelegt_dt                            : 2023-07-14
@@ -18,9 +18,12 @@ Textlizenz_textlicense                 :  # #Lizenz|##
 Codelizenz_codelicense                 :  # #Lizenz|##
 ----
 
+
+
+
 === Background ===
 
-Sentiment analysis (SA), also named opinion mining, is a research area in natural language processing (NLP) which involves the computational classification of individuals' sentiments, opinions and emotions. This mostly involves categorizing sentiments into three polarities: positive, neutral and negative.
+Sentiment analysis (SA) is a research area in natural language processing (NLP) which involves the computational classification of individuals' sentiments, opinions and emotions. This mostly involves categorizing sentiments into three polarities: positive, neutral and negative.
 
 Social media services like X (now rebranded as Twitter) and Facebook have gained popularity as sources of data for sentiment analysis due to the low barrier for posting messages, enabling a multitude of users around the world to express their opinions on various topics daily. Accordingly, content from social media is used for sentiment analysis in many fields, for example in the political context, financial sector or healthcare.
 
@@ -28,11 +31,11 @@ Sentiment analysis can be applied at both document- and sentence-level. However,
 
 === Objective of the Study ===
 
-This work aims to apply LLMs for generating annotated examples for ABSA for the mitigation of data scarcity. A human-annotated dataset of 3,000 sentences from restaurant reviews posted on TripAdvisor in the German language, that can be seen as a low-resource language in ABSA, serve as the foundation for this study. Using increasing amounts of examples synthesized with LLMs in addition to a given amount of 500 real examples for training smaller German language models based on BERT architecture, it is evaluated how the models' performance differs when using only real examples. For generating a synthetic example, 25 random samples are drawn from the 500 real examples, serving as few-shot examples. Additionally, a condition is examined, for which we assume a significantly smaller set of 25 real examples. In this case, we consistently employ these 25 examples as the few-shot examples for generating all synthetic examples.
+This work aims to apply LLMs for generating annotated examples for ABSA for the mitigation of data scarcity. A human-annotated dataset of 3,000 sentences from restaurant reviews posted on TripAdvisor in the German language (low-resource language in ABSA), serve as the foundation for this study. Using increasing amounts of examples synthesized with LLMs in addition to a given amount of 500 real examples for training smaller German language models based on BERT architecture, it is evaluated how the models' performance differs when using only real examples. For generating a synthetic example, 25 random samples are drawn from the 500 real examples, serving as few-shot examples. Additionally, a condition is examined, for which we assume a significantly smaller set of 25 real examples. In this case, we consistently employ these 25 examples as the few-shot examples for generating all synthetic examples.
 
 === Tasks ===
 
-- Data acquisition: Reviews posted on TripAdvisor in the German language
+- Data acquisition: German language reviews posted on TripAdvisor 
 - Data annotation: ABSA Annotation of 5,000 sentences from the reviews (aspect term, aspect category, sentiment polarity)
 - LLM augmentation: GPT-3.5 (175B parameters) and Llama2-70B (70B parameters)
 - LLM language analysis: Analysis of the language diversity of annotated examples
@@ -47,8 +50,8 @@ This work aims to apply LLMs for generating annotated examples for ABSA for the 
 
 === Expected Prior Knowledge ===
 
-- Python, with a strong command of libraries such as Pandas, Numpy, spaCy, NLTK, Scikit-learn and Transformers
-- Fundamentals of deep learning (DL), natural language processing (NLP) and data augmentation
+- Python: pandas, numpy, spaCy, NLTK, scikit-learn and transformers
+- Fundamentals of Deep Learning (DL), Natural Language Processing (NLP) and Data Augmentation
 - Large Language Models (LLMs): llama.cpp and experience with the OpenAI API
 - Small Language Models (SLMs): Sequence Classification, Token Classification, and Seq-2-Seq Text Generation
 - Familiarity with NVIDIA GPUs and their utilization for accelerated computing
