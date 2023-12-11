@@ -4,7 +4,7 @@ import subprocess
 
 for num in [500, 1000, 2000]:
     for task in ["aspect_category", "aspect_category_sentiment", "end_2_end_absa", "target_aspect_sentiment_detection"]:
-        for few_shot_setting in ["random", "fixed"]:
+        for few_shot_setting in ["random"]:
             command = f"python train_absa_model.py only_real {num} 0 {task} {few_shot_setting}"
             process = subprocess.Popen(command, shell=True)
             process.wait()

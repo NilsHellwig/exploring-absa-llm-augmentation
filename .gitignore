@@ -40,3 +40,5 @@ __tests/
 07 train models/results_json/
 07 train models/results_csv/
 04 llm synthesis/semeval/
+04 llm synthesis/few_shot_examples/few_shot_examples_random.json
+04 llm synthesis/few_shot_examples/few_shot_examples_fixed.json
