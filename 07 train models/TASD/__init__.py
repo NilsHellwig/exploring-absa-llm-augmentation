@@ -8,13 +8,15 @@ import time
 
 
 def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset):
-    results = {
+    results_meta = {
         "LLM_NAME": LLM_NAME,
         "N_REAL": N_REAL,
         "N_SYNTH": N_SYNTH,
         "TARGET": TARGET,
         "LLM_SAMPLING": LLM_SAMPLING,
     }
+
+    results = results_meta.copy()
 
     loss = []
     n_samples_train = []
@@ -52,7 +54,7 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
                                       [encode_example(example, tokenizer)["labels"] for example in valid_data])
         
         # Train Model
-        trainer = get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx)
+        trainer = get_trainer_TASD(train_data, valid_data, tokenizer, results_meta, cross_idx)
         trainer.train()
 
         # Get index of best epoch on validation data / save log history
