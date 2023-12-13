@@ -218,8 +218,9 @@ for idx, label in enumerate(labels):
             break
 
 os.makedirs(os.path.dirname(SYNTH_PATH), exist_ok=True)
-with open(SYNTH_PATH, "w") as outfile:
-    json.dump(synth_dataset, outfile)
+
+with open(SYNTH_PATH, "w", encoding="utf-8") as outfile:
+    json.dump(synth_dataset, outfile, ensure_ascii=False)
 
 
 print(time.strftime("%d.%m.%Y %H:%M:%S"))
