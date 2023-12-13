@@ -4,10 +4,10 @@ Für ein Label wird eine Prediction erzeugt, wobei die Prediction ausschließlic
 
 Folgende Aspekt-Kategorien werden betrachtet: 
 
-* "FOOD" - Aspekte in Bezug auf das Essen im allgemeinen oder bestimmte Speisen und Getränke
-* "SERVICE" - Aspekte in Bezug auf den Service im allgemeinen oder Einstellung und Professionalität des Personals, die Wartezeiten oder Service-Dienstleistungen wie Speisenmitnahme
-* "PRICE" - Aspekte in Bezug auf den Preis im allgemeinen oder Speisen, Getränke oder andere Leistungen des Restaurants, deren Preis bewertet wird.
-* "AMBIENCE" - Aspekte in Bezug auf das Ambiente und Atmosphäre im allgemeinen oder die Umgebung des Innen- und Außenbereichs des Restaurants, dessen Ausstattung und Unterhaltungsmöglichkeiten
+* "FOOD" - Aspekte in Bezug auf das Essen im Allgemeinen oder bestimmte Speisen und Getränke
+* "SERVICE" - Aspekte in Bezug auf den Service im Allgemeinen oder Einstellung und Professionalität des Personals, die Wartezeiten oder Service-Dienstleistungen wie Speisenmitnahme
+* "PRICE" - Aspekte in Bezug auf den Preis im Allgemeinen oder Speisen, Getränke oder andere Leistungen des Restaurants, deren Preis bewertet wird
+* "AMBIENCE" - Aspekte in Bezug auf das Ambiente und Atmosphäre im Allgemeinen oder die Umgebung des Innen- und Außenbereichs des Restaurants, dessen Ausstattung und Unterhaltungsmöglichkeiten
 * "GENERAL-IMPRESSION" - Aspekte in Bezug auf das Restaurant als Ganzes ohne Fokus auf die oben genannten Aspekt-Kategorien
 
 Gegenüber einem Aspekt können folgende Stimmungen geäußert werden: 
