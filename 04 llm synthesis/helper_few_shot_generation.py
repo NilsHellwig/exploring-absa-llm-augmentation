@@ -33,14 +33,24 @@ def calculate_aspect_category_frequency(labels_example, CLASSES):
     return frequency_aspect_categories
 
 
-def round_dict_to_target_sum(input_dict, target_sum):
-    values = list(input_dict.values())
-    rounded_values = [round(num) for num in values]
-    diff = target_sum - sum(rounded_values)
-    rounded_values[-1] += diff
-    rounded_dict = {key: rounded_values[i] for i, key in enumerate(
-        input_dict) if rounded_values[i] >= 1}
-    return rounded_dict
+def round_dict_to_target_sum(label_ratio, size):
+    rest_dict = {}
+    int_dict = {}
+
+    for key, value in label_ratio.items():
+        integer_part = int(value)
+        fractional_part = value - integer_part
+        int_dict[key] = integer_part
+        rest_dict[key] = fractional_part
+
+    required_rest = size - sum(int_dict.values())
+    sorted_rest_dict = sorted(
+        rest_dict.items(), key=lambda x: x[1], reverse=True)
+    top_k_keys = [key for key, value in sorted_rest_dict[:required_rest]]
+
+    for k in top_k_keys:
+        int_dict[k] += 1
+    return int_dict
 
 
 def get_opinion_counts(filepath):
