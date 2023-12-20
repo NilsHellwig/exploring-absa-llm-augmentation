@@ -141,8 +141,11 @@ for idx, label in enumerate(labels):
         for retry in range(N_RETRIES):
             # new_example_idx will change in case it wasn't possible to generate a text for a given label after N_MAX_NEW_EXAMPLES retires
             few_shot_examples = examples[str(idx)][f"{new_example_idx}"]
-            few_shot_examples = [
-                entry for entry in dataset if entry['id'] in few_shot_examples]
+            
+            def get_entry_for_id(entry_id, dataset):
+                return [entry for entry in dataset if entry["id"] == entry_id][0]
+            
+            few_shot_examples = [get_entry_for_id(few_shot_example_id, dataset) for few_shot_example_id in few_shot_examples]
 
             # Build Prompt
             examples_text = get_examples_as_text(few_shot_examples)
