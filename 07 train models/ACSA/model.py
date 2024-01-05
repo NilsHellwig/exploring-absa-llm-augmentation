@@ -16,7 +16,9 @@ def create_model_ACSA():
 def get_trainer_ACSA(train_data, validation_data, tokenizer, results, cross_idx):
     # Define Arguments
     training_args = TrainingArguments(
-        output_dir=constants.OUTPUT_DIR_ACSA,
+        output_dir=constants.OUTPUT_DIR_ACSA+"_" +
+        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         learning_rate=constants.LEARNING_RATE_ACSA,
         num_train_epochs=constants.EPOCHS_ACSA,
         per_device_train_batch_size=constants.BATCH_SIZE_ACSA,
@@ -44,7 +46,8 @@ def get_trainer_ACSA(train_data, validation_data, tokenizer, results, cross_idx)
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_ACSA_fcn,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
+        callbacks=[EarlyStoppingCallback(
+            early_stopping_patience=constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
 
     return trainer

@@ -12,11 +12,12 @@ def create_model_ACD():
     ).to(torch.device(constants.DEVICE))
 
 
-
 def get_trainer_ACD(train_data, validation_data, tokenizer, results, cross_idx):
     # Define Arguments
     training_args = TrainingArguments(
-        output_dir=constants.OUTPUT_DIR_ACD,
+        output_dir=constants.OUTPUT_DIR_ACD+"_" +
+        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         learning_rate=constants.LEARNING_RATE_ACD,
         num_train_epochs=constants.EPOCHS_ACD,
         per_device_train_batch_size=constants.BATCH_SIZE_ACD,
@@ -29,8 +30,8 @@ def get_trainer_ACD(train_data, validation_data, tokenizer, results, cross_idx):
         metric_for_best_model="f1_micro",
         fp16=torch.cuda.is_available(),
         report_to="none",
-        do_eval = True if constants.EVALUATE_AFTER_EPOCH == True else False,
-        evaluation_strategy = "epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
+        do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
+        evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         seed=constants.RANDOM_SEED,
     )
 
@@ -44,7 +45,8 @@ def get_trainer_ACD(train_data, validation_data, tokenizer, results, cross_idx):
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_ACD_fcn,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
+        callbacks=[EarlyStoppingCallback(
+            early_stopping_patience=constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
 
     return trainer

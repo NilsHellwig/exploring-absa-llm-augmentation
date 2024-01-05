@@ -22,6 +22,8 @@ import numpy as np
 import constants
 import torch
 # source: https://huggingface.co/transformers/v3.5.1/_modules/transformers/modeling_bert.html
+
+
 @add_start_docstrings(
     """
     Bert Model with a token classification head on top (a linear layer on top of the hidden-states output) e.g. for
@@ -102,7 +104,9 @@ def create_model_E2E():
 
 def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
     training_args = TrainingArguments(
-        output_dir=constants.OUTPUT_DIR_E2E,
+        output_dir=constants.OUTPUT_DIR_E2E+"_" +
+        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         learning_rate=constants.LEARNING_RATE_E2E,
         per_device_train_batch_size=constants.BATCH_SIZE_E2E,
         per_device_eval_batch_size=constants.BATCH_SIZE_E2E,
@@ -131,7 +135,8 @@ def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_E2E_fcn,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
+        callbacks=[EarlyStoppingCallback(
+            early_stopping_patience=constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
 
     return trainer

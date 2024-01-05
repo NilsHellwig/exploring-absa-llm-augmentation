@@ -11,7 +11,9 @@ def create_model_TASD():
 
 def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
     args = Seq2SeqTrainingArguments(
-        output_dir=constants.OUTPUT_DIR_TASD,
+        output_dir=constants.OUTPUT_DIR_TASD+"_" +
+        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         logging_strategy=constants.LOGGING_STRATEGY_TASD,
         save_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         learning_rate=constants.LEARNING_RATE_TASD,
@@ -34,7 +36,6 @@ def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
 
     compute_metrics_TASD_fcn = compute_metrics_TASD(results, cross_idx)
 
-
     trainer = Seq2SeqTrainer(
         model_init=create_model_TASD,
         args=args,
@@ -43,6 +44,7 @@ def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
         data_collator=data_collator,
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_TASD_fcn,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience = constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
+        callbacks=[EarlyStoppingCallback(
+            early_stopping_patience=constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
     )
     return trainer
