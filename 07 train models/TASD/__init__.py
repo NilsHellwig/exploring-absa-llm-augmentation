@@ -2,8 +2,10 @@ from helper import format_seconds_to_time_string
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 from TASD.preprocessing import CustomDatasetTASD, encode_example
 from TASD.model import get_trainer_TASD
+import subprocess
 import numpy as np
 import constants
+import shutil
 import time
 
 
@@ -74,6 +76,21 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
             results[metric].append(eval_metrics[metric])
         
         loss.append(eval_metrics["eval_loss"])
+
+        # remove model output
+        if TARGET == "aspect_category":
+            prefix = constants.OUTPUT_DIR_ACD
+        elif TARGET == "aspect_category_sentiment":
+            prefix = constants.OUTPUT_DIR_ACSA
+        elif TARGET == "end_2_end_absa":
+            prefix = constants.OUTPUT_DIR_E2E
+        elif TARGET == "target_aspect_sentiment_detection":
+            prefix = constants.OUTPUT_DIR_TASD
+
+        path_output = prefix + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
+        shutil.rmtree(path_output)
+
+        subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
     
     runtime = time.time() - start_time
 

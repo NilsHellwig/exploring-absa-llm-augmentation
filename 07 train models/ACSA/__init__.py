@@ -2,9 +2,11 @@ from ACSA.preprocessing import preprocess_data_ACSA
 from helper import format_seconds_to_time_string
 from ACSA.model import get_trainer_ACSA
 from transformers import AutoTokenizer
+import subprocess
 import numpy as np
 import constants
 import time
+import shutil
 
 
 def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset):
@@ -58,6 +60,21 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
             metrics_total[f"{m}"] = eval_metrics[f"eval_{m}"]
 
         loss.append(eval_metrics["eval_loss"])
+
+        # remove model output
+        if TARGET == "aspect_category":
+            prefix = constants.OUTPUT_DIR_ACD
+        elif TARGET == "aspect_category_sentiment":
+            prefix = constants.OUTPUT_DIR_ACSA
+        elif TARGET == "end_2_end_absa":
+            prefix = constants.OUTPUT_DIR_E2E
+        elif TARGET == "target_aspect_sentiment_detection":
+            prefix = constants.OUTPUT_DIR_TASD
+
+        path_output = prefix + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
+        shutil.rmtree(path_output)
+
+        subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
 
     runtime = time.time() - start_time
 
