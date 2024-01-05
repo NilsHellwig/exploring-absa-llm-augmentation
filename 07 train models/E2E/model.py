@@ -106,7 +106,7 @@ def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_E2E+"_" +
         results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
-        "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
+        "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx),
         learning_rate=constants.LEARNING_RATE_E2E,
         per_device_train_batch_size=constants.BATCH_SIZE_E2E,
         per_device_eval_batch_size=constants.BATCH_SIZE_E2E,
