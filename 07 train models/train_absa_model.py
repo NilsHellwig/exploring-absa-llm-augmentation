@@ -92,7 +92,7 @@ df.to_csv(
 
 # Remove useless folders
 
-try:
-    shutil.rmtree("outputs")
-except:
-    pass
+# try:
+#     shutil.rmtree("outputs")
+# except:
+#     pass
