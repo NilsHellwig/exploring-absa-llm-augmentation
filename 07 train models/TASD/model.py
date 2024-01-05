@@ -12,7 +12,7 @@ def create_model_TASD():
 def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
     args = Seq2SeqTrainingArguments(
         output_dir=constants.OUTPUT_DIR_TASD+"_" +
-        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
         "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         logging_strategy=constants.LOGGING_STRATEGY_TASD,
         save_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",

@@ -16,7 +16,7 @@ def get_trainer_ACD(train_data, validation_data, tokenizer, results, cross_idx):
     # Define Arguments
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_ACD+"_" +
-        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
         "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         learning_rate=constants.LEARNING_RATE_ACD,
         num_train_epochs=constants.EPOCHS_ACD,

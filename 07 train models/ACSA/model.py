@@ -17,7 +17,7 @@ def get_trainer_ACSA(train_data, validation_data, tokenizer, results, cross_idx)
     # Define Arguments
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_ACSA+"_" +
-        results["LLM_NAME"]+"_"+results["N_REAL"]+"_"+results["N_SYNTH"] +
+        results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
         "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"],
         learning_rate=constants.LEARNING_RATE_ACSA,
         num_train_epochs=constants.EPOCHS_ACSA,
