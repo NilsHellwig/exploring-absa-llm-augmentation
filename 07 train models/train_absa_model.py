@@ -6,6 +6,7 @@ from ACSA import train_ACSA_model
 from TASD import train_TASD_model
 import pandas as pd
 import numpy as np
+import subprocess
 import constants
 import warnings
 import shutil
@@ -92,7 +93,26 @@ df.to_csv(
 
 # Remove useless folders
 
-# try:
-#     shutil.rmtree("outputs")
-# except:
-#     pass
+try:
+    shutil.rmtree("outputs"+constants.OUTPUT_DIR_ACD+"_" +
+                  results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
+                  "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx))
+except:
+    pass
+
+if TARGET == "aspect_category":
+    prefix = constants.OUTPUT_DIR_ACD
+elif TARGET == "aspect_category_sentiment":
+    prefix = constants.OUTPUT_DIR_ACSA
+elif TARGET == "end_2_end_absa":
+    prefix = constants.OUTPUT_DIR_E2E
+elif TARGET == "target_aspect_sentiment_detection":
+    prefix = constants.OUTPUT_DIR_TASD
+
+# remove output directory
+for idx in range(5):
+    path_output = prefix + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(
+        results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(idx)
+    shutil.rmtree(path_output)
+
+subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
