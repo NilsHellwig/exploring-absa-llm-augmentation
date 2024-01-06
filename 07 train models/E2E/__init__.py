@@ -16,6 +16,7 @@ def train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         "N_SYNTH": N_SYNTH,
         "TARGET": TARGET,
         "LLM_SAMPLING": LLM_SAMPLING,
+        "single_split_results": []
     }
 
     metrics_classwise_prefix = [
@@ -62,7 +63,9 @@ def train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         # Save Evaluation of Test Data
         eval_metrics = trainer.evaluate(test_data)
         print(f"Split {cross_idx}:", eval_metrics)
-
+    
+        # Save Evaluation of Split
+        results["single_split_results"].append(eval_metrics)
 
         for m in metrics_total_prefix:
             metrics_total[m].append(eval_metrics[f"eval_{m}"])

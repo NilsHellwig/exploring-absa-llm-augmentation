@@ -16,6 +16,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         "N_SYNTH": N_SYNTH,
         "TARGET": TARGET,
         "LLM_SAMPLING": LLM_SAMPLING,
+        "single_split_results": []
     }
 
     loss = []
@@ -54,6 +55,9 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         # Save Evaluation of Test Data
         eval_metrics = trainer.evaluate(test_data)
         print(f"Split {cross_idx}:", eval_metrics)
+
+        # Save Evaluation of Split
+        results["single_split_results"].append(eval_metrics)
 
         # Save Metrics for fold
         for m in metrics_prefixes:
