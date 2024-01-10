@@ -33,7 +33,7 @@ def compute_popular_metrics(tp, tn, fp, fn):
 
 
 def save_pred_and_labels(predictions, labels, results, cross_idx):
-    file_name = f"evaluation_{ '_'.join(str(results[r]) for r in results)}_{cross_idx}"
+    file_name = f"evaluation_{results['LLM_NAME']}_{results['N_REAL']}_{results['N_SYNTH']}_{results['TARGET']}_{results['LLM_SAMPLING']}_{cross_idx}"
     file_path = os.path.join('split_results', f'{file_name}.json')
 
     with open(file_path, 'w') as json_file:

@@ -61,7 +61,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
         # Save Metrics for fold
         for m in metrics_prefixes:
-            metrics_total[f"{m}"] = eval_metrics[f"eval_{m}"]
+            metrics_total[f"{m}"].append(eval_metrics[f"eval_{m}"])
 
         loss.append(eval_metrics["eval_loss"])
 
