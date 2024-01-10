@@ -80,12 +80,12 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
     # score correction for ac + pol with less than 1 example
     for ac in constants.ASPECT_CATEGORIES:
         for polarity in constants.POLARITIES:
-            n_examples_category_polarity = metrics_total[f"eval_n_examples_{ac}-{polarity}"]
+            n_examples_category_polarity = metrics_total[f"n_examples_{ac}-{polarity}"]
             for metric in ["precision", "recall", "f1", "accuracy"]:
                 # in dieser liste speichere ich die berechnete metrik (maximal 5 zahlen in der liste), 
                 # sofern es in dem durchgang mind 1 beispiel gab, für die gegebene kategorie + polarität
                 calculated_metrics_more_1_samples = []
-                single_metric_results = metrics_total[f"eval_{metric}_{ac}-{polarity}"]
+                single_metric_results = metrics_total[f"{metric}_{ac}-{polarity}"]
                 for i in range(constants.N_FOLDS):
                     if n_examples_category_polarity[i] > 0:
                         calculated_metrics_more_1_samples.append(single_metric_results[i])
