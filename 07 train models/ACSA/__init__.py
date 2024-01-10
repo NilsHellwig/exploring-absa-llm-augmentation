@@ -30,8 +30,8 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
     tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_ACSA)
     metrics_prefixes = ["accuracy", "hamming_loss", "f1_macro", "f1_micro", "f1_weighted"] + [
-        f"{m}_{ac}" for ac in constants.ASPECT_CATEGORIES for m in ["precision", "recall", "f1", "accuracy"]] + [
-        f"{m}_{ac}-{polarity}" for ac in constants.ASPECT_CATEGORIES for polarity in constants.POLARITIES for m in ["precision", "recall", "f1", "accuracy"]]
+        f"{m}_{ac}" for ac in constants.ASPECT_CATEGORIES for m in ["precision", "recall", "f1", "accuracy", "n_examples"]] + [
+        f"{m}_{ac}-{polarity}" for ac in constants.ASPECT_CATEGORIES for polarity in constants.POLARITIES for m in ["precision", "recall", "f1", "accuracy", "n_examples"]]
     metrics_total = {f"{m}": [] for m in metrics_prefixes}
 
     for cross_idx in range(constants.N_FOLDS):
@@ -86,6 +86,23 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
     results.update({f"eval_{m}": np.mean(
         metrics_total[f"{m}"]) for m in metrics_prefixes})
+    
+    # score correction for ac + pol with less than 1 example
+    for ac in constants.ASPECT_CATEGORIES:
+        for polarity in constants.POLARITIES:
+            n_examples_category_polarity = metrics_total[f"eval_n_examples_{ac}-{polarity}"]
+            for metric in ["precision", "recall", "f1", "accuracy"]:
+                # in dieser liste speichere ich die berechnete metrik (maximal 5 zahlen in der liste), 
+                # sofern es in dem durchgang mind 1 beispiel gab, für die gegebene kategorie + polarität
+                calculated_metrics_more_1_samples = []
+                single_metric_results = metrics_total[f"eval_{metric}_{ac}-{polarity}"]
+                for i in range(constants.N_FOLDS):
+                    if n_examples_category_polarity[i] > 0:
+                        calculated_metrics_more_1_samples.append(single_metric_results[i])
+                results.update({f"eval_{metric}_{ac}-{polarity}": np.mean(calculated_metrics_more_1_samples)})
+            results.update({f"eval_n_folds_for_metric_calculation_{ac}-{polarity}": sum([1 if n>0 else 0 for n in n_examples_category_polarity])})
+
+
 
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)

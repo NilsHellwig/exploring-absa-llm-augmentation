@@ -47,6 +47,8 @@ def compute_metrics_ACSA(results, cross_idx):
             metrics[f"recall_{aspect_category}"] = recall
             metrics[f"f1_{aspect_category}"] = f1
             metrics[f"accuracy_{aspect_category}"] = accuracy
+            metrics[f"n_examples_{aspect_category}"] = sum(1 in sublist for sublist in class_labels)
+
 
         # performance for each category and sentiment
         for i, aspect_category_sentiment in enumerate(constants.ASPECT_CATEGORY_POLARITIES):
@@ -64,6 +66,7 @@ def compute_metrics_ACSA(results, cross_idx):
             metrics[f"recall_{aspect_category_sentiment}"] = recall
             metrics[f"f1_{aspect_category_sentiment}"] = f1
             metrics[f"accuracy_{aspect_category_sentiment}"] = accuracy
+            metrics[f"n_examples_{aspect_category_sentiment}"] = class_labels.count(1) 
 
         return metrics
     return compute_metrics
