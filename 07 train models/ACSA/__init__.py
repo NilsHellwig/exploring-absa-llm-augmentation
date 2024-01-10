@@ -65,17 +65,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
 
         loss.append(eval_metrics["eval_loss"])
 
-        # remove model output
-        if TARGET == "aspect_category":
-            prefix = constants.OUTPUT_DIR_ACD
-        elif TARGET == "aspect_category_sentiment":
-            prefix = constants.OUTPUT_DIR_ACSA
-        elif TARGET == "end_2_end_absa":
-            prefix = constants.OUTPUT_DIR_E2E
-        elif TARGET == "target_aspect_sentiment_detection":
-            prefix = constants.OUTPUT_DIR_TASD
-
-        path_output = prefix + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
+        path_output = constants.OUTPUT_DIR_ACSA + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
         shutil.rmtree(path_output)
 
         subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
@@ -101,7 +91,6 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
                         calculated_metrics_more_1_samples.append(single_metric_results[i])
                 results.update({f"eval_{metric}_{ac}-{polarity}": np.mean(calculated_metrics_more_1_samples)})
             results.update({f"eval_n_folds_for_metric_calculation_{ac}-{polarity}": sum([1 if n>0 else 0 for n in n_examples_category_polarity])})
-
 
 
     results["runtime"] = runtime

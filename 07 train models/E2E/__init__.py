@@ -78,16 +78,7 @@ def train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         eval_loss.append(eval_metrics["eval_loss"])
 
         # remove model output
-        if TARGET == "aspect_category":
-            prefix = constants.OUTPUT_DIR_ACD
-        elif TARGET == "aspect_category_sentiment":
-            prefix = constants.OUTPUT_DIR_ACSA
-        elif TARGET == "end_2_end_absa":
-            prefix = constants.OUTPUT_DIR_E2E
-        elif TARGET == "target_aspect_sentiment_detection":
-            prefix = constants.OUTPUT_DIR_TASD
-
-        path_output = prefix + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
+        path_output = constants.OUTPUT_DIR_E2E + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
         shutil.rmtree(path_output)
 
         subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
