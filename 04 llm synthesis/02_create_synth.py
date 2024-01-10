@@ -170,6 +170,8 @@ for idx, label in enumerate(labels):
                         prediction, label, MODEL_NAME, SPLIT)
                     if prediction_as_json == "not-in-label":
                         aspect_polarity_in_text_but_not_in_label += 1
+                        if count_sentences_in_text(prediction_as_json["text"]) > 1:
+                            more_than_one_sentences += 1
                     else:
                         if count_sentences_in_text(prediction_as_json["text"]) > 1:
                             more_than_one_sentences += 1
