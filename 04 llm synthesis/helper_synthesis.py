@@ -117,13 +117,13 @@ def check_difference_between_tags_in_synth_text_and_label(label, tags_synth):
     
     return not_in_tags_synth_count, not_in_label
 
-def xml_to_json(xml_text, label, model_name, split_id):
+def xml_to_json(xml_text, label, model_name, split_id, check_label=True):
     tags_synth, cleaned_text = get_implicit_aspects([], xml_text)
     tags_synth_in_label_format = [(tag["label"], tag["polarity"]) for tag in tags_synth]
     
     # Prüfen, ob alle identifizierten Tags im label
     not_in_tags_synth_count, not_in_label = check_difference_between_tags_in_synth_text_and_label(label, tags_synth_in_label_format)
-    if len(not_in_label) > 0:
+    if len(not_in_label) > 0 and check_label:
         return "not-in-label"
     
     
