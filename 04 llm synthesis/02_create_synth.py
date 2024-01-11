@@ -170,6 +170,7 @@ for idx, label in enumerate(labels):
 
                 # 00 check if valid aspect term names / attributes
                 invalid_xml_names = False
+                
                 if check_valid_aspect_xml(f'<input>{prediction}</input>') == False:
                     valid_language_check = False
                     invalid_xml_names = True
@@ -182,11 +183,13 @@ for idx, label in enumerate(labels):
 
                 # 01 check if aspects are present in label
                 if prediction_as_json == "not-in-label":
+                    # since some checks will be made afterwards, we need the json format with all meta data
+                    prediction_as_json = xml_to_json(prediction, label, MODEL_NAME, SPLIT, check_label=False)
                     valid_language_check = False
                     aspect_polarity_in_text_but_not_in_label += 1
 
                 # 02 count number of sentences
-                if count_sentences_in_text(xml_to_json(prediction, label, MODEL_NAME, SPLIT, check_label=False)["text"]) > 1:
+                if count_sentences_in_text(prediction_as_json["text"]) > 1:
                     valid_language_check = False
                     more_than_one_sentences += 1
 
