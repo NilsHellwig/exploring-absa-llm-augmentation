@@ -40,3 +40,4 @@ __tests/
 04 llm synthesis/few_shot_examples/few_shot_examples_random.json
 04 llm synthesis/few_shot_examples/few_shot_examples_fixed.json
 07 train models/synth/Llama70B/fixed/
+07 train models/synth_original/

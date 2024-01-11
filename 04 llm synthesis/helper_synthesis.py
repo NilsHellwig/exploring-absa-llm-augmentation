@@ -212,3 +212,6 @@ def has_single_word_aspect_term_of_invalid_word_type(ex):
             if part_of_speech_tags_of_aspect_term[0][0] in ["ADJ", "ADV", "AUX", "CONJ", "CCONJ", "DET", "INTJ", "PART", "PRON", "SCONJ", "VERB"]:
                 return True
     return False
+
+def remove_xml_tags_from_string(str):
+    return re.sub(r'<.*?>', '', str)
