@@ -172,7 +172,7 @@ def df_statistics(dataset_json, synthetic=False):
 
 def get_statistics_for_synthetic_data(statistics, dataset_json):
     # 1. Store reasons for retry errors
-    for retry_reason in ["llm_invalid_xml_schema", "llm_invalid_xml_tags", "llm_aspect_polarity_in_text_but_not_in_label", "llm_more_than_one_sentences"]:
+    for retry_reason in ["llm_invalid_xml_schema", "llm_invalid_xml_tags", "llm_aspect_polarity_in_text_but_not_in_label", "llm_more_than_one_sentences", "llm_empty_aspect_term", "llm_invalid_single_word_aspect_term_pos_tag"]:
         statistics[f"avg_{retry_reason}"] = np.mean(
             [example[retry_reason] for example in dataset_json])
         statistics[f"sd_{retry_reason}"] = np.std(

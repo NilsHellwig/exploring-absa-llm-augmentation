@@ -6,6 +6,9 @@ import nltk
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 from langdetect import detect
+import spacy
+
+nlp = spacy.load("de_core_news_lg")
 
 # Gültige Werte für aspect und polarity
 VALID_ASPECT_VALUES = {"FOOD", "PRICE", "SERVICE", "GENERAL-IMPRESSION", "AMBIENCE"}
@@ -187,3 +190,25 @@ def german_language_detected(text):
         return detect(text) == "de"
     except:
         return False
+    
+
+def has_empty_tag(ex):
+    explicit_tags = [tag for tag in ex["tags"] if tag["type"] == "label-explicit"]
+    empty_aspect_terms = [tag for tag in explicit_tags if tag["text"] == ""]
+    if len(empty_aspect_terms) > 0:
+        return True
+    return False
+
+
+def get_tags_for_substring(text, start, end):
+    doc = nlp(text)
+    substring_tags = [(token.pos_, token.idx, token.text) for token in doc if token.idx >= start and token.idx < end]
+    return substring_tags
+
+def has_single_word_aspect_term_of_invalid_word_type(ex):
+    for tag in [t for t in ex["tags"] if t["type"] == "label-explicit"]:
+        part_of_speech_tags_of_aspect_term = get_tags_for_substring(ex["text"], tag["start"], tag["end"])
+        if len(part_of_speech_tags_of_aspect_term) == 1:
+            if part_of_speech_tags_of_aspect_term[0][0] in ["ADJ", "ADV", "AUX", "CONJ", "CCONJ", "DET", "INTJ", "PART", "PRON", "SCONJ", "VERB"]:
+                return True
+    return False

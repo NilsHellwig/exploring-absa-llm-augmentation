@@ -1,4 +1,4 @@
-from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, check_valid_aspect_xml, count_sentences_in_text
+from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, check_valid_aspect_xml, count_sentences_in_text, has_empty_tag, has_single_word_aspect_term_of_invalid_word_type
 from IPython.display import clear_output
 from dotenv import load_dotenv
 from llama_cpp import Llama
@@ -126,6 +126,8 @@ for idx, label in enumerate(labels):
     invalid_xml_tags = 0
     aspect_polarity_in_text_but_not_in_label = 0
     more_than_one_sentences = 0
+    empty_aspect_term = 0
+    invalid_single_word_aspect_term_pos_tag = 0
 
     # save total time to create example
     start_time_example = time.time()
@@ -141,11 +143,12 @@ for idx, label in enumerate(labels):
         for retry in range(N_RETRIES):
             # new_example_idx will change in case it wasn't possible to generate a text for a given label after N_MAX_NEW_EXAMPLES retires
             few_shot_examples = examples[str(idx)][f"{new_example_idx}"]
-            
+
             def get_entry_for_id(entry_id, dataset):
                 return [entry for entry in dataset if entry["id"] == entry_id][0]
-            
-            few_shot_examples = [get_entry_for_id(few_shot_example_id, dataset) for few_shot_example_id in few_shot_examples]
+
+            few_shot_examples = [get_entry_for_id(
+                few_shot_example_id, dataset) for few_shot_example_id in few_shot_examples]
 
             # Build Prompt
             examples_text = get_examples_as_text(few_shot_examples)
@@ -166,34 +169,52 @@ for idx, label in enumerate(labels):
                 if check_valid_aspect_xml(f'<input>{prediction}</input>') == False:
                     invalid_xml_tags += 1
                 else:
+                    # language checks
+                    valid_language_check = True
                     prediction_as_json = xml_to_json(
                         prediction, label, MODEL_NAME, SPLIT)
-                    if prediction_as_json == "not-in-label":
-                        aspect_polarity_in_text_but_not_in_label += 1
-                        if count_sentences_in_text(xml_to_json(prediction, label, MODEL_NAME, SPLIT, check_label=False)["text"]) > 1:
-                            more_than_one_sentences += 1
-                    else:
-                        if count_sentences_in_text(prediction_as_json["text"]) > 1:
-                            more_than_one_sentences += 1
-                        else:
-                            synth_example["id"] = str(uuid.uuid4())
-                            # save total time
-                            end_time_example = time.time()
-                            prediction_duration_example = end_time_example - start_time_example
-                            synth_example["total_time_example"] = prediction_duration_example
 
-                            synth_example["llm_label"] = label
-                            synth_example["llm_examples"] = few_shot_examples
-                            synth_example["llm_prompt"] = prompt
-                            synth_example["llm_prediction_raw"] = prediction
-                            synth_example["llm_invalid_xml_schema"] = invalid_xml_schema
-                            synth_example["llm_invalid_xml_tags"] = invalid_xml_tags
-                            synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
-                            synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
-                            synth_example["llm_prediction_duration"] = prediction_duration
-                            for key in prediction_as_json.keys():
-                                synth_example[key] = prediction_as_json[key]
-                            found_valid_example = True
+                    # 01 check if aspects are present in label
+                    if prediction_as_json == "not-in-label":
+                        valid_language_check = False
+                        aspect_polarity_in_text_but_not_in_label += 1
+
+                    # 02 count number of sentences
+                    if count_sentences_in_text(xml_to_json(prediction, label, MODEL_NAME, SPLIT, check_label=False)["text"]) > 1:
+                        valid_language_check = False
+                        more_than_one_sentences += 1
+                    
+                    # 03 check if empty aspect term exists
+                    if has_empty_tag(prediction_as_json):
+                        valid_language_check = False
+                        empty_aspect_term += 1
+
+                    # 04 check for single word of type ADJ, ADV, AUX, CONJ, CCONJ, DET, INTJ, PART, PRON, SCONJ, VERB
+                    if has_single_word_aspect_term_of_invalid_word_type(prediction_as_json):
+                        valid_language_check = False
+                        invalid_single_word_aspect_term_pos_tag += 1
+
+                    if valid_language_check:
+                        synth_example["id"] = str(uuid.uuid4())
+                        # save total time
+                        end_time_example = time.time()
+                        prediction_duration_example = end_time_example - start_time_example
+                        synth_example["total_time_example"] = prediction_duration_example
+
+                        synth_example["llm_label"] = label
+                        synth_example["llm_examples"] = few_shot_examples
+                        synth_example["llm_prompt"] = prompt
+                        synth_example["llm_prediction_raw"] = prediction
+                        synth_example["llm_invalid_xml_schema"] = invalid_xml_schema
+                        synth_example["llm_invalid_xml_tags"] = invalid_xml_tags
+                        synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
+                        synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
+                        synth_example["llm_invalid_single_word_aspect_term_pos_tag"] = invalid_single_word_aspect_term_pos_tag
+                        synth_example["llm_empty_aspect_term"]
+                        synth_example["llm_prediction_duration"] = prediction_duration
+                        for key in prediction_as_json.keys():
+                            synth_example[key] = prediction_as_json[key]
+                        found_valid_example = True
 
             # Log current generation
             print(
@@ -213,6 +234,8 @@ for idx, label in enumerate(labels):
                 retry_statistic["llm_invalid_xml_tags"] = invalid_xml_tags
                 retry_statistic["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
                 retry_statistic["llm_more_than_one_sentences"] = more_than_one_sentences
+                retry_statistic["llm_invalid_single_word_aspect_term_pos_tag"] = invalid_single_word_aspect_term_pos_tag
+                retry_statistic["llm_empty_aspect_term"] = empty_aspect_term
                 retry_statistic["llm_change_examples"] = new_example_idx
                 retry_statistic["llm_retries_for_example_set"] = retry
                 retry_statistic["llm_prediction_duration"] = prediction_duration
