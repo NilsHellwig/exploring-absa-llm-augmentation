@@ -7,7 +7,7 @@ import time
 import json
 import uuid
 import os
-import sys  # Import the sys module to access command-line arguments
+import sys
 
 import time
 print(time.strftime("%d.%m.%Y %H:%M:%S"))
@@ -58,7 +58,7 @@ MODEL_NAME = MODELS[MODEL_ID]
 SYNTH_PATH = f"../07 train models/synth/{MODEL_NAME}/{FEW_SHOTS}/split_{SPLIT}.json"
 
 
-# Status
+############### Print Status ###############
 
 print("Split:", SPLIT, "Model:",
       MODELS[MODEL_ID], "Few-Shot Setting:", FEW_SHOTS)
