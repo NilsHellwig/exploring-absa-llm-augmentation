@@ -257,6 +257,7 @@ for idx, label in enumerate(labels):
                     synth_example["llm_retry_statistic"].append(
                         retry_statistic)
             if found_valid_example:
+                synth_example["retry"] = True
                 existing_examples[idx] = synth_example
                 break
 
