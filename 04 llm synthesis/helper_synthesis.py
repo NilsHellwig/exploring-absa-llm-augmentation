@@ -205,12 +205,11 @@ def get_tags_for_substring(text, start, end):
     substring_tags = [(token.pos_, token.idx, token.text) for token in doc if token.idx >= start and token.idx < end]
     return substring_tags
 
-def has_single_word_aspect_term_of_invalid_word_type(ex):
+def has_aspect_term_of_invalid_pos_tags(ex):
     for tag in [t for t in ex["tags"] if t["type"] == "label-explicit"]:
         part_of_speech_tags_of_aspect_term = get_tags_for_substring(ex["text"], tag["start"], tag["end"])
-        if len(part_of_speech_tags_of_aspect_term) == 1:
-            if part_of_speech_tags_of_aspect_term[0][0] in ["ADJ", "ADV", "AUX", "CONJ", "CCONJ", "DET", "INTJ", "PART", "PRON", "SCONJ", "VERB"]:
-                return True
+        if all(tag in ["ADJ", "ADV", "AUX", "CONJ", "CCONJ", "DET", "INTJ", "PART", "PRON", "SCONJ", "VERB"] for tag in list(set(t[0] for t in part_of_speech_tags_of_aspect_term))):
+            return True
     return False
 
 def remove_xml_tags_from_string(str):

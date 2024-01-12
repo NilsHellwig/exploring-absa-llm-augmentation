@@ -1,4 +1,4 @@
-from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, check_valid_aspect_xml, count_sentences_in_text, has_empty_tag, has_single_word_aspect_term_of_invalid_word_type, remove_xml_tags_from_string
+from helper_synthesis import get_examples_as_text, xml_to_json, is_valid_xml, check_valid_aspect_xml, count_sentences_in_text, has_empty_tag, has_aspect_term_of_invalid_pos_tags, remove_xml_tags_from_string
 from IPython.display import clear_output
 from dotenv import load_dotenv
 from llama_cpp import Llama
@@ -170,7 +170,7 @@ for idx, label in enumerate(labels):
 
                 # 00 check if valid aspect term names / attributes
                 invalid_xml_names = False
-                
+
                 if check_valid_aspect_xml(f'<input>{prediction}</input>') == False:
                     valid_language_check = False
                     invalid_xml_names = True
@@ -199,7 +199,7 @@ for idx, label in enumerate(labels):
                     empty_aspect_term += 1
 
                 # 04 check for single word of type ADJ, ADV, AUX, CONJ, CCONJ, DET, INTJ, PART, PRON, SCONJ, VERB
-                if has_single_word_aspect_term_of_invalid_word_type(prediction_as_json):
+                if has_aspect_term_of_invalid_pos_tags(prediction_as_json):
                     valid_language_check = False
                     invalid_single_word_aspect_term_pos_tag += 1
 
