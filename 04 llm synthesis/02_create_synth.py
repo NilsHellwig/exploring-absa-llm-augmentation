@@ -221,7 +221,7 @@ for idx, label in enumerate(labels):
                     synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
                     synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
                     synth_example["llm_invalid_single_word_aspect_term_pos_tag"] = invalid_single_word_aspect_term_pos_tag
-                    synth_example["llm_empty_aspect_term"]
+                    synth_example["llm_empty_aspect_term"] = empty_aspect_term
                     synth_example["llm_prediction_duration"] = prediction_duration
                     for key in prediction_as_json.keys():
                         synth_example[key] = prediction_as_json[key]

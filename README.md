@@ -21,5 +21,6 @@ For generating a synthetic example, 25 random samples are drawn from the 500 rea
 # only for schlaubox.de
 pip install llvmlite --ignore-installed
 pip install -r requirements.txt
+python -m spacy download de_core_news_lg
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 ```
