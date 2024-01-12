@@ -177,6 +177,8 @@ for idx, label in enumerate(labels):
                     invalid_xml_tags += 1
 
                 if invalid_xml_names:
+                    # für den fall, dass es invalide xml namen gab z.B. "apsect-term" statt aspect-term, wird trotzdem der restliche text
+                    # analysiert. 
                     prediction_as_json = xml_to_json(remove_xml_tags_from_string(prediction), label, MODEL_NAME, SPLIT)
                 else:
                     prediction_as_json = xml_to_json(prediction, label, MODEL_NAME, SPLIT)
