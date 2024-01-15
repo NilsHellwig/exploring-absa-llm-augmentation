@@ -123,7 +123,7 @@ examples = labels_and_examples["few_shot_ids"]
 
 
 for idx, label in enumerate(labels):
-    if "retry" in existing_examples[idx]:
+    if "retry_no_token" in existing_examples[idx]:
         # Setup Statistics
         invalid_xml_schema = 0
         invalid_xml_tags = 0
@@ -265,7 +265,7 @@ for idx, label in enumerate(labels):
                     synth_example["llm_retry_statistic"].append(
                         retry_statistic)
             if found_valid_example:
-                synth_example["retry"] = True
+                synth_example["retry_no_token"] = True
                 existing_examples[idx] = synth_example
                 break
 
