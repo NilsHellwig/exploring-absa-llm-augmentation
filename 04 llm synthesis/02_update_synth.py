@@ -128,6 +128,7 @@ for idx, label in enumerate(labels):
         invalid_xml_schema = 0
         invalid_xml_tags = 0
         aspect_polarity_in_text_but_not_in_label = 0
+        no_token_in_sentence = 0
         more_than_one_sentences = 0
         empty_aspect_term = 0
         invalid_single_word_aspect_term_pos_tag = 0
@@ -194,17 +195,22 @@ for idx, label in enumerate(labels):
                         valid_language_check = False
                         aspect_polarity_in_text_but_not_in_label += 1
 
-                    # 02 count number of sentences
+                    # 02 check if text is empty
+                    if len(prediction_as_json["text"]) == 0:
+                        valid_language_check = False
+                        no_token_in_sentence += 1
+
+                    # 03 count number of sentences
                     if count_sentences_in_text(prediction_as_json["text"]) > 1:
                         valid_language_check = False
                         more_than_one_sentences += 1
 
-                    # 03 check if empty aspect term exists
+                    # 04 check if empty aspect term exists
                     if has_empty_tag(prediction_as_json):
                         valid_language_check = False
                         empty_aspect_term += 1
 
-                    # 04 check for single word of type ADJ, ADV, AUX, CONJ, CCONJ, DET, INTJ, PART, PRON, SCONJ, VERB
+                    # 05 check for single word of type ADJ, ADV, AUX, CONJ, CCONJ, DET, INTJ, PART, PRON, SCONJ, VERB
                     if has_aspect_term_of_invalid_pos_tags(prediction_as_json):
                         valid_language_check = False
                         invalid_single_word_aspect_term_pos_tag += 1
@@ -223,6 +229,7 @@ for idx, label in enumerate(labels):
                         synth_example["llm_invalid_xml_schema"] = invalid_xml_schema
                         synth_example["llm_invalid_xml_tags"] = invalid_xml_tags
                         synth_example["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
+                        synth_example["llm_no_token_in_sentence"] = no_token_in_sentence
                         synth_example["llm_more_than_one_sentences"] = more_than_one_sentences
                         synth_example["llm_invalid_single_word_aspect_term_pos_tag"] = invalid_single_word_aspect_term_pos_tag
                         synth_example["llm_empty_aspect_term"] = empty_aspect_term
@@ -248,6 +255,7 @@ for idx, label in enumerate(labels):
                     retry_statistic["llm_invalid_xml_schema"] = invalid_xml_schema
                     retry_statistic["llm_invalid_xml_tags"] = invalid_xml_tags
                     retry_statistic["llm_aspect_polarity_in_text_but_not_in_label"] = aspect_polarity_in_text_but_not_in_label
+                    retry_statistic["llm_no_token_in_sentence"] = no_token_in_sentence
                     retry_statistic["llm_more_than_one_sentences"] = more_than_one_sentences
                     retry_statistic["llm_invalid_single_word_aspect_term_pos_tag"] = invalid_single_word_aspect_term_pos_tag
                     retry_statistic["llm_empty_aspect_term"] = empty_aspect_term
