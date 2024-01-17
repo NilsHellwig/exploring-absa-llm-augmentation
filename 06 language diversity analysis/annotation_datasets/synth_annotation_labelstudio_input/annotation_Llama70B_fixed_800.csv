@@ -1,0 +1,801 @@
+,id,text,model,split,few_shot_condtion
+0,7ab7039d-452e-4c70-a94d-15d78dfca767,Ein Häppchen zum Essen.,Llama70B,0,fixed
+1,846fa649-91ee-465a-9da1-7b4fca507a1f,Ein Würfelzucker für 10 Cent ist auch ein gutes Preis-Leistungsverhältnis.,Llama70B,0,fixed
+2,d6401690-4b49-49da-bd4a-401132883275,Essen war ok.,Llama70B,0,fixed
+3,1d01c4d8-4663-4797-ad55-f9f08781e60f,Die Atmosphäre war sehr schön.,Llama70B,0,fixed
+4,f513aed5-59f7-4a4a-b98a-f22c5fe51767,Unter den gegebenen Umständen ist das Ambiente durchaus schön.,Llama70B,0,fixed
+5,4c7a34fd-c8a7-4a1c-8d9c-395112cdcd96,"Ein Drecklokal und ein Service, der sich nicht von den Tischen unterscheidet.",Llama70B,0,fixed
+6,419de96b-4f13-4c89-a5ef-9d516e140582,"Wir waren mit dem Service nicht zufrieden, aber das Essen war lecker.",Llama70B,0,fixed
+7,979822e7-c14c-48da-a140-5b8dd041987d,Sehr freundliches und aufmerksames Personal!,Llama70B,0,fixed
+8,763ece61-c878-4388-a953-fcf1c878499d,Das Ambiente ist nicht unbedingt ansprechend.,Llama70B,0,fixed
+9,da7b8cc7-589c-407f-9f81-adbc95cca3de,Das Essen war eher schlecht.,Llama70B,0,fixed
+10,826a4f1c-328b-4b48-af3a-86d4dcd1cad1,Das Personal war sehr unfreundlich und wirkte eher gelangweilt.,Llama70B,0,fixed
+11,074d9f0b-d82b-4b4b-96d2-8f0a06aae033,Bedienung war langsam und unfreundlich.,Llama70B,0,fixed
+12,9ebeff40-32d0-4286-af39-25846e27bccf,Für die Preise gibt es deutlich besseres Essen in der Umgebung.,Llama70B,0,fixed
+13,7698bda0-d5cf-4dda-8b06-9f71416210eb,Das Ambiente ist sehr schön und gemütlich.,Llama70B,0,fixed
+14,60af85e3-a9bd-4e5d-bdea-162ffd6cf079,Nette Bedienung aber nicht überragend.,Llama70B,0,fixed
+15,a7aee14d-7cd3-424c-a2b7-97bf5237d430,Nicht zu empfehlen.,Llama70B,0,fixed
+16,8212e5f6-59d5-463c-8e7a-44a96c84dcb4,Ein unvergessliches Erlebnis.,Llama70B,0,fixed
+17,7f4bdb4f-fb70-4e6b-9ab7-ae9b7b1535c7,Besonders gut war der Preis für die Mahlzeit.,Llama70B,0,fixed
+18,1da3a01c-23f4-4495-9330-e8b6f31126c0,Das Ambiente war sehr schön.,Llama70B,0,fixed
+19,a9325513-14d0-420e-a583-c406a153f18a,"Das Essen war nicht gut, aber das Servicepersonal war sehr nett und die Atmosphäre war wirklich toll.",Llama70B,0,fixed
+20,e54df9ce-81bc-4d32-b773-b2deac9553ee,"Das Preisniveau ist sehr hoch, was die Küche und das Ambiente nicht rechtfertigt.",Llama70B,0,fixed
+21,646a417b-3808-45c7-af3c-e79480ed48b9,Wir aßen das Schweinefilet mit Kartoffelpuree und das Bratwurstmenü.,Llama70B,0,fixed
+22,8897a534-2739-4db9-a95d-0b62c38bbae1,"Preise waren ok, Service war sehr schlecht, Essen war gut und Ambiente war nicht zu wünschen.",Llama70B,0,fixed
+23,4c55e4a9-a2b1-4b64-8a10-32eae8c7a9b7,"Ein gutes Essen und ein netter Service, aber die Preise sind überteuert.",Llama70B,0,fixed
+24,6b6a4ef9-bf24-4ea9-8af2-59d78b56f91a,"Leider nicht der Kaffee, den wir bestellt haben.",Llama70B,0,fixed
+25,1ee791fc-224c-45af-b5cd-895138b7524c,"Die Speisen waren sehr lecker, die Getränkeauswahl gut.",Llama70B,0,fixed
+26,2f0baa24-f680-4e02-bcad-aaa971f8da7c,Tolles Preis-Leistungsverhältnis.,Llama70B,0,fixed
+27,eb20bf43-42a0-4f04-adcf-801c19f8fbeb,Viel zu laut mit Musik.,Llama70B,0,fixed
+28,ce71970a-8690-43ff-b5b2-dd93f1a51a22,"Sehr netter Service, leckeres Essen und gemütliche Atmosphäre.",Llama70B,0,fixed
+29,3ece9a96-e169-4bad-9835-03d98f8f0035,"Das Essen war nicht besonders, die Bedienung schnell und freundlich.",Llama70B,0,fixed
+30,44b18d07-6bb6-43ea-81bf-ffa306a77df6,Wir sind sehr enttäuscht.,Llama70B,0,fixed
+31,39d161f6-5d32-4cb8-adf8-46018502ca14,Wir werden wieder kommen!,Llama70B,0,fixed
+32,1b609b1a-16c0-4117-9eff-8163478bccfd,Wir hatten eine sehr schlechte Erfahrung mit diesem Restaurant.,Llama70B,0,fixed
+33,27e8536d-9abd-4cd4-8e57-089108bdef11,Ambiente eher karg.,Llama70B,0,fixed
+34,12b3c62a-2a3f-4640-8b1a-396778c56221,Mit Abstand das beste Restaurant in der Stadt.,Llama70B,0,fixed
+35,2fa15f40-5c65-4b32-952a-b53f6c97dba6,Wir waren sehr zufrieden.,Llama70B,0,fixed
+36,a100a2b3-c011-416c-908f-2b80caee7edd,"Bedienung sehr freundlich, Preis-Leistungsverhältnis nicht gut.",Llama70B,0,fixed
+37,ba434cfe-fd88-4009-8ea6-672ae7f05781,Noch nie so leckeres Fischfilet gegessen!,Llama70B,0,fixed
+38,29a14056-c234-4d3e-aeaa-bfcb2d59bccb,Das Ambiente ist schrecklich.,Llama70B,0,fixed
+39,c3708a73-0467-4eab-a824-98e235a2edc7,"Sehr netter und freundlicher Service - schade nur, dass das Essen nicht so gut war.",Llama70B,0,fixed
+40,c6ad12d7-b45a-4860-ac15-458274fd47a8,Tolles Restaurant.,Llama70B,0,fixed
+41,59356902-fcfa-48e3-b29d-071f551e5fbd,Ein schönes Lokal mit gemütlicher Atmosphäre.,Llama70B,0,fixed
+42,87996a2a-1ff6-47f7-b4ed-37ae4829cf44,"Ein gutes Preis-Leistungsverhältnis und ein sehr schmackhaftes Essen, aber leider ein zu teures Getränkeangebot und das Servicepersonal war etwas überfordert.",Llama70B,0,fixed
+43,2b340006-11e4-4a12-b5cb-ce45fde29141,Preislich ist es eindeutig im oberen Bereich.,Llama70B,0,fixed
+44,999e86ae-608f-4794-ba3c-8a3c252709d1,Die Qualität der Speisen hat leider abgenommen.,Llama70B,0,fixed
+45,6f95a051-b6ac-4b58-88c1-432d7398feca,Wir waren sehr enttäuscht von der Bedienung.,Llama70B,0,fixed
+46,09d88514-8007-47ef-a8cd-22cfd4456f55,Dieses Ambiente sollte man sich sparen.,Llama70B,0,fixed
+47,03fbf0c9-eb70-41a1-9f33-680a3fc607f1,Dafür ist der Preis aber auch viel zu hoch.,Llama70B,0,fixed
+48,c7c3496e-7544-43e2-b961-e1fc1358fe81,Wir waren mit 12 Personen im Restaurant.,Llama70B,0,fixed
+49,b8395b2a-0288-47b9-a54b-850455182766,Gastfreundschaft wie noch nie erlebt.,Llama70B,0,fixed
+50,8e726555-c197-4e0b-a3c2-946406aadcad,Das Preisleistungsverhältnis ist absolut angemessen.,Llama70B,0,fixed
+51,de07b98e-973b-4072-9d7c-8bade3f3fb01,Ich habe mich sehr enttäuscht gefühlt.,Llama70B,0,fixed
+52,a7aff9fe-9a81-4619-bbcd-ecb4e79bfb7f,Hab leider nur die Torte gegessen.,Llama70B,0,fixed
+53,06898d74-e5a9-45fa-a76d-71c4b518bf2b,"Ein Gericht, das ich noch nie gegessen habe, aber sehr lecker war.",Llama70B,0,fixed
+54,ae26dcbd-3787-4675-b4e7-9a9fcad939a2,Das Personal war sehr unfreundlich und überhaupt nicht aufmerksam.,Llama70B,0,fixed
+55,00d37fd1-8f85-471f-81c8-0003fd926e23,Wir waren schon öfters hier und haben immer gute Speisen bekommen.,Llama70B,0,fixed
+56,87f118a6-2ee9-4ea3-aa17-4a40f2833979,Der Preis ist in Ordnung.,Llama70B,0,fixed
+57,9aee8dd3-ab1f-46e5-89c5-d43eb37f94f6,Das Personal ist sehr freundlich und hilfsbereit.,Llama70B,0,fixed
+58,dadfd500-a956-49bc-9323-a7f598fb6f1b,"Dazu kam noch ein sehr hilfsbereites Personal , das sich auch um unsere Wünsche kümmerte.",Llama70B,0,fixed
+59,ff9fd305-67a9-4f56-a7fd-db7705b2e65f,Dieses Personal ist absolut nicht motiviert.,Llama70B,0,fixed
+60,f6136123-7fb6-4502-aa4e-1f180b27ade2,Das Ambiente war ziemlich laut und das Preis-Leistungsverhältnis nicht gerade gut.,Llama70B,0,fixed
+61,849f3fa2-c9e4-41c0-994c-61e08d50cc0f,"Wir hatten ein tolles Eis, aber die Preise sind sehr hoch.",Llama70B,0,fixed
+62,faa24b58-7e2e-4e28-821b-cf16d5098965,Der Preis ist auch in Ordnung.,Llama70B,0,fixed
+63,a6ee4197-bf89-49de-bcaf-e8674dcaf255,"Auch wenn es sicherlich nicht so schlimm war, wie ich dachte, so ist es doch ein Desaster.",Llama70B,0,fixed
+64,9ed35ccd-996b-4a52-8e03-b686a8ccf9d1,Preis-/Leistungsverhältnis passt auch.,Llama70B,0,fixed
+65,fe17a7f4-abb4-422b-ae52-7b3e0ac92a1d,Das Preis-Leistungsverhältnis ist einfach nicht gegeben.,Llama70B,0,fixed
+66,d2a6944e-4feb-48be-a597-fe3912b9e168,Wir haben uns sehr schlecht aufgehoben gefühlt.,Llama70B,0,fixed
+67,7e031f85-57da-40ec-a315-d914a4b2eb3e,"Die Preise sind nicht gerade billig, aber auch nicht überteuert.",Llama70B,0,fixed
+68,b8b2e6fa-f140-45e8-9b3b-73cf7bc2c1ec,"Wir kommen gerne wieder, auch wenn das Preisniveau ein bisschen höher ist.",Llama70B,0,fixed
+69,107859cf-2c64-49be-83e7-640732d0872e,Ein besonderes Erlebnis!,Llama70B,0,fixed
+70,5b7bcafd-1962-4d46-bce9-f682db0fdbce,"Der Speisen war sehr gut, das Ambiente ist einfach und die Bedienung war sehr langsam.",Llama70B,0,fixed
+71,99420ea1-0615-42e8-bd65-e846dc4c9144,"Ein sehr schönes Lokal, mit sehr leckerem Essen.",Llama70B,0,fixed
+72,bcefddeb-8069-4450-9ce7-d5dc3052d240,"Das Personal war freundlich und zuvorkommend, das Ambiente sehr angenehm.",Llama70B,0,fixed
+73,9709b809-6069-4949-9be6-70fb4b5f0d93,"Super Führung, sehr nettes und aufmerksames Personal.",Llama70B,0,fixed
+74,469c6cab-8e48-45e4-973a-485b2feb0fe2,Das Ambiente ist schon sehr schön.,Llama70B,0,fixed
+75,badd3562-4a51-4d2d-8b2b-b1144b4256d3,Aber das Servicepersonal hat uns nicht angeschaut und auch keinen einzigen Blick auf uns geworfen.,Llama70B,0,fixed
+76,ee662d22-d557-4936-af31-6cd0bf6ee095,Preis war in Ordnung.,Llama70B,0,fixed
+77,9a12e1e2-fa25-4939-bf37-11a477bb12fc,Das Ambiente ist schlecht.,Llama70B,0,fixed
+78,043a61d4-c185-43b2-a7b1-bcd15fc067e8,Das Essen war sehr gut und die Atmosphäre ebenfalls.,Llama70B,0,fixed
+79,bc01d6e3-5fcd-4eb9-b73d-ae911605fe09,"Kellnerin war sehr unfreundlich, hat uns sogar noch vor der Bestellung abgewinkt.",Llama70B,0,fixed
+80,3af14aa6-bc0c-44bd-93e0-0b15ce9f110f,Das Essen war sehr lecker und das Preisniveau entsprach dem Gesehenen.,Llama70B,0,fixed
+81,c98a1ca1-2720-4496-be7c-690e57f228b7,"Sehr empfehlenswert, wir kommen gerne wieder.",Llama70B,0,fixed
+82,bdb01e97-f938-40ea-9569-0bfd026cef3c,Wir empfehlen die Preisleistung sehr!,Llama70B,0,fixed
+83,7ce53f81-91c4-488c-a7e9-b9217fc7bfd5,Das Preis-Leistungsverhältnis ist auch nicht schlecht.,Llama70B,0,fixed
+84,0ee5b65f-db4a-40e2-82e1-8122b726b5d9,Doch das Essen war leider nicht so gut wie erwartet.,Llama70B,0,fixed
+85,ceec0c9e-2b84-48a6-8dd8-aad99dd216b7,"Ein Preis-Leistungsverhältnis, das nicht stimmt.",Llama70B,0,fixed
+86,c3fdfb9d-a98b-4972-8c9c-9b158fe74641,Die Fischgerichte sind leider sehr teuer.,Llama70B,0,fixed
+87,affb2d23-708e-446c-b7fa-9fea7697f887,Ein sehr schönes Lokal.,Llama70B,0,fixed
+88,a6b4264c-8c7a-416b-bd74-0b0ae09ce3f4,Das Preis-Leistungsverhältnis ist einfach super.,Llama70B,0,fixed
+89,1b24cdce-01ed-481a-a16f-31fe4ececf48,"Nicht schlecht, aber auch nichts Besonderes.",Llama70B,0,fixed
+90,52a7967c-84c2-491a-9a09-3e6354064a7a,Einmalig negatives Erlebnis.,Llama70B,0,fixed
+91,ed9d2be4-5faa-450c-850e-e56fdb99509c,"Ich hatte das Burger, es war leider ziemlich trocken.",Llama70B,0,fixed
+92,ab08a4a8-43b8-4c06-bf12-97c7dbe3cf13,"Kompetentes Servicepersonal, aber leider ein sehr schlechtes, überteuertes Essen.",Llama70B,0,fixed
+93,89a136db-7a4b-44c8-8739-b3d6e9a00f3d,"Die Preise sind angemessen, das Essen durchschnittlich und die Atmosphäre eher schlecht.",Llama70B,0,fixed
+94,b5a29110-a2a7-4a64-b825-39ac27c7cbe6,Alles in allem ein tolles Erlebnis mit leckerem Essen und guter Auswahl.,Llama70B,0,fixed
+95,72f992ec-875b-4479-b007-a97a7a9337b5,Das Essen war sehr gut.,Llama70B,0,fixed
+96,49d9d45f-ba1b-408d-ac7b-76929dfbbe59,"Auch wenn die Preise nicht gerade günstig sind, lohnt es sich.",Llama70B,0,fixed
+97,3de85e64-aaba-4092-a339-b65236f502df,"Der Innenbereich ist etwas düster, die Außenterrasse bietet einen schönen Blick auf das Gelände und den Fluss.",Llama70B,0,fixed
+98,7475c210-823c-48fb-b958-afde0f5042a7,Ein gemischtes Eindruck.,Llama70B,0,fixed
+99,297f6e78-5357-4e7e-984b-e08285386ec3,Das Essen war sehr gut.,Llama70B,0,fixed
+100,10105c96-6a0a-481c-be39-12bbb6d6ae1e,Wir können das Essen und den Service nicht empfehlen.,Llama70B,0,fixed
+101,70cb364f-d57f-4ed2-b06c-338dd58a9ef4,Wir waren sehr zufrieden mit unserem Essen und dem Preis.,Llama70B,0,fixed
+102,30dbac35-324a-484c-8bb2-16cc7c2680eb,Aber das Essen war für die Preise einfach zu schlecht.,Llama70B,0,fixed
+103,689eab85-ba94-4f53-92b3-c3d978408740,Das Personal war sehr freundlich und das Preis-Leistungsverhältnis ist auch gut.,Llama70B,0,fixed
+104,f13ea99f-f140-4be2-82e6-4d13fe577b6b,Das Ambiente ist gemütlich und sehr schön.,Llama70B,0,fixed
+105,2656dec7-40fb-425a-8d4f-cf7c0b1aadf0,Wir kommen wieder!,Llama70B,0,fixed
+106,a9660188-057d-47f2-a0fe-df8f057edf1e,"Die Atmosphäre war sehr laut und der Service war gut, aber das Preis-Leistungsverhältnis war nicht günstig.",Llama70B,0,fixed
+107,a5a30dc4-da52-41d1-aaad-a43e668345f8,"Wir kommen wieder, aber nur wenn es nichts anderes gibt.",Llama70B,0,fixed
+108,48a35557-e8cd-41c9-b7bd-ba36e2c13cfc,Die Preise sind akzeptabel und die Bedienung ist freundlich.,Llama70B,0,fixed
+109,bf0ee203-d4c9-41b3-9b7d-159afdf33ab3,Die Servicekräfte sind sehr freundlich und hilfsbereit.,Llama70B,0,fixed
+110,7ce7da4a-9976-4b15-a85d-1d3b1e3584e2,Wir finden das Preis/Leistungsverhältnis nicht angemessen.,Llama70B,0,fixed
+111,e40d112a-cfec-4363-87dc-accc8c8bf7c8,"Ich würde es nur empfehlen, wenn Sie schon was von Service und Essen gewohnt sind.",Llama70B,0,fixed
+112,511c9d60-2e8b-43f6-90d2-869d33534f3c,Der Preis ist auch in Ordnung.,Llama70B,0,fixed
+113,7246e3e8-fc6b-4e1c-948e-ec27552e1cf5,Der Preis für das Essen ist allerdings nicht gerade günstig.,Llama70B,0,fixed
+114,5c8d19c9-e31a-4cfc-94d2-ba1c5c16c654,Hier lohnt sich das Geld!,Llama70B,0,fixed
+115,06757544-2d27-4828-8db2-606d56aaad5e,"Trotzdem schönes Erlebnis, wenn auch das Preis-Leistungsverhältnis nicht wirklich stimmig ist.",Llama70B,0,fixed
+116,7009e615-722c-4b21-b107-c98b59156589,Das Essen war nicht schlecht aber auch nicht besonders.,Llama70B,0,fixed
+117,e450f1b4-61cc-4618-a54e-25c813877a1b,Das Essen war leider nicht so gut.,Llama70B,0,fixed
+118,88bef554-9de7-4cc3-927c-87ff02e97527,Das Essen war nicht mehr frisch.,Llama70B,0,fixed
+119,86bf8e1c-a77a-4517-9558-4ae0d85f7fd2,Einfach nur leckeres Essen.,Llama70B,0,fixed
+120,bab2e58e-097b-4bf3-b561-86c126b4e2cb,Ein gutes Preis-Leistungsverhältnis und eine angenehme Atmosphäre.,Llama70B,0,fixed
+121,98e0491e-a587-465d-9303-5a0cd07d962b,Mir war es auch zu laut.,Llama70B,0,fixed
+122,1ad1730e-af72-4611-9853-6a17b7e0bd0f,Dieser Preis ist für die Qualität des Essens nicht gerechtfertigt.,Llama70B,0,fixed
+123,8326da23-a439-4ec9-a999-f4417923e4e4,"Die Bedienung, auch die Vorstellung der Speisen und Getränke war nicht angenehm.",Llama70B,0,fixed
+124,31b869bc-c5ef-4fa7-be8d-0c4b9f8f72d7,Die Preise sind angemessen und das Preis-Leistungsverhältnis ist gut.,Llama70B,0,fixed
+125,212667f9-1cb3-4a97-9142-29d6fa829bb1,Es ist alles OK.,Llama70B,0,fixed
+126,44618c68-e8ca-48ca-b08e-959782f0b102,Das Personal war sehr freundlich.,Llama70B,0,fixed
+127,10e23666-287c-4984-9ff0-f8936b8979f0,"Das Erlebnis war so schlecht, dass ich nach der ersten Portion aufgab.",Llama70B,0,fixed
+128,dd6c9133-dd54-4148-abc4-26404d7b7f37,Von den Gerichten war das einzig wirklich Leckere die Sushi.,Llama70B,0,fixed
+129,23ff5444-894c-4a0a-9501-e592d287b7e8,"Schade, dass die Preise nicht angemessen sind.",Llama70B,0,fixed
+130,1900791d-17b5-4173-a6ea-441fe2188e4c,Das Personal war überhaupt nicht freundlich.,Llama70B,0,fixed
+131,7cda1c61-4e10-4269-87d6-a38b46e37da7,"Nicht schlecht, aber nichts Besonderes.",Llama70B,0,fixed
+132,4fcba167-3520-4409-a5ee-a166f618cb46,Auch die Atmosphäre ist sehr angenehm.,Llama70B,0,fixed
+133,1af18616-8e0c-4c77-9cfe-c95acc7b0942,Die Pizza war gut.,Llama70B,0,fixed
+134,0cc15a09-1a6d-4ff2-9652-1f4d61d0e5e5,Das Ambiente ist ein bisschen kühl und die Atmosphäre eher zurückhaltend.,Llama70B,0,fixed
+135,17dcaa22-bfe7-4250-ad42-7fe7b5454288,Das Ambiente ist schlicht aber zweckmäßig.,Llama70B,0,fixed
+136,2a0a6b5b-c218-4afa-83f0-d78f293f8385,"Ein guter Ort zum Entspannen, aber leider ein zu hoher Preis.",Llama70B,0,fixed
+137,a1b06c65-6ff0-4094-8f75-06549cee9f97,Das Essen war sehr gut.,Llama70B,0,fixed
+138,6198c2d4-c689-4168-8d26-fdb999643cf4,"Das Essen war nichts Besonderes, aber das Dessert war sehr lecker.",Llama70B,0,fixed
+139,cf3ec310-e9c1-4357-9e20-0d45c6cef453,Wir kommen gerne wieder!,Llama70B,0,fixed
+140,e3a957ad-eab1-417c-b9de-f99189e8e6d2,Leider schlechte Bedienung und sehr lange Wartezeiten.,Llama70B,0,fixed
+141,dbc929a7-4ffa-4466-9b73-d3fbadabbf70,"Der Schweinebraten war sehr trocken, der Rinderroulade war völlig kalt.",Llama70B,0,fixed
+142,c186d870-6b67-4aa3-ba5c-691efd04deea,"Am Anfang war der Service zwar freundlich, aber dann wurde er ziemlich schnell unfreundlich.",Llama70B,0,fixed
+143,85cd3611-81ff-46c3-972d-4636d3da8dec,Auch das Essen war sehr gut.,Llama70B,0,fixed
+144,0d1f87dd-27b7-4e98-a48a-3f96b4fd8070,Auch das Preis-Leistungsverhältnis ist akzeptabel.,Llama70B,0,fixed
+145,dd38bb1e-d771-4801-987d-3220814bc085,Alles in allem ein sehr schönes Erlebnis.,Llama70B,0,fixed
+146,0468352a-5eb8-43a0-a11f-dcf5163bb05f,"Ein Ambiente, das nicht gerade zu einem erneuten Besuch einlädt.",Llama70B,0,fixed
+147,fd92ba33-46bf-4345-827f-ff0ba8393fd4,"Wir hatten für 2 Personen 30 Euro bezahlt, was unserem Meinung nach auch zu viel ist.",Llama70B,0,fixed
+148,8d5d1c9d-45b0-479c-b893-e048fb68647e,Die Bedienung war sehr langsam und unfreundlich.,Llama70B,0,fixed
+149,d4516928-8761-48de-ac7d-d196309307e5,"Das Personal war sehr freundlich, die Atmosphäre leicht schäbig aber gemütlich und das Servicepersonal sehr freundlich.",Llama70B,0,fixed
+150,f91dbddb-07d7-4672-919d-fbf1964d9958,Zum Service: sehr freundlich und hilfsbereit.,Llama70B,0,fixed
+151,f331dd9e-e22a-4e8d-a9f1-426ca8bb2975,"Auch das Preis-Leistungsverhältnis ist absolut stimmig, aber die Unterhaltung, die wir erwartet hatten, wurde nicht geboten.",Llama70B,0,fixed
+152,610fb00e-e58b-4e91-a12d-105ce0e6f3ca,"Der Ambiente ist schön, aber das Essen ist nicht gut.",Llama70B,0,fixed
+153,8ea31b13-b8b2-4a6c-81b3-2f16df0dfd8e,Das Ambiente ist gemütlich und das Personal sehr freundlich.,Llama70B,0,fixed
+154,8979cbca-2a3d-4e26-94c1-860c3f660a5d,Leider war das Essen nicht sehr gut.,Llama70B,0,fixed
+155,d36e4c72-172b-4f5f-8c61-66b05dc65927,"Schönes Essen und sehr netter, zuvorkommender Service.",Llama70B,0,fixed
+156,2337b7ad-c1aa-47d5-a8f7-83c1b8ff4dfb,"Das Ambiente ist sehr schön, das Essen auch.",Llama70B,0,fixed
+157,a46fb46d-80b9-411c-a355-bc08f05b9dfa,Das Personal war sehr freundlich und zuvorkommend.,Llama70B,0,fixed
+158,07672932-6ef1-41c6-bc6f-bb88b7f1ca1c,Das Essen war sehr lecker und das Personal sehr freundlich.,Llama70B,0,fixed
+159,12a01afe-07b5-439c-a71d-f36db038378e,"Wir hatten unsere Tische reserviert und das Personal war sehr nett, aber die Küche war nicht in Ordnung.",Llama70B,0,fixed
+160,847a8c04-22a1-410a-a7ab-de55f3415967,"Der Preis passt sicher auch zu dem, was man bekommt.",Llama70B,1,fixed
+161,7d813e2b-00c0-4ec5-a632-1b3f60727dbb,"Das Personal war freundlich, aber unentschlossen.",Llama70B,1,fixed
+162,5788ce0e-f347-446e-a1d3-55a5d39f6e6e,Die Atmosphäre ist gut.,Llama70B,1,fixed
+163,fa7e82ff-619b-44d5-aaec-f31a7f387f6c,Wir haben dann noch einmal das Essen bestellt.,Llama70B,1,fixed
+164,696aecd9-8de1-4f01-9f9a-fb6bd8e351d6,Sehr schönes Lokal.,Llama70B,1,fixed
+165,c4f41d2d-9b14-421b-b7e9-78a7befef6d1,"Trotzdem ist es ein netter Ort um sich zu erholen, aber leider war das Essen, was ich bestelle, nicht so gut und uninteressant.",Llama70B,1,fixed
+166,e4747278-15d2-49a6-9337-30f993dac1ed,"Das Essen war sehr gut, aber die Bedienung war nicht so toll.",Llama70B,1,fixed
+167,e47764a3-31c2-4c11-80d6-722c5fe3d08a,Die Bedienung war schnell und freundlich.,Llama70B,1,fixed
+168,7161db8b-4eeb-4701-ba3e-52bd6b121000,Für die Atmosphäre und das Essen zu teuer.,Llama70B,1,fixed
+169,55f6918f-65d1-4fcb-9ccc-d6daf7857e3c,Das Personal ist sehr unfreundlich und unhöflich.,Llama70B,1,fixed
+170,8b88e50f-f933-47df-b029-2980c886d646,"Das Essen war lecker, aber nichts Besonderes.",Llama70B,1,fixed
+171,f9be8f19-4935-4c49-9934-a43d15fe75da,"Ein sehr schönes Lokal, aber das Rauchen geht mir zu sehr auf die Nerven.",Llama70B,1,fixed
+172,95362f12-11f0-472f-8cbe-e95b3d09824d,Die Bedienung war sehr freundlich und hilfsbereit.,Llama70B,1,fixed
+173,dcd95e2d-8b41-43a1-9e05-438e965483f6,"Das Essen war sehr gut, nur das Preis-Leistungsverhältnis ist nicht gut.",Llama70B,1,fixed
+174,5accf7a6-eb77-43ed-a017-688daaedeb46,Die Atmosphäre ist eher gemütlich.,Llama70B,1,fixed
+175,24aefbf2-e493-4b21-a311-85676cf3bd3d,"Das Essen war sehr schnell serviert, aber der Service konnte mich nicht überzeugen.",Llama70B,1,fixed
+176,526156f5-9a44-4768-909f-f657c6899d65,Die Pizza war nicht gut.,Llama70B,1,fixed
+177,4ca4d25f-bbd7-4aad-b996-a19fba76c864,Wir waren sehr zufrieden mit der Preis-Leistung.,Llama70B,1,fixed
+178,f58c02ad-0d71-4f94-a9c9-08ae5db82490,"Wir hatten ein Hähnchen mit Risotto, das war lecker.",Llama70B,1,fixed
+179,518b33ba-95a2-4783-9010-7ed77d89c39d,"Das Essen war auch in Ordnung, aber die Preise sind auch nicht gerade niedrig.",Llama70B,1,fixed
+180,0daa0e4f-c542-43e2-baa6-bcd7cb052b64,Auch die Preise sind sehr fair.,Llama70B,1,fixed
+181,31dafc3e-6ffc-44a6-a397-bae4f22da9ee,Was für ein Schmarrn!,Llama70B,1,fixed
+182,5bcd9d2a-7c0c-4312-b19d-92fc43c1d1dd,Es war alles in Ordnung.,Llama70B,1,fixed
+183,b3546106-67bc-4886-bc49-9bf00721f051,Habe mir ein Sushi bestellt.,Llama70B,1,fixed
+184,0e63f2f8-b8b4-43eb-869d-2ce0228f0531,"Ein Restaurant mit sehr guter Küche, freundlicher Bedienung und einer schönen Aussicht.",Llama70B,1,fixed
+185,f4182a28-d0c3-4dd7-bcdc-a1282891e2ea,Der Kellner war unfreundlich und unhöflich.,Llama70B,1,fixed
+186,46d2c376-d215-4d74-96e2-66713fecd002,Wir waren mit der Bedienung sehr zufrieden.,Llama70B,1,fixed
+187,ab452efb-8d47-4da7-ae7b-e973d41bf11c,"Kaum Platz, laut und überteuert.",Llama70B,1,fixed
+188,f22256b8-967e-43a3-b6dc-3c8d419913f9,Ein sehr schönes Restaurant mit sehr gutem Essen.,Llama70B,1,fixed
+189,96415712-e3c2-4993-968a-02a1b679a589,"Ich war schon öfters hier und auch wenn der Preis nicht gerade billig ist, lohnt es sich.",Llama70B,1,fixed
+190,18f97583-1ab7-473b-8eef-f965abda944e,Das war eine schöne Erfahrung!,Llama70B,1,fixed
+191,d75d0feb-469a-4e8d-ade0-aa9d16514cbd,Die Hacksteak ist sehr gut.,Llama70B,1,fixed
+192,f0642bb5-1952-4f83-87e8-81de343981d8,Die Preise waren angemessen.,Llama70B,1,fixed
+193,c12199e3-c35d-453f-bcd9-864811b5dbbe,"Es gibt noch nicht mal ein Tischtuch auf den Tischen, was ich mir aber nicht negativ anrechnen möchte.",Llama70B,1,fixed
+194,9654cc85-28fb-4f30-9604-5437228a11ca,Wir hatten wieder ein sehr schönes Ambiente.,Llama70B,1,fixed
+195,e023e0e3-c385-40b5-bbd4-b6fe02b8ddea,"Halbe Bier für 3,50€, das ist ein gutes Preis Leistungsverhältnis.",Llama70B,1,fixed
+196,a1f52913-f2a5-4b3b-997f-ebad08a09009,"Wir haben uns ein Menu bestellt und sind dann enttäuscht, weil es nicht gut war.",Llama70B,1,fixed
+197,d347a4df-240a-47d8-8f40-be23406f0d27,Das Essen war sehr lecker und die Atmosphäre auch.,Llama70B,1,fixed
+198,1d9f3fec-26ed-46f1-a4da-5fc052eb05d1,"Eine gemütliche Location, wo man sich wohlfühlt.",Llama70B,1,fixed
+199,ebfd78bb-2d92-48cd-85c3-019577c74915,"Nur zu empfehlen, wenn man das Lokal in der Nähe von LOC nicht kennt.",Llama70B,1,fixed
+200,04a439ee-f561-4bd1-b2af-3017387a9eab,Das Personal war sehr unfreundlich und das Essen war nicht gut.,Llama70B,1,fixed
+201,ae2c2ac1-716f-4e42-8f42-a2a5f8b25d9e,"Das Essen war nicht gut, die Pizza war lecker.",Llama70B,1,fixed
+202,44e8ea24-fb7e-40f5-8d63-c3081fa1b02e,Die Mitarbeiter sind sehr freundlich und hilfsbereit.,Llama70B,1,fixed
+203,1214dd0c-2283-45e0-a1bf-b2de18969e99,"Tolle Location, aber leider nicht so tolles Essen.",Llama70B,1,fixed
+204,f27743a7-bcf2-4c42-bd17-b5abaaa5fb0c,Das Personal war nicht sehr freundlich und die Bedienung dauerte ziemlich lange.,Llama70B,1,fixed
+205,1e4fccb4-e3b6-4fdb-bb97-7eb659f71e9b,Dieses Lokal ist einfach nur schön.,Llama70B,1,fixed
+206,4304035b-9a28-4e0c-ab3d-0230bad4f41a,Leider ist das Essen sehr laut und man kann sich kaum unterhalten.,Llama70B,1,fixed
+207,edfeb756-f168-4e3d-afc8-35e1072fcc99,Man fühlt sich nicht wohl und kann sich auch nicht wohlfühlen.,Llama70B,1,fixed
+208,a3b39c0b-e399-432d-a0bd-56ca0b5646cb,"Die Bedienung war auch nicht mehr so freundlich, wie erwartet.",Llama70B,1,fixed
+209,4f54e5ee-ac48-48ee-b2cc-b1f1e450a00d,Das Essen war durchwachsen.,Llama70B,1,fixed
+210,2b8d9037-6d66-47d2-9a5e-6d0cb4699796,Das Ambiente ist etwas altbacken und das Essen auch nicht gerade die Spitze.,Llama70B,1,fixed
+211,30000c98-3290-4a31-b568-ec5088c89182,"Das Essen ist nicht unbedingt schlecht, aber die Bedienung, der Service und das Ambiente sind alles andere als gut.",Llama70B,1,fixed
+212,e084590a-ebb4-400d-b067-22d3daad2991,"Der Eintopf war gut, der Käsekuchen war nicht schlecht.",Llama70B,1,fixed
+213,da8465c3-01ef-4bf4-b3a3-e588ba54929e,"Die Bedienung, die sich um uns kümmern sollte, war sehr unfreundlich.",Llama70B,1,fixed
+214,0134de45-b5a9-465f-9a2e-a2fd67b01718,"Die Tische sind sehr eng gestellt, so dass man sich wie die Hühner auf der Stange fühlt.",Llama70B,1,fixed
+215,b57cf0f0-b2cf-48b0-bf8a-5972247b1ce9,"Ein Service, der sich zu verbessern hat, aber sehr netter und freundlicher.",Llama70B,1,fixed
+216,f9a127b2-1e74-44db-bc93-89e6b734f250,Ein sehr schönes Lokal mit einer guten Atmosphäre und sehr freundlichem Personal.,Llama70B,1,fixed
+217,de27c0a2-cd77-4635-a279-ed5ef2bd9d3a,Wir hatten uns auf das Flair und den Preis gefreut.,Llama70B,1,fixed
+218,4e0efb77-f87b-4871-9f8f-13a080bb53bd,Die Pizza war nicht sehr gut.,Llama70B,1,fixed
+219,eeb61008-d51b-4931-b385-77a4026b6fdc,"Eigentlich nur 1 Stern, aber für die schönen Menschen in diesem Lokal gibt es auch eins.",Llama70B,1,fixed
+220,cd489adb-264b-4b96-a998-1ce92e79c797,Sehr gutes Essen zu einem sehr fairen Preis.,Llama70B,1,fixed
+221,43969d27-d809-44a5-bdf2-067b4d80f216,Wir waren mit der Qualität des Essens nicht zufrieden.,Llama70B,1,fixed
+222,586fc1d3-a9c8-4693-b64c-a33f42167b73,"Ein schöner Biergarten und eine nette Familie, die den Betrieb führt.",Llama70B,1,fixed
+223,025f3591-0a1d-4edb-a8a2-17b4858a3649,Die Bedienung war sehr freundlich und das Essen schmeckte auch.,Llama70B,1,fixed
+224,84c0b430-1fa9-4c0e-9221-acaaf7f6733d,"Wenn man sich für ein Restaurant entscheidet, sollte es nicht nur die Qualität der Speisen sein, sondern auch die Qualität des Service.",Llama70B,1,fixed
+225,60816bc3-9d3d-4331-96e4-77aa3d8ce048,Das Essen war nicht so gut.,Llama70B,1,fixed
+226,14b37080-41d9-47bd-9505-ffdfedfc6b9c,Die Atmosphäre ist sehr laut und nicht so gemütlich.,Llama70B,1,fixed
+227,6af8b6b7-0f1f-47da-89a4-460523627bfe,"Ein sehr freundliches Personal, das wirklich bemüht ist, dem Gast alles recht zu machen.",Llama70B,1,fixed
+228,9ab8e039-9722-4c54-9837-8d40b10a5db4,"Schade nur, dass es so teuer ist.",Llama70B,1,fixed
+229,39e993cc-9146-4bfe-a91a-67b5a9fbadfe,"Gutes Restaurant, gute Küche, freundliches Personal und schöne Atmosphäre.",Llama70B,1,fixed
+230,8bfe0848-c591-4849-9497-58b942eae942,Die Preise sind in Ordnung.,Llama70B,1,fixed
+231,d5a872b5-486b-4748-a642-94e1066d4e81,Dieses Service-Team ist sehr freundlich.,Llama70B,1,fixed
+232,1df75af7-5f0c-4b8e-ac6f-240aefff6385,"Nachdem wir uns etwas getröstet hatten, kam der Kellner, um zu fragen, was denn nun so schlimm sei.",Llama70B,1,fixed
+233,e7afa0ce-c373-4202-84ea-273dc9d2c8a8,Wir waren schon öfters hier und es gab auch immer etwas zu melden.,Llama70B,1,fixed
+234,309dc7d7-acf2-4daa-8c71-be91cc637060,Doch der Kaffee war wirklich schlecht.,Llama70B,1,fixed
+235,007e2463-8908-4596-9034-61e3dc61c3ae,Das Personal war nicht so aufmerksam.,Llama70B,1,fixed
+236,91660f7b-64c1-40e3-992a-e869621c1390,Am Empfang wurde unsere Bestellung nicht verstanden.,Llama70B,1,fixed
+237,410ad853-971f-4c9b-93c7-08a846faab05,Die Atmosphäre war eher düster und nicht so gemütlich wie auf der Foto.,Llama70B,1,fixed
+238,131177d9-4649-4bc0-9289-bcd3a88cc7d7,Leider ist das Essen nicht so gut wie es sein könnte.,Llama70B,1,fixed
+239,4444fc6a-ad31-4ad9-a698-31da8cb6937a,"Das Essen war auch nicht schlecht, aber das Preis-Leistungsverhältnis war in Ordnung.",Llama70B,1,fixed
+240,733db621-2014-4e17-b6c4-b3ce26b3ce90,Das Essen war sehr gut.,Llama70B,1,fixed
+241,288b304b-96bd-4f9a-b89c-c704f4451a2c,"Das Essen ist genau so wie das Ambiente, einfach und gut.",Llama70B,1,fixed
+242,fcb52fbf-e667-4b11-8afb-e8e2a174f7d8,Das Preis-Leistungsverhältnis ist nicht mehr vertretbar.,Llama70B,1,fixed
+243,a76745fb-b33c-4aab-b444-a6a68c978aab,"Das Essen war gut, die Atmosphäre aber mies.",Llama70B,1,fixed
+244,c8b10aea-bd0b-41c8-a069-170ba703a8c4,Preislich ist es auch absolut fair.,Llama70B,1,fixed
+245,3726dc25-2b9f-4454-af0e-4924f2442bd4,Die Fischgerichte sind empfehlenswert.,Llama70B,1,fixed
+246,26183216-1a62-4f73-8713-800ee40263c5,Die Kellnerin war nicht sehr freundlich.,Llama70B,1,fixed
+247,7014fde9-17d6-474a-a373-85c9edda9585,"Ich war hier schon öfters und muss sagen, dass das Personal immer sehr freundlich ist.",Llama70B,1,fixed
+248,3775df86-e74c-4d8d-a9c6-e517fa92a471,"Hinzu kommt, dass die Lärmbelästigung durch den Straßenverkehr in diesem Bereich sehr hoch ist.",Llama70B,1,fixed
+249,9758c9d0-c86c-4910-ae04-ef4fb7db4794,Das Essen war köstlich.,Llama70B,1,fixed
+250,a8c6e16a-657f-4210-9d1d-b9b4b3122a7b,Man fühlt sich hier wie in einem Restaurant aus dem Jahr 1970.,Llama70B,1,fixed
+251,7ebf55e8-9729-446f-b5d4-163e5c8ffe3f,"Das Restaurant ist nicht sehr groß, aber es gibt einen kleinen Garten.",Llama70B,1,fixed
+252,3a93f5ea-e0c3-4d07-a587-b66a01b69a36,"Wenn ich ausnahmsweise mal ein normales Restaurant besuche, ist das Restauarnt_Name immer eine gute Adresse.",Llama70B,1,fixed
+253,7ef11a44-ee72-4d74-abd1-c8e16db767ff,"Das Ambiente ist gemütlich, die Bedienung war freundlich und zuvorkommend.",Llama70B,1,fixed
+254,d7619974-daf8-4cb6-beea-41f0cb28f5cd,"Das Essen war nicht so gut wie erwartet, aber die Bedienung war sehr nett.",Llama70B,1,fixed
+255,fda0b53a-7e9b-48b6-9f37-2be98f48d58b,"Das Ambiente ist sehr gemütlich, und die Küche ist auf jeden Fall empfehlenswert.",Llama70B,1,fixed
+256,c3f12f14-f833-44bf-a61b-8e90d4d9feb6,"Ein schöner Ort, in dem man sich wohlfühlen kann.",Llama70B,1,fixed
+257,f7d650b1-2afb-4142-a3e0-f974bb164f20,Die Musik war laut und die Tischnachbarn sehr unhöflich.,Llama70B,1,fixed
+258,f8d058b4-6eb3-44cc-a30d-86c17d1e8736,Mit dem Service war ich auch zufrieden.,Llama70B,1,fixed
+259,ab7646b0-731d-4740-b3f1-1a03179d99cb,Das Essen war nicht so gut wie in der Filiale am LOC.,Llama70B,1,fixed
+260,8f1ce824-316b-47d6-9b3d-a73a51bd1554,Wir kommen gerne wieder und hoffen auf ein besseres Service.,Llama70B,1,fixed
+261,e4851f6f-a2b7-4955-90b9-98c582b36353,Das Essen war nicht gut.,Llama70B,1,fixed
+262,4fd00925-9a15-40d7-bae9-602f59bd72c3,Das Ambiente ist sehr schön und gemütlich.,Llama70B,1,fixed
+263,d0469c41-97e1-4a86-9f68-dfc81d727e14,"Wir waren mit der Atmosphäre im Inneren nicht wirklich begeistert, da es sehr kalt war und wir uns so gar nicht wohl fühlten.",Llama70B,1,fixed
+264,be7469fc-446b-4aff-95e3-6b0580096902,Der Preis ist auch okay.,Llama70B,1,fixed
+265,7c910ff3-8270-4efb-ac85-246e377f3178,Das Ambiente ist sehr angenehm.,Llama70B,1,fixed
+266,7e7fef57-3b6c-4b4c-bd34-a10e704bb962,Leider ist der Preis für die Portion aber etwas zu hoch.,Llama70B,1,fixed
+267,6d08af16-7b07-44d5-9b39-cacfe3b922cd,Die Preise sind sehr fair.,Llama70B,1,fixed
+268,1ec5f13d-71a6-4cd7-8ae4-c1aec8d6495d,"Zu den Preisen kann ich nicht sagen, da ich nur das Essen bezahlte.",Llama70B,1,fixed
+269,f974f8c4-3137-4109-a4b6-78667e6b5ea5,"Am Anfang gab es eine Kartoffelsuppe, die leider etwas zu salzig war.",Llama70B,1,fixed
+270,c4d27e9e-5567-47f2-b5b0-025db699d043,Die Preise sind ein bisschen hoch.,Llama70B,1,fixed
+271,2b63a072-b153-48b6-aff9-3e7d24b9dbe0,"Wir hatten einen schönen Abend mit sehr netten Gästen, aber auch den Kellner war nicht zufrieden.",Llama70B,1,fixed
+272,c67c1adc-77e4-40d6-bef4-a54b67f7fa71,Die Bedienung war recht unfreundlich und nicht sehr hilfsbereit.,Llama70B,1,fixed
+273,958badfa-a1b7-49c9-8dde-4820d76361d0,Das Personal ist sehr freundlich und zuvorkommend.,Llama70B,1,fixed
+274,8c6d10e5-4eb5-48d2-9283-47805b3fed2b,"Es ist nicht die schönste Location, aber es ist auch kein Café mit Tischtüchern.",Llama70B,1,fixed
+275,e22d258f-ccb7-4723-be59-56b212ae7a73,Bei der unverbindlichen Abendbestellung war die Preisgestaltung sehr angenehm.,Llama70B,1,fixed
+276,d82d5519-a910-402b-9f00-f272b112ac48,"Die Preise sind hoch, aber das Essen war auch sehr lecker.",Llama70B,1,fixed
+277,5c578db3-6f29-4232-a4d2-c4edafd156fb,"Das Essen war super, die Bedienung sehr freundlich und die Atmosphäre einfach toll.",Llama70B,1,fixed
+278,412680ea-8b4f-4707-9652-ebe853f18532,"Die Bedienung war nicht schlecht, aber auch nicht gut.",Llama70B,1,fixed
+279,e67de6f5-73ad-46e9-be73-74d5e64cfd06,Und der Preis ist auch in Ordnung.,Llama70B,1,fixed
+280,05e567e0-a0f0-416d-bfb0-005c36acd1e0,Die Atmosphäre ist nicht so toll.,Llama70B,1,fixed
+281,8feabdc5-7212-4c10-b138-a3a121137ba6,Wir waren sehr enttäuscht.,Llama70B,1,fixed
+282,a32f3257-86ed-4328-9853-0cb12cdf8b89,"Das Ambiente ist zwar etwas altmodisch, aber sehr gemütlich.",Llama70B,1,fixed
+283,0afae417-477c-44ba-8353-0f40c9b83b47,Essen ist eher okay.,Llama70B,1,fixed
+284,c1d3d56c-6b71-4d53-a1b9-3e16983262c8,"Ein Preis, der sich nicht lohnt.",Llama70B,1,fixed
+285,77d455e3-43bf-4117-90a3-cedecac01b70,Leider ist das Fleisch von den Steaks nicht mehr so gut wie früher.,Llama70B,1,fixed
+286,97edce0f-b30b-4bea-ae3c-6bbd32333150,"Das Personal war super, die Atmosphäre sehr angenehm und das Essen hat auch gut geschmeckt.",Llama70B,1,fixed
+287,cc2413ba-594a-42aa-8a8c-2c9859fda761,"Gute Atmosphäre, gutes Essen.",Llama70B,1,fixed
+288,08c59307-5931-417e-a6ea-fd427195b16d,"Wir bestellten das Hähnchen, das war sehr lecker.",Llama70B,1,fixed
+289,19576773-9a5c-4498-aab5-fcbef5a846c7,"Nicht nur die Preise, auch der Service hat sich verschlechtert.",Llama70B,1,fixed
+290,a10eacc8-e56e-4550-b67a-c6712e832814,"Großartiges Service, sehr nette Bedienung, immer für Fragen und Wünsche zu haben.",Llama70B,1,fixed
+291,2b0c9ea4-ab87-4002-a948-7b8cc904c9de,Dieses Restaurant ist absolut nicht empfehlenswert.,Llama70B,1,fixed
+292,58fb9157-1f5e-4fc4-b68e-642eff2a018c,Essen war in Ordnung.,Llama70B,1,fixed
+293,db00f7d2-e305-4ff8-82f6-5a2bf2d3939a,"Die Mahlzeit war nicht schlecht, aber das Preis Leistungsverhältnis ist eher mau.",Llama70B,1,fixed
+294,9e3dae92-a2f5-44cc-b8fa-33f578f6c774,"Wir kommen hier gerne, aber leider ist das Essen nicht so gut wie sonst.",Llama70B,1,fixed
+295,efa30c90-6fb2-449e-92b0-80a9178e06e8,"Die Bedienung war ok, aber nichts Besonderes.",Llama70B,1,fixed
+296,048465a7-9a95-4cc9-b2ee-962c8f9393f1,Die Atmosphäre ist sehr gemütlich.,Llama70B,1,fixed
+297,f66ef493-405f-4203-9037-f84dd15391b7,"Das Ambiente ist nicht schlecht, das Essen war nur mäßig.",Llama70B,1,fixed
+298,da9245d3-77ed-47fb-a9b3-4c7ca20dd97e,Nicht gerade billig.,Llama70B,1,fixed
+299,39c14076-32d8-422c-938e-50f898986aec,Wir waren hier zum ersten Mal und werden es wohl nicht wieder machen.,Llama70B,1,fixed
+300,8254d214-a8ae-446c-8b5b-02ebe15c3f39,Die Pizza war sehr lecker und frisch!,Llama70B,1,fixed
+301,1b7c8dc3-ff69-4f05-84d0-f6717d73977b,"Wir waren auch schon im Restaurant LOC, das Essen ist gut aber nicht herausragend.",Llama70B,1,fixed
+302,8b982595-5d0c-4ed0-92a9-40aa11269d5c,Wir waren mit der Bedienung sehr zufrieden.,Llama70B,1,fixed
+303,3a79d7c0-3feb-45d0-8b6a-b596a6eaa013,"Selbst wenn es sich hier um ein Kiosk handelt, ist der Service und die Qualität der Speisen in Ordnung.",Llama70B,1,fixed
+304,3ac4500f-7d7f-4f12-97c6-90230a4be775,Ein netter Abend,Llama70B,1,fixed
+305,10420917-b0b6-4f31-9a83-52a923ac8664,Ein sehr schönes Restaurant mit tollem Personal.,Llama70B,1,fixed
+306,e7867665-b5c9-46cc-8000-4dce4ac4a954,Wir waren am 28.10. in diesem Restaurant und sind sehr enttäuscht von der Qualität/Preisverhältnis.,Llama70B,1,fixed
+307,af0e6e3f-fd0b-442f-920b-a6727c235152,"Sehr schöne Location, in der man sich wohlfühlt.",Llama70B,1,fixed
+308,2cb31b01-05f9-4af4-ad55-c5b9bce17b1d,Aber für die Preise kann man da auch schöner essen.,Llama70B,1,fixed
+309,1a8ca451-07cd-4a7c-a192-0f589c2fe1d1,"Das Essen ist gut, aber nichts Besonderes.",Llama70B,1,fixed
+310,0dcc4146-9d02-445f-88c1-15a1da193a48,"Das Personal war freundlich, aber nicht so sehr aufmerksam.",Llama70B,1,fixed
+311,f4131263-8692-4e94-bf8c-151e0516923b,Das Essen war sehr lecker.,Llama70B,1,fixed
+312,0c905233-1f8c-4cae-b018-e3b257338ff4,"Die Suppe war gut, die Preise ebenfalls.",Llama70B,1,fixed
+313,7a0e249c-5c2f-487c-85e6-e80be7dfaea4,"Hier wird wirklich alles richtig gemacht, vom Service über die Auswahl bis hin zur Qualität der Speisen.",Llama70B,1,fixed
+314,4d6933db-871f-46f3-a529-2a0d16c12ddf,Die Atmosphäre ist sehr angenehm.,Llama70B,1,fixed
+315,3df9724a-31d4-4b02-9701-6de179e32d73,"Das Servicepersonal war zwar sehr freundlich, aber extrem langsam.",Llama70B,1,fixed
+316,ea225c3f-883c-44a8-89ca-e097fba8ea0d,"Die Tische sind sehr eng, aber das Personal ist freundlich.",Llama70B,1,fixed
+317,2bade7b9-8da7-4080-83be-80b90e6b98aa,Leider war der Service nicht so gut wie erhofft.,Llama70B,1,fixed
+318,869c8ab6-6068-4ecb-8b4d-39cf21f8456b,Es war eine Bedienung die nichts auszusetzen gab.,Llama70B,1,fixed
+319,cb6d9067-c4ce-43b9-824e-67c18455f6b5,Das Ambiente ist eher schlecht.,Llama70B,1,fixed
+320,590e8adb-79e2-4db4-931f-cb077e4cffad,Besonders gut gefiel uns der sehr freundliche und kompetente Service.,Llama70B,2,fixed
+321,3c3f78aa-ac02-4095-95b1-eec20e0039ec,Wir kommen gerne wieder!,Llama70B,2,fixed
+322,1883b56f-d82b-4f1e-80a0-eaf38498c9fa,Das Personal war freundlich und hilfsbereit.,Llama70B,2,fixed
+323,15c46c2c-a07f-49f1-a0ee-cb47758f5d5e,Wir kommen seit Jahren in die RESTAURANT_NAME: immer wieder gut.,Llama70B,2,fixed
+324,a385e52c-4a8e-4d00-ac84-7d1163cc4142,Mit dem Preis ist es auch ok.,Llama70B,2,fixed
+325,f43b3346-e4ed-4b01-85cd-aedda0a6a00a,"Bei dieser Atmosphäre ist es nicht weiter verwunderlich, dass die Kellner auch so unfreundlich und schlecht gelaunt sind.",Llama70B,2,fixed
+326,d8e048ed-d42d-4eb9-b577-42564e7c87d2,Zum Service kann ich nichts sagen.,Llama70B,2,fixed
+327,525073f5-e85f-43ce-bdcd-40bb44f8de76,"Die Bedienung war sehr langsam und unfreundlich, die Preise sind allerdings ok.",Llama70B,2,fixed
+328,5efabe8a-497b-4c1c-bf07-427bfb037864,"Nur zu empfehlen, wenn man sich ein Denkmal der DDR anschauen möchte.",Llama70B,2,fixed
+329,ee2ae378-f9cb-4efe-97f7-ae0fdfd0f2f1,"Alles in allem ein okayer Abend, aber nichts Besonderes.",Llama70B,2,fixed
+330,7b7918e8-d78d-404f-b847-0d4d55642d3c,"Das Erlebnis war nicht schlecht, aber auch nicht besonders gut.",Llama70B,2,fixed
+331,ef46f33d-8c0b-47a2-8f3e-4ba2be6ecf78,"Das Essen war lecker, die Preise sind für die Qualität aber sehr gut.",Llama70B,2,fixed
+332,be2f65a2-77ff-465b-b1b3-42fdcac925a0,Die Bedienung ist sehr langsam.,Llama70B,2,fixed
+333,fb9f7b86-db51-4dba-a082-85d0bec7ff73,Die Preise sind aber auch sehr hoch.,Llama70B,2,fixed
+334,488d0963-200e-4ac9-975a-61221aed5398,"Sehr schöne Location, sehr freundliches Personal.",Llama70B,2,fixed
+335,0b992e90-8ab1-42e4-b70a-4dacd3ef5f42,"Die Bedienung ist leider nicht so gut, wie man es gewohnt ist.",Llama70B,2,fixed
+336,549ce603-848d-46e2-9232-a22d04b326cb,Zum ersten Mal waren wir im RESTAURANT_NAME und waren sehr zufrieden.,Llama70B,2,fixed
+337,2216ca99-1adf-42de-89e6-dd77df87c0e0,Wir waren sehr enttäuscht von der Qualität des Essens.,Llama70B,2,fixed
+338,09a21058-2eb1-4f37-9f17-41743d33cb42,"Wir hatten unsere Bestellung bereits im Voraus per Email übermittelt, aber die Bedienung war zu beschäftigt um sich darum zu kümmern.",Llama70B,2,fixed
+339,c7a91114-ba69-4779-a0d8-11e713044e5c,"Alles in allem ein guter Abend mit einem Gericht, das nicht so wie erwartet war, aber dennoch gut schmeckte und Preisen die sich sehen lassen.",Llama70B,2,fixed
+340,e1d5f6d7-5819-4621-bcb4-56e96eba3f89,"Wenn man es sich leisten kann, dann ist das Preis-Leistungsverhältnis wirklich gut.",Llama70B,2,fixed
+341,f2d68d08-d84d-4bb2-8735-8360defed207,Das Essen war eher mittelmäßig.,Llama70B,2,fixed
+342,ac299956-50a1-498d-b579-02627379f75e,Ein Preisschock erwartet den Gast.,Llama70B,2,fixed
+343,83924a15-d8c4-4e66-84ae-77a345e3f99f,Alles in allem eine sehr enttäuschende Erfahrung.,Llama70B,2,fixed
+344,21c9d310-909b-466c-b1d7-20a60c811a9e,Nice Ambiente and nice food.,Llama70B,2,fixed
+345,82d4beec-ab76-45c3-93cf-f4fe86f9ae68,Das Preisniveau ist in Ordnung.,Llama70B,2,fixed
+346,12c57bf3-6ad6-4f2e-8f50-5e4014d6af60,Das Essen ist sehr gut.,Llama70B,2,fixed
+347,49c195c1-7fed-4d8d-b5f5-f5b0b885bf2a,Wir waren mit Freunden zum ersten Mal hier und kommen wieder!,Llama70B,2,fixed
+348,5142d94b-d3e7-420f-8bdd-66818c029019,Wir kommen gerne wieder in die RESTAURANT_NAME.,Llama70B,2,fixed
+349,9b7a216b-5193-4c8f-8be5-6bcadca195a3,Ein sehr gemütliches Ambiente.,Llama70B,2,fixed
+350,45d47241-9de2-403d-95a2-01d8f0cc3113,Wir kommen wieder!,Llama70B,2,fixed
+351,71a2bfda-e5d5-4f27-ae39-32192be4c7ee,Einige Preise sind auf den ersten Blick etwas hoch.,Llama70B,2,fixed
+352,bdbaae75-df99-4e01-80ec-aac2e2f10547,Das Essen ist sehr lecker und auch das Preis/Leistungsverhältnis stimmt.,Llama70B,2,fixed
+353,a5778d7e-d3c6-408d-9794-07aadd5b5be3,"Das Essen war lecker, aber es war auch ein guter Preis dafür.",Llama70B,2,fixed
+354,1b895571-cd18-4f5c-9ba8-e99ec33341d4,"Das Essen war eher durchwachsen, der Service auch nicht wirklich super.",Llama70B,2,fixed
+355,2668e8d0-0f5b-418b-8682-c2986a974949,Das Preis-Leistungsverhältnis ist schlecht.,Llama70B,2,fixed
+356,2eaa7518-fb81-4c22-97e8-5a092fddb380,"Wir hatten ein Mittagessen, das war nicht schlecht aber auch nicht gut.",Llama70B,2,fixed
+357,bbf8af38-d033-4f50-8aba-f2836ab0f5a2,"Wir kommen wieder, aber dann lieber zur Hauptsaison.",Llama70B,2,fixed
+358,b98d1d29-6fe5-43be-8e3b-aaf2af3ce3eb,"Die Preise sind eher hoch, aber nicht überzogen.",Llama70B,2,fixed
+359,d78db06e-9871-43dc-a68d-8b799c762020,"Wir kommen wieder, aber nicht am Samstag Abend.",Llama70B,2,fixed
+360,eeddcff7-ef56-4b36-bb52-f7c575227797,Es war ein sehr schöner Abend mit tollen Leuten.,Llama70B,2,fixed
+361,4ff3afa9-9b68-427f-ae02-aa9ccf32f058,Für Preise war es dann aber auch nichts besonderes.,Llama70B,2,fixed
+362,bf4b87d5-d7d2-4749-a02a-b8a73dc725c9,Die Preise sind sehr günstig.,Llama70B,2,fixed
+363,00da12c1-ca39-4d3b-a19a-abd2e1ac3358,"Die Atmosphäre ist schlecht, die Bedienung unfreundlich und langsam.",Llama70B,2,fixed
+364,aa5148fd-1af0-4fcd-ae74-ac30d87385bc,"Der Service war sehr freundlich und zuvorkommend, aber die Qualität der Speisen konnte uns nicht überzeugen.",Llama70B,2,fixed
+365,7630e59b-bc20-4999-9b12-16aea87de266,"Vom Essen her war nicht wirklich etwas zu holen, aber dafür war der Abend sehr schön.",Llama70B,2,fixed
+366,5a300e0c-8e19-4f37-b289-e4d4a05e20d7,Die Bedienung war freundlich und schnell.,Llama70B,2,fixed
+367,30e1de03-9144-4755-80b5-395ecf7793a3,Die Preise sind für die Qualität einfach zu hoch.,Llama70B,2,fixed
+368,8b24c050-d396-44d3-9b4e-37b2f8985644,"Alles in allem ein Abend, der nicht viel Freude bereitete.",Llama70B,2,fixed
+369,d6223940-e134-447d-9fee-bf3c49c9b4de,Das Preis-Leistungsverhältnis ist einfach gut.,Llama70B,2,fixed
+370,3f29500a-d55a-4a14-ad6b-c70d700c223b,"Wir sind leider enttäuscht von der Bedienung, die sehr langsam war und uns erst nach 10 Minuten bediente.",Llama70B,2,fixed
+371,28417db7-8e9b-4867-9858-28b50ec693b1,"Sehr schönes Restaurant, sehr gepflegt, sehr freundliches Personal.",Llama70B,2,fixed
+372,d5d5fd62-c0c0-41c9-83c4-43f2d2e2bbf5,"Das Essen war okay, aber nichts Besonderes.",Llama70B,2,fixed
+373,a2b41325-7858-411d-a5b4-e8c198ace3e5,"Die Bedienung war nett, aber der Preis für das Essen und Trinken zu hoch.",Llama70B,2,fixed
+374,5a301167-7ac1-435b-b7ea-1d26960fa831,Der Service war sehr freundlich und aufmerksam.,Llama70B,2,fixed
+375,1e9c675b-302a-427a-91fc-52367a204bc6,Aber das Essen war super.,Llama70B,2,fixed
+376,0104cdff-a251-43fe-8e1c-e1a78fa991c9,Der Biergarten ist sehr schön.,Llama70B,2,fixed
+377,31042435-4c25-409c-9c0f-41f5d6c7cee7,Am Burger ist nichts zu meckern.,Llama70B,2,fixed
+378,78dba251-5e64-4b0a-afce-20f54d6ba8a6,Aber das Essen war nicht so gut.,Llama70B,2,fixed
+379,8d69db28-1d7b-4f7e-b38d-78929bf7b310,Vom Ambiente her ein schönes Restaurant.,Llama70B,2,fixed
+380,8bcbb43a-3a03-4670-9d04-327c8ea42dc9,Das Ambiente ist nicht so gut wie in der anderen Filiale.,Llama70B,2,fixed
+381,1fadafb1-888f-4210-bfd6-7912495b3b5f,Die Bedienung war sehr freundlich und schnell.,Llama70B,2,fixed
+382,9b000ab1-639c-458b-b0eb-3df5c4bc8b21,"Ein sehr schönes Restaurant mit gutem Service, das nur leider ein wenig zu teuer ist.",Llama70B,2,fixed
+383,eed01380-0320-4704-b9fd-a50b0e7652a6,"Die Pizza war gut, aber nicht so gut wie sonst.",Llama70B,2,fixed
+384,199ead63-4c75-41c8-b602-58016a30ff1c,"Die Preise sind ok, das Essen war eher mäßig und die Preise für Getränke sind überhöht.",Llama70B,2,fixed
+385,a8de8617-5a44-4d56-84a9-f4eec8687085,"Ein schönes Lokal, mit sehr freundlichem Service.",Llama70B,2,fixed
+386,790ea761-a2a0-4caa-922e-d9f9ec72af59,Eine sehr schöne und gemütliche Location.,Llama70B,2,fixed
+387,7ed065f4-dc0e-4b51-a41c-3c51ac0d6336,"Freundliche Bedienung, sehr schnell.",Llama70B,2,fixed
+388,9323cdbd-f472-411e-a441-3b0216391136,Das Ambiente ist gemütlich und die Bedienung freundlich.,Llama70B,2,fixed
+389,ec4de47b-e91e-4ccd-bdc6-c58cd8eeff82,Der Service war nicht so gut wie sonst.,Llama70B,2,fixed
+390,50750bda-828f-4ab2-8c63-e998714456d1,Die Bedienung war freundlich und zuvorkommend.,Llama70B,2,fixed
+391,dea4e11e-3b1e-4010-a932-ac25c004221e,"Das Essen war gut, aber das Ambiente zu laut und das Essen auch nicht gerade billig.",Llama70B,2,fixed
+392,3bdc4067-b0ea-4f63-9b02-110ac1f30dfd,Das Essen war wirklich sehr gut.,Llama70B,2,fixed
+393,36d4d245-a651-42c2-99a7-ba16cbf36598,Das Personal war sehr freundlich und hilfsbereit.,Llama70B,2,fixed
+394,19cbf128-586d-4282-8a3b-7918b896d1a7,Die Preise sind sehr angemessen.,Llama70B,2,fixed
+395,e946cccb-a102-4287-a269-9c999f95fe27,Das Preis-Leistungsverhältnis ist in Ordnung.,Llama70B,2,fixed
+396,a86ad2f5-96b5-4b89-92a0-327c41a195cf,Wir waren in der oberen Etage des Restaurants.,Llama70B,2,fixed
+397,5b4b9c66-da1f-4828-9e98-a6f0bc9ef34f,"Wir hatten einen schönen Abend, Ambiente und Essen waren gut, die Preise aber etwas hoch.",Llama70B,2,fixed
+398,00dab77d-fc62-4db7-91ba-b0902da5b404,Eine wunderbare Erfahrung!,Llama70B,2,fixed
+399,74131dbb-1f86-4106-a56b-a5b02ea420d8,Die Bedienung ist etwas langsam und die Leistungen sind nicht so gut wie zu Hause.,Llama70B,2,fixed
+400,b0598a98-e1dd-45e8-bb01-12c86f498958,Nur die Bedienung könnte schnell sein.,Llama70B,2,fixed
+401,56382465-21b8-4cf2-824f-7d75b710cd94,"Der Service war ziemlich schlecht, aber die Preise waren niedrig.",Llama70B,2,fixed
+402,7c825e01-0ad3-4c1a-9fac-0856d4e3d91f,Die Preise sind inzwischen sehr hoch.,Llama70B,2,fixed
+403,4256a69a-a53a-47af-816a-5ab3a6168221,Die Atmosphäre ist nicht so toll.,Llama70B,2,fixed
+404,1d74343a-dade-46db-ac77-e930f22b8163,Wir kommen wieder!,Llama70B,2,fixed
+405,216131c9-8e55-49a9-98c9-ba18968263ba,Würde ich nur wenn ich schon mal da bin.,Llama70B,2,fixed
+406,e49d0a45-bf05-49e9-9b64-08f5416cbae1,Das Ambiente ist sehr gemütlich.,Llama70B,2,fixed
+407,a32e86bd-25b2-45e9-9731-b358593a2072,"Die Bedienung war freundlich, aber langsam.",Llama70B,2,fixed
+408,266f0c0f-aeec-4fe7-bc7c-f3d90a62f831,"Die Küche ist nicht die beste, aber das Ambiente und die Bedienung sind sehr gut.",Llama70B,2,fixed
+409,94d90bda-f832-4990-89dc-548ccafd19cc,"Das Essen war in Ordnung, das Bier auch, aber die Atmosphäre war nicht so gut.",Llama70B,2,fixed
+410,9e352de1-9a9c-4480-b170-e38c66d6054c,Die Bedienung war sehr freundlich und zuvorkommend.,Llama70B,2,fixed
+411,44c51e7f-2449-4632-b594-bfa43800f12d,Alles in allem ein enttäuschender Abend.,Llama70B,2,fixed
+412,b221f6bf-f5d1-4fc7-86af-9a0d5aa8a895,Das Essen ist wirklich gut.,Llama70B,2,fixed
+413,9d6e0be7-ed68-4ee2-a671-f16306ae49c5,Leider sind die Kellner extrem gestresst und kurz angebunden.,Llama70B,2,fixed
+414,d72aeb96-4927-4eef-803b-d66c52949f22,"Die Küche ist gut, aber der Service war sehr langsam.",Llama70B,2,fixed
+415,336d9613-916f-4099-8da8-ee5cfe996b2d,Das Essen war sehr lecker.,Llama70B,2,fixed
+416,4874b19c-baf1-45e0-b206-a2009eea1f57,Leider war der Service nicht so gut.,Llama70B,2,fixed
+417,4e24e693-c64f-4e11-bc95-54381ba9d2c3,"Das Essen war nicht schlecht, aber der Service war mies.",Llama70B,2,fixed
+418,8aea00b8-dd3a-4ab8-9ab5-24069e781c91,"Die Preise sind zwar etwas überdreht, aber dafür bekommt man auch sehr gutes Essen.",Llama70B,2,fixed
+419,c8c35855-fa12-4729-910f-351b1262098a,"Das Essen war gut, aber nicht besser als das von anderen Restaurants.",Llama70B,2,fixed
+420,99ec6800-5bc6-454d-901d-cd742f535665,Die Atmosphäre ist sehr gemütlich.,Llama70B,2,fixed
+421,d3da294f-f249-4113-be68-eacd74a5866f,"Die Preise sind sehr hoch, das Essen eher durchschnittlich und die Atmosphäre nicht gerade einladend.",Llama70B,2,fixed
+422,6e0cb255-caec-4cd1-8c1e-0298c8850daf,"Das Essen war gut, aber nichts Besonderes.",Llama70B,2,fixed
+423,841c6ceb-b4d6-445c-bd58-62795ad344a1,Die Preise sind fair.,Llama70B,2,fixed
+424,3a5fd93c-758e-46c3-a829-438fb9cac456,"Zum ersten Mal hier essen, aber auf jeden Fall wiederkommen.",Llama70B,2,fixed
+425,ddb48857-9b3b-44ec-86d9-67c1dcd9daf8,"Sehr schlechter Service, aber sehr gutes Essen.",Llama70B,2,fixed
+426,c05af983-b134-4cae-9bf9-e4f071ab8ceb,Wir waren schon öfter im Restaurant und haben uns immer über die Preise gefreut.,Llama70B,2,fixed
+427,927ebd44-c06a-42f2-9a23-ad7a269f0c0e,"Das Ambiente ist nicht so schön, aber das Essen und der Service sind gut.",Llama70B,2,fixed
+428,8d0b18b4-ff93-4e3a-b86d-f88b4b6c6e87,Für die Preise ist das Essen einfach nicht gut genug.,Llama70B,2,fixed
+429,311cbeef-860c-4cbd-bf4a-ac5063cc7ecb,"Die Schnitzel waren lecker, der Schmankerlmarkt war sehr überfüllt und es herrschte ein lautes Geplapper in dem Zelt.",Llama70B,2,fixed
+430,757b6044-0323-40d8-8048-38876f18dae2,Das Ambiente ist eher ruhig.,Llama70B,2,fixed
+431,d2152ded-fa4a-405f-b54a-e10cceb1fe67,Die Atmosphäre war wirklich toll.,Llama70B,2,fixed
+432,e47496ea-dbc8-4bc5-8ac9-7825d328ac03,Die Ambiente ist sehr gemütlich.,Llama70B,2,fixed
+433,9c73f7c7-a346-433a-b79e-6c7d8fd5560a,Die Pizza war aber nicht so gut wie die Pizzas in anderen Restaurants.,Llama70B,2,fixed
+434,cdaa0931-ea10-4011-8208-3fe5371e6210,Die Preise sind sehr fair.,Llama70B,2,fixed
+435,23d68f0c-486b-47b1-b142-5bde7b86b9e4,Die Preise sind allerdings auch nicht unbedingt günstig.,Llama70B,2,fixed
+436,944cc21c-e33d-4e5c-b25f-954981c03635,"Leider war die Bedienung nicht so, wie ich sie mir erhofft hatte.",Llama70B,2,fixed
+437,266e5f2d-a2d9-4c4c-adb8-c67305eb986c,Es war ein schöner Abend.,Llama70B,2,fixed
+438,963045ee-00a8-4e71-897d-55ea6f37c44e,Schönes Ambiente und sehr schöner Biergarten.,Llama70B,2,fixed
+439,91c3f346-eb83-4f40-bb98-61f9094240bf,"Das Essen war gut, nicht mehr aber auch nicht weniger.",Llama70B,2,fixed
+440,ca6f18a8-9105-4fea-bd2d-694497c041fb,Leider sehr enttäuscht von der Qualität des Essens.,Llama70B,2,fixed
+441,8b7b070b-d7d6-4925-bd9d-41016d3f850a,"Wir hatten Pizza, die war sehr gut.",Llama70B,2,fixed
+442,96b7bbf4-7a9e-4d04-bdab-17042002f06c,Sehr guter Service!,Llama70B,2,fixed
+443,bf656ba0-8c5a-40a2-bf03-b4ba8f5dddc5,"Wir waren 10 Personen, es hat einfach nicht geklappt.",Llama70B,2,fixed
+444,4c65ab10-05df-4267-a22c-5c33766ca50b,Leider ist der Service nicht mehr so wie früher.,Llama70B,2,fixed
+445,41f5ca2f-4666-4f2e-a1af-415cc46a09b6,Nice Restaurant.,Llama70B,2,fixed
+446,b3af2cf9-b8a7-4617-ac8e-cbaa554f1af2,"Essen ist gut, aber nichts Besonderes.",Llama70B,2,fixed
+447,480bc737-93a8-4deb-8d9a-8f29cea61bfa,Das Ambiente ist eher schlicht.,Llama70B,2,fixed
+448,0a422ce9-3a81-4101-8fc4-63fd3f3dcefb,Das Essen war einfach nur lecker.,Llama70B,2,fixed
+449,f15bbd3f-5de3-43dc-9688-1128be026610,"Kellner sind nicht freundlich, Preise zu hoch.",Llama70B,2,fixed
+450,4bb73ef2-d9ac-4f12-bc33-071023743506,Die Bedienung war sehr freundlich.,Llama70B,2,fixed
+451,9ab4423a-4006-437e-9a3a-e5fa2d027bad,Leider war der Service nicht so gut.,Llama70B,2,fixed
+452,7bd251da-3f8a-453a-9386-f89b94fb40ba,Wir hatten einen sehr schlechten Service und es war nicht gerade billig.,Llama70B,2,fixed
+453,74d5a0a4-67f2-4751-889b-31666a973e8a,Wir kommen wieder und können nur sagen: Einschließen!,Llama70B,2,fixed
+454,b9c63912-8a29-4826-b397-891848ee3c05,"Wir fanden den Preis für das Essen zu hoch, dafür der für die Getränke zu niedrig.",Llama70B,2,fixed
+455,e8a9c72a-f83d-46d6-a876-55f7a4b63bcc,Schlechte Qualität.,Llama70B,2,fixed
+456,d905d342-c8b4-4a9e-9dc7-b3a7a4e47deb,Die Bedienung war sehr gut und freundlich.,Llama70B,2,fixed
+457,c61b6997-5fca-41b9-b33e-621e90e04a82,"Ein gemütlicher, Restaurant_name mit guter und freundlicher Bedienung.",Llama70B,2,fixed
+458,541be382-d927-448a-aa2f-a692a0e8d48b,"Das Essen war nicht so gut wie erwartet, das Ambiente war aber schön.",Llama70B,2,fixed
+459,2d826aae-d1b9-4930-b2ef-3868656f4e38,"Die Umgebung ist sehr schön, die Bedienung freundlich und das Essen lecker.",Llama70B,2,fixed
+460,c75f220c-15af-43a4-a496-b59a6ed1fcd6,Auch das Essen war nicht gut.,Llama70B,2,fixed
+461,058173a0-9670-498e-983e-a11fd6389487,Eine gute Adresse für Gourmets und Service.,Llama70B,2,fixed
+462,1f5a5568-047d-48d7-bf85-fe9dfa2439cc,"Die Preise sind in Ordnung, das Essen ist ok aber nichts besonderes.",Llama70B,2,fixed
+463,fc09f38e-3124-4a39-8488-1bb877201ec7,Das Personal ist sehr freundlich.,Llama70B,2,fixed
+464,89474668-80c5-45d1-bec6-67456c2ef6c6,"Leider ist es für mich nicht mehr das, was es einmal war.",Llama70B,2,fixed
+465,bd638d9d-eec4-420c-887a-2878f2e98961,"Wir waren in der Bedienung sehr enttäuscht, weil wir uns nicht angesprochen fühlten und die Kellnerin auch gar keine Miene verzogen hat.",Llama70B,2,fixed
+466,574b8ad8-a3d4-4f78-9761-708d3b756f62,Die Preise sind sehr fair.,Llama70B,2,fixed
+467,cc373e77-addd-4e82-8acd-69565bfb4642,Die Bedienung war super nett.,Llama70B,2,fixed
+468,0f7783c7-619c-4504-8108-c9039e7fc449,"Das Essen war eher durchschnittlich, aber das Servicepersonal sehr freundlich und unkompliziert.",Llama70B,2,fixed
+469,05e3be44-4976-4b8a-8f7b-cdbc3eaee264,"Sehr schlechte Preise, Ambiente auch nicht so gut.",Llama70B,2,fixed
+470,afc1ffdb-0e79-4894-b89e-466d054f2c82,"Die Bedienung ist sehr langsam, das Essen dauert sehr lange.",Llama70B,2,fixed
+471,588ba20f-b12f-473d-9df5-ae2fd5399b1d,Ein Preis für den Biergarten.,Llama70B,2,fixed
+472,13e993ad-179e-4bb2-9e64-357075bc06f6,Nur wegen der guten Lage im Herzen von Munich.,Llama70B,2,fixed
+473,232dbac5-9b27-48b9-b827-a3cf42bbb090,Gute Erfahrung.,Llama70B,2,fixed
+474,1db4bd5b-9745-4b46-b7f0-537d4c1ff776,"Die Preise sind sehr moderat, das Ambiente ist auch nicht schlecht.",Llama70B,2,fixed
+475,e6293e0b-aac2-4991-b809-735a5b22946f,Die Bedienung war sehr freundlich und zuvorkommend.,Llama70B,2,fixed
+476,ede66701-abdc-4db6-b37c-ecc4eb0be403,Sehr freundlicher und hilfreicher Service.,Llama70B,2,fixed
+477,a6846fb2-25cc-43eb-ab85-b75d43adfc20,"Die Pizza war gut, aber zu teuer.",Llama70B,2,fixed
+478,387896ca-10f9-48be-9977-a238566f67b2,Auch das Ambiente ist angenehm.,Llama70B,2,fixed
+479,b1642e64-f85a-430a-9994-bfc581ca52d6,"Service einwandfrei, Ambiente schön, aber sehr teuer.",Llama70B,2,fixed
+480,ba0ee874-ae77-4f7f-ab52-b7c01ab095db,"Auch der Service war in Ordnung, aber auch nicht mehr als das.",Llama70B,3,fixed
+481,decf20b6-3458-4165-9a4a-986e8defaf12,Der Preis war für unsere Meinung zu hoch.,Llama70B,3,fixed
+482,1906e959-29c2-4f30-a564-e6c45dd09c7d,Der Preis ist in Ordnung.,Llama70B,3,fixed
+483,3264c2ed-99a8-4646-b06a-922cd62584af,"Ein netter Abend mit Freunden, der aber nicht so gelaufen ist wie er hätte laufen können.",Llama70B,3,fixed
+484,0df3c659-e8a2-4043-a8f3-644cb0035833,"Das Essen schmeckt gut, aber man muss viel Geld ausgeben.",Llama70B,3,fixed
+485,b0f1e80f-b834-47a4-9d5e-e06a18c92cbb,"Preis ist in Ordnung, aber Kellnerin war sehr freundlich.",Llama70B,3,fixed
+486,946da76a-8e3b-48af-9808-4a30f006e268,"Preis/Leistung stimmt nicht, Ambiente ist eher schlicht, Service sehr unfreundlich.",Llama70B,3,fixed
+487,66646d48-5e1e-4dcf-a971-4c690e810516,"Wir waren zufällig an einem Sonntag dort, da nur die Frühstücksküche geöffnet ist.",Llama70B,3,fixed
+488,ba51e831-b062-4f9f-a441-cb64e3acdfbe,"Es war auch nicht so, dass wir uns über die Lage des Lokals aufregten.",Llama70B,3,fixed
+489,fddeb8b7-56b2-4f96-b9e8-53aab7a5f637,Das Essen war sehr gut.,Llama70B,3,fixed
+490,be8915a0-919c-4646-9f47-4b348dc0c653,Das Essen ist gut und schnell serviert.,Llama70B,3,fixed
+491,6037e5ee-51bf-4f24-a556-3c3be1d2af96,Das Ambiente ist eher einfach.,Llama70B,3,fixed
+492,bbb0776a-6a95-4dba-8e6e-7e50f7034382,"Die Atmosphäre war nicht wirklich dazu angetan, einen zu begeistern.",Llama70B,3,fixed
+493,6cfb3fcb-1c4e-4769-b799-7b9013e964ca,"Wir waren in diesem Lokal schon öfters, aber diesmal war der Service nicht so gut wie sonst.",Llama70B,3,fixed
+494,676f458b-a7fc-4b27-9d55-6973cff86718,"Freundlicher Service, schönes Ambiente und leckeres, frisches Essen zu einem fairen Preis.",Llama70B,3,fixed
+495,f1cf5010-e43c-4318-b28b-426480086016,"Schlechte Qualität, zu teuer, keine Auswahl, unfreundliches Personal.",Llama70B,3,fixed
+496,124599d5-69d6-4da7-b3ce-8f8953f658c9,Das Personal war sehr freundlich und zuvorkommend.,Llama70B,3,fixed
+497,ca291192-6d33-4589-8ec2-2a45c964c605,Die Atmosphäre war nicht so toll wie das Essen.,Llama70B,3,fixed
+498,3389d607-682c-43f3-b0ba-09fd1c7e4f5c,"Wir waren auf dem Weg nach Sommerhausen, als wir hier vorbeikamen.",Llama70B,3,fixed
+499,53784f0c-b364-44da-972d-778af8931600,"Etwas mehr Ambiente wäre schön, aber das Food war prima.",Llama70B,3,fixed
+500,a5f7b137-43ed-484e-b847-ecdd82c7555a,Essen war okay.,Llama70B,3,fixed
+501,3b7fd699-981e-43ba-9e32-39ec08c6a97f,"Die Geschichte ist interessant, das Essen lecker.",Llama70B,3,fixed
+502,f779233d-78a8-48fc-8aac-b3e8d471b3ee,"Manchmal fragt man sich, wie einzelne Restaurants an die Position in TripAdvisor gelangen können, an der sie sich befinden.",Llama70B,3,fixed
+503,b094bb6a-990a-40b4-bcec-7862e7e75364,Speisen waren alles andere als lecker.,Llama70B,3,fixed
+504,b955ba78-14f4-4d3f-ae0b-a1a9f69639d2,"Das Personal war nicht sehr freundlich, aber die Gerichte waren lecker.",Llama70B,3,fixed
+505,e2e60001-e33e-461d-b74f-507755fbeca5,Preis/Leistung stimmt nicht.,Llama70B,3,fixed
+506,074c8587-22b3-4c3d-be9d-8a4062853818,Das Essen war sehr lecker.,Llama70B,3,fixed
+507,9d70334b-6b09-41b0-aa07-699f7c3502a8,Ein wirklich schöner Abend in LOC.,Llama70B,3,fixed
+508,fed5627a-1100-4150-84a7-01f7f9d9028c,"Die Atmosphäre war sehr schön, die Gerichte eher mittelmäßig.",Llama70B,3,fixed
+509,ba024801-7c92-49cb-8697-a5e86cd270bc,Preis/Leistung stimmt nicht.,Llama70B,3,fixed
+510,e96e6168-98fa-4c8f-a9bf-757b62c582ac,"Das Essen war eher schlecht, die Qualität der Zutaten und das Essen an sich.",Llama70B,3,fixed
+511,57a50842-5630-455c-8d9d-5f3306a31ed5,Leider war das Essen nicht gut.,Llama70B,3,fixed
+512,917185d9-b96b-4cb7-9825-a76afaa933fb,Besonders freundlich war unsere Kellnerin.,Llama70B,3,fixed
+513,ccdc0cb4-7462-42dc-82ae-badd68c3cb45,"Service war ok, nicht mehr.",Llama70B,3,fixed
+514,28985c14-2999-4a62-b2ba-36d7d7e0151f,"Nicht gerade ein Service mit 4 Sternen, aber das Essen war gut.",Llama70B,3,fixed
+515,8155a365-5858-48a6-8355-3aba29a9cf4b,"Nettes Personal, sehr freundlich und zuvorkommend.",Llama70B,3,fixed
+516,f2857259-7c59-43d3-bc8a-94f18f242079,"Die Atmosphäre war ein bisschen kühl, aber das ist auch in der Lage des Restaurants begründet.",Llama70B,3,fixed
+517,e0389753-a208-45a8-bd84-17e9f79bdfeb,Das Essen war eher durchschnittlich.,Llama70B,3,fixed
+518,b9a2d21f-a318-4684-bdac-6015d59636f8,Dafür ist der Preis/Leistung sehr gut.,Llama70B,3,fixed
+519,5455a6f0-8905-49cd-9643-a3ea54675cd1,Wir waren schon öfters dort und es war immer gut.,Llama70B,3,fixed
+520,35112579-ba7b-478c-86ec-f551013de0cc,Ein Frühstück auf der Terrasse mit Blick auf die See - eine schöne Erinnerung.,Llama70B,3,fixed
+521,d32b99e7-3cc8-40f5-b435-ee92e10f8fa6,Wir waren mit 5 Personen beim Service nicht sehr zufrieden.,Llama70B,3,fixed
+522,83137567-0ac4-42ff-a2c5-5b5d9c8cf99d,"Auf jeden Fall ein Essen, das man ausprobieren sollte.",Llama70B,3,fixed
+523,8fef8792-b32d-4394-8e9c-eaec3b35eb18,Wir waren zum ersten Mal im Restaurant und werden nicht wieder kommen.,Llama70B,3,fixed
+524,a66baadf-5ef0-44b1-9322-a43260599376,"Preise sind okay, aber Qualität bei den Torten sehr unterschiedlich.",Llama70B,3,fixed
+525,451ea3e2-1415-4424-a23f-8364fa1c6a28,Preis und Leistung stimmt nicht.,Llama70B,3,fixed
+526,64520204-1551-4087-a8e2-67147e81cb15,Wir waren mit der Leistung sehr zufrieden.,Llama70B,3,fixed
+527,266c78dc-4edd-4a95-b56e-f1d8c4a7a734,Die Tarte flambée war auch nicht so gut wie die in LOC.,Llama70B,3,fixed
+528,9bfb82b9-6072-4414-bf52-726d3ac3171f,Die Dienstleistung war unfreundlich und langsam.,Llama70B,3,fixed
+529,592bba33-7240-4f97-9418-f09ec2169aff,Wir haben uns nicht wohl gefühlt und werden das Restaurant nicht mehr besuchen.,Llama70B,3,fixed
+530,81329937-bf06-4ff5-8385-a9f266437271,"Ein guter Preis hätte es aber auch sein können, aber das ist ja ein Fachwerkhaus in der Altstadt.",Llama70B,3,fixed
+531,430c1d07-c8e9-4a1e-a275-2281fa80fd04,Gerichte waren gut.,Llama70B,3,fixed
+532,49bf1f4f-f555-4b17-b0c1-10d407fa79eb,"Eine schlechte Speisekarte, zu hoher Preis und ein schlechter Service.",Llama70B,3,fixed
+533,afd91f23-4d7f-4acb-8bb5-57b0e2b579d8,Die Atmosphäre war sehr gemütlich und die Bedienung freundlich.,Llama70B,3,fixed
+534,740163fe-8b4a-4a95-bd6b-a497be68ef32,"Eine sehr schöne Atmosphäre, die man sicherlich auch für ein Abendessen genießen kann.",Llama70B,3,fixed
+535,b057f6bb-03e3-466b-add5-81bdafc530a7,Und dann das Essen.,Llama70B,3,fixed
+536,223fbf88-d157-497c-82e7-6d6a5173f5df,"Nettes Ambiente, leider nur wenig Stimmung",Llama70B,3,fixed
+537,84cd7ce1-4f45-4a75-8e60-d82892f07428,Das Essen war nicht schlecht.,Llama70B,3,fixed
+538,873c72ef-e7b9-409d-9e1c-00154ad5df40,"Service war ok, aber die Qualität der Speisen nicht überragend, das Ambiente war sehr laut und die Tische zu nah aneinander.",Llama70B,3,fixed
+539,89b5475e-f153-4e5b-802a-cf12b8e3152a,"Eine Szene, die ich mir nicht zumuten kann.",Llama70B,3,fixed
+540,0c608f6d-df52-480d-a9b5-829a705081d7,Einzig das Essen war lecker.,Llama70B,3,fixed
+541,e89fb552-b2fc-4e02-92ab-c6e4d7dfd1cd,Ambiente ist angenehm und sehr gemütlich.,Llama70B,3,fixed
+542,fd2b95cb-01c9-4ddb-812e-e6a732f58252,"Die Gerichte sind sehr lecker und die Bedienung war auch sehr freundlich, aber es ist ein wenig laut in dem Lokal.",Llama70B,3,fixed
+543,4a9c1301-0769-4d54-9348-84f4f80c65e6,"Die Pizza war auch gut, aber nicht überragend.",Llama70B,3,fixed
+544,feec30ca-685f-45a0-abc6-cca4eb0a2239,"Wir fanden es einfach nur ""ok"".",Llama70B,3,fixed
+545,f8568e08-ec7c-4f73-99e6-5a15cd98cc89,"Die Mahlzeit ist gut gelaufen, die Bedienung war freundlich.",Llama70B,3,fixed
+546,d42526a4-f0f8-4726-aacb-37204a79dfe7,"Etwas zu laut, das Essen war leider nicht so gut wie erwartet.",Llama70B,3,fixed
+547,0d68e570-ae5c-4956-b71e-3b3ce40e63a7,Der Käsekuchen war auch nur so.,Llama70B,3,fixed
+548,2e8bbbc8-be39-48e6-9c2f-dd2811a5eeee,Das Preis / Leistung Verhältnis ist gut.,Llama70B,3,fixed
+549,c337fa9c-d872-4cf3-be9d-6ce301729a8a,Preise sind ok.,Llama70B,3,fixed
+550,8ebdf417-1198-4951-a030-0db917978bf2,"Wir waren mit der Bedienung, die sehr freundlich war, aber nicht so erfahren.",Llama70B,3,fixed
+551,bd17f9e7-021b-45b7-8b09-be108903e24d,Der Preis ist auch ganz in Ordnung.,Llama70B,3,fixed
+552,fd9426ce-184c-4376-b14a-c0710c9d57ea,Nur für den Biergarten würden wir wiederkommen.,Llama70B,3,fixed
+553,2c31a706-e384-4c52-a9c6-3ee87b43dae7,"Ein bisschen zuviel der guten Sache, das Ambiente ist einfach nur nicht meins.",Llama70B,3,fixed
+554,69c046eb-730a-40e3-ae93-cdaaa8f0947b,Das Ambiente und das Essen waren toll!,Llama70B,3,fixed
+555,fba126ad-0cd0-4e3b-8f62-1a1beb07685b,Die Stimmung war so ziemlich null.,Llama70B,3,fixed
+556,97dd9721-f507-48c6-a97c-59f1f70052ae,"Wir hatten das Gefühl, dass der Preis für die Qualität nicht gerecht war.",Llama70B,3,fixed
+557,6e851db9-d3b7-4434-a94f-d156049ae983,"Das Essen war nicht gut, Preise waren günstig, aber Service war sehr schlecht.",Llama70B,3,fixed
+558,00a9f38c-51ce-46f6-97f0-00eb98125cb8,"Die Gerichte waren lecker, aber nichts Besonderes.",Llama70B,3,fixed
+559,b80cfc1d-b351-4759-a572-d93bb84cfb3d,Bedienung war sehr freundlich und zuvorkommend.,Llama70B,3,fixed
+560,34e5c867-1bf1-49c8-a91d-96912da5a148,"Das Essen war leider nicht so gut, der Service und das Ambiente war auch nur mäßig.",Llama70B,3,fixed
+561,cc8d6927-c6e1-4ad7-a1ea-81e4337666df,Die Bedienung war nicht besonders freundlich.,Llama70B,3,fixed
+562,de32ca76-4a97-4d34-a7ba-8e0f4a6d8a10,"Das Essen war einwandfrei, aber nichts Besonderes.",Llama70B,3,fixed
+563,8d2faa6d-6db1-4f33-8e06-91ed7f736a98,"Das Essen war sehr gut, die Bedienung auch.",Llama70B,3,fixed
+564,f69c412f-967f-4742-864b-dda7ad3fdd8f,"Wir waren ein paar Tage in LOC und haben uns sehr wohl gefühlt, es war schönes Ambiente.",Llama70B,3,fixed
+565,1dcc8e10-812b-4ca6-87a3-b835598695c0,"Der Preis ist zwar auch nicht gerade billig, aber für die Qualität der Gerichte und den Service ist er in Ordnung.",Llama70B,3,fixed
+566,7352d5a9-5e57-4e68-b8ec-3ed2e4840a7d,"Ambiente sehr schön, Essen durchschnittlich, Fisch war nicht gut.",Llama70B,3,fixed
+567,9bc27527-4351-436d-ad11-823e94ae298d,"Wir waren mit Freunden im ""RESTAURANT_NAME"" und hatten eine tolle Zeit.",Llama70B,3,fixed
+568,dc832449-ca31-4dba-9c6b-62336ad700ef,"Die Besitzerin und der Kellner haben sich sehr bemüht, aber das Essen war einfach zu teuer.",Llama70B,3,fixed
+569,26592a88-6abe-4714-9cc2-38b6da3ead99,"Etwas teuer, aber Preis und Leistung stimmt.",Llama70B,3,fixed
+570,6309cf76-fc93-48d3-8d6b-b000b93d8efc,"Da ist es schon etwas kalt, wenn man 20 Grad draußen hat und den Heizkörper in der Nähe nicht nutzen darf.",Llama70B,3,fixed
+571,c60fd402-e524-42a1-81b4-271c6c2b061b,Preis für das Essen zu hoch.,Llama70B,3,fixed
+572,0a7061e5-2ed9-4dc6-8759-129a66b2141c,Der Service war nicht sehr freundlich und wir fühlten uns eher unwohl.,Llama70B,3,fixed
+573,3c70b23b-d5b3-47a7-9333-1a4bad63bfcd,"Die Bedienung war sehr freundlich, das Preis/Leistungsverhältnis stimmt und die Gerichte waren sehr lecker.",Llama70B,3,fixed
+574,36706883-2356-49c2-8a37-90e9c134a1d5,"Service war nicht sehr freundlich, aber Essen war gut.",Llama70B,3,fixed
+575,6a6a8bd9-0969-4d13-8b4b-3ed71f98d476,Preis Leistung stimmt nicht.,Llama70B,3,fixed
+576,04d3a6ad-bbac-42b8-b9a4-2c31dc818d8c,"Die Preise sind im Rahmen, das Essen nicht wirklich gut.",Llama70B,3,fixed
+577,d0d724a1-77a0-44d8-9673-997f205f4a6d,Das Ambiente ist sehr schön.,Llama70B,3,fixed
+578,e7217e85-1c11-4de7-bf26-a792af08660d,"Die Preise sind eher im unteren Bereich, was ich als positiv ansehe.",Llama70B,3,fixed
+579,f99d01b2-ec65-47db-a9f3-897a2fecb0ee,"Wir haben uns sehr wohl gefühlt, die Bedienung war freundlich und zuvorkommend, das Ambiente gemütlich, die Preise sind sehr erschwinglich.",Llama70B,3,fixed
+580,b7661324-6e36-41eb-8d0b-59f94d35bfd5,"Die Preise sind schlichtweg zu hoch, die Atmosphäre ist zwar gemütlich aber auch nichts Besonderes.",Llama70B,3,fixed
+581,fbecd16c-f9e6-4ca7-b42f-1e2f767f83f1,Service war nicht sehr freundlich.,Llama70B,3,fixed
+582,d7042985-209a-49e8-9c7e-423e5d0312be,"Hatte ein Fischgericht, aber da war die Fischfilet so zäh, dass man es kaum mit Messer und Gabel anschneiden konnte.",Llama70B,3,fixed
+583,1e867fa7-5a61-4842-b5ec-83141868c030,Der Service war nicht besonders gut.,Llama70B,3,fixed
+584,b950f4dd-953b-4397-af37-374d33d5ac7c,Insgesamt eher ein Preis für die Qualität.,Llama70B,3,fixed
+585,5aaa9e5d-90d8-46cf-a6c1-9e31ba01392e,Tolle Küche.,Llama70B,3,fixed
+586,4cad1e34-30a9-4421-b7ce-285c4fd5d4e6,Das Essen war eher mäßig.,Llama70B,3,fixed
+587,574f32cc-ac3d-428c-b6e6-2aad4074f311,Preise sind eher auf der hohen Seite.,Llama70B,3,fixed
+588,ff1664da-f35b-45e0-99c9-ab30af4018da,"Auch wenn das Lokal noch neu ist, gibt es dort schon eine Menge Stammgäste.",Llama70B,3,fixed
+589,c12430e7-0149-4f6f-bc13-014bbcc65c58,"Sehr leckeres Essen, sehr nette Bedienung, wir kommen gerne wieder.",Llama70B,3,fixed
+590,74819f8c-2681-4a3f-a2e3-1be314108846,Aber die Preise sind hoch.,Llama70B,3,fixed
+591,0abacc1c-ff70-4969-af6d-4f0192d7dbc1,Die Vorspeisen (Brettljause) waren sehr lecker und reichhaltig.,Llama70B,3,fixed
+592,039a542e-e3b5-47eb-b809-8abf2dcff336,"Nur die Kartoffelpuffer waren schade, dafür war der Gebratene Fisch sehr lecker.",Llama70B,3,fixed
+593,ccde962b-2a04-4b9a-b72c-a7b54eaef7fc,"Das Ambiente war nicht so, wie ich es mir vorgestellt hatte.",Llama70B,3,fixed
+594,b6c75940-c37e-4e12-b9fa-8f91ae8ef178,"Wir waren schon öfters in diesem Restaurant, das Essen ist lecker, aber nicht überragend.",Llama70B,3,fixed
+595,9af14a2f-b3e4-4769-86ab-951bc1c94fb1,Die Atmosphäre ist gemütlich und die Speisen waren sehr lecker.,Llama70B,3,fixed
+596,bbc5f5f6-8639-4e1c-a95c-c535a4818700,Wir haben unsere Lieblingsgerichte bestellt und waren mit beiden sehr zufrieden.,Llama70B,3,fixed
+597,18f2f2cf-c608-41d0-a527-3ce01a602569,Die Bedienung war nicht sehr freundlich.,Llama70B,3,fixed
+598,a0ac7477-989f-4b81-a9db-c527df022a1c,Der Preis ist einwandfrei.,Llama70B,3,fixed
+599,5357997a-a68c-478b-8d74-4e0775da3d0a,Das Personal war unhöflich und unfreundlich.,Llama70B,3,fixed
+600,243524a0-b18b-4ead-a3d5-072588af2208,"Der Preis ist nicht günstig, aber auch nicht überteuert.",Llama70B,3,fixed
+601,79075910-3322-414d-942d-018d5cf80e7a,Einige Komplimente gab es.,Llama70B,3,fixed
+602,abc07057-e37f-4c2f-84ac-d1e349cc7f96,"Nachdem wir unsere Bestellungen gemacht hatten, dauerte es ziemlich lange bis der Kellner kam um die Bestellung abzuholen.",Llama70B,3,fixed
+603,ffd65120-a6da-4145-beda-8fe1f99f5af2,Für den Preis sind die Portionen eher klein.,Llama70B,3,fixed
+604,e991f194-3ba6-4d0a-9858-93775a2a6542,"Bei der Pizza und dem Knusperkäse hat es uns nicht so gut gefallen, aber das Ambiente war toll.",Llama70B,3,fixed
+605,92100f47-e170-4783-9e2c-a0a479a49a5e,Ein schöner Garten.,Llama70B,3,fixed
+606,1f52d475-6914-4851-a508-585546b9b41b,Nicht mehr so gut wie früher.,Llama70B,3,fixed
+607,8ce47152-e638-4f22-8ea4-e8f6aa773245,"Unser Essen war in Ordnung, aber nichts besonderes.",Llama70B,3,fixed
+608,1a3a6abc-15ad-4ce5-831a-2182548de029,Service war nicht so gut.,Llama70B,3,fixed
+609,418446b1-fd93-4678-8bcb-fd7dfa5bf31b,"Für den Preis, den man bezahlt, ist es nur so so.",Llama70B,3,fixed
+610,d8484d4a-7283-4ebd-a877-4f41ad35976b,Wir waren sehr zufrieden mit der Preis/Leistung,Llama70B,3,fixed
+611,7b9e7171-75cd-4970-9a15-c64a3b3c7955,Aber es ist ein schönes Lokal mit netten und freundlichen Bedienungen.,Llama70B,3,fixed
+612,efab1a26-85f0-4271-8720-d3aa6b81c5cb,"Preis war ok, das Essen nicht so gut wie erwartet, dafür sehr freundliches Personal.",Llama70B,3,fixed
+613,10d2a2e2-cb5e-4333-be59-9354c51c1e4d,"Das Essen war lecker, der Service sehr freundlich und der Preis gerecht.",Llama70B,3,fixed
+614,4b9f4d4f-848c-4f67-afba-ba0bb1de9ef1,Das Personal war freundlich und kompetent.,Llama70B,3,fixed
+615,45608c6a-022f-4d4f-b550-d38beaae18b8,Es hat sehr lange gedauert bis wir bedient wurden.,Llama70B,3,fixed
+616,99c17b1c-3f5b-4766-9f46-8b004d100fa1,Das Personal war freundlich und zuvorkommend.,Llama70B,3,fixed
+617,829da711-68f9-4077-96ca-ad4fbd9e1441,Lage ist nicht gerade ein Schmuckstück und der Service war noch nie so schlecht.,Llama70B,3,fixed
+618,bb199289-dbb6-44a9-9cc4-41c17c949466,Preise sind ok.,Llama70B,3,fixed
+619,f9d604e1-9c65-4c62-9f97-2bc7afa70cc9,"Ein schöner Ort, freundliche Bedienung und leckeres Essen.",Llama70B,3,fixed
+620,ab3b45c1-a949-4336-806b-7a6be56f46df,Preis/Leistung ist nicht mehr im Lot.,Llama70B,3,fixed
+621,80c6f484-dcd0-4c1c-96a7-26e2a0b4539e,Die Servicekraft war sehr unfreundlich.,Llama70B,3,fixed
+622,2cf47fd9-a648-489a-95ac-2d59d5214971,"Essen war okay, Preis/Leistung stimmt.",Llama70B,3,fixed
+623,6bd28242-b396-43db-878c-96145c1581bd,Ein wenig zu laut.,Llama70B,3,fixed
+624,d9fd2b9d-6a42-4446-8eee-28fc1cce0def,"Preis/Leistung stimmt, Essen war ok, aber nichts Besonderes.",Llama70B,3,fixed
+625,e8c2c3a6-d798-4819-ba30-7a55a9203aa1,"Einige Wartezeiten und ein Preis, der nicht gerade günstig ist, aber auch nicht überteuert.",Llama70B,3,fixed
+626,581cc12d-fa97-46be-90e2-37401f5c5177,"Wir kommen auf jeden Fall wieder, wenn wir in der Nähe sind, aber das Klima ist ein Problem.",Llama70B,3,fixed
+627,62d48f37-12aa-4c12-9c58-7968db035728,Auch die Speisen waren lecker.,Llama70B,3,fixed
+628,cb3d6053-2032-49c4-a424-34bf38cb067b,Alles in allem ist es ein netter Ort zum Essen.,Llama70B,3,fixed
+629,0a845f75-3ee2-4d84-9c6c-d735ec59661f,Das Personal war sehr freundlich.,Llama70B,3,fixed
+630,78394ce2-1de2-40be-b03d-9f7e2395d12c,"Mir hat es sehr gut geschmeckt, aber ich bin einfach kein Fischfan.",Llama70B,3,fixed
+631,5e4f899f-3d0e-4be3-ae70-97019fe59e99,"Das Ambiente ist im Vergleich zu den anderen Filialen etwas abgewohnt, das Personal aber sehr freundlich.",Llama70B,3,fixed
+632,2cd9b399-68ed-415d-9c41-6fb588816e7f,Die Teller sind sehr gut.,Llama70B,3,fixed
+633,f6f0e77f-6dd0-4abf-80a0-a2de1d73922d,Wir waren ein paar Mal dort und es war immer lecker.,Llama70B,3,fixed
+634,7aa4817e-a766-4b30-835e-41b88f69ae37,Das Essen war gut aber nicht sehr lecker.,Llama70B,3,fixed
+635,1280c748-0834-45be-86ba-a886b39ff13a,Leider war der Service sehr schlecht.,Llama70B,3,fixed
+636,a6f90b27-b146-4171-b5c5-ba863646bfee,"Ein Service, den man sich wünscht, aber nur selten erlebt.",Llama70B,3,fixed
+637,7214b536-6441-4814-873a-3461416a171f,Hier kann man sich nicht mehr eindeutig positionieren.,Llama70B,3,fixed
+638,7906309c-220c-4346-aa94-ba2f1a032344,"Das Essen war in Ordnung, aber nicht mehr.",Llama70B,3,fixed
+639,c0c2984e-3123-4dc9-8852-a45008d24ca9,Wir waren in der Kneipe und hatten eine Kellnerin mit einer sehr unfreundlichen Art.,Llama70B,3,fixed
+640,a0df86da-a5d8-4fdc-be4f-417357ea32e3,"Der Preis ist ein wenig auf der hohen Seite, das Essen war aber sehr lecker und alles frisch zubereitet.",Llama70B,4,fixed
+641,9044fd4a-4c8a-4ca3-af7f-db9268731bed,"Sehr freundlicher, kompetenter und schneller Service.",Llama70B,4,fixed
+642,9be5259c-b5fa-45c6-a60a-737d8e9a752f,Die Preise sind angemessen.,Llama70B,4,fixed
+643,c2966d14-98cc-43a8-b7cc-07a5fc0a51ba,"Bei einem Preis/Leistungsverhältnis von 4,5 Sternen ist das Restaurant zu empfehlen.",Llama70B,4,fixed
+644,f2a184b2-0cdb-4485-b230-a69d484fbd77,Das Preis-Leistungs-Verhältnis war schlecht.,Llama70B,4,fixed
+645,4dfb4082-6a2d-44ff-a193-0dd6a4ad485c,Das Essen war lecker aber das Ambiente nicht so schön.,Llama70B,4,fixed
+646,ebc65af6-3d22-42d1-ae24-1ac76ee934e2,"Insgesamt ein schönes Ambiente, gut gelungene Küche und ein sehr angenehmer Abend.",Llama70B,4,fixed
+647,663179c9-f323-46e4-ab6f-31fbc8426776,"Sehr schönes Lokal, sehr nettes Personal, alles sehr sauber.",Llama70B,4,fixed
+648,25606e22-780b-4362-ac63-dc0d22b662ad,"Die Preise sind für das, was man bekommt, sehr hoch.",Llama70B,4,fixed
+649,23e96323-80cc-4302-9c0a-11756413ba9c,Das Essen war schrecklich.,Llama70B,4,fixed
+650,86959a07-2e0a-4788-8758-900c0f83e84d,"Das Ambiente ist einfach, aber gut.",Llama70B,4,fixed
+651,dcfcffa1-846d-4e77-848e-b838f6fd20c0,Auch der Preis ist in Ordnung.,Llama70B,4,fixed
+652,3ced5314-0875-4164-96db-a7eb5d7002f7,Die Atmosphäre ist sehr gemütlich und schön.,Llama70B,4,fixed
+653,88650483-d792-4c44-b681-1e0336ab4769,Die Kellnerin war ziemlich arrogant und unfreundlich.,Llama70B,4,fixed
+654,6bfc3838-6097-4ba7-8693-2b2ad26e53f4,Das Preis-Leistungsverhältnis ist sehr schlecht.,Llama70B,4,fixed
+655,45f871ad-3b00-478a-b217-2b809b80a419,"Das Essen war schrecklich, die Bedienung auch.",Llama70B,4,fixed
+656,780ba1e8-35e2-4928-8006-27db5f8bd0b6,Eine gute Adresse für einen Besuch in LOC.,Llama70B,4,fixed
+657,2b206124-66ba-4b3d-8b94-6cdf1913833a,Das Personal ist sehr freundlich und zuvorkommend.,Llama70B,4,fixed
+658,2146c9dc-a1b3-45ef-913d-14d00cfeec35,"Ganz ok, aber nichts besonderes.",Llama70B,4,fixed
+659,6c2a9107-6b50-4e6f-af38-bd51a7cc76e2,"Nicht empfehlenswert, zudem Essen ungenießbar.",Llama70B,4,fixed
+660,fe948831-4429-479a-b398-3e55288acfec,Dieses Restaurant ist nicht empfehlenswert.,Llama70B,4,fixed
+661,738cdad9-a4d1-47de-9577-52b55843be0d,"Gerne wieder, sehr empfehlenswert.",Llama70B,4,fixed
+662,fefaa1a0-7efb-4987-995a-c61c87bbdde5,"Das Ambiente ist in Ordnung, aber die Qualität der Speisen hat sehr nachgelassen.",Llama70B,4,fixed
+663,7c71afb7-0cab-411a-afe0-74307b360cee,"Das Personal ist freundlich aber ungeschult, sehr schlechte Bedienung.",Llama70B,4,fixed
+664,df556885-88c4-4a22-815e-c7dacdda9f60,"Das Personal war freundlich und zuvorkommend, das Essen wurde recht schnell serviert.",Llama70B,4,fixed
+665,9cf311ae-868f-49d2-85b1-1234c0ce4a03,Das Personal ist unfreundlich und langsam.,Llama70B,4,fixed
+666,0ca619bc-b5ec-4c21-8047-0d63de0c2443,Service sehr langsam.,Llama70B,4,fixed
+667,f2a99213-c123-4594-b5d6-8d16b4f7d5d2,Wir waren sehr zufrieden mit der Qualität des Essens.,Llama70B,4,fixed
+668,1ba00452-d03a-4c97-8fb6-7d1d8fc7a60f,Wir haben uns in der Tat sehr unwohl gefühlt und sind nach 10 Minuten wieder gegangen.,Llama70B,4,fixed
+669,ae0cbfa4-d5bd-4331-9975-156547e444e8,Das Essen war gut aber nichts Besonderes.,Llama70B,4,fixed
+670,1a6cfc40-bc20-46b2-bef8-171f12e143f5,Das Restaurant ist einfach nicht empfehlenswert.,Llama70B,4,fixed
+671,5fc7d496-c67a-4538-917b-97379c1f4b28,"Das Ambiente ist eher einfach, aber das macht auch nichts.",Llama70B,4,fixed
+672,969a544e-257c-4543-84d1-e6f7581ffcec,"Der Service war sehr gut, der Kellner hat sich Zeit genommen und uns das Essen erklärt.",Llama70B,4,fixed
+673,f7d27e3c-2454-4d31-965d-11e25beca3fa,"Aber das Personal, welches sich nicht mal um den Tisch kümmert, schreit über die Musik und ist zu laut.",Llama70B,4,fixed
+674,da155460-c67c-420d-a219-7d82197897c0,Die Speisen sind gut und lecker.,Llama70B,4,fixed
+675,75a59c89-c70a-4080-8a27-c03f43dec803,"Das Ambiente war schön, die Bedienung war freundlich.",Llama70B,4,fixed
+676,f3946094-ab9e-420c-9764-2bac2146d783,"Die Pizza war schön, die Pasta nicht so.",Llama70B,4,fixed
+677,1484f543-2887-413f-bb6d-51392a465273,"Tolles Personal, Ambiente einwandfrei, Preise sind allerdings nicht unbedingt günstig.",Llama70B,4,fixed
+678,dc46acc4-a75b-4b49-9e59-d82da8124290,"Service war gut, aber das Essen war nicht so gut wie ich erwartet hatte.",Llama70B,4,fixed
+679,a8167fdb-6ad5-42b0-bc24-0ebe8d7d24b8,Die Atmosphäre im Restaurant ist sehr ruhig und gemütlich.,Llama70B,4,fixed
+680,a85d38b2-3ac3-452a-b0b2-f1c1f17ba986,Das Essen war gut und das Preis Leistung Verhältnis stimmt.,Llama70B,4,fixed
+681,176e9cbe-2d99-49ab-89f7-22eead651161,"Die Preise, wenn man sich einmal das Menü genau angesehen hat, sind aber auch nicht unbedingt erschwinglich.",Llama70B,4,fixed
+682,5169f574-dc34-49e5-bc6c-97ed1bd4cbce,Die Pizza war leider nicht so gut wie sonst.,Llama70B,4,fixed
+683,4d3b462d-dd5a-4aac-babe-62a28dc22b5e,Die Atmosphäre war nicht so wie ich sie mir vorgestellt hatte.,Llama70B,4,fixed
+684,a954119e-ddb2-4d90-934f-1c627e5e3198,Wir hatten ein Reservierung und wurden trotzdem 30 Minuten lang nicht bedient.,Llama70B,4,fixed
+685,d58a254a-4ac0-4279-8782-487b4701247d,"Ein schönes Ambiente, freundliches Personal und tolles Essen.",Llama70B,4,fixed
+686,e1ecc669-82b5-4b5b-b8da-13a485d3ce1b,Wir waren am Sonntag Mittags dort und es war einfach nur schlecht.,Llama70B,4,fixed
+687,0c5cba8d-5068-45b2-8f8e-31266b320bb4,Nur der Service war nicht so gut.,Llama70B,4,fixed
+688,c638e07d-b7a2-43ae-b1f4-f3487c7a6eb0,Wir wurden nur nach dem Tisch gefragt.,Llama70B,4,fixed
+689,277dd62d-3fbc-482e-8481-76cce3c6a6c4,Die Preise sind OK.,Llama70B,4,fixed
+690,ab219aed-bca1-4140-a4d0-2cd72fe8dcd7,"Das Ambiente ist sehr schlecht, die Tische stehen dicht beieinander.",Llama70B,4,fixed
+691,60801d05-9a75-4942-8e97-144c78586dbb,"Auch der Service war nicht schlecht, aber auch hier gibt es noch Potential.",Llama70B,4,fixed
+692,a817575c-23af-4be9-b444-d746d472d7c1,"Bei den Preisen und der Atmosphäre, ist die Qualität der Speisen absolut in Ordnung.",Llama70B,4,fixed
+693,2878e72a-f938-45f3-95c7-bb7457bb8ce2,"Das Essen war ziemlich schnell serviert, das Ambiente sehr schön.",Llama70B,4,fixed
+694,2bd922b4-7335-468b-9a31-02b1d382fd0d,"Das Ambiente, die Atmosphäre und das Essen ist einfach nur toll.",Llama70B,4,fixed
+695,9bc13755-508c-422f-9414-119e8d1a7c60,"Eine schlechte Erfahrung, die wir nicht wiederholen werden.",Llama70B,4,fixed
+696,9f429d49-f02e-4595-b0f6-4cfdb52dc354,"Komfortables Ambiente, ziemlich teure Kalbsschnitzel.",Llama70B,4,fixed
+697,9a43a10e-0263-4e49-a098-6a1df055b9dc,"Das Preis/Leistungsverhältnis ist gut, das Ambiente auch.",Llama70B,4,fixed
+698,01f72444-c9ff-4c3a-a22b-1ef5acf9c2d6,"Super Service von den Mitarbeitern, sehr freundlich und hilfsbereit.",Llama70B,4,fixed
+699,7c14a089-8193-4ac4-bbd9-cdc6023c2387,Die Atmosphäre war einfach nicht vorhanden.,Llama70B,4,fixed
+700,2b396a0f-1660-4129-b4f0-7819630a0ed0,"Das Essen war ok, aber nichts Besonderes.",Llama70B,4,fixed
+701,67daad8b-b95c-48c6-b6b0-d7014b09da74,"Wir haben uns sehr wohl gefühlt, tolle Atmosphäre!",Llama70B,4,fixed
+702,d5e77652-2ab5-4c9e-ad36-60f700bc9264,"Das Essen ist lecker, aber auch nicht billig.",Llama70B,4,fixed
+703,49d52b2a-a634-4ff8-9e95-3482c5139907,Die Atmosphäre ist nicht unbedingt angenehm.,Llama70B,4,fixed
+704,2d4d9502-be33-4469-8814-84428928545f,Das Personal war sehr freundlich und zuvorkommend.,Llama70B,4,fixed
+705,a094c4bb-59fc-42dc-9e37-b0e8dbadd5e1,"Die Bedienung war, wie erwähnt, korrekt aber nicht freundlich.",Llama70B,4,fixed
+706,ed3977dc-2f5c-4075-ba06-1530ec19e1ad,"Das Essen ist gut, aber nichts Besonderes.",Llama70B,4,fixed
+707,d2357acf-d573-44b2-86f3-c313e778d5d6,"Zugegeben, die Preise sind nicht günstig.",Llama70B,4,fixed
+708,f84b9853-b541-424d-b4c8-feae41e7618d,Die Bedienung war freundlich und aufmerksam.,Llama70B,4,fixed
+709,20e4c7df-a34a-465f-b015-922531e551f1,Das Personal war sehr freundlich und bemüht sich wirklich um die Gäste.,Llama70B,4,fixed
+710,094f4e31-fef3-46a4-910a-a59f074f229f,"Leider war es das letzte Mal, dass ich dort gegessen habe.",Llama70B,4,fixed
+711,59a5a111-419e-4be1-8970-897550994f7f,"Wir haben das Lokal auf der Suche nach einem kleinen Imbiss entdeckt und waren sehr überrascht, da es von außen nicht wirklich attraktiv aussieht.",Llama70B,4,fixed
+712,2f8c8002-eeec-473a-b17e-2a2d90af082c,"Das Essen war nicht schlecht aber auch nicht gut, das Ambiente eher gemütlich und die Bedienung sehr freundlich.",Llama70B,4,fixed
+713,f934f2a9-185a-44b6-b59a-27e9a0320e3a,Das Ambiente ist eher schlicht.,Llama70B,4,fixed
+714,24b9b10a-26f3-4007-bf68-79c4df34d68c,"Die Kellnerin war sehr unfreundlich, das Essen kam nicht alle auf einmal und wir mussten lange warten.",Llama70B,4,fixed
+715,bca97d2a-39a1-4ea8-9636-a459b25573f1,Die Pizza war eher die Mühe nicht wert.,Llama70B,4,fixed
+716,96d8f359-f5b1-4436-87b9-58bfc54e8b86,Das Ambiente ist sehr entspannt.,Llama70B,4,fixed
+717,faec01ce-d46b-4ab5-8672-dcaac100cf3a,Das Preis-Leistungsverhältnis stimmt.,Llama70B,4,fixed
+718,a32b8ba2-4d91-4b7a-b645-51ffa950dcbd,Nur leider der Service und Essen.,Llama70B,4,fixed
+719,a5b2266d-f6b9-42f6-8d9c-1c511de5ded6,Die Preise sind unangemessen.,Llama70B,4,fixed
+720,c38f5dd0-87cb-4ce0-a47b-a743a57342a3,"Das Personal war sehr freundlich und aufmerksam, das Essen war aber nicht schmackhaft.",Llama70B,4,fixed
+721,93d56886-6dc6-44d3-87b8-68fd6ddd10bb,"Die Bedienung war sehr freundlich und unaufdringlich, das Essen kam schnell auf den Tisch.",Llama70B,4,fixed
+722,1ed5631d-dff6-404b-a580-d256b71655ef,Wir hatten ein schlechtes Erlebnis.,Llama70B,4,fixed
+723,450f5ee7-4601-47ee-b1ed-d550bf8a229e,Das Personal war freundlich aber nicht aufmerksam.,Llama70B,4,fixed
+724,07b48be0-cd08-4040-8ebd-ffdf66e18181,Das LOC hat uns nicht gefallen.,Llama70B,4,fixed
+725,81f773a3-95db-4acc-aac8-307c11072c6f,Die Preise sind für ein Burgerrestaurant angemessen.,Llama70B,4,fixed
+726,eeb92941-324e-4d13-ac04-0bc0a4a6ab04,"Der Kellner hatte uns gerade serviert und wir hatten noch nicht mal Zeit zum Essen, da kam er schon wieder um das Geld zu verlangen.",Llama70B,4,fixed
+727,9db3117c-8f7d-43f9-884c-4c6cf22e6d5e,"Wir hatten uns darauf gefreut, aber es war einfach nichts.",Llama70B,4,fixed
+728,f869854b-bd63-47a9-aa77-a488e411604a,Die Preise sind im Vergleich zum Rest von LOC aber auch schon sehr angemessen.,Llama70B,4,fixed
+729,b3730785-1d97-4796-a4c3-3ab093ede4f8,"Leider war der Service so schlecht, dass wir das Lokal verlassen haben.",Llama70B,4,fixed
+730,16a2fb09-f33e-410c-98cd-cb613658a94d,Der Service war schlecht.,Llama70B,4,fixed
+731,998932e3-ed2d-4167-a289-3ca3743166d9,Die Nudeln waren leider kalt.,Llama70B,4,fixed
+732,5b4f3365-f8c1-448b-a335-1bee9927577a,Die Preise sind angemessen.,Llama70B,4,fixed
+733,75100a15-b41a-41db-a12e-9bc7164e49ab,"Wir waren schon oft hier und haben immer noch das Gefühl, dass es nicht richtig läuft.",Llama70B,4,fixed
+734,c6f6a819-d59b-4d72-b5d9-9266aebfbc68,"Die Speisen waren sehr gut, das Personal freundlich und hilfsbereit.",Llama70B,4,fixed
+735,3823dee8-379d-4158-a565-9dd06bf9e108,Wir waren im LOC nicht unzufrieden aber auch nicht begeistert.,Llama70B,4,fixed
+736,7f17010a-3fc1-425d-9bb3-08a8a3307b7a,Das Preis-Leistungsverhältnis ist sehr gut.,Llama70B,4,fixed
+737,f52efbba-9881-4ebc-a041-76f102321777,"Das Essen war nicht schlecht, aber auch nicht gut.",Llama70B,4,fixed
+738,708d4a9c-2e9f-4743-ba54-787f5ea796c1,Der Kellner war freundlich und unaufdringlich.,Llama70B,4,fixed
+739,6e8bb84a-25a5-42b4-b42e-c5b26ddc45ab,Wir waren hier noch nie und haben uns auch nur zufällig auf dieses Lokal aufmerksam gemacht.,Llama70B,4,fixed
+740,b3f9f40d-b55c-4522-914b-04601573a95b,Das Lokal ist ok.,Llama70B,4,fixed
+741,b25a75b5-8614-4cf3-8c36-190e23cda9da,"Das Personal war sehr freundlich und zuvorkommend, der Preis ist angemessen.",Llama70B,4,fixed
+742,998a26ca-083c-468b-af40-cf74e2c00b66,Ein Lokal der Extraklasse.,Llama70B,4,fixed
+743,32ceff88-aadd-4367-a302-8b072ef797d6,Das Preis-Leistungsverhältnis ist hier einfach gut.,Llama70B,4,fixed
+744,7c24ad5b-1078-4bb6-9e59-9daefc985339,Die Atmosphäre war sehr angenehm.,Llama70B,4,fixed
+745,c6ecd445-7cd0-42db-9b30-c42ba854c4b8,"Tolles Ambiente, schlechter Service",Llama70B,4,fixed
+746,fc496cee-2d22-4e34-907d-495601702ccb,Bei dem Preis ist das aber kein Wunder.,Llama70B,4,fixed
+747,f1a5b840-9f4a-4a23-b7c9-00b84b561a71,"Eine Kellnerin war sehr unfreundlich, schaute nur auf die Uhr und machte sich über uns lustig.",Llama70B,4,fixed
+748,e6706abd-a6e7-42ea-8bf8-2d45dfa16c96,Dieses Ambiente ist sehr angenehm und gemütlich.,Llama70B,4,fixed
+749,1bbfb9f3-901c-4338-9c37-2c23529492e2,Das Preis Leistungsverhältnis war absolut in Ordnung.,Llama70B,4,fixed
+750,6f8f5fcc-6edf-4e07-a333-2d1532a75f92,"Die Räume sind geräumig und modern gestaltet, die Preise aber etwas hoch gegriffen.",Llama70B,4,fixed
+751,a61f1d42-a2f8-45ca-b8f5-1799605a51c3,Das Essen ist gut aber nicht unbedingt der Riesen-Hammer.,Llama70B,4,fixed
+752,9d9f9b89-7b46-4c86-ad2f-772060b26432,"Das Buffet war gut, aber nicht überragend.",Llama70B,4,fixed
+753,421e4fb6-694a-43f3-8589-15716040b4e2,"Das Preis/Leistungsverhältnis ist in Ordnung, das Essen war ok (nicht mehr), der Kellner war sehr unfreundlich und das Ambiente eher trist.",Llama70B,4,fixed
+754,6c3c7fe0-96ef-4f28-b8da-9d250f8f96dc,"Das Ambiente ist eher für Raucher geeignet, da es im Inneren sehr rauchig ist.",Llama70B,4,fixed
+755,1c3e466e-8320-4284-82bc-1cfbce5eecd0,Das Essen war lecker und die Preise waren ok.,Llama70B,4,fixed
+756,86ab1911-c714-4df9-b3d8-88914ac2f287,"Die Preise sind eher im mittleren Bereich, aber nicht überteuert.",Llama70B,4,fixed
+757,83bbb798-b07e-49fa-a70a-ebe0ee83c769,"Das LOC ist sehr schön, aber leider war das Essen nicht so gut wie erwartet.",Llama70B,4,fixed
+758,1114791c-5a35-4264-a36a-036ff1045684,Das Personal war sehr freundlich und das Essen war gut.,Llama70B,4,fixed
+759,95b1af25-36b6-47a4-be2c-a3674919e6d5,Das Preis-Leistungsverhältnis ist absolut in Ordnung.,Llama70B,4,fixed
+760,fcb1be23-d0c9-4edf-9e4d-bb8d6db8cc79,Der Preis ist für die Qualität des Essens in Ordnung.,Llama70B,4,fixed
+761,9aada236-8de4-42ab-b5af-31cc40ba5094,"Es gab zwar ein paar Wartezeiten, aber es war auch sehr voll.",Llama70B,4,fixed
+762,1825b461-7d38-4a6d-a279-a1f6c9888aba,"Auch das Ambiente ist nicht wirklich ausgefallen, aber dafür sauber.",Llama70B,4,fixed
+763,e1f2cbd0-2c64-4a42-b18e-c443f9cc91f6,"Das Preis-Leistungsverhältnis ist absolut in Ordnung, die LOC hat eine schöne Atmosphäre und ist sehr gemütlich.",Llama70B,4,fixed
+764,c94a9c97-cc34-4b1a-b877-75258b6320ab,Das Ambiente ist sehr schlecht.,Llama70B,4,fixed
+765,25e50072-fc69-4b69-8c8c-87b91f607665,Das Preis/Leistung Verhältnis stimmt.,Llama70B,4,fixed
+766,c0bd88b7-165c-4e95-b78a-66e0a05f4553,Wir kommen gerne wieder und können das Lokal weiterempfehlen.,Llama70B,4,fixed
+767,023de2ef-f5b2-4666-b0ef-b88080758b62,Der Service ist sehr freundlich und hilfsbereit.,Llama70B,4,fixed
+768,4cb51a7f-6d8b-4e4b-beea-b66962124c83,Wir waren in diesem Restaurant und fanden die Preise gut.,Llama70B,4,fixed
+769,d25d569f-4410-48cf-b2e2-f62f9ad00c0b,Der Service ist sehr unfreundlich und unangenehm.,Llama70B,4,fixed
+770,d79975b7-b4bc-4f98-85f2-e37d2c2089be,"Ein Restaurant mit dem Anspruch von einem 3 Sterne Restaurant, aber das Preis-Leistungs Verhältnis stimmt nicht.",Llama70B,4,fixed
+771,b50142f5-b8c5-4e39-a53a-7c706e45b6ea,Wir hatten nur einen kleinen Kaffee und einen Apfelstrudel.,Llama70B,4,fixed
+772,2ae30378-0a61-4f67-9df9-e0b62408c3cf,Das Essen war eher schlecht.,Llama70B,4,fixed
+773,901679d1-d6cd-424f-a12f-7f94840f0069,"Das Essen war sehr gut, wir haben uns rundum wohlgefühlt.",Llama70B,4,fixed
+774,c7f7713f-b19d-4480-b2c6-2646e57c527f,Das Ambiente ist sehr gemütlich und der Service war gut.,Llama70B,4,fixed
+775,1c08382c-26fc-41ee-8bc4-ad34213a0b4e,Wir waren begeistert und können das Lokal absolut weiterempfehlen.,Llama70B,4,fixed
+776,ec1b5800-d5a5-42f5-9429-449e37e2b7e9,Wir waren im Restaurant in der LOC.,Llama70B,4,fixed
+777,abef6c0a-533a-4b86-9add-eafdfd4f3ea3,"Wir hatten nur Snacks, daher kein Kommentar zum Essen.",Llama70B,4,fixed
+778,56a9e000-af59-429d-aca2-14f4fcdd5c3e,Das Essen war für ein Restaurant nur mittelmäßig und die Aussicht wirklich toll.,Llama70B,4,fixed
+779,4ac11315-7c15-4413-b4a0-9127501ae8c6,"Ein sehr schönes Lokal, das man besuchen sollte.",Llama70B,4,fixed
+780,1c24d4b8-2ce2-4abf-8794-b1dac67f9042,Das Lokal ist sehr gut geeignet für ein Abendessen mit Freunden.,Llama70B,4,fixed
+781,e28abda1-8f35-4dd2-8ce3-2b5a5b238996,Das Essen war ziemlich schlecht.,Llama70B,4,fixed
+782,1197dacc-4016-43a1-b190-dd026c2e7d18,Die Atmosphäre ist sehr entspannt.,Llama70B,4,fixed
+783,262702d2-9765-48d4-a1b9-76d47e5300c7,Wir waren sehr enttäuscht und werden das Lokal nicht wieder besuchen.,Llama70B,4,fixed
+784,cc9b9122-2a53-4cef-86c8-c28ddd411802,Das Personal war freundlich und hilfsbereit.,Llama70B,4,fixed
+785,e28ad509-64ad-4548-82af-63320405dbed,Das Personal war hilfsbereit und freundlich.,Llama70B,4,fixed
+786,35d7819d-8f6d-49e7-8cf6-a6502ce71035,"Die Speisen sind auch gut, aber die Atmosphäre ist etwas zu steril.",Llama70B,4,fixed
+787,7968c457-5bdf-4eb4-a1ea-3f62bd0f6ca9,"Wir hatten uns in den Tisch am Fenster gesetzt, da wir das Personal vor der Tür nicht bemerkt haben.",Llama70B,4,fixed
+788,32e72783-0efa-4e96-a9ed-0f7d6b927aba,Der Preis ist ok.,Llama70B,4,fixed
+789,a809021e-c5a5-4bda-a3ab-4ea090de0013,"Ein sehr leckeres, aber auch sehr teures Burger.",Llama70B,4,fixed
+790,d4d523b2-224d-4bdc-8fa3-c175ff952885,"Das Essen war gut aber nichts Besonderes, Preislich ist es im Vergleich zu anderen Restaurants in der Nähe deutlich teurer.",Llama70B,4,fixed
+791,7a2e0dd5-6cf8-4593-85b3-7f9f5f4a44d5,Einfach zu teuer.,Llama70B,4,fixed
+792,7018e908-d601-4572-a9e8-7969613fff9a,"Ganz ok, aber nichts Besonderes.",Llama70B,4,fixed
+793,e1315295-f0a1-4227-afbc-1897dc607599,Das Ambiente im Innenbereich ist eher schlicht und ein wenig kahl.,Llama70B,4,fixed
+794,60857092-d720-4edd-a1e4-d1f4da0584a6,"Die Preise sind etwas hoch, aber das Essen ist sehr gut.",Llama70B,4,fixed
+795,c5a6160a-bc44-4653-bc2b-01aff9371437,Der Preis ist für ein Bier in der Innenstadt in Ordnung.,Llama70B,4,fixed
+796,c5b96654-b477-484e-a799-0b53475c4361,"Sehr nette Personen, die auch wirklich hilfsbereit sind.",Llama70B,4,fixed
+797,31ab1795-ae37-4399-a64f-777623126fc6,"Mit dem Ambiente, der Einrichtung und dem Service war ich auch zufrieden.",Llama70B,4,fixed
+798,f52844a5-c7c5-4e22-a936-b2cb17b79528,"Das Ambiente ist sehr schlecht, die Tische waren noch nicht abgeräumt und es war überhaupt kein Personal zu sehen.",Llama70B,4,fixed
+799,5db90df6-3f4e-4ab8-940b-de85261d9f09,"Das Personal war freundlich, aber nicht so aufmerksam wie es sein sollte.",Llama70B,4,fixed
