@@ -1,0 +1,501 @@
+,id,text,model,split,few_shot_condtion
+0,1c04d86f-183c-4986-842f-cfba2a820539,Das Restaurant hat eine positive Gesamtwirkung.,GPT-3,0,random
+1,250004f0-49e2-4fab-8315-4635d4a65ef9,"Der Gesamteindruck war okay, aber der Service ließ zu wünschen übrig.",GPT-3,0,random
+2,73131855-bf00-41f8-a0aa-bd77f5e4f183,"Das Essen war zwar ganz gut, aber für den Preis nicht angemessen.",GPT-3,0,random
+3,637fc558-634c-4741-80e7-e40745a61524,Das Restaurant war durchschnittlich.,GPT-3,0,random
+4,1f43cb60-99ff-4edb-8ae3-dcc99db7b9ca,Das Restaurant hat uns positiv überrascht.,GPT-3,0,random
+5,8a4c371e-ee79-4844-8ba3-5d4383fef112,"Toller Service und leckeres Essen, wir kommen gerne wieder.",GPT-3,0,random
+6,43f9289f-0d92-4f48-886b-905a56a6db19,Die Atmosphäre des Restaurants ist weder besonders positiv noch negativ.,GPT-3,0,random
+7,f660e027-ed9d-4e8a-8f1e-170ba0030f60,"Das Restaurant hat eine negative Gesamtwertung, obwohl der Service gut und das Essen durchschnittlich ist.",GPT-3,0,random
+8,99dfec5e-966f-4347-af93-5e2104fe2a3b,Die Atmosphäre war sehr angenehm.,GPT-3,0,random
+9,ab428efa-3162-4523-a62e-76b8fa445bee,Die Bedienung war sehr unfreundlich und hat unsere Bestellungen mehrmals falsch aufgenommen.,GPT-3,0,random
+10,d18f439b-cb25-4c9b-a3e6-dc80c5f04533,"Das Restaurant war okay, das Essen und das Ambiente waren jedoch nichts Besonderes.",GPT-3,0,random
+11,8a065698-0c22-4c57-be6c-beb6fed2a897,Das Essen war okay.,GPT-3,0,random
+12,66016976-4839-4042-981c-793e88788b0c,"Das Essen war in Ordnung, aber der Preis war definitiv zu hoch.",GPT-3,0,random
+13,d4c1d2f2-9890-4bc6-81eb-08b9a1b24e5e,Das Essen war köstlich.,GPT-3,0,random
+14,c85a5653-9c58-4158-a3e9-aa7ac2698b25,Der Geschmack des Essens war enttäuschend.,GPT-3,0,random
+15,421f58c9-0bfb-46bc-9637-4d738d1aef50,Das Essen war ausgezeichnet.,GPT-3,0,random
+16,a47a861a-26c9-44df-b6f7-836de3b12981,Das Preisniveau ist angemessen.,GPT-3,0,random
+17,39e29c2b-f075-4f09-9dd7-55615b353345,Es war okay.,GPT-3,0,random
+18,b8e42701-0cbb-4dde-8b0d-0694ad0a842d,"Es war okay, aber nichts Besonderes.",GPT-3,0,random
+19,eb11fec1-37b1-4793-8c8c-309220ae8a94,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,0,random
+20,cc56dbb0-868a-4274-9e7b-e122d21b6357,Es war ein gelungener Abend.,GPT-3,0,random
+21,db2ab4ff-1222-40dd-a1b8-c40a64d2e155,Das Ambiente ist sehr angenehm und einladend.,GPT-3,0,random
+22,dbda1260-7d77-44c7-98b8-4303fdb504b6,Das Ambiente war enttäuschend und das Essen war nicht gut.,GPT-3,0,random
+23,924ce48f-f1fc-4bf2-859f-2a5b94348937,Das Essen war in Ordnung.,GPT-3,0,random
+24,d2293718-ed5c-4527-af4c-7cf67f660ea5,Der Service war ausgezeichnet.,GPT-3,0,random
+25,08c450a7-5172-4931-bba0-9bf20d9a5d86,Das Restaurant hat einen guten Service.,GPT-3,0,random
+26,e48ea7ff-ce2d-4e9e-8143-2547adab2f1b,Schlechtes Preis-Leistungs-Verhältnis.,GPT-3,0,random
+27,a3af2ed9-47d6-4a0b-bff2-94c373523d41,Der Preis ist viel zu hoch und der Service lässt zu wünschen übrig.,GPT-3,0,random
+28,fe0df614-14c9-4872-9426-539193fa5121,Die Bedienung war unfreundlich und langsam.,GPT-3,0,random
+29,f55c1bfd-1094-4ffb-873f-c36f4c975ccc,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,0,random
+30,ae859eb6-0217-4a3b-ac83-00da0af58874,"Insgesamt war ich mit dem Restaurant zufrieden, aber das Preis-Leistungs-Verhältnis könnte besser sein.",GPT-3,0,random
+31,04c80fe7-9f08-44ef-a088-d1912e9e9769,Das Preis-Leistungsverhältnis ist angemessen.,GPT-3,0,random
+32,c530b4ad-e58e-4d49-b26a-8712aa55ca02,"Das Preisniveau ist angemessen, aber das Ambiente lässt zu wünschen übrig.",GPT-3,0,random
+33,46027531-924d-4bb7-91be-cd3b9fcf00b9,Ein rundum gelungener Besuch!,GPT-3,0,random
+34,89fd85ec-0599-4c54-ac82-b962e7f17f9b,Das Essen war leider enttäuschend.,GPT-3,0,random
+35,d971edf9-f3f5-4450-b50b-90a0fee16577,Das Restaurant hat uns enttäuscht.,GPT-3,0,random
+36,200d4496-e42b-4822-822e-10f07db4c487,"Das Ambiente ist sehr angenehm, aber insgesamt war der Besuch enttäuschend.",GPT-3,0,random
+37,28f2b80b-b0ca-44a3-a102-3c75067292d8,Die Preise sind angemessen.,GPT-3,0,random
+38,e13faeb8-b150-446c-9efb-8f3562a0fe37,"Das Essen war gut, aber die Preise waren zu hoch.",GPT-3,0,random
+39,965c77e4-42ef-4ea1-8805-5487867ef6e3,"Das Essen war enttäuschend, aber der Preis war angemessen und das Ambiente war schön.",GPT-3,0,random
+40,697c6b78-ed3b-4107-9f06-310c2a408378,Das Essen war leider nicht gut.,GPT-3,0,random
+41,9282661c-a42c-4a97-b6d3-1b2d1b4567ab,Die Atmosphäre war sehr angenehm.,GPT-3,0,random
+42,15c9d742-a50d-4998-846d-3f4342e647b6,Das Ambiente war enttäuschend.,GPT-3,0,random
+43,4e56fa11-d1b6-4d5a-b2e9-cf29664bbcab,Die Preise sind angemessen.,GPT-3,0,random
+44,3a345349-cb45-4bee-956e-bae4d9e7546c,Das Essen war leider nicht besonders gut.,GPT-3,0,random
+45,8cc6aab7-8c3c-4d1a-8954-4de85bb3c61e,Ein tolles Restaurant mit einer gemütlichen Atmosphäre und leckerem Essen.,GPT-3,0,random
+46,08c497f0-81f8-469c-83e7-9911e2389a1c,Das Restaurant hinterließ bei uns einen eher durchschnittlichen Eindruck.,GPT-3,0,random
+47,ef6573bd-9bb0-48d5-a8b9-ad22dcfed82b,Die Atmosphäre war sehr angenehm.,GPT-3,0,random
+48,7e2a39aa-c51d-4a87-88c7-eb7d3beafd96,"Der Service war gut, aber insgesamt war der Besuch enttäuschend.",GPT-3,0,random
+49,ead0acc9-705c-404e-af19-d47a203b872a,Das Essen war in Ordnung und das Ambiente war auch ganz nett.,GPT-3,0,random
+50,a15365cd-84dd-4c80-a7fd-731910c0db5b,Das Essen war köstlich.,GPT-3,0,random
+51,e1534759-e24c-44c6-b462-3c582a9d455b,Der Service war super freundlich und das Ambiente sehr angenehm.,GPT-3,0,random
+52,436c89ef-df45-4782-8f5a-5e83097c9659,Der Service war in Ordnung.,GPT-3,0,random
+53,ef5a419f-e9fa-4030-ab0f-4e5076eaa638,Es war okay.,GPT-3,0,random
+54,a00d4ff4-dd75-4409-a1b2-404239f021ad,"Das Essen war zwar gut, aber der Preis war angemessen.",GPT-3,0,random
+55,8bb03f19-f05d-437f-986c-dad06f3e0cf1,Das Ambiente war okay.,GPT-3,0,random
+56,e217729d-e089-44cb-a51a-f764e072f843,Das Restaurant hat mich enttäuscht.,GPT-3,0,random
+57,afe8ee62-124f-45d2-ab70-3f6a27c62abf,Es war okay.,GPT-3,0,random
+58,6aec619f-9b2a-4e9e-8b96-2433ca8f5635,Das Essen war leider enttäuschend.,GPT-3,0,random
+59,c9b24c8c-d51b-47f6-9707-50a40c3b7879,Der Service war sehr aufmerksam und zuvorkommend.,GPT-3,0,random
+60,37b1c863-2453-46dd-b8ba-c0a0e32cffcb,Das Servicepersonal war sehr unfreundlich und langsam.,GPT-3,0,random
+61,5656018e-e339-493a-9170-82ce6d177c67,"Das Essen war okay, aber der Preis war definitiv zu hoch.",GPT-3,0,random
+62,8b4691bd-a768-4268-bfd8-7ae3cbd9611a,Der Service war sehr unfreundlich und langsam.,GPT-3,0,random
+63,19154a27-1cc9-41b8-ad88-5004b537a476,"Das Personal war freundlich und hilfsbereit, aber die Wartezeiten waren etwas lang.",GPT-3,0,random
+64,c5793b8f-2c6b-4851-986b-7a84cfd7fd24,Der Service war sehr unfreundlich und langsam.,GPT-3,0,random
+65,91229ec5-2309-4594-81e6-7c5f188b09b2,Das Essen war köstlich.,GPT-3,0,random
+66,be2fca46-f71a-4fe3-8aa5-e27cabeb3ba7,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,0,random
+67,a51d3720-a4d4-45fc-a9cf-238f8472f4ef,Das Essen war köstlich.,GPT-3,0,random
+68,a5e51ba6-73ef-4a12-b4f5-777a119a95c2,Die Atmosphäre war okay.,GPT-3,0,random
+69,1c57c11f-3979-4d0c-94b0-b232a8cabdb5,Das Preis-Leistungs-Verhältnis ist hier definitiv nicht angemessen.,GPT-3,0,random
+70,5f5d95fd-d6ae-4078-9b70-3e59945aa7ab,"Der Besuch war insgesamt gut, der Service war freundlich, aber das Essen war enttäuschend.",GPT-3,0,random
+71,666e66bf-dad7-4aa7-b5d0-cf45f3310397,Das Ambiente war sehr enttäuschend.,GPT-3,0,random
+72,992771c1-de94-4c43-927b-75d2a3f400eb,Der Service war sehr unfreundlich.,GPT-3,0,random
+73,5b10d1d9-44fc-4f7c-9a52-8ce24a804e8b,Das Essen war köstlich.,GPT-3,0,random
+74,abe21922-4609-4a94-a8e2-9da03b75eeca,"Das Personal war sehr freundlich und aufmerksam, aber das Gesamterlebnis war durchschnittlich.",GPT-3,0,random
+75,8640e7e5-a4e5-4334-a532-b7e22608c601,Die Suppe war lauwarm und geschmacklos.,GPT-3,0,random
+76,b6b5bb7e-5e8c-4501-adca-9229bddf25b8,Das Personal war unfreundlich und unprofessionell.,GPT-3,0,random
+77,5f15248f-5644-4cb4-aa8f-06b24101b944,Das Preisniveau ist angemessen.,GPT-3,0,random
+78,8a47139b-df3c-47f3-a8f6-50bc887eb6fd,Der Preis ist okay.,GPT-3,0,random
+79,e3d5b416-caf6-4a15-9c4f-ab94298fc6f1,Der Service war in Ordnung.,GPT-3,0,random
+80,87a811d7-2bb9-4187-a5c9-1c95bf555058,"Das Essen war zwar etwas teuer, aber insgesamt hatten wir einen positiven Eindruck vom Restaurant.",GPT-3,0,random
+81,4138621c-161a-4246-a82f-8ae1d9a6a828,"Der Service war in Ordnung, aber insgesamt war der Eindruck neutral.",GPT-3,0,random
+82,4bbde2da-a040-4ad2-993b-4ede3156853e,Ein wirklich tolles Restaurant mit einer großartigen Atmosphäre.,GPT-3,0,random
+83,f70cd6f7-58b5-4512-a3b2-767efc065de7,Das Preis-Leistungsverhältnis ist angemessen.,GPT-3,0,random
+84,1e763e29-6325-49f6-9865-a4220dc79b51,Es war okay.,GPT-3,0,random
+85,8048e0ab-5d45-4976-8101-604b4b644c7a,Das Essen war in Ordnung.,GPT-3,0,random
+86,5aacc803-3ef8-4685-be41-e913f2f11d5c,Das Essen war wirklich gut und das Preis-Leistungsverhältnis stimmt.,GPT-3,0,random
+87,42bd13f4-a621-416e-a2d0-61f8180336d7,"Der Hauptgang war enttäuschend, aber das Dessert war köstlich.",GPT-3,0,random
+88,52f20ee5-f802-4096-9500-626e646c5689,Das Essen war enttäuschend.,GPT-3,0,random
+89,89a268c8-d1d2-46a9-8dea-5d8f88b8f4ed,Der Service war durchschnittlich.,GPT-3,0,random
+90,44ec3f09-6ee2-45e1-be7d-ebd0b6a9b71f,Das Essen ist seinen Preis wert.,GPT-3,0,random
+91,0dd19928-1459-40be-b73b-36c4f87317ae,"Das Restaurant war okay, aber das Ambiente hat uns nicht überzeugt.",GPT-3,0,random
+92,02bff661-b0bd-49a5-93e4-1f60a28c2b00,Das Restaurant war insgesamt enttäuschend.,GPT-3,0,random
+93,782152df-31e6-4b35-a4e6-1082cc0685e6,Das Ambiente ist sehr angenehm.,GPT-3,0,random
+94,7dfe2d23-d52a-44d6-8043-438421fbc2ae,Die Atmosphäre war sehr angenehm.,GPT-3,0,random
+95,1274ace1-2b16-487b-8bf6-a5c2c0ee2752,Die Pizza war sehr lecker.,GPT-3,0,random
+96,49ae75fd-1a2b-499a-bbd8-6d2375fc4cf1,Das Essen war schlecht und die Atmosphäre war auch nicht angenehm.,GPT-3,0,random
+97,dcdda690-9429-4827-9394-41d06bdfe57e,Das Essen war sehr lecker.,GPT-3,0,random
+98,03591040-c588-429d-b37b-f8768ff80e9a,Das Restaurant hatte eine durchschnittliche Atmosphäre.,GPT-3,0,random
+99,2b4583fa-f19f-4301-812f-56242e3aa86b,Die Hauptgerichte waren leider enttäuschend.,GPT-3,0,random
+100,e0a66400-846e-49af-98bc-2f5032fdd380,Die Atmosphäre war sehr angenehm.,GPT-3,1,random
+101,634d503d-9af1-44ff-a4e0-badcc3befa12,"Das Restaurant hat ein schönes Ambiente und insgesamt einen positiven Eindruck hinterlassen, jedoch war der allgemeine Eindruck teilweise neutral.",GPT-3,1,random
+102,9291a3c2-f682-44b9-866c-01c66d227c9f,"Nie wieder, das Essen war kalt und der Service unfreundlich.",GPT-3,1,random
+103,e2ad179d-3b43-488b-83ea-a230bf60abc6,Schlechter Service und ungemütliche Atmosphäre.,GPT-3,1,random
+104,c45f2c99-1ac5-4219-a5af-6d679d7645d0,"Das Essen war okay, aber nichts Besonderes.",GPT-3,1,random
+105,2742dae2-5721-4550-8711-3282d3bcae21,"Die Pizza war nicht gut und viel zu teuer, aber der Service war sehr gut.",GPT-3,1,random
+106,ee6502fe-991e-4d25-a1c4-22a36d8e8ef1,Der Service war in Ordnung.,GPT-3,1,random
+107,ed849eaf-eead-4ddd-9fb1-17a6c4c6f5ce,"Die Preise sind viel zu hoch für das, was man bekommt.",GPT-3,1,random
+108,748dea31-19ad-4813-99a8-12dd9506f7ea,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,1,random
+109,e7672b01-669c-4c33-8ffb-9b45742fdcd9,Ein absolut enttäuschender Besuch!,GPT-3,1,random
+110,c4185d2b-0637-4938-b016-21e2314d81dd,"Der Preis war angemessen, aber der Service ließ zu wünschen übrig.",GPT-3,1,random
+111,4e3fcec7-4482-469d-bc0c-4d022fe1e486,Das Restaurant war sehr laut und ungemütlich.,GPT-3,1,random
+112,327b1965-79e4-4874-978f-2e0942bc6d93,"Die Preise sind angemessen, aber das Ambiente könnte etwas gemütlicher sein.",GPT-3,1,random
+113,b68d9d07-d2e1-404f-a9ed-3445f616f560,Die Preise sind leider ziemlich hoch.,GPT-3,1,random
+114,a68e3d49-2c59-4904-88b9-6028e04ca8ee,Die Einrichtung des Restaurants ist eher neutral.,GPT-3,1,random
+115,64083e1e-aa54-44fd-9606-9dc6ff347c9b,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,1,random
+116,e3af932d-63c5-4f09-a16f-a1c958337a5b,Die Preise sind fair und angemessen.,GPT-3,1,random
+117,010a5dfd-ef3f-4e70-a186-3723c5ecaa76,Das Essen war leider nicht gut.,GPT-3,1,random
+118,fc6e4bc2-d282-438b-b814-a51ead863390,"Das Essen war okay, aber nichts Besonderes.",GPT-3,1,random
+119,8384bda1-6fe2-4b45-805d-bffcb169ad4c,Der Service war sehr langsam und das Personal war nicht besonders freundlich.,GPT-3,1,random
+120,0f9f487b-109c-497b-8c67-eec90c2fb094,Das Essen war okay.,GPT-3,1,random
+121,3eae9225-c371-4e63-af72-7cee71d80a7f,Die Atmosphäre ist sehr angenehm.,GPT-3,1,random
+122,e8545c37-c2f2-48de-8402-7e5adcba6b15,Das Steak war zäh und nicht gut gewürzt.,GPT-3,1,random
+123,0ca3ca40-691c-4579-9bbd-c42ce7366bbc,"Der Service war sehr freundlich und zuvorkommend, jedoch waren die Wartezeiten etwas lang und die Preise etwas hoch.",GPT-3,1,random
+124,441ead39-6919-4c1d-8538-01e0b87961ae,Ein tolles italienisches Restaurant.,GPT-3,1,random
+125,73d28d96-2da0-4843-930d-c0322219468e,Das Restaurant hat mir sehr gut gefallen.,GPT-3,1,random
+126,07393232-2ee0-44aa-8457-bfce4c20e703,Das Essen war leider nicht besonders gut.,GPT-3,1,random
+127,e58c483e-e6a7-4c2a-ae21-6fba46224f96,"Das Essen war leider nicht gut, es war kalt und geschmacklos.",GPT-3,1,random
+128,01576ff0-a81d-4155-9ad0-c069293a3513,Das Restaurant ist sehr laut und ungemütlich.,GPT-3,1,random
+129,8fafb47a-5b42-4f4a-8e0e-d1eeeb99ebf4,Der Service war in Ordnung.,GPT-3,1,random
+130,ba301d35-93d0-49df-b731-10caa11b13c7,Die Atmosphäre war sehr angenehm.,GPT-3,1,random
+131,4139ba78-6e03-41d4-9f45-30d2206663a6,Der Service war in Ordnung.,GPT-3,1,random
+132,9b0bb5b7-634f-4a5d-8e8f-d7335d35a3e1,Ein sehr nettes Lokal im LOC von LOC.,GPT-3,1,random
+133,d6b341d6-392a-4632-8c3a-8e915366bc19,Das Personal war unfreundlich und unprofessionell.,GPT-3,1,random
+134,754a0c25-bc06-4a7b-8853-f38934f44a89,Das Essen war köstlich.,GPT-3,1,random
+135,e9ac9742-a3aa-4821-bd3a-e2d87ce51da0,Das Essen war wirklich köstlich.,GPT-3,1,random
+136,24cbbe31-9461-42ae-af48-ce00a6cdd5d9,Die Atmosphäre ist sehr angenehm und gemütlich.,GPT-3,1,random
+137,3000e434-8737-4c8e-841a-ee12fc90e645,Der Service war ausgezeichnet.,GPT-3,1,random
+138,e3c12f1f-3883-4f9f-9381-0079afeb2eb5,"Das Ambiente war sehr schön und gemütlich, aber die Preise waren etwas zu hoch.",GPT-3,1,random
+139,df0519e2-cbe5-42c8-933e-213e422cc076,Das Restaurant hat eine durchschnittliche Atmosphäre und das Essen und der Service waren enttäuschend.,GPT-3,1,random
+140,258298eb-514e-4248-8e9f-28f4f79d8cb4,"Die Einrichtung ist ganz schön, aber nichts Besonderes.",GPT-3,1,random
+141,9e3aa13a-9267-4887-84c7-9e0dc8d992e4,Das Essen war leider nicht besonders gut.,GPT-3,1,random
+142,b805df44-2b3d-4fcb-a210-b6397f05a5c0,Das Restaurant hat ein durchschnittliches Ambiente.,GPT-3,1,random
+143,ee827e0b-59f2-413a-add8-45c7df573f09,Der Service war sehr unfreundlich und das Essen hat überhaupt nicht geschmeckt.,GPT-3,1,random
+144,30bf25ae-267f-4372-b89c-0bc57b8c9dcb,"Der Service war freundlich und aufmerksam, jedoch etwas langsam.",GPT-3,1,random
+145,5c81261f-93ce-4d64-ace0-77151e68d247,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,1,random
+146,781a55f5-e7fd-4231-8135-bfbae63907b9,"Es war okay, aber nichts Besonderes.",GPT-3,1,random
+147,fd45b320-7719-4588-ba8b-dcccb4022a9e,"Das Essen war sehr lecker und das Personal war sehr freundlich, aber das Ambiente war etwas enttäuschend.",GPT-3,1,random
+148,6cc2353a-5aec-4052-afb2-f531a98d9742,Der Service war in Ordnung.,GPT-3,1,random
+149,5f2b005f-4aca-4cf2-aa64-8448d9fd1442,Die Preise sind viel zu hoch und nicht gerechtfertigt.,GPT-3,1,random
+150,e2fa98bd-4cc3-4479-ba3e-5e317e3d4f67,Das Ambiente war sehr laut und ungemütlich.,GPT-3,1,random
+151,d45f4be8-5604-4a74-9019-764f2a082c50,"Das Essen ist zwar etwas teurer als sonst beim LOC, aber auch um mindestens 2 Klassen besser.",GPT-3,1,random
+152,4ebf9f4c-cce8-4ea1-97ed-c54db5b26182,"Der Service war okay, nichts Besonderes.",GPT-3,1,random
+153,e548a49e-4647-4af2-a85c-ef3d8e14b084,Die Atmosphäre war sehr angenehm und das Preis-Leistungs-Verhältnis stimmte.,GPT-3,1,random
+154,07bf61e9-b13e-400c-9c1c-67c4d7e06032,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,1,random
+155,9b769204-eb04-4315-b89e-326045a343e9,Die Preise sind viel zu teuer für die Qualität des Essens.,GPT-3,1,random
+156,abd8f00e-75e1-4eb9-8544-798601a0c87e,Ich war sehr enttäuscht von diesem Restaurant.,GPT-3,1,random
+157,a387f549-dfd1-4cb5-ba87-8972c20c0a1c,"Das Preis-Leistungs-Verhältnis ist angemessen, das Essen war in Ordnung und der Service war gut.",GPT-3,1,random
+158,4fc4524d-5c22-42ea-9875-ae8103d76cf1,Wir waren begeistert von dem Restaurant und werden auf jeden Fall wiederkommen.,GPT-3,1,random
+159,33960ca3-cd9e-4271-aef9-f999e0751e66,Das Restaurant hinterließ einen durchschnittlichen Eindruck.,GPT-3,1,random
+160,1b1e7c0f-f73e-4a7d-b556-fd30a0b7bd8b,"Die Preise sind etwas hoch, aber insgesamt war der Besuch okay.",GPT-3,1,random
+161,e87f7940-1dc2-4142-b8d3-087254233e10,"Das Restaurant hat eine tolle Atmosphäre, aber der Service war enttäuschend.",GPT-3,1,random
+162,5ed278d9-73db-4090-a89c-9ed9e0d862a1,"Der Service war in Ordnung, aber insgesamt waren wir mit dem Restaurant nicht zufrieden.",GPT-3,1,random
+163,83ed6e52-c4e7-4ceb-9c80-636b055f1e9f,Der Service war in Ordnung.,GPT-3,1,random
+164,04042a7e-d22d-4ad9-9327-5b71ba80f5e4,Die Preise sind angemessen.,GPT-3,1,random
+165,fc651d4b-2f38-4171-8a60-5fdbf3f6b391,Leider war unser Besuch im Restaurant enttäuschend.,GPT-3,1,random
+166,3d7cb167-a52a-4b43-b4de-8db1cc17c7c3,Der Service war in Ordnung.,GPT-3,1,random
+167,359ec2d6-d850-45dc-a6ee-f1bdc886c176,"Die Atmosphäre war enttäuschend, aber insgesamt war der Besuch positiv.",GPT-3,1,random
+168,a71241b6-0905-45a9-9086-7e9f6dcd6ebb,"Der Gesamteindruck des Restaurants war in Ordnung, das Essen jedoch sehr gut.",GPT-3,1,random
+169,c67dd7a5-855b-49ca-8af8-3c215d1b71dc,Die Preise waren angemessen für die gebotene Qualität.,GPT-3,1,random
+170,a40086c8-92ad-4b08-805b-861451d3a80e,"Die Rechnung war viel zu hoch für das, was wir bekommen haben.",GPT-3,1,random
+171,57dd0e10-ad76-48fa-8414-b3262e50de0e,Der Geschmack des Hauptgerichts war enttäuschend.,GPT-3,1,random
+172,afe03d60-4509-4682-9757-fadea8289379,Die Atmosphäre war sehr angenehm.,GPT-3,1,random
+173,2492d037-70fa-4fbd-ad58-010afe03c70d,Der Service war in Ordnung.,GPT-3,1,random
+174,bf73a074-ad12-4975-b212-9779428711d8,Das Essen war köstlich.,GPT-3,1,random
+175,18ed6c91-339c-4d03-8eef-8106d01ead52,Das Restaurant hat mich enttäuscht.,GPT-3,1,random
+176,8b265dfa-a676-41cb-a081-6a3ed903c073,Der Preis ist angemessen.,GPT-3,1,random
+177,6e8b9cd4-92d7-43ec-ab6c-4f66346a6f0f,Der Service war durchschnittlich.,GPT-3,1,random
+178,953f5567-cd68-43d9-bc7e-257b34cffdc8,Das Ambiente war okay.,GPT-3,1,random
+179,9254ae43-0b62-4af1-a74a-8058920196ca,Der Service war leider sehr unfreundlich und inkompetent.,GPT-3,1,random
+180,427774d0-b019-42d3-b37e-f630a575162e,"Das Essen war zwar gut, aber die Preise waren viel zu hoch.",GPT-3,1,random
+181,f8cd8c7d-e0ac-44c4-a594-098a71892114,Das Essen war köstlich.,GPT-3,1,random
+182,9474a2a1-cd6b-482b-86ff-7f0b987ce31b,Die Preise sind angemessen.,GPT-3,1,random
+183,7beee2e6-2b01-43a8-abfd-72c30161c3f0,"Der Service war okay, aber insgesamt war der Eindruck des Ambientes nicht besonders.",GPT-3,1,random
+184,622eefd0-22cd-4232-8842-79530803d9e4,Die Atmosphäre im Restaurant war sehr angenehm.,GPT-3,1,random
+185,f1f6989b-3b1c-4f15-87b3-0dcdc62300d8,Die Bedienung war sehr unfreundlich.,GPT-3,1,random
+186,7b374244-7189-4b9b-bdd1-80d976fbe6aa,Es war okay.,GPT-3,1,random
+187,36ede483-ab74-438b-a991-c6aceed5450f,Das Restaurant hat eine wunderschöne Atmosphäre und wir waren sehr zufrieden.,GPT-3,1,random
+188,c8970c33-d6a8-4665-b9d0-5c0f7011819b,Das Restaurant hat uns sehr gut gefallen.,GPT-3,1,random
+189,aa41d40b-f1ee-4871-8b2a-9be7e9c5fe66,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,1,random
+190,c3d8df19-2487-4b9b-91bc-5b2da35badbc,Die Atmosphäre war sehr angenehm.,GPT-3,1,random
+191,9f64f2e6-5528-403b-a872-b2f2659d4cd2,Die Preise sind fair und angemessen.,GPT-3,1,random
+192,dc3f8ee9-54a1-4902-bda4-f3fa751b5d26,"Das Essen war in Ordnung, aber der Dessert war wirklich köstlich.",GPT-3,1,random
+193,7c0a795e-2e54-4edf-a2b0-97d6a26c5f1b,Die Speisen waren köstlich und das gesamte Erlebnis im Restaurant war sehr angenehm.,GPT-3,1,random
+194,713a9c5d-90df-4cbe-9ea1-abe50b27b806,Das Essen war in Ordnung.,GPT-3,1,random
+195,633edf55-c676-4135-bc21-478fe0ec8849,Ich war von dem Restaurant insgesamt enttäuscht.,GPT-3,1,random
+196,b44e79b8-5a68-4955-97af-06866b3b71fe,Die Atmosphäre war in Ordnung.,GPT-3,1,random
+197,f3ef46e7-2cf3-4636-9ac8-6b55ecc33c1a,"Das Restaurant war insgesamt enttäuschend, der Service war durchschnittlich, das Essen war schlecht, das Ambiente war nicht angenehm, aber der Service war freundlich.",GPT-3,1,random
+198,b7613197-46ea-4134-808d-efa84848b9ec,Das Restaurant bietet eine durchschnittliche Atmosphäre und das Essen ist okay.,GPT-3,1,random
+199,295dbad7-ffd7-4031-b8ad-9e196de1ece4,"Das Preis-Leistungs-Verhältnis stimmt hier überhaupt nicht, obwohl das Essen wirklich gut ist.",GPT-3,1,random
+200,3e603de7-14aa-4564-98ca-423cab0eb9ee,Das Restaurant war enttäuschend.,GPT-3,2,random
+201,0120e0f2-c0aa-434f-9adc-1002ff7e5bb8,Das Essen war wirklich lecker.,GPT-3,2,random
+202,daf31b04-554b-4baa-95a9-0f5f9e97d3d5,Das Restaurant war enttäuschend.,GPT-3,2,random
+203,357a8f8c-6572-4593-81aa-0696f9825b22,Der hohe Preis steht in keinem Verhältnis zum schlechten Service.,GPT-3,2,random
+204,9fa4e4a4-afb7-4fc1-bc8c-54990dd0cc6b,Das Essen war in Ordnung.,GPT-3,2,random
+205,41cdbfdc-9593-48fd-87e6-601e49f2f5ac,"Das Essen war in Ordnung, aber für den Preis könnte man mehr erwarten.",GPT-3,2,random
+206,a66397a9-5a7a-43f8-98fb-2b82faa78441,"Das Preis-Leistungsverhältnis war angemessen, aber insgesamt war der Besuch eher durchschnittlich.",GPT-3,2,random
+207,a083cd01-7428-474f-8fdf-bbd49a5bdbae,"Die Bedienung war unfreundlich und langsam, aber die Preise waren angemessen.",GPT-3,2,random
+208,e197fb0b-cc44-4a11-b217-2d1425cdd196,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,2,random
+209,5237282d-1c24-432a-a096-ccc07a1fad88,Die Atmosphäre war sehr laut und ungemütlich.,GPT-3,2,random
+210,fc8c6b47-7179-46d1-964a-304abc912308,Der Service war sehr enttäuschend.,GPT-3,2,random
+211,0effae17-1b7f-4efd-9b60-04f665f53b36,Die Bedienung war sehr unfreundlich und unprofessionell.,GPT-3,2,random
+212,074ff8c9-5579-4887-9845-d4ae785beb03,Das Ambiente war enttäuschend.,GPT-3,2,random
+213,e5db6f49-ddbd-4cbe-8beb-47ad2b553034,Der Service war sehr langsam und unfreundlich.,GPT-3,2,random
+214,06892dd5-d190-4f5a-aab5-310f6f64bc1f,Ein rundum gelungenes Erlebnis.,GPT-3,2,random
+215,9d006f35-4074-45b2-93b7-8304b206d345,Das Essen war in Ordnung.,GPT-3,2,random
+216,7a0ab298-0000-414d-9ba7-b96d7e3c7c51,Das Ambiente ist sehr gemütlich und die Speisen sind köstlich.,GPT-3,2,random
+217,e5fe3bb7-3803-43b0-8961-729b468aaa9c,Das Restaurant hat eine angenehme Atmosphäre und das Essen war sehr lecker.,GPT-3,2,random
+218,fb90270a-4648-4635-a92d-e97225efccce,Die Atmosphäre im Restaurant ist sehr angenehm.,GPT-3,2,random
+219,8207e097-354e-4949-9d21-6715a11be7b5,Das Essen war leider nicht genießbar.,GPT-3,2,random
+220,1394d4cf-e32b-4c0b-abec-9c9e1b2cf4d8,"Das Essen war gut, aber der Service war enttäuschend.",GPT-3,2,random
+221,b9a7aa72-2dde-4131-84df-341e40b45b0b,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,2,random
+222,cb321534-188c-42f4-9e5e-f95d84bf72b8,"Das Essen war zwar teuer, aber die Qualität hat gestimmt.",GPT-3,2,random
+223,8d67a59d-1df5-4ce2-9f6e-f2e0710bceda,"Das Essen war köstlich, aber der Service war enttäuschend.",GPT-3,2,random
+224,e0400c9d-3b5e-4e89-acf1-a13438de1315,Ein tolles Restaurant mit freundlichem Personal und leckerem Essen.,GPT-3,2,random
+225,a19f7fb7-a2ab-499a-a64c-3deb966c6761,Der Service war in Ordnung.,GPT-3,2,random
+226,339f5f74-0b8f-49f7-844b-3a478881ad29,Der Service war sehr unfreundlich und langsam.,GPT-3,2,random
+227,695d1100-2daf-46b8-a88b-528d6103bc11,"Das Essen war enttäuschend, der Service war in Ordnung, die Preise waren angemessen, insgesamt war der Eindruck jedoch positiv, obwohl es auch negative Aspekte gab.",GPT-3,2,random
+228,65152985-61a6-4eab-9773-f896c691dc12,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,2,random
+229,401c3f29-0ef3-4f37-bcf5-c24654a18a17,"Das Restaurant hat eine negative allgemeine Impression, aber die Preise sind positiv.",GPT-3,2,random
+230,1e5da1ae-b2ed-4759-8f95-a0cd81cc7065,Das Essen war in Ordnung.,GPT-3,2,random
+231,b2e7e040-3b6a-4139-a006-c1e4dd522046,Der Service war unfreundlich und das Essen hat nicht geschmeckt.,GPT-3,2,random
+232,4317d2cf-8f19-43b6-bb5e-a51b1391e92f,Das Personal war sehr freundlich und aufmerksam.,GPT-3,2,random
+233,a5f6c7b8-a064-49d5-a5f9-7454bb2de80a,"Nichts Besonderes, aber der Service war gut.",GPT-3,2,random
+234,515a1ea4-197a-4d5e-815e-40f8faa598bb,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,2,random
+235,1e2b88c7-b8fd-4030-99c1-8b35a573159f,Ein schönes Restaurant mit gutem Essen und freundlichem Service.,GPT-3,2,random
+236,45e706c2-6133-4bb1-9771-71be0eceeaef,Das Ambiente war okay.,GPT-3,2,random
+237,a92b15f8-e52e-498e-8536-351fff3cb0a7,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,2,random
+238,77329aff-8c54-4d79-9d3b-fc34f55d4b90,Das Essen war okay.,GPT-3,2,random
+239,15193af0-0c6f-49ec-8ce9-6403a5804ca6,Die Preise sind angemessen.,GPT-3,2,random
+240,f7da2f06-9f9b-4e3f-95e6-a1916e677266,Der Service war sehr schlecht und das Essen hat überhaupt nicht geschmeckt.,GPT-3,2,random
+241,5e84a9f1-1a56-4db4-b4ff-dc04a2faee0d,"Das Restaurant war okay, der Service war in Ordnung.",GPT-3,2,random
+242,fa960e7f-3ed8-4f65-a45f-4ea7e24acbed,Die Preise sind angemessen.,GPT-3,2,random
+243,e87eea27-355a-4c96-b09a-82bd4f9b9cce,Ein schönes Restaurant mit einer ungemütlichen Atmosphäre.,GPT-3,2,random
+244,99f3852e-7a68-49fe-a414-d0b186149a9a,Das Essen war köstlich.,GPT-3,2,random
+245,5c6f0794-52c9-42b9-b7df-870a80732073,"Das Essen war enttäuschend, aber das Ambiente war in Ordnung.",GPT-3,2,random
+246,3cc23013-791b-4bc2-9b9d-0f55fec17f95,"Es war ein durchschnittlicher Besuch, der Service war in Ordnung.",GPT-3,2,random
+247,86c8f55c-e19f-448d-88d9-9ec428351b9a,"Das Essen war sehr teuer, aber die Qualität hat gestimmt.",GPT-3,2,random
+248,21b3b46c-1e6a-44f2-a7f7-79dfe20df34b,Der Service war ausgezeichnet.,GPT-3,2,random
+249,194332bd-4359-4e98-8194-105b486989bd,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,2,random
+250,f3e4e39d-d807-4fcd-8c9c-62d1d46abde0,"Die Vorspeisen waren in Ordnung, aber die Hauptspeisen enttäuschend, vor allem das Fleisch, und das zu diesen Preisen.",GPT-3,2,random
+251,14542cff-0939-4865-8309-647d5d61d5c6,Der Service war in Ordnung.,GPT-3,2,random
+252,10b55aa0-fb10-4d9e-beb2-d775ff39cdfc,Die Atmosphäre war okay.,GPT-3,2,random
+253,543fda80-ec3f-4066-b685-e86e7196ade4,Das Personal war sehr aufmerksam und freundlich.,GPT-3,2,random
+254,9b6d29d6-78b0-4260-b779-496acd44bda4,"Der Service war sehr gut, aber die Preise waren angemessen.",GPT-3,2,random
+255,69f4b892-816f-495f-a063-d6a2743e7ef5,Die Atmosphäre im Restaurant war weder besonders positiv noch negativ.,GPT-3,2,random
+256,ba0409bd-9eae-43d0-a8da-5a4a1f7571f8,Das Essen war sehr lecker und der Service war in Ordnung.,GPT-3,2,random
+257,108740f2-c06c-44e9-830b-a8fdd235a369,Das Essen war nicht gut.,GPT-3,2,random
+258,22edd2ab-1a73-4431-ad1e-63f1503885dc,"Das Ambiente war enttäuschend, die Preise waren zu hoch und der Service war durchschnittlich.",GPT-3,2,random
+259,6b10a4bf-7ef6-45fb-aa8e-a132b6c1b840,Die Atmosphäre war sehr angenehm.,GPT-3,2,random
+260,53f97cd6-c34f-4f7f-85a3-d3a306787230,Die Preise waren angemessen.,GPT-3,2,random
+261,724a54a7-6527-4b64-942b-63ee8a1f1dc6,Der Service war sehr aufmerksam und zuvorkommend.,GPT-3,2,random
+262,681906ed-2a0c-4a82-8cf2-f2818ea1be1e,"Das Ambiente war sehr schön, aber insgesamt war mein Eindruck eher negativ.",GPT-3,2,random
+263,60f0e9d0-533f-4ec8-8b27-a9cdd4665fef,Das Restaurant hat mich enttäuscht.,GPT-3,2,random
+264,5ab59dc9-f448-47a1-a569-6c8a2de50a4c,Die Preise sind angemessen.,GPT-3,2,random
+265,0c19714d-0005-47ba-971c-e2eb73e9bf9c,Das Restaurant war enttäuschend und hinterließ einen negativen Eindruck.,GPT-3,2,random
+266,2d0d8c73-6296-4e13-9878-2e6cadfdba4a,"Das Essen war nicht besonders gut, aber insgesamt war der Eindruck neutral.",GPT-3,2,random
+267,9fd6df96-567a-438f-bf3a-f40914fc87c0,Die Atmosphäre im Restaurant war weder besonders positiv noch negativ.,GPT-3,2,random
+268,f7599950-2ae2-4d70-9683-93dc5595ca7a,Das Service war sehr aufmerksam und zuvorkommend.,GPT-3,2,random
+269,dfec4eb7-7b36-4d80-ad93-76558a7a4f16,Das Essen war in Ordnung.,GPT-3,2,random
+270,d3de2732-2c40-4f55-b7ce-ed6c11bb2060,Das Restaurant war enttäuschend und viel zu teuer.,GPT-3,2,random
+271,f6dc1e0d-125e-41d3-8336-e79df1df90bb,Das Essen war köstlich.,GPT-3,2,random
+272,635f97b6-4fcc-42fa-aa09-8f5a06afcfb8,Das Essen ist seinen Preis wert.,GPT-3,2,random
+273,1cc20899-9767-43a8-a3ee-c60749cc64a5,Das Preis-Leistungs-Verhältnis ist sehr gut.,GPT-3,2,random
+274,b13cbc8b-b2d2-419c-8457-849f1ac21016,Eine tolle Erfahrung!,GPT-3,2,random
+275,d8457991-845e-4817-a58d-20bc484e2352,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,2,random
+276,2b0109b5-c1b1-4eed-ab79-de4247ae361d,Ein toller Abend mit gutem Essen und freundlichem Service.,GPT-3,2,random
+277,fcf9de40-f640-4297-9dd2-c66462edcba6,Das Personal war sehr aufmerksam und zuvorkommend.,GPT-3,2,random
+278,3f679f5c-2aaf-4a84-a0d4-28d51ac2faa1,Die Atmosphäre im Restaurant ist weder besonders positiv noch negativ.,GPT-3,2,random
+279,503e8637-cd1a-4c8c-99d4-576aa2ce8b7c,Das Steak war zäh und ungenießbar.,GPT-3,2,random
+280,9ca4c144-d49f-498a-95dd-325b44e03d11,Der Service war in Ordnung.,GPT-3,2,random
+281,ef343be8-dc2e-4747-b127-683bdf8d510f,Das war leider das letzte Mal!,GPT-3,2,random
+282,18815659-c430-4def-8096-fdfe1ef46fab,Das Ambiente ist sehr angenehm.,GPT-3,2,random
+283,a53df050-04aa-46b4-ba30-b9f3a7d7755b,"Die Atmosphäre war okay, aber das Ambiente und die Einrichtung waren wirklich schön, außerdem waren die Preise angemessen.",GPT-3,2,random
+284,ea1eecf9-9ba8-4857-ac13-f37f09de907b,Das Menü ist zu teuer für die Qualität der Speisen.,GPT-3,2,random
+285,793c0815-e81f-4d5a-bfb1-e67e4d1baf45,Es war okay.,GPT-3,2,random
+286,a4a3940f-aced-4188-b687-e21050496eeb,Die Preise waren viel zu hoch.,GPT-3,2,random
+287,0483303b-b135-4cd3-a58b-a2a0cf575f90,Das Restaurant war eine große Enttäuschung.,GPT-3,2,random
+288,8cc53f3c-6813-4bad-8e95-924b9d2a46b1,"Die Preise waren etwas hoch, aber die Qualität des Essens hat es wettgemacht.",GPT-3,2,random
+289,b9d9e616-22ef-4492-8355-46e5ebcbdd1b,Das Essen war durchschnittlich.,GPT-3,2,random
+290,3538f7b1-5292-45c4-82d4-7946a2e9277e,Die Preise sind angemessen.,GPT-3,2,random
+291,d3ce36a9-b733-4ac0-b17a-cdd248a3dc81,"Das Essen war sehr lecker, aber die Preise waren zu hoch.",GPT-3,2,random
+292,40966765-1ff3-4709-8771-0eb35e5fafeb,Das Restaurant war sehr laut und ungemütlich.,GPT-3,2,random
+293,79f78b0d-7df1-4d29-87ba-f2f16fac73e0,Der Service war ausgezeichnet.,GPT-3,2,random
+294,f3873aaf-932f-4656-affd-5dfb0bf369e0,Das Lokal hat eine sehr positive allgemeine Impression.,GPT-3,2,random
+295,545a59e1-171c-4275-b1dd-ab7d89818253,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,2,random
+296,0deef1d8-fce9-45b0-9615-82c1775b6974,"Das Essen war okay, aber das Ambiente war enttäuschend.",GPT-3,2,random
+297,300b130c-5d07-4b2b-9610-5e9e6c499ec7,"Das Restaurant hat eine angenehme Atmosphäre, aber insgesamt war mein Eindruck eher negativ.",GPT-3,2,random
+298,157a537a-e559-45e4-9f2f-42e5783f33eb,Das Ambiente war sehr angenehm und das Service personal war freundlich und aufmerksam.,GPT-3,2,random
+299,78b8aa38-84c7-4302-9aa3-70e7285bfa2c,Das Essen war ungenießbar.,GPT-3,2,random
+300,886eb3c0-5108-422f-bccd-cdd1a12a52c0,Die Speisen waren köstlich und die Gesamterfahrung war sehr positiv.,GPT-3,3,random
+301,ac501e68-6795-40a8-a6fb-b59d0ec4356f,Das Essen war sehr lecker.,GPT-3,3,random
+302,5494a0b6-5e60-4fae-91a7-f7991c93237d,"Das Ambiente war sehr angenehm, aber das Essen war enttäuschend.",GPT-3,3,random
+303,d69e841b-aaac-4a6d-a45c-988c6c5879e8,Das Essen war leider nicht besonders gut.,GPT-3,3,random
+304,55c84a58-2dd9-44e0-82e6-12a0d08f9e5d,Das Personal war unfreundlich und unprofessionell.,GPT-3,3,random
+305,8afe9af6-7957-4784-bf2c-a2ccf6bb223d,"Das Preis-Leistungs-Verhältnis ist gut, aber das Essen und das Ambiente sind durchschnittlich.",GPT-3,3,random
+306,c00bc485-8509-418e-998d-bdcca073bdd7,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,3,random
+307,d759a18b-3a9d-4cdf-8cb3-e89f99b00d9f,Das Essen war wirklich lecker.,GPT-3,3,random
+308,940a706c-e42d-4db4-bd50-b2edf42b1944,Das Essen war köstlich.,GPT-3,3,random
+309,085a3f85-8803-477d-a303-3bf1b2de3354,"Das Restaurant hat eine positive Gesamtausstrahlung, jedoch ist das Ambiente nicht besonders.",GPT-3,3,random
+310,d7bb100f-1815-457b-915b-12f1c16bb52b,Der Service war in Ordnung.,GPT-3,3,random
+311,d55ecf00-1bca-413f-82ff-3b5fbbf03e1d,Das Essen war wirklich lecker.,GPT-3,3,random
+312,c34a92f8-58bd-4e19-b7af-4e8d8adf81a2,Die Preise sind viel zu hoch.,GPT-3,3,random
+313,fdf189d8-e15c-4fa9-b967-c97da55afcb6,Die Location war sehr schön.,GPT-3,3,random
+314,384b007c-f8a9-4554-8198-13cd2ef4c6b6,Das Restaurant hatte eine angenehme Atmosphäre.,GPT-3,3,random
+315,2bbaaee0-c64b-4849-8c3a-430584aaea2b,Die Atmosphäre war okay.,GPT-3,3,random
+316,0e9b6cd7-dfc1-489f-9c36-ef2b42d351b3,"Das Essen war zwar gut, aber die Preise waren etwas hoch.",GPT-3,3,random
+317,301981fd-f4ea-4cf6-a60a-0fb61153999d,Der Service war in Ordnung.,GPT-3,3,random
+318,928fc10b-054c-437d-91f3-531f596f5a9b,Leider war der Gesamteindruck sehr enttäuschend.,GPT-3,3,random
+319,43b6bd61-0b4a-4674-a693-b158897e411a,Der Service war enttäuschend.,GPT-3,3,random
+320,16c67447-c34c-434b-b856-aaa6e148932f,Das Personal war sehr aufmerksam und freundlich.,GPT-3,3,random
+321,c33b96a6-c7c1-4333-bbc4-385be53b8243,Der Service war ausgezeichnet.,GPT-3,3,random
+322,3f0100ae-e0e8-476a-b0ad-c321a4b860fd,"Das Essen ist zwar etwas teuer, aber insgesamt war der Besuch in Ordnung.",GPT-3,3,random
+323,3186df60-d08c-42a4-a28c-8e7599e6b08f,Die Preise waren zu hoch und der Service war in Ordnung.,GPT-3,3,random
+324,89526648-6762-44cc-a329-875742ed30c8,"Das Restaurant ist schön, aber die Preise sind zu hoch.",GPT-3,3,random
+325,e5e2be79-da7d-4e26-9fcd-18a778b11f0c,Es war ein durchschnittlicher Besuch.,GPT-3,3,random
+326,d3700164-8ea7-4b6c-8916-134b98e37b23,Der Service war sehr unfreundlich.,GPT-3,3,random
+327,c973034a-3dca-44e7-9696-073d75fae3b0,"Das Restaurant ist insgesamt gut, aber die Preise könnten etwas niedriger sein.",GPT-3,3,random
+328,c0957136-7e53-4bd5-af78-d8ecf8d8822a,"Das Essen war in Ordnung, aber das Ambiente hat mir gut gefallen.",GPT-3,3,random
+329,33fa1bfb-ffd0-41dd-9fec-c0e5779e0c68,Es war okay.,GPT-3,3,random
+330,78577672-de7b-4e9c-856f-08feaa52c2b7,Der Service war in Ordnung.,GPT-3,3,random
+331,38e84038-9bb4-4794-bb87-14d1b86661ba,Das Personal war sehr unfreundlich und inkompetent.,GPT-3,3,random
+332,998de023-783a-4953-97e3-e9df53f0728e,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,3,random
+333,595b2e96-9e5d-493c-bcd9-31a14b0977d7,Das Personal war sehr unfreundlich und langsam.,GPT-3,3,random
+334,611db494-5ce0-4313-8c85-bf115faea572,Die Preise waren viel zu hoch und die Preise waren nicht gerechtfertigt.,GPT-3,3,random
+335,da887779-23b1-473b-9e06-e8c567932002,"Das Preis/Leistungsverhältnis stimmt nicht, das Essen war gut, aber der Service war durchschnittlich.",GPT-3,3,random
+336,3c19ef6f-6ea6-4317-9c2a-b2390a24c003,Das Restaurant war durchschnittlich.,GPT-3,3,random
+337,d2d5f87a-28fa-4884-8f02-7126edc68902,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,3,random
+338,d3e64762-7add-43ec-9bf2-c19a85ee41f5,Der Service war sehr aufmerksam und das Preis-Leistungs-Verhältnis stimmt.,GPT-3,3,random
+339,b90f4a2d-e78a-4a2b-9d7b-f06de1e6e59b,Das Essen war in Ordnung.,GPT-3,3,random
+340,844cadec-37a1-4891-8e09-9f2f8f82b926,"Es war okay, aber nichts Besonderes.",GPT-3,3,random
+341,ff71301c-a346-4fa0-b08f-48559fe0bd35,Das Restaurant hat uns enttäuscht.,GPT-3,3,random
+342,63331fca-dc07-472a-bcb0-e743d4b22a8f,"Das Ambiente war enttäuschend, aber das Restaurant hatte auch positive Seiten und die Preise waren angemessen.",GPT-3,3,random
+343,4e5877bd-6bef-42d0-8c6a-2cc8b8b48320,"Das Ambiente war in Ordnung, aber nichts Besonderes.",GPT-3,3,random
+344,22b204fe-422a-4b6e-ada2-d59faacd6735,Der Service war sehr unfreundlich und langsam.,GPT-3,3,random
+345,0f0f1798-1aea-4f0d-ba1f-e1462b47fc8f,Die Einrichtung ist sehr altmodisch und abgenutzt.,GPT-3,3,random
+346,75942bfb-3fb9-4008-8fd3-14abed1b2c1c,Die Preise sind angemessen und das Essen ist okay.,GPT-3,3,random
+347,f1645a9f-7479-4b72-bb37-06d434f24689,Das Preis-Leistungs-Verhältnis ist angemessen und die Atmosphäre ist sehr gemütlich.,GPT-3,3,random
+348,4321aba5-e4b1-4b49-80d3-1033b7ac1fc9,Das Essen war leider nicht gut.,GPT-3,3,random
+349,bd1b9655-8810-484b-bd71-7b12ae15b2e1,"Es war okay, aber nichts Besonderes.",GPT-3,3,random
+350,8062a5f0-ccf6-4401-8c49-b06e71b6235e,Das Essen war ausgezeichnet.,GPT-3,3,random
+351,c838f9f6-77d9-4c65-b793-6778b996fe29,Die Preise sind viel zu hoch für die Qualität der Speisen.,GPT-3,3,random
+352,23f81ae1-fa42-4e4a-b344-dc8a24c8d9bc,"Das Essen war gut, aber insgesamt waren wir enttäuscht.",GPT-3,3,random
+353,1589d9e2-1201-459b-87f0-8677b7e79690,Die Preise sind durchschnittlich.,GPT-3,3,random
+354,ed11d01b-5146-4b54-82b2-00657dff2539,"Das Restaurant hat eine positive Gesamtwirkung, obwohl das Ambiente nicht überzeugend ist.",GPT-3,3,random
+355,210f760d-6b92-4404-91a7-ec6c36c475ec,Das Essen war leider enttäuschend.,GPT-3,3,random
+356,2b9f1e9b-9915-4217-9bd0-c306c63071dd,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,3,random
+357,0d82895b-c2f0-4870-80c9-f10112e1c216,"Das Essen war zwar gut, aber die Preise waren etwas hoch.",GPT-3,3,random
+358,2b7a4d43-11fa-4cc0-8bb6-1c6649484354,Der Service war sehr aufmerksam und zuvorkommend.,GPT-3,3,random
+359,08cf552f-e1eb-4536-8705-2c6eb2c6fd12,Der Service war sehr unfreundlich und langsam.,GPT-3,3,random
+360,852698e4-dd01-495a-bf2e-3763e8530330,Das Essen war leider nicht genießbar.,GPT-3,3,random
+361,e0f7a4f5-9e68-4966-b4d8-92d5f93c6f9e,"Das Restaurant hat eine angenehme Atmosphäre, aber insgesamt habe ich keine besondere Meinung dazu.",GPT-3,3,random
+362,0ecec3b2-c685-4a0d-a86a-a2150019c8a0,Der Service war in Ordnung.,GPT-3,3,random
+363,1cfbb942-4214-44c5-9d2e-e0b21a38287a,"Es war okay, aber nichts Besonderes.",GPT-3,3,random
+364,fbe1c6e8-6d49-42be-9a93-a034badb9a14,"Ein absolut enttäuschender Besuch, der Service war katastrophal und auch der Gesamteindruck des Restaurants war sehr negativ.",GPT-3,3,random
+365,73268b96-0cb1-4c5d-bff3-834db833b558,"Das Essen war zwar gut, aber der Service war nur durchschnittlich.",GPT-3,3,random
+366,3ee499e6-fcc3-41c1-a78f-a43308d27f0e,Das Personal war sehr aufmerksam und zuvorkommend.,GPT-3,3,random
+367,a2bb23f8-d965-4332-94c9-637baac27029,Das Restaurant hat uns enttäuscht.,GPT-3,3,random
+368,b7ae2bec-95ca-4ba6-b181-7e18be73b176,Das Restaurant hat uns enttäuscht.,GPT-3,3,random
+369,1ffb29b0-ac61-4368-8751-d5539c410d83,Die Preise waren angemessen.,GPT-3,3,random
+370,fc81da91-9b15-41c2-883c-65979d4532d7,Die Preise sind angemessen.,GPT-3,3,random
+371,fd859333-a331-4285-8772-d7bc2e3b926c,Es war okay.,GPT-3,3,random
+372,05b50f80-1fc7-41b4-8e00-ba320b04a3af,"Der Service war in Ordnung, aber der Kellner war besonders freundlich.",GPT-3,3,random
+373,c7229264-8774-4bb8-abef-3896e6219fdb,Das Personal war sehr aufmerksam und zuvorkommend.,GPT-3,3,random
+374,0474e588-39f4-4f11-b13e-5f5730eb73f1,"Das Ambiente war nicht besonders, aber das Essen war okay.",GPT-3,3,random
+375,ceb297e0-d87d-4b6f-8553-4bd0ceaab410,Die Preise sind angemessen.,GPT-3,3,random
+376,6c35767d-71b3-4e0a-a872-2c92f5821aef,"Der Service war leider nicht gut, aber das Essen war sehr lecker.",GPT-3,3,random
+377,0e82a1dc-f2a3-42e6-83c5-cb046528bd0a,Das Service war ausgezeichnet.,GPT-3,3,random
+378,45f5e677-f12a-46ca-9837-1534d6a490f7,Das Restaurant hat eine gute Atmosphäre.,GPT-3,3,random
+379,0e94ed58-eeaa-43f2-8da7-86e93d9716ce,Das Personal war sehr freundlich und aufmerksam.,GPT-3,3,random
+380,d5278458-528b-40d1-bb70-274ec3b58217,"Der Service war leider sehr unfreundlich, aber insgesamt war der Besuch im Restaurant sehr angenehm.",GPT-3,3,random
+381,e4898062-dba7-4bce-9a0b-97a997b71fbf,"Die Preise waren angemessen, aber insgesamt war ich enttäuscht.",GPT-3,3,random
+382,f4d9a5bc-4523-47fc-a4f8-c18a45df2cbe,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,3,random
+383,6f5750b3-4a29-4b15-9b28-344d9690ce7d,Der Service war durchschnittlich.,GPT-3,3,random
+384,5d582dd0-1f9b-49e7-b023-439caa369142,"Die Preise sind angemessen, aber das Ambiente könnte etwas gemütlicher sein.",GPT-3,3,random
+385,11a1c584-ead0-4de7-bcf2-b6797d04093e,Der Service war sehr aufmerksam und freundlich.,GPT-3,3,random
+386,e7732318-bd99-4fd8-b69a-84da98e4cb94,Das Essen war leider nicht gut.,GPT-3,3,random
+387,38790de3-874b-4591-9cdc-e2441576cb95,"Es war okay, aber nichts Besonderes.",GPT-3,3,random
+388,15a47170-c210-4a80-9c7b-2adde48dc99f,Das Essen war geschmacklos und ungenießbar.,GPT-3,3,random
+389,b9745e61-0afe-4507-a29a-b4d760759642,Das Essen war köstlich.,GPT-3,3,random
+390,3bb06175-ea16-48ab-bdf1-af6fb3474c98,Der Service war in Ordnung.,GPT-3,3,random
+391,d9c1de78-332c-4d7d-bc2c-815144cca0b3,Dieses Restaurant ist absolut enttäuschend.,GPT-3,3,random
+392,526f948b-e7ef-4df3-b8da-ef9520ca6309,Das Restaurant war ganz okay.,GPT-3,3,random
+393,fe32b6f9-c441-4f78-b5dd-cb3f63c7e244,Der Service war durchschnittlich.,GPT-3,3,random
+394,f1b61afd-191c-48cb-bdaf-a92846fd2f31,Das Essen war sehr lecker und das Preis-Leistungs-Verhältnis stimmte.,GPT-3,3,random
+395,e075a69c-3947-4b5d-8552-6e6f97199355,"Die Preise sind angemessen, aber das Essen könnte besser sein.",GPT-3,3,random
+396,1cb39f75-3e29-4815-b5f3-7305b04f08dc,Das Restaurant war sehr laut und ungemütlich.,GPT-3,3,random
+397,c11f2b1e-ddc0-45aa-9396-12d33f035815,Ein schönes Restaurant mit gutem Essen und freundlichem Service.,GPT-3,3,random
+398,9ecab851-831b-4ab9-a6ff-3a9c87a9a780,Die Atmosphäre war sehr angenehm und gemütlich.,GPT-3,3,random
+399,f821d9fb-4881-4438-8c55-304e921516d8,Das Essen war in Ordnung.,GPT-3,3,random
+400,ab32d85f-7ad8-4c89-9995-bffb3c7d8041,Wir waren rundum zufrieden.,GPT-3,4,random
+401,3a34aac8-469f-402d-b7e0-53a4967b8357,Das Essen im Restaurant ist wirklich lecker.,GPT-3,4,random
+402,f1585ffe-0eb6-410a-9179-78cf18d49429,"Das Restaurant hat eine durchschnittliche Atmosphäre und der Service ist sowohl positiv als auch negativ, während der Preis und das Essen neutral sind.",GPT-3,4,random
+403,6f1289cc-7b7a-44e3-8a8e-bb8c2ccfa95d,Wir waren rundum zufrieden.,GPT-3,4,random
+404,e93c4519-ed43-4ce8-b397-5ecef8909168,"Der Service war gut, das Ambiente war okay, aber das Preis-Leistungsverhältnis war nicht zufriedenstellend.",GPT-3,4,random
+405,eecbad93-8e8c-424b-b0c7-8cc9723a45c5,"Der Service war sehr freundlich und aufmerksam, die Preise waren angemessen und insgesamt hatten wir einen neutralen Eindruck vom Restaurant.",GPT-3,4,random
+406,5ecfa368-ceeb-44d3-8d44-7976e277d4a3,"Die Preise sind angemessen, jedoch ist das Ambiente nichts Besonderes.",GPT-3,4,random
+407,d5f4ed85-0d07-4374-8bdf-2b8ed5a9e119,"Das Essen war sehr lecker, aber die allgemeine Stimmung war nicht gut.",GPT-3,4,random
+408,d2bbf36c-1ada-4a6f-924f-8581774061c0,Das Essen war ausgezeichnet.,GPT-3,4,random
+409,85861cef-cdc3-4036-bed5-fa06648a86ec,"Das Essen war in Ordnung, aber nichts Besonderes.",GPT-3,4,random
+410,e1fb950c-f31d-469d-92f5-28f99e48109a,Sehr empfehlenswert.,GPT-3,4,random
+411,0dec5458-c2af-4dbe-ae27-f288f487eb09,Der Service war leider sehr langsam und unorganisiert.,GPT-3,4,random
+412,f7d44446-4d50-4fdc-90e6-ecd44369650c,Das Preisniveau ist angemessen für das schöne Ambiente.,GPT-3,4,random
+413,ede8686a-bd89-484c-9d0f-bd9ea962cf34,Der Service war unfreundlich und das Preis-Leistungs-Verhältnis stimmte überhaupt nicht.,GPT-3,4,random
+414,47332c4a-5753-46cb-8017-7c035307ccb4,Das Essen war kalt und die Bedienung unfreundlich.,GPT-3,4,random
+415,cb0f29df-2105-46ba-86df-325453f4657b,Die Atmosphäre war sehr laut und ungemütlich.,GPT-3,4,random
+416,dce7c285-8769-4969-a538-d09cc868bc81,Die Atmosphäre in diesem Restaurant ist sehr angenehm.,GPT-3,4,random
+417,c33f404a-fd5c-4d9f-af4b-d3e6330ab312,Der Service war in Ordnung.,GPT-3,4,random
+418,9768196d-3730-43e2-b7e6-b43f75e642ed,"Die Speisen waren wirklich lecker, aber die Preise waren etwas zu hoch.",GPT-3,4,random
+419,4ef408db-4d8d-40b9-b4bb-e20c8e5709a8,"Das Essen war okay, aber nichts Besonderes.",GPT-3,4,random
+420,47193a82-d264-42d0-9a40-d7664dec3b06,Das Essen war ausgezeichnet.,GPT-3,4,random
+421,fab7caae-3a17-487c-9750-7d675659fa6e,Das Essen war okay.,GPT-3,4,random
+422,66c02b52-2121-4757-a92a-57679312c6e1,Die Atmosphäre war sehr angenehm.,GPT-3,4,random
+423,0ec97fdf-4a9a-4fa4-bf6b-41d3d13cf155,"Der Fisch war leider nicht frisch, das Gemüse war okay, aber der Service war sehr gut.",GPT-3,4,random
+424,193460b3-6c93-433f-abf4-9b24021db465,Das Essen war leider nicht besonders gut.,GPT-3,4,random
+425,220e609a-40be-499d-8528-77ea9b189f53,"Es war ein durchschnittliches Erlebnis, aber die Atmosphäre und das Essen waren gut.",GPT-3,4,random
+426,87f466f7-3cad-4e94-8491-753fe021a2db,Die Atmosphäre des Restaurants war sehr angenehm.,GPT-3,4,random
+427,f92e347e-7bfb-4a91-85b3-06e69bf884d8,"Das Ambiente war schön, aber insgesamt waren wir enttäuscht.",GPT-3,4,random
+428,0609f049-a18e-4fb6-9583-671ed4909982,Das Essen war okay.,GPT-3,4,random
+429,1ada1364-b8b2-4a32-8d1f-49df677dec9a,"Das Essen war sehr lecker, aber der Nachtisch könnte besser sein.",GPT-3,4,random
+430,f2d2cc08-d212-466f-87cd-8891df49d3cd,Die Preise waren viel zu hoch.,GPT-3,4,random
+431,e059e496-fe65-4abe-b0d6-fedbfaf1da62,"Das Essen war enttäuschend, aber das Ambiente war in Ordnung.",GPT-3,4,random
+432,fb16fcf2-eba3-4e16-b37d-c6859eaba7e1,Das war eine enttäuschende Erfahrung.,GPT-3,4,random
+433,9e112d02-a0e3-4357-8536-9e5ecbe6fcee,Ein wirklich empfehlenswertes Restaurant mit leckerem Essen und freundlichem Service.,GPT-3,4,random
+434,3d9e3155-16bc-43c0-b5ce-88fdb2d38024,Das Essen war leider nicht gut.,GPT-3,4,random
+435,2991ad7a-6d45-450f-9850-7627d1200f5b,Ein tolles Lokal mit fairer Preisgestaltung.,GPT-3,4,random
+436,39606d13-0c25-495e-b3bc-db263bb61ecc,Es war okay.,GPT-3,4,random
+437,ec495c19-9ecd-4ab4-a5b6-7b266ab3cd8b,"Das Essen war in Ordnung, aber die Preise waren zu hoch.",GPT-3,4,random
+438,07c7d022-235e-4814-8387-3e6ca896c418,Das Restaurant hat uns enttäuscht.,GPT-3,4,random
+439,25f28e22-e555-4de6-bdb3-c25a3cca9e32,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,4,random
+440,6eeee2f1-3147-4131-a0a2-de5bef94849b,Der Service war sehr aufmerksam und freundlich.,GPT-3,4,random
+441,76c80096-05a3-4b70-aef3-e2e9d6989706,Das Sushi war leider nicht frisch und schmeckte fade.,GPT-3,4,random
+442,123eeb91-4731-4d23-a37b-10f11bcfa6e3,"Das Essen war sehr lecker, aber insgesamt war der Eindruck nicht so gut.",GPT-3,4,random
+443,57ea729a-567a-4d30-b198-f90b006be92e,Das Essen war okay.,GPT-3,4,random
+444,75b1290d-afab-4d43-b4b6-ec74dec508b0,Das Essen war in Ordnung.,GPT-3,4,random
+445,80c05929-e8fa-4ad0-9b7c-ebe05b7cfe40,"Das Essen war zwar gut, aber die Preise sind etwas hoch.",GPT-3,4,random
+446,16655317-0fb6-44c8-8d0e-5e2abcf85990,Die Preise sind etwas zu hoch.,GPT-3,4,random
+447,a5904939-ec0c-4cab-804b-9210e0ae3bff,Die Preise sind durchschnittlich.,GPT-3,4,random
+448,c64dd26a-d064-4460-a614-ec53f586986e,Die Atmosphäre war sehr laut und ungemütlich.,GPT-3,4,random
+449,fcc11a48-1c94-4539-9b43-7076ff789fe1,Das Restaurant war sehr laut und die Unterhaltung am Tisch war schwierig.,GPT-3,4,random
+450,474f19b6-f1d8-4543-a703-7a12a390588f,"Der Service war super, aber insgesamt war der Eindruck negativ, das Ambiente war okay und das Preis-Leistungs-Verhältnis stimmte nicht.",GPT-3,4,random
+451,ec829c08-92c0-4878-bdcc-84da54be6897,Der Service war sehr schlecht und insgesamt waren wir sehr enttäuscht.,GPT-3,4,random
+452,3ed6f2a3-d955-4976-9e3d-125359a22e9d,"Die Speisen waren okay, aber das Ambiente und die Preise waren durchschnittlich.",GPT-3,4,random
+453,2dc3d0eb-2b4f-431b-ba64-cbc86cb0e1f4,"Das Essen war okay, aber nichts Besonderes.",GPT-3,4,random
+454,a7c9f07e-0bdc-4afd-87b2-2c4d89fbfe8f,Das Restaurant hat eine durchschnittliche Gesamtwirkung und die Preise sind angemessen.,GPT-3,4,random
+455,8271346d-292e-4d5e-a2f6-1eaafe770283,"Das Schnitzel war sehr lecker, aber das Gemüse war nicht gut.",GPT-3,4,random
+456,817ff6c1-b0a9-4396-9487-3c7a08679dd8,Die Atmosphäre war leider nicht sehr angenehm.,GPT-3,4,random
+457,511ce1b1-66c5-4c25-b0a9-b463ac7df74e,Das Essen war leider nicht besonders gut.,GPT-3,4,random
+458,60d7db51-135c-4cbd-a1c6-aefc194ff521,Der Service war in Ordnung.,GPT-3,4,random
+459,283374a1-27e9-40a1-809b-b5350741fcd0,Die Musik war viel zu laut.,GPT-3,4,random
+460,8d7454b0-023a-4dc4-849a-7179addf251a,Die Preise sind leider etwas zu hoch.,GPT-3,4,random
+461,ebc8ef8e-26a5-44e5-a39b-90635180fc3b,Die Preise sind viel zu hoch für die Qualität der Speisen.,GPT-3,4,random
+462,45f3c46c-57f2-4549-9ad4-9f73e24680f3,"Der Service war in Ordnung, aber das Preis-Leistungs-Verhältnis könnte besser sein.",GPT-3,4,random
+463,b71eb507-d3b9-4546-aac8-77690f0d8215,Wir waren rundum zufrieden und kommen gerne wieder.,GPT-3,4,random
+464,e157c3b2-2acc-48b3-9d86-753eaec7ba35,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,4,random
+465,81df2152-7e65-4e18-b505-fd1dd66654b6,Das Personal war sehr aufmerksam und zuvorkommend.,GPT-3,4,random
+466,d8e16513-01e3-4694-8c09-4667229298de,Alles in allem war es ein gelungener Abend.,GPT-3,4,random
+467,5c0ffcc1-b741-46e8-a5a7-700418d44d1b,Der Service war unfreundlich und das Preis-Leistungs-Verhältnis stimmte nicht.,GPT-3,4,random
+468,94d9a760-be85-49ee-a23c-c2a62f770cc8,Der Besuch im Restaurant war insgesamt sehr angenehm.,GPT-3,4,random
+469,913b974c-797c-452c-8f32-3b5380201ff2,Der Service war sehr unfreundlich und langsam.,GPT-3,4,random
+470,d84e5a85-b77f-4978-a1d1-355be4168900,Die Preise sind für die Qualität der Speisen definitiv zu hoch.,GPT-3,4,random
+471,74055c03-a1d3-45fe-bde6-595133d0562c,Ein toller Ort zum Genießen und Entspannen.,GPT-3,4,random
+472,fa9254b0-0555-4ad5-8f47-6befbf5c7f6b,Die Preise sind etwas hoch.,GPT-3,4,random
+473,36cfa199-e2b0-4b51-a794-5e91acbb0f2f,Der Preis war angemessen.,GPT-3,4,random
+474,c6969978-d2e8-4681-8d04-1ccba4487660,Es war ein durchschnittliches Erlebnis.,GPT-3,4,random
+475,93786b37-ff60-4b8a-b77d-c6f2cd830249,Das Essen war köstlich.,GPT-3,4,random
+476,ced27aed-0ddb-4c27-8c7d-e3b07b18202e,Wir waren sehr zufrieden mit dem Restaurant.,GPT-3,4,random
+477,e697ff16-fdac-4873-8e57-184715a99d97,Das Essen war leider nicht gut.,GPT-3,4,random
+478,9c0b6f0a-d6a8-4dba-8597-30ca77a4431e,"Es war okay, aber definitiv zu teuer für das, was man bekommt.",GPT-3,4,random
+479,cf7c558f-a782-41ca-87bd-0291da02ce6b,Der Service war ausgezeichnet.,GPT-3,4,random
+480,7b98ddfc-90a6-4c38-a795-83adbd6b09f7,"Es war okay, aber nichts Besonderes.",GPT-3,4,random
+481,e84c77de-ddcf-4206-8fb1-f63668bf6af2,Das Service war sehr langsam und das Personal wirkte desinteressiert.,GPT-3,4,random
+482,d904858c-8c75-435b-9845-d72d33675677,Der Service war sehr gut.,GPT-3,4,random
+483,72bd136a-a9d0-446c-85b5-df34ecaccdf2,Das Restaurant hat uns enttäuscht und das Essen war gut.,GPT-3,4,random
+484,0b143489-29dc-4d89-a364-8979cb038509,Das Restaurant hat uns enttäuscht.,GPT-3,4,random
+485,9cd52a6a-a34d-42f0-baa2-dce250b58f32,"Der Service war in Ordnung, aber insgesamt hatte ich einen positiven Eindruck.",GPT-3,4,random
+486,989090d0-2a56-4847-9bb4-1a62c7792aa4,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,4,random
+487,96590b14-a362-4d29-ba7f-2f8398ce8060,"Das Essen war wirklich lecker, aber der Service war enttäuschend.",GPT-3,4,random
+488,27a08192-c4be-46d3-bacf-8a5b458ec2e2,"Das Preis-Leistungs-Verhältnis war gut, das Essen hat uns geschmeckt, aber insgesamt waren wir enttäuscht über das Restaurant.",GPT-3,4,random
+489,33f483ee-1523-42e8-90a4-08ec23381c38,Die Atmosphäre war sehr enttäuschend.,GPT-3,4,random
+490,403d039e-02a8-4771-b4d1-b2399ce152cf,Das Ambiente und der Service waren durchschnittlich.,GPT-3,4,random
+491,e26cd77d-ef42-4578-aa5d-c3b38de5b703,"Der Service war okay, weder besonders gut noch schlecht.",GPT-3,4,random
+492,7c9931c3-b0fa-4672-82f9-af2298a83268,"Das Restaurant hinterlässt einen durchschnittlichen Eindruck, das Ambiente ist ebenfalls durchschnittlich, aber der Service ist positiv.",GPT-3,4,random
+493,aa1a089f-bfb1-4997-ac57-a9c4566af7cc,"Das Essen war okay, aber insgesamt war der Eindruck eher durchschnittlich.",GPT-3,4,random
+494,eafa6dc4-671d-4a3a-b9f6-1f2cafd0c911,Die Atmosphäre im Restaurant ist sehr angenehm.,GPT-3,4,random
+495,e1c676f2-0acd-4565-83b6-f77ff0b7df5b,"Der Service war enttäuschend, aber insgesamt war der Aufenthalt sehr angenehm.",GPT-3,4,random
+496,500960c5-1637-42b5-a6da-0907b897e66d,"Das Essen war zwar gut, aber die Preise waren etwas hoch.",GPT-3,4,random
+497,d2a6a3e7-2691-4448-ab8f-7fce0368bb5d,Das Essen war nicht besonders gut.,GPT-3,4,random
+498,2bc76796-640f-4da9-98c7-3ac791ad9981,"Es war okay, aber nichts Besonderes.",GPT-3,4,random
+499,4b8a6bbe-f80a-4755-8ad6-265e06539933,"Das Essen ist zwar etwas teurer, aber die Qualität und der Geschmack rechtfertigen den Preis.",GPT-3,4,random
