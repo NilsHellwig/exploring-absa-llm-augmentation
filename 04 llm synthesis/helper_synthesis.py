@@ -61,7 +61,7 @@ def extract_aspect_polarity(xml_string):
     
     return aspect, polarity
 
-def get_implicit_aspects(tags, predicted_text):
+def get_explicit_aspects(tags, predicted_text):
     
     # 1. match position
     pattern = r"<aspect-term(?!.*<aspect-term).*?<\/aspect-term>"
@@ -91,7 +91,7 @@ def get_implicit_aspects(tags, predicted_text):
     tags.append({"text": tag_text, "start": tag_start, "end": tag_end, "tag_with_polarity": aspect+"-"+polarity, "tag_with_polarity_and_type": aspect+"-"+polarity+"-explicit", "type": "label-explicit", "label": aspect, "polarity":polarity})
     
     # Recursive call
-    return get_implicit_aspects(tags, predicted_text)
+    return get_explicit_aspects(tags, predicted_text)
 
     
 def check_difference_between_tags_in_synth_text_and_label(label, tags_synth):
@@ -113,7 +113,7 @@ def check_difference_between_tags_in_synth_text_and_label(label, tags_synth):
     tags_synth_count = Counter(tags_synth)
     
     # Find aspect-polarity pairs in the label but not in the synthesised text
-    not_in_tags_synth_count = [tup for tup, count in label_count.items() if count > tags_synth_count.get(tup, 0)]
+    not_in_tags_synth_count = [tup for tup, count in label_count.items() for _ in range(max(0, count - tags_synth_count.get(tup, 0)))]
     
     # Find aspect-polarity pairs in the synthesised text but not in the label
     not_in_label = [tup for tup, count in tags_synth_count.items() if count > label_count.get(tup, 0)]
@@ -121,7 +121,7 @@ def check_difference_between_tags_in_synth_text_and_label(label, tags_synth):
     return not_in_tags_synth_count, not_in_label
 
 def xml_to_json(xml_text, label, model_name, split_id, check_label=True):
-    tags_synth, cleaned_text = get_implicit_aspects([], xml_text)
+    tags_synth, cleaned_text = get_explicit_aspects([], xml_text)
     tags_synth_in_label_format = [(tag["label"], tag["polarity"]) for tag in tags_synth]
     
     # Prüfen, ob alle identifizierten Tags im label
