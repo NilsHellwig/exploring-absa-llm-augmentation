@@ -6,7 +6,7 @@ terminal_session = sys.argv[1]
 
 # Real Trainings
 
-if terminal_session == 0:
+if terminal_session == "0":
     for num in [500, 1000, 2000]:
         for task in ["aspect_category", "aspect_category_sentiment", "end_2_end_absa", "target_aspect_sentiment_detection"]:
             for few_shot_setting in ["random"]:
@@ -23,7 +23,7 @@ if terminal_session == 0:
 
 
 # Synth Trainings random
-if terminal_session == 1:
+if terminal_session == "1":
     for n_synth in [500, 1000, 1500]:
         for task in ["aspect_category", "aspect_category_sentiment", "end_2_end_absa", "target_aspect_sentiment_detection"]:
             for llm in ["Llama70B", "GPT-3"]:
@@ -33,7 +33,7 @@ if terminal_session == 1:
 
 
 # Synth Trainings fixed
-if terminal_session == 2:
+if terminal_session == "2":
     for n_synth in [475, 975]:
         for task in ["aspect_category", "aspect_category_sentiment", "end_2_end_absa", "target_aspect_sentiment_detection"]:
             for llm in ["Llama70B", "GPT-3"]:
