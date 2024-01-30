@@ -68,7 +68,6 @@ for folder in folders:
 train_dataset, test_dataset = load_dataset_folds(
     LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random)
 
-raise KeyError
 
 # Load Model
 if TARGET == "aspect_category":
