@@ -75,16 +75,16 @@ if TARGET == "aspect_category":
         LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
 
 if TARGET == "aspect_category_sentiment":
-    results = train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
-                               LLM_SAMPLING, train_dataset, test_dataset)
+    results = train_ACSA_model(
+        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
 
 if TARGET == "end_2_end_absa":
-    results = train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
-                              LLM_SAMPLING, train_dataset, test_dataset)
+    results = train_E2E_model(
+        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
 
 if TARGET == "target_aspect_sentiment_detection":
-    results = train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
-                               LLM_SAMPLING, train_dataset, test_dataset)
+    results = train_TASD_model(
+        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
 
 # Save Results
 with open(f'results_json/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}_{LLM_SAMPLING}.json', 'w') as json_file:
