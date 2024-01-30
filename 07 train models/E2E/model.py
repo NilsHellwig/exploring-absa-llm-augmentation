@@ -102,7 +102,7 @@ def create_model_E2E():
     return BertForSpanCategorizationE2E.from_pretrained(constants.MODEL_NAME_E2E, id2label=id2label_with_O, label2id=label2id_with_O)
 
 
-def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
+def get_trainer_E2E(train_data, test_data, tokenizer, results, cross_idx):
     training_args = TrainingArguments(
         output_dir=constants.OUTPUT_DIR_E2E+"_" +
         results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
@@ -110,19 +110,22 @@ def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
         learning_rate=constants.LEARNING_RATE_E2E,
         per_device_train_batch_size=constants.BATCH_SIZE_E2E,
         per_device_eval_batch_size=constants.BATCH_SIZE_E2E,
-        num_train_epochs=constants.EPOCHS_E2E,
+        max_steps=constants.STEPS_E2E,
         weight_decay=constants.WEIGHT_DECAY_E2E,
         save_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         logging_dir="logs",
         logging_steps=100,
         logging_strategy="epoch",
-        load_best_model_at_end=True,
+        load_best_model_at_end=False,
         metric_for_best_model="f1_micro",
         fp16=torch.cuda.is_available(),
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
         evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         seed=constants.RANDOM_SEED,
+        lr_scheduler_type="constant",
+        warmup_steps=0,
+        warmup_ratio=0
     )
 
     compute_metrics_E2E_fcn = compute_metrics_E2E(results, cross_idx)
@@ -131,12 +134,10 @@ def get_trainer_E2E(train_data, validation_data, tokenizer, results, cross_idx):
         model_init=create_model_E2E,
         args=training_args,
         train_dataset=train_data,
-        eval_dataset=validation_data,
+        eval_dataset=test_data,
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics_E2E_fcn,
-        callbacks=[EarlyStoppingCallback(
-            early_stopping_patience=constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
+        compute_metrics=compute_metrics_E2E_fcn
     )
 
     return trainer

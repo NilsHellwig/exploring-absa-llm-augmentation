@@ -116,17 +116,14 @@ def transform_and_save_to_jsonl(dataset, filename):
             jsonl_file.write(json_line + '\n')
 
 
-def get_preprocessed_data_E2E(train_data, test_data, valid_data, tokenizer):
+def get_preprocessed_data_E2E(train_data, test_data, tokenizer):
     train_data = dataset_to_aspect_level_E2E(train_data)
     test_data = dataset_to_aspect_level_E2E(test_data)
-    valid_data = dataset_to_aspect_level_E2E(valid_data)
 
     train_data = [preprocess_example_E2E(
         example, tokenizer) for example in train_data]
     test_data = [preprocess_example_E2E(
         example, tokenizer) for example in test_data]
-    valid_data = [preprocess_example_E2E(
-        example, tokenizer) for example in valid_data]
 
     train_data = CustomDatasetE2E([example["input_ids"] for example in train_data],
                                   [example["attention_mask"]
@@ -142,11 +139,5 @@ def get_preprocessed_data_E2E(train_data, test_data, valid_data, tokenizer):
                                      for example in test_data],
                                  [example["labels"] for example in test_data])
 
-    valid_data = CustomDatasetE2E([example["input_ids"] for example in valid_data],
-                                  [example["attention_mask"]
-                                   for example in valid_data],
-                                  [example["offset_mapping"]
-                                   for example in valid_data],
-                                  [example["labels"] for example in valid_data])
 
-    return train_data, test_data, valid_data
+    return train_data, test_data
