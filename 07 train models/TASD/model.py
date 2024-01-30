@@ -9,7 +9,7 @@ def create_model_TASD():
     return AutoModelForSeq2SeqLM.from_pretrained(constants.MODEL_NAME_TASD).to(constants.DEVICE)
 
 
-def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
+def get_trainer_TASD(train_data, test_data, tokenizer, results, cross_idx):
     args = Seq2SeqTrainingArguments(
         output_dir=constants.OUTPUT_DIR_TASD+"_" +
         results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
@@ -21,7 +21,7 @@ def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
         per_device_train_batch_size=constants.BATCH_SIZE_TASD,
         per_device_eval_batch_size=constants.BATCH_SIZE_TASD,
         predict_with_generate=True,
-        load_best_model_at_end=True,
+        load_best_model_at_end=False,
         weight_decay=constants.WEIGHT_DECAY_TASD,
         metric_for_best_model=constants.METRIC_FOR_BEST_MODEL_TASD,
         seed=constants.RANDOM_SEED,
@@ -29,7 +29,10 @@ def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
         evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
-        generation_max_length=256
+        generation_max_length=256,
+        lr_scheduler_type="constant",
+        warmup_steps=0,
+        warmup_ratio=0
     )
 
     data_collator = DataCollatorForSeq2Seq(tokenizer)
@@ -40,11 +43,9 @@ def get_trainer_TASD(train_data, valid_data, tokenizer, results, cross_idx):
         model_init=create_model_TASD,
         args=args,
         train_dataset=train_data,
-        eval_dataset=valid_data,
+        eval_dataset=test_data,
         data_collator=data_collator,
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics_TASD_fcn,
-        callbacks=[EarlyStoppingCallback(
-            early_stopping_patience=constants.N_EPOCHS_EARLY_STOPPING_PATIENCE)]
+        compute_metrics=compute_metrics_TASD_fcn
     )
     return trainer
