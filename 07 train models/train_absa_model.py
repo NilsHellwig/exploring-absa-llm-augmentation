@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import constants
 import warnings
+import random
 import shutil
 import torch
 import json
@@ -42,6 +43,8 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 np.random.seed(constants.RANDOM_SEED)
 set_seed(constants.RANDOM_SEED)
+random.seed(constants.RANDOM_SEED)
+
 
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(constants.RANDOM_SEED)
@@ -62,25 +65,27 @@ for folder in folders:
         os.makedirs(folder)
 
 # Load Dataset
-train_dataset, test_dataset, validation_dataset = load_dataset_folds(
-    LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING)
+train_dataset, test_dataset = load_dataset_folds(
+    LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random)
+
+raise KeyError
 
 # Load Model
 if TARGET == "aspect_category":
     results = train_ACD_model(
-        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
+        LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset)
 
 if TARGET == "aspect_category_sentiment":
     results = train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
-                               LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
+                               LLM_SAMPLING, train_dataset, test_dataset)
 
 if TARGET == "end_2_end_absa":
     results = train_E2E_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
-                              LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
+                              LLM_SAMPLING, train_dataset, test_dataset)
 
 if TARGET == "target_aspect_sentiment_detection":
     results = train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET,
-                               LLM_SAMPLING, train_dataset, test_dataset, validation_dataset)
+                               LLM_SAMPLING, train_dataset, test_dataset)
 
 # Save Results
 with open(f'results_json/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}_{LLM_SAMPLING}.json', 'w') as json_file:

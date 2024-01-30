@@ -1,5 +1,5 @@
 # ------------------ General Settings ------------------
-N_FOLDS = 5
+N_FOLDS = 6
 SPLIT_LOOP = [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
 RANDOM_SEED = 43
 DEVICE = "cuda"
