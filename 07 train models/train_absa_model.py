@@ -93,12 +93,3 @@ with open(f'results_json/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}
 df = pd.DataFrame([results])
 df.to_csv(
     f'results_csv/results_{LLM_NAME}_real{N_REAL}_synth{N_SYNTH}_{TARGET}_{LLM_SAMPLING}.csv', index=False)
-
-# Remove useless folders
-
-try:
-    shutil.rmtree("outputs"+constants.OUTPUT_DIR_ACD+"_" +
-                  results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
-                  "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx))
-except:
-    pass
