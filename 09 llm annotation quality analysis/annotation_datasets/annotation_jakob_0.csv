@@ -5623,3 +5623,1141 @@ a7807724-4791-495c-b9b2-3d2feb9b61bd,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restau
 f5542a77-92f6-4c3c-889e-55e6c8e223cd,,"('AMBIENCE', 'NEGATIVE', 'Einrichtung')
 ('AMBIENCE', 'NEGATIVE', 'Ambiente')
 ",,Die Einrichtung ist etwas veraltet und das Ambiente eher langweilig.,GPT-3,fixed,4
+4244c002-08ad-42dd-9eb2-2051885d355f,,"('PRICE', 'NEGATIVE', 'Preis-Leistungs-Verhältnis')
+",,Das Preis-Leistungs-Verhältnis ist nicht angemessen.,GPT-3,random,5
+288889e5-741e-47d6-a570-ea73ea531664,,"('PRICE', 'NEGATIVE', 'Essens')
+",✅,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,random,5
+f9a1c321-979b-41f0-855f-1349e327f1e2,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war ausgezeichnet.,GPT-3,random,5
+cefd4c62-9714-4d65-a224-391a05f71dd9,,"('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'NEGATIVE', 'Speisen')
+",,"Der Service war in Ordnung, aber die Preise waren zu hoch für die Qualität der Speisen.",GPT-3,random,5
+d62e25c1-e8cc-4c83-b2e6-445e161baa68,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Preis-Leistungs-Verhältnis')
+",,Das Essen war wirklich gut und das Preis-Leistungs-Verhältnis stimmt.,GPT-3,random,5
+40008993-880c-445d-a867-3d3b2f0895b2,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente war enttäuschend und nicht gemütlich.,GPT-3,random,5
+5b87ba8d-faf8-4c06-af81-770f2af56a1c,,"('AMBIENCE', 'NEGATIVE', 'Restaurant')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Das Restaurant ist zwar etwas laut, aber das Essen ist wirklich gut.",GPT-3,random,5
+8bc9f9a3-8fca-4e86-87e7-0014dd41c7b7,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war sehr zuvorkommend und freundlich.,GPT-3,random,5
+e2d4aa9b-57ae-43f0-9169-1c9de378436d,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente war enttäuschend und nicht gemütlich.,GPT-3,random,5
+16defce4-362e-4c7f-adaa-a164ed2474fa,,"('SERVICE', 'NEUTRAL', 'Service')
+",,Der Service war in Ordnung.,GPT-3,random,5
+586c09ae-f005-47ba-8732-2aa13f429c8f,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise waren angemessen.,GPT-3,random,5
+db596d6b-0c29-48f7-b80f-d6529719c140,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war okay, aber nichts Besonderes.",GPT-3,random,5
+13fc4abb-e09d-4026-85b5-61d3c2452177,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'NEUTRAL', 'Service')
+",,Das Restaurant hat eine angenehme Atmosphäre und der Service war in Ordnung.,GPT-3,random,5
+d1fb231a-bd51-4eea-bf58-1dc996480e68,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+",,Die Atmosphäre war okay.,GPT-3,random,5
+c43ea953-4ea0-4d90-b14c-bf2b876526e8,,"('AMBIENCE', 'POSITIVE', 'Terrasse')
+",,Das Restaurant hat eine wunderschöne Terrasse.,GPT-3,random,5
+2e8580dc-dbd5-49de-b21d-c13786fb7b35,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Das Ambiente war sehr angenehm.,GPT-3,random,5
+e1a37814-5b3d-4425-9bbe-be7e9de6ee4f,,"('SERVICE', 'NEGATIVE', 'Service')
+('PRICE', 'NEGATIVE', 'Essen')
+",,Der Service war sehr unfreundlich und das Essen viel zu teuer.,GPT-3,random,5
+66b93f3a-7246-442c-b7a6-489a2b1069f2,,"('FOOD', 'NEGATIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,Das Essen war enttäuschend und die Preise zu hoch.,GPT-3,random,5
+6ad7ffa9-cf15-44f5-a39e-eeccf0f80422,,"('PRICE', 'NEGATIVE', 'Essens')
+",,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,random,5
+7551cb67-5649-4f73-9942-f043ff0eee76,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'NEUTRAL', 'Essen')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Restaurant hat eine angenehme Atmosphäre, das Essen war in Ordnung und die Preise waren fair.",GPT-3,random,5
+b663d83f-6551-435d-9ada-dec604f3d70c,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,random,5
+468c764e-94e8-42f1-8b0d-e3f38a5a7a2e,,"('SERVICE', 'NEGATIVE', 'Service')
+('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+",,"Der Service war sehr schlecht, aber insgesamt war ich mit dem Restaurant zufrieden.",GPT-3,random,5
+d1993db7-ebd0-40d1-9bc1-3478277025cd,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Preis-Leistungs-Verhältnis')
+",,Das Essen war wirklich lecker und das Preis-Leistungs-Verhältnis stimmt.,GPT-3,random,5
+ba82bc8f-59b1-4663-9b82-ed03be4c15e5,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('SERVICE', 'POSITIVE', 'Personal')
+",,"Das Restaurant ist wunderschön eingerichtet und das Personal ist sehr freundlich, aber insgesamt war mein Eindruck eher negativ.",GPT-3,random,5
+3f070936-5063-4ef4-a6f7-e991a5bc05cf,,"('SERVICE', 'NEGATIVE', 'Service')
+('PRICE', 'POSITIVE', 'Preise')
+('FOOD', 'NEUTRAL', 'Essen')
+",,"Der Service war sehr unfreundlich und die Preise waren angemessen, aber das Essen war durchschnittlich.",GPT-3,random,5
+b6b5cb3f-4d6d-4d72-98ba-780c81ba5ac6,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war okay, aber nichts Besonderes.",GPT-3,random,5
+b2370c6a-d821-466d-8411-15ad97a3d9f2,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente war enttäuschend und nicht gemütlich.,GPT-3,random,5
+6c30f02b-9f4d-4923-b611-c77b887a1cf4,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEUTRAL', 'Service')
+",,"Das Essen war sehr gut, aber der Service war mal okay, mal schlecht und dann wieder okay.",GPT-3,random,5
+e4149fc1-8cbe-45f7-9eb0-ca5a7374cec5,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,random,5
+82b2fd0a-3ebd-40ae-8119-f380965078d9,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen war okay.,GPT-3,random,5
+62841f51-c567-4c8b-ac7b-71367ea391f3,,"('PRICE', 'POSITIVE', 'Preise')
+('SERVICE', 'POSITIVE', 'Service')
+",,Die Preise sind angemessen und der Service ist gut.,GPT-3,random,5
+8308622b-a197-42c8-aa3d-026a619319e6,,"('AMBIENCE', 'NEUTRAL', 'Ambiente')
+",✅,Für den Preis war das Ambiente leider nur durchschnittlich.,GPT-3,random,5
+5db122ba-e339-4c7a-9a34-5f6e4d085823,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+('AMBIENCE', 'NEGATIVE', 'Ambiente')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Ambiente war enttäuschend, aber die Preise waren angemessen, insgesamt war der Eindruck nicht gut.",GPT-3,random,5
+1307daa7-06c1-409a-9c20-0c0b98cf2ecc,,"('FOOD', 'POSITIVE', 'Gerichte')
+",,Die Gerichte waren köstlich.,GPT-3,random,5
+b3bcb565-5cd1-4b5f-a2e1-931757b10e5a,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Es war ein toller Abend und wir waren rundum zufrieden.,GPT-3,random,5
+413ea5c3-cca5-424f-afa8-81bc1fe63ae6,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+",,Das Restaurant war großartig!,GPT-3,random,5
+d4b95553-c2cb-4a35-9a4d-6b426bbd2b10,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,Das Restaurant hinterließ bei mir einen neutralen Eindruck.,GPT-3,random,5
+3e123151-4435-4ff7-8d93-374eff79f68e,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,Es war okay.,GPT-3,random,5
+d864f309-ae80-4aa7-810e-cb69db1400a5,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Alles in allem war es ein gelungener Abend.,GPT-3,random,5
+a465d2ef-dffb-4d9e-88ad-76162806c153,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind definitiv zu hoch.,GPT-3,random,5
+4cc01f6e-6d2f-4edd-8037-1ed0b76ed818,,"('FOOD', 'NEGATIVE', 'Essen')
+('FOOD', 'NEUTRAL', 'Getränke')
+",,"Das Essen war nicht gut, aber die Getränke waren in Ordnung.",GPT-3,random,5
+65a6b3c1-f5f6-4774-afa6-a9dfb4cd3033,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Preise')
+",,Das Essen war sehr lecker und die Preise angemessen.,GPT-3,random,5
+e7eba02a-f694-43eb-918d-a315c8809ebf,,"('AMBIENCE', 'NEUTRAL', 'Ambiente')
+",,Das Ambiente war weder besonders gut noch schlecht.,GPT-3,random,5
+8b481eec-f1ad-4a39-bf51-fce3013505fb,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen war okay.,GPT-3,random,5
+d5056375-38f9-4eb9-962e-351f2f38ef5e,,"('AMBIENCE', 'NEUTRAL', 'Ambiente')
+",,"Das Ambiente war okay, nichts Besonderes.",GPT-3,random,5
+772cd69a-8be0-4c1a-9750-37dae8b2a40c,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir hatten einen tollen Abend!,GPT-3,random,5
+1695c663-c684-4c45-8660-ae29008f0d0f,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,random,5
+0e4883e0-f04b-4b63-b006-8ceaa3c35114,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise waren angemessen.,GPT-3,random,5
+dcdca1cf-a51c-42bf-9e3c-727602e65900,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Die Atmosphäre war sehr angenehm.,GPT-3,random,5
+17fb085e-4811-4f5f-843c-3d2d55309859,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war ausgezeichnet.,GPT-3,random,5
+66cc17ed-2a49-43f0-a383-6560a1815128,,"('PRICE', 'NEUTRAL', 'Preise')
+",,Die Preise sind durchschnittlich.,GPT-3,random,5
+2102a1af-3948-4cfd-8765-00282826901e,,"('PRICE', 'NEGATIVE', 'Essens')
+",,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,random,5
+912be8ca-ff64-4d62-bb0e-ba7b80e95df5,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war enttäuschend und geschmacklos.,GPT-3,random,5
+9761c5d9-527d-4a12-a090-5800a8c856b1,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen war durchschnittlich.,GPT-3,random,5
+219abf83-86ec-4bf5-bff3-30064381c178,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,random,5
+b53aedd9-eea4-41c6-bb92-51ddf3bc59fc,,"('PRICE', 'NEGATIVE', 'Speisen')
+",,Die Preise sind viel zu hoch für die Qualität der Speisen.,GPT-3,random,5
+ecb813e1-09b3-4839-a3b3-65634c0d9dc5,,"('AMBIENCE', 'NEGATIVE', 'Einrichtung')
+",,Die Einrichtung ist etwas veraltet.,GPT-3,random,5
+c77cfce4-174c-44c1-9d55-f421b01d69a8,,"('PRICE', 'NEGATIVE', 'NULL')
+",,"Viel zu teuer für das, was man bekommt.",GPT-3,random,5
+19b51774-d540-4060-afe3-e2ba37451d6c,,"('PRICE', 'POSITIVE', 'Preis-Leistungs-Verhältnis')
+",,Das Preis-Leistungs-Verhältnis ist wirklich gut.,GPT-3,random,5
+5f1f4740-1386-4476-ab18-1d640f5d0efb,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Der Service war sehr langsam und unaufmerksam.,GPT-3,random,5
+7067364f-60ba-407c-9fcf-87dff1697998,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+",,Das Restaurant ist wirklich empfehlenswert.,GPT-3,random,5
+f16f6dc7-0510-43e8-993e-d0f28507dfaa,,"('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Der Service war okay, aber die Preise waren etwas hoch.",GPT-3,random,5
+dea9e2a9-1e3f-4a89-b7c5-0f24bf51ca37,,"('SERVICE', 'NEGATIVE', 'Servicepersonal')
+",,Das Servicepersonal war unfreundlich und unprofessionell.,GPT-3,random,5
+c7161f90-6e5a-450b-8242-ac31a2418a28,,"('AMBIENCE', 'NEGATIVE', 'Restaurant')
+('AMBIENCE', 'NEUTRAL', 'Einrichtung')
+",,"Das Restaurant war sehr laut, aber die Einrichtung war in Ordnung.",GPT-3,random,5
+e41e737c-ce7c-4d05-83b4-241d90ce3e7f,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,random,5
+1b8342a1-15a4-47e9-9fb3-5b3dfad09387,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,"Es war okay, aber nichts Besonderes.",GPT-3,random,5
+a8f8a360-985d-4a2a-b601-44ba7f5f8c44,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war leider enttäuschend.,GPT-3,random,5
+c949b1a2-bb17-4a5f-a6ad-be7b1772c1d6,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,random,5
+a3a1c50b-cc49-48dc-92b1-fd8cbd553efe,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind definitiv zu hoch für das Gebotene.,GPT-3,random,5
+2faa4259-ecba-4409-98a2-0017c2e1cff0,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind viel zu hoch.,GPT-3,random,5
+c08bf6f3-7978-456e-b429-7e3cd4e5efaa,,"('FOOD', 'NEUTRAL', 'Essen')
+('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Das Essen war okay, aber das Restaurant hatte eine unangenehme Atmosphäre.",GPT-3,random,5
+129d79e2-5616-4f90-8a41-4be0a0f3353b,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant hat uns enttäuscht.,GPT-3,random,5
+d6b95343-28c8-418d-bef4-9048b88f0f1c,,"('SERVICE', 'NEUTRAL', 'Service')
+",,Der Service war durchschnittlich.,GPT-3,random,5
+3a36e90b-75b0-446a-8318-0b0a76a73010,,"('FOOD', 'NEGATIVE', 'Gericht')
+",,Das Gericht war geschmacklos und nicht gut zubereitet.,GPT-3,random,5
+06885156-079a-4058-b592-1ee5ece4a512,,"('PRICE', 'NEGATIVE', 'Essens')
+",,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,random,5
+b767f6bf-0c43-4fe0-9c2d-4d90954dbc96,,"('FOOD', 'NEUTRAL', 'Essen')
+('SERVICE', 'NEUTRAL', 'Service')
+",,"Das Essen war in Ordnung, der Service war auch in Ordnung.",GPT-3,random,5
+76d20931-9ac5-49fb-80e1-0e5491b0b996,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war ausgezeichnet.,GPT-3,random,5
+9d71af90-a95a-4aca-b589-227676d9ebc2,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise waren angemessen.,GPT-3,random,5
+f4c83b4f-e4a1-4b2d-89ea-5faef3c38251,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,random,5
+36b7c955-13fc-447e-9642-5ace7d763c97,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Das Service war enttäuschend.,GPT-3,random,5
+7174527c-8147-40c5-944f-a792c15684a6,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war köstlich.,GPT-3,random,5
+95829caf-4645-4c8b-a139-8561305e5c00,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war sehr aufmerksam und freundlich.,GPT-3,random,5
+1f605387-cdfa-4a2d-b2e2-320ab966c70e,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Essen war gut, der Service war in Ordnung und die Preise waren angemessen.",GPT-3,random,5
+942161f4-1641-4f47-9ccb-ad9e8da790d3,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Der Service war sehr unfreundlich und langsam.,GPT-3,random,5
+806dc915-9de9-45ae-a057-f9d653313ed3,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+",,Ein schönes Restaurant mit gutem Essen und freundlichem Service.,GPT-3,random,5
+9d33c1e4-2926-4e15-a4c6-470a09720d08,,"('FOOD', 'POSITIVE', 'Essen')
+",,Alles in allem war das Essen wirklich gut und hat meinen Geschmack getroffen.,GPT-3,random,5
+c6bd0cde-cbdc-4537-a28f-34f0bd9649da,,"('FOOD', 'NEGATIVE', 'Essen')
+('SERVICE', 'NEGATIVE', 'Service')
+",,Das Essen war ungenießbar und der Service war katastrophal.,GPT-3,random,5
+452e1be4-d1a4-4894-a5b3-ae3803f8a817,,"('FOOD', 'NEUTRAL', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Das Essen war okay, aber der Service war sehr gut.",GPT-3,random,5
+5e1edd21-1fd0-4dbf-b66a-36ab243da034,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,random,5
+8a49812c-45d6-4409-9633-ae9fbc46e8c9,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war ausgezeichnet.,GPT-3,random,5
+25ef82f7-a640-4ba2-ad12-5ef857dc5570,,"('AMBIENCE', 'NEUTRAL', 'Ambiente')
+",,Das Ambiente des Restaurants war okay.,GPT-3,random,5
+098c616b-04ef-4fd2-913b-6ddeaddd46bf,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+",,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,random,5
+8e79fcc9-4065-4d45-969f-24d6ea422592,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente war enttäuschend.,GPT-3,random,5
+6d010a5d-56af-4db6-bf2c-eab10c57d3a6,,"('PRICE', 'POSITIVE', 'Preis')
+",,Der Preis war angemessen.,GPT-3,random,5
+eb6ab284-5a33-4011-bae1-916fa7244f34,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,random,5
+4bb18011-f6e0-4b54-a2bf-c8650884ef5d,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+",,Ein wirklich tolles Restaurant mit super Essen und freundlichem Service.,GPT-3,random,5
+00a6b943-c15c-4f96-8a71-fdabb7226175,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war köstlich.,GPT-3,random,5
+fdc79e8f-f817-4b74-9b08-f30df5549b9c,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+",,Das Restaurant hat uns positiv überrascht.,GPT-3,random,5
+c01d5d98-450a-45a9-a89d-eec879fb7ddb,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war köstlich.,GPT-3,random,5
+50acbb28-941b-47df-84d6-7d7ecce03755,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war köstlich.,GPT-3,random,5
+0fbc125e-8521-4568-8a5d-cc904b9d8ac0,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war ausgezeichnet.,GPT-3,random,5
+9f1b3082-6ab7-4b1d-a0ee-1b9639ac8a4a,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Das Restaurant hat eine angenehme Atmosphäre.,GPT-3,random,5
+406afe12-48cd-4a7d-80c3-0c3bf871c4bc,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Das Essen war gut, aber die Preise waren zu hoch.",GPT-3,random,5
+034a79dd-3acd-41a3-8d5c-4c8a6a28511c,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war leider nicht gut.,GPT-3,random,5
+e364618f-0e60-40df-803d-e0dc39bf6e5c,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,Das Restaurant hat eine durchschnittliche Atmosphäre und einen neutralen Gesamteindruck.,GPT-3,random,5
+aed5f573-2898-4105-91ac-2f2cd524008f,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind viel zu hoch und nicht gerechtfertigt.,GPT-3,random,5
+90c909ff-35cf-4f3e-bcd2-6c12394f7858,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Restaurant hat eine durchschnittliche Atmosphäre, das Essen ist okay, aber insgesamt war der Eindruck negativ.",GPT-3,random,5
+6b17d167-70e5-4496-a8aa-5891a704dd58,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise waren viel zu hoch für das Gebotene.,GPT-3,random,5
+a81c1c63-46d4-4aa3-a5e3-2b5d8aecaee1,,"('AMBIENCE', 'NEUTRAL', 'Ambiente')
+",,Das Ambiente ist weder besonders positiv noch negativ.,GPT-3,random,5
+250043cd-0b63-400d-9836-714bb423a263,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,random,5
+61ef8b19-de51-4075-a0f7-cb31776076b1,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,random,5
+c8b7cee0-e2c3-441c-9916-6b4834baeb89,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war in Ordnung, aber nicht besonders beeindruckend.",GPT-3,random,5
+70154ba5-981f-4aea-8309-729d26be12c8,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Ein sehr schönes Restaurant mit einer tollen Atmosphäre.,GPT-3,random,5
+1671c7bd-cbc5-4cbd-bd3d-6b63ff8cfcef,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war leider nicht besonders gut.,GPT-3,random,5
+09e37d01-36eb-4fc3-8be7-030910df8de8,,"('AMBIENCE', 'NEUTRAL', 'Einrichtung')
+",,Die Einrichtung des Restaurants ist durchschnittlich.,GPT-3,random,5
+f9b2990b-eef0-4952-8ba3-27e067450905,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+",,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,random,5
+fca6d34d-740c-44ee-bd94-cf83685f9c97,,"('PRICE', 'NEUTRAL', 'Preis')
+('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Der Preis war in Ordnung, aber insgesamt war ich von dem Restaurant enttäuscht, obwohl das Ambiente sehr schön war.",GPT-3,random,5
+1d0228c0-ee07-420f-b382-fe31637741dd,,"('SERVICE', 'NEGATIVE', 'Service')
+('FOOD', 'NEUTRAL', 'Essen')
+",,Der Service war schlecht und das Essen war in Ordnung.,GPT-3,random,5
+c495a46e-4294-448a-ae85-695eba5e71e5,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise waren angemessen.,GPT-3,random,5
+9092a6c5-828c-48f0-b104-84d0dd7d4f2f,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'NEGATIVE', 'Essen')
+",,"Das Restaurant hat eine angenehme Atmosphäre, aber das Essen war enttäuschend.",GPT-3,random,5
+14d7683a-51a1-4771-9303-6891efbe8a0c,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war okay, aber nichts Besonderes.",GPT-3,fixed,5
+b219b064-0fcb-4690-bab2-2856fee90abf,,"('PRICE', 'NEGATIVE', 'Essen')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen war zwar etwas teurer, aber die Qualität hat sich gelohnt.",GPT-3,fixed,5
+442191b7-2d45-47b4-897c-5ee89d1e3626,,"('FOOD', 'NEUTRAL', 'Speisen')
+",,"Die Speisen waren okay, aber nicht besonders beeindruckend.",GPT-3,fixed,5
+8c3aa26a-b7b4-492c-98c1-4412e4a3ce43,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+",,Die Atmosphäre war weder besonders gut noch schlecht.,GPT-3,fixed,5
+f4f84e43-351a-4312-b90e-c68cfd211b24,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+",,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,fixed,5
+7a896d85-e262-46d2-81ca-f3701f17c34e,,"('AMBIENCE', 'NEGATIVE', 'Musik')
+('SERVICE', 'NEUTRAL', 'Service')
+",,Die Musik war zu laut und der Service war in Ordnung.,GPT-3,fixed,5
+3bcbae07-c0cf-46e7-acb2-8375330b8302,,"('SERVICE', 'NEGATIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Der Service war enttäuschend, aber das Essen war ausgezeichnet.",GPT-3,fixed,5
+ff2d6105-ed30-44c8-bc0d-cc71aabba69d,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und aufmerksam.,GPT-3,fixed,5
+d507ec65-d6a1-4264-b781-481af00dfce2,,"('AMBIENCE', 'NEGATIVE', 'Musik')
+",,Die Musik war viel zu laut und hat die Atmosphäre negativ beeinflusst.,GPT-3,fixed,5
+3c852772-6c53-49b8-ad59-9d303bfc6e19,,"('FOOD', 'NEGATIVE', 'Pasta')
+",,Die Pasta war leider zu salzig.,GPT-3,fixed,5
+c9f5044e-73a5-4f43-9070-318efd0f1fea,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,fixed,5
+fab55867-ac17-4aa8-8f00-357b1d1dc1d8,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,fixed,5
+19175e14-1ec1-4009-b12e-b66e38cd4ffe,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant hat uns enttäuscht.,GPT-3,fixed,5
+9d337853-fc99-4ef7-a641-cb11247300b9,,"('AMBIENCE', 'POSITIVE', 'Einrichtung')
+",,Die Einrichtung ist modern und gemütlich.,GPT-3,fixed,5
+f7dd0414-0e7d-4d5b-b652-e430e3bca924,,"('SERVICE', 'NEUTRAL', 'Service')
+",,Der Service war in Ordnung.,GPT-3,fixed,5
+84182a41-b9ae-4d42-b50e-3705a13b52ef,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war in Ordnung, aber insgesamt war ich nicht beeindruckt.",GPT-3,fixed,5
+92369f39-6394-4a8c-bc52-da1223b2f645,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('SERVICE', 'POSITIVE', 'Service')
+",,Das Restaurant bietet eine tolle Auswahl an Gerichten und der Service ist sehr freundlich.,GPT-3,fixed,5
+d4226825-1443-4cd4-aaee-eade2ef8a50d,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,fixed,5
+f542a1e2-2c45-40e7-8bbf-fa05e981ab75,,"('AMBIENCE', 'NEUTRAL', 'Einrichtung')
+",,Die Einrichtung des Restaurants ist schlicht und unauffällig.,GPT-3,fixed,5
+25e9b627-24d2-4111-a0f9-7fccfa2064c9,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+('FOOD', 'NEGATIVE', 'Essen')
+('SERVICE', 'NEUTRAL', 'Service')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Das Essen war enttäuschend, der Service war in Ordnung, das Restaurant hatte eine angenehme Atmosphäre und insgesamt war der Besuch eher durchschnittlich.",GPT-3,fixed,5
+3d2a1104-fce8-4187-8bf1-58e997388796,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+('PRICE', 'NEGATIVE', 'Preise')
+('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,"Die Preise waren zu hoch und insgesamt war der Eindruck eher neutral, auch das Ambiente war nicht besonders.",GPT-3,fixed,5
+b5c8e647-cf1e-479e-84bd-be6f21dd1c8b,,"('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'NEUTRAL', 'Getränke')
+('FOOD', 'NEGATIVE', 'Dessert')
+",,"Das Essen war lecker, die Getränke waren in Ordnung, aber der Dessert war enttäuschend.",GPT-3,fixed,5
+a41d9280-ff03-464d-bde8-33c007c48ec0,,"('PRICE', 'POSITIVE', 'Preise')
+('SERVICE', 'NEGATIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,"Die Preise waren angemessen, der Service ließ jedoch zu wünschen übrig, das Essen war jedoch sehr gut, aber das Ambiente war nicht besonders schön.",GPT-3,fixed,5
+ca49d4d7-e94a-4c4e-91d2-dca3ca965e85,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Essen war hervorragend, der Service war in Ordnung und die Preise waren angemessen.",GPT-3,fixed,5
+e8675423-62ad-42c4-ba0b-fab27f270c26,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war leider ungenießbar.,GPT-3,fixed,5
+1c6a1eaa-149c-4601-bb4b-bfe3a0df6d22,,"('FOOD', 'POSITIVE', 'Pizza')
+('FOOD', 'NEUTRAL', 'Pasta-Gericht')
+('PRICE', 'POSITIVE', 'Preis-Leistungs-Verhältnis')
+",,"Die Pizza war sehr lecker, das Pasta-Gericht war in Ordnung und das Preis-Leistungs-Verhältnis stimmte.",GPT-3,fixed,5
+1bbd7b7a-3302-4ce3-9baf-82d768d65b88,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,fixed,5
+258fa150-6f90-4d64-b02b-0e447ff50e27,,"('AMBIENCE', 'NEGATIVE', 'Einrichtung')
+",,Die Einrichtung war etwas veraltet und wirkte nicht sehr gemütlich.,GPT-3,fixed,5
+acb2f891-81ca-4246-9c27-5641cc75fae6,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Der Service war sehr aufmerksam, das Essen hat ausgezeichnet geschmeckt und das Ambiente war angenehm.",GPT-3,fixed,5
+ec304d1a-6e1a-4510-affa-871c706b9e0b,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'Essen')
+('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurants')
+('SERVICE', 'NEUTRAL', 'Service')
+",,"Das Essen war enttäuschend, das Gesamtbild des Restaurants war nicht gut, der Service war in Ordnung, aber insgesamt war es trotzdem eine positive Erfahrung.",GPT-3,fixed,5
+cdc0efd1-f2ec-416d-8277-43b733ba79a8,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant hat uns enttäuscht.,GPT-3,fixed,5
+481a2967-c60b-4865-99bb-a7c71a2669d0,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Das Restaurant hat eine tolle Atmosphäre und wir kommen gerne wieder.,GPT-3,fixed,5
+e9359a8d-0611-4d1c-b93b-373af7c41f47,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Wir waren von unserem Besuch im Restaurant sehr enttäuscht.,GPT-3,fixed,5
+7eac1ff6-6987-4412-8707-67342a2e8c65,,"('AMBIENCE', 'NEGATIVE', 'Musik')
+('AMBIENCE', 'NEGATIVE', 'Restaurant')
+",,Die Musik war viel zu laut und das Restaurant wirkte sehr ungemütlich.,GPT-3,fixed,5
+7e48c2d6-59f3-48ad-95fb-39ff0b94f852,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Das Restaurant hat eine außergewöhnlich schöne und zur richtigen Zeit auch ruhige Atmosphäre, und der Service ist freundlich und schnell.",GPT-3,fixed,5
+8c5e6678-5ea8-497f-b553-e0f8eca4de3c,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('AMBIENCE', 'NEGATIVE', 'Beleuchtung')
+",,"Das Restaurant hat eine insgesamt positive Atmosphäre, jedoch könnte die Beleuchtung etwas schöner sein.",GPT-3,fixed,5
+fd2ca360-ecd1-4b8d-a1b1-cf5e58c8921d,,"('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'NEGATIVE', 'Preise')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Der Service war in Ordnung, aber die Preise waren zu hoch, obwohl das Essen gut war.",GPT-3,fixed,5
+e6e21525-99ed-41c1-a2d9-81ef8ceceb3e,,"('FOOD', 'POSITIVE', 'Speisen')
+",,Die Speisen waren köstlich und haben uns sehr gut geschmeckt.,GPT-3,fixed,5
+6ff330a9-96be-4d9c-aa91-de08b6685415,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+('AMBIENCE', 'NEGATIVE', 'Musik')
+",,"Die Musik war zu laut, und insgesamt war der Eindruck eher neutral.",GPT-3,fixed,5
+908e76e4-325a-4888-b33c-fdb29c192824,,"('SERVICE', 'POSITIVE', 'Service')
+('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+('AMBIENCE', 'POSITIVE', 'Beleuchtung')
+",,"Der Service war sehr freundlich und zuvorkommend, insgesamt hatten wir einen positiven Eindruck von dem Restaurant, obwohl die Atmosphäre etwas ungemütlich war, aber die Beleuchtung hat uns gut gefallen.",GPT-3,fixed,5
+b5a53df1-6a99-4f26-8049-a892127e3ea7,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Restaurant hat eine tolle Atmosphäre und das Essen war köstlich.,GPT-3,fixed,5
+205f161e-e824-4fd6-8aa4-88193a350a0f,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,fixed,5
+fda4be45-def2-4af7-878b-3f66c809f557,,"('PRICE', 'POSITIVE', 'Preise')
+('FOOD', 'NEUTRAL', 'Essen')
+('SERVICE', 'NEGATIVE', 'Service')
+",,"Die Preise sind angemessen, das Essen ist okay, aber der Service lässt zu wünschen übrig.",GPT-3,fixed,5
+981738a0-6b62-4801-a9c5-72859c43fd15,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,fixed,5
+81cdaa92-d669-4af0-9391-7a32e61f052e,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war leider nicht gut.,GPT-3,fixed,5
+5fcace1e-5200-4961-865f-ef4eff46817d,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Das Personal war unfreundlich und überfordert.,GPT-3,fixed,5
+220ce7d3-9778-43f7-8c16-0acc1b42dd3a,,"('AMBIENCE', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant war sehr laut und ungemütlich.,GPT-3,fixed,5
+140a7acb-fe88-4844-817c-d4e1c0f8d1d2,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,fixed,5
+2515f049-cf0b-45bd-bb43-168b9b3f7e3f,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,"Es war ein durchschnittlicher Besuch, nichts Besonderes.",GPT-3,fixed,5
+5ca64bef-d630-4d00-ac66-0a251c2f692a,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,fixed,5
+bc9003a5-1d87-462b-8ae7-0d6a187582fe,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Das Essen war zwar gut, aber die Preise waren etwas hoch.",GPT-3,fixed,5
+a131fe7b-1001-4dea-925c-905be19b24a5,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant hat uns insgesamt enttäuscht.,GPT-3,fixed,5
+16471d6f-6376-4546-804b-b5badc457364,,"('SERVICE', 'NEUTRAL', 'Service')
+",,Der Service war in Ordnung.,GPT-3,fixed,5
+017d5b2e-b94e-494a-a4cc-aeeb7bc23dc5,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war wirklich köstlich.,GPT-3,fixed,5
+fc1ba1ab-798f-4bbf-ad38-a028b3257617,,"('SERVICE', 'NEGATIVE', 'Bedienung')
+",,Die Bedienung war sehr unfreundlich und langsam.,GPT-3,fixed,5
+b8cbf3a6-536a-4395-982a-7563249fa3bb,,"('FOOD', 'NEGATIVE', 'Essen')
+('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Essen war leider nicht besonders gut und insgesamt waren wir von dem Restaurant enttäuscht.,GPT-3,fixed,5
+add104f2-fc6d-43b1-a9c7-c0922f4341b7,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,fixed,5
+1ea372ff-47c5-4036-a0b4-7c57bf3f3426,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,fixed,5
+6d90b275-f4fa-4b97-acf0-e615efabed92,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und aufmerksam.,GPT-3,fixed,5
+de865bae-0c45-4fda-b869-bb5eb601cedd,,"('SERVICE', 'NEUTRAL', 'Service')
+",,"Der Service war durchschnittlich, weder besonders gut noch schlecht.",GPT-3,fixed,5
+1e86667a-0e7e-4aa0-b0ef-cc9fbbfde414,,"('AMBIENCE', 'NEGATIVE', 'Lautstärke')
+('PRICE', 'NEGATIVE', 'Preise')
+",,Die Lautstärke im Restaurant war unangenehm hoch und die Preise waren übertrieben hoch.,GPT-3,fixed,5
+e0a77f11-1bb6-4e21-8f2b-e72b540789f8,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind meiner Meinung nach zu hoch.,GPT-3,fixed,5
+ae320eff-6a73-4e32-a6eb-9eb00f328139,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise waren angemessen für die gebotene Qualität.,GPT-3,fixed,5
+f083dab7-da7d-4854-bd7b-0a86c17352ad,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Leider war unser Besuch im Restaurant enttäuschend.,GPT-3,fixed,5
+c09aef50-6220-49e6-bf9d-de7d624db477,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise waren angemessen.,GPT-3,fixed,5
+a17ea820-4274-4688-8397-cca44ee3e74b,,"('PRICE', 'NEGATIVE', 'Essens')
+",,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,fixed,5
+c0e05876-9bc1-4546-8752-e30fc7f45654,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant hat uns insgesamt enttäuscht.,GPT-3,fixed,5
+d862053c-5dbf-4aff-b829-d4686a5167df,,"('PRICE', 'POSITIVE', 'Preise')
+('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,"Die Preise waren angemessen, aber insgesamt waren wir von dem Restaurant enttäuscht.",GPT-3,fixed,5
+a6100f2e-bbf2-458f-b3e7-19dd03c58c1e,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('PRICE', 'POSITIVE', 'Preise')
+",,Das Restaurant ist wirklich toll und die Preise sind angemessen.,GPT-3,fixed,5
+32c7e893-8f34-4cf7-98da-59d8d4955538,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Restaurant hat eine tolle Atmosphäre und das Essen war sehr lecker.,GPT-3,fixed,5
+fad1af23-b024-49bd-b392-639c3467f5a1,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEGATIVE', 'Service')
+",,"Die Atmosphäre war okay, das Essen war lecker, aber der Service ließ zu wünschen übrig.",GPT-3,fixed,5
+5f46ae44-11a0-4627-b3ff-c76fcdf68d99,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,Die Atmosphäre war sehr gemütlich und das Essen köstlich.,GPT-3,fixed,5
+9c72faf7-337f-4eb2-9599-d32f9ed211c1,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'NEGATIVE', 'Preis')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+('PRICE', 'NEGATIVE', 'Preis')
+",,"Der Service war okay, aber der Preis war zu hoch, das Ambiente war schön, und insgesamt hatten wir einen positiven Eindruck, obwohl der Preis nicht perfekt war.",GPT-3,fixed,5
+ac411caf-fc1c-401b-9fc7-46079e71f57b,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,fixed,5
+8445d1f2-130c-414d-b7a3-7d9b61ab3c00,,"('AMBIENCE', 'POSITIVE', 'Location')
+",,Die Location ist sehr gemütlich und stilvoll eingerichtet.,GPT-3,fixed,5
+fceab80d-a9c5-4041-a42b-7896b81f7860,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Das Personal war unfreundlich und langsam.,GPT-3,fixed,5
+82cf25f7-95c5-4457-a072-6820e9e93101,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,fixed,5
+802dc710-b079-4712-94d3-4a50ffcb1630,,"('AMBIENCE', 'NEGATIVE', 'Lautstärke')
+",,Die Lautstärke im Restaurant war unerträglich.,GPT-3,fixed,5
+a1533408-5998-4b8d-af7d-1ed7be2b0460,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Restaurant hat eine tolle Atmosphäre und das Essen war sehr lecker.,GPT-3,fixed,5
+aaba172f-df0c-4854-877a-8d248b15ecd9,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Der Service war sehr unfreundlich und langsam.,GPT-3,fixed,5
+7cad1067-45bb-4d8d-9488-330f17409e7c,,"('PRICE', 'POSITIVE', 'Preise')
+('FOOD', 'POSITIVE', 'Essen')
+",,Die Preise sind angemessen und das Essen ist köstlich.,GPT-3,fixed,5
+95f34a90-96d0-414b-8c49-a3493fc69a6b,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Restaurant hat eine tolle Atmosphäre und das Essen war auch sehr gut.,GPT-3,fixed,5
+2805088a-d8ae-47f6-9004-d1ce9b1b9c4d,,"('PRICE', 'POSITIVE', 'Qualität')
+",,Die Preise sind angemessen für die gebotene Qualität.,GPT-3,fixed,5
+b4d698ee-05f5-4390-987e-f5cb3696e9cd,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,GPT-3,fixed,5
+d7747755-4bba-4b71-90f6-7ba4aa95eaf2,,"('FOOD', 'NEUTRAL', 'Speisen')
+",,"Die Speisen waren okay, aber nicht besonders beeindruckend.",GPT-3,fixed,5
+aa8a678a-9b7b-488f-a9b8-5a4bbb4f6cd5,,"('PRICE', 'NEGATIVE', 'Essens')
+",,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,fixed,5
+8913ec15-72fa-4dbc-9d1c-538b0eb2d2d6,,"('FOOD', 'NEGATIVE', 'Pizza')
+",,Die Pizza war leider kalt und geschmacklos.,GPT-3,fixed,5
+bc766b28-6133-4680-b52f-5eb8d5435a94,,"('AMBIENCE', 'POSITIVE', 'Einrichtung')
+",,Die Einrichtung ist modern und gemütlich.,GPT-3,fixed,5
+088654cc-7e37-4a36-af91-baad832edc0d,,"('PRICE', 'POSITIVE', 'Preise')
+('FOOD', 'POSITIVE', 'Essen')
+",,Die Preise waren angemessen und das Essen war jeden Cent wert.,GPT-3,fixed,5
+21572fb1-c835-48b4-8806-01179fb7e6fc,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+('FOOD', 'NEUTRAL', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Der Gesamteindruck war okay, das Essen war durchschnittlich und die Preise etwas hoch.",GPT-3,fixed,5
+d208e223-1d32-4dbd-b4ea-9d17fb7e975d,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Der Service war sehr langsam und unfreundlich.,GPT-3,fixed,5
+aa1922df-e3c5-4727-aa61-630ea94f9691,,"('PRICE', 'NEGATIVE', 'Speisen')
+",,Die Preise sind definitiv zu hoch für die Qualität der Speisen.,GPT-3,fixed,5
+929dbdc6-e8db-4413-887a-4b12a0529fd0,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'NEGATIVE', 'Essen')
+",,"Der Service war sehr freundlich und zuvorkommend, jedoch war das Essen leider nicht besonders gut.",GPT-3,fixed,5
+798f4ce7-e5dc-4708-9b58-dd599d248adb,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+('PRICE', 'POSITIVE', 'Preise')
+('FOOD', 'NEUTRAL', 'Essen')
+",,"Die Preise sind angemessen, das Essen war okay, aber insgesamt waren wir enttäuscht.",GPT-3,fixed,5
+d4a258fc-bfa5-4f7d-a2c7-59912763f631,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'NEUTRAL', 'Essen')
+",,Das Restaurant hat eine angenehme Atmosphäre und das Essen ist in Ordnung.,GPT-3,fixed,5
+6fb01217-1f05-42f1-a7d2-04f7f360de6c,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war köstlich.,GPT-3,fixed,5
+4aec35bb-565d-44aa-8692-e77a5d295863,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,"Das Restaurant war okay, aber es gab nichts Besonderes.",GPT-3,fixed,5
+969e9b33-bf87-4805-bb41-5c7c9f018c48,,"('AMBIENCE', 'NEGATIVE', 'Einrichtung')
+",,Die Einrichtung des Restaurants war schlicht und unauffällig.,GPT-3,fixed,5
+cb4c7fc2-d531-4cbf-8354-d150c191242f,,"('GENERAL-IMPRESSION', 'CONFLICT', 'Restaurant')
+",,"Das Restaurant war okay, aber es gab einige negative Punkte.",GPT-3,fixed,5
+f97bd607-b554-43dd-a754-8ec07329318e,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war köstlich.,GPT-3,fixed,5
+fdeb9e57-6617-4a0d-a0bb-95da1bb9e06c,,"('FOOD', 'NEGATIVE', 'Essen')
+('SERVICE', 'NEGATIVE', 'Service')
+",,Das Essen war ungenießbar und der Service katastrophal.,GPT-3,fixed,5
+df036245-ff84-4b00-8ea8-73b7615ed2e4,,"('PRICE', 'NEGATIVE', 'Vorspeisen')
+('PRICE', 'POSITIVE', 'Hauptgerichte')
+",,"Die Preise für die Vorspeisen sind etwas hoch, aber die Hauptgerichte sind ihr Geld wert.",GPT-3,fixed,5
+a3829718-22d4-4067-82ec-a3858bd379c1,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'NEGATIVE', 'Essen')
+",,"Der Service war sehr aufmerksam und freundlich, aber das Essen ließ zu wünschen übrig.",GPT-3,fixed,5
+ac3b5217-48ba-40c1-a522-23a63ac0d750,,"('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Der Service war in Ordnung, aber die Preise waren etwas hoch.",GPT-3,fixed,5
+67ebce22-aa66-4435-a9ab-956ccc428ac8,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Das Restaurant hat eine außergewöhnlich schöne und zur richtigen Zeit auch ruhige Atmosphäre.,GPT-3,fixed,5
+b411bca7-06f9-412b-9677-c43954fe7b0b,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,fixed,5
+32f68757-6f61-4028-ae9d-7990151bad50,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+('SERVICE', 'POSITIVE', 'Service')
+('PRICE', 'NEUTRAL', 'Preis-Leistungs-Verhältnis')
+",,"Die Atmosphäre war leider nicht besonders gemütlich, aber der Service war freundlich und das Preis-Leistungs-Verhältnis war in Ordnung.",GPT-3,fixed,5
+604c7284-0f48-45e9-99c8-0a9b2dd584b0,,"('SERVICE', 'NEUTRAL', 'Service')
+('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,"Der Service war in Ordnung, aber das Ambiente könnte besser sein.",GPT-3,fixed,5
+ac0a3f71-4762-4661-8987-596eec628e55,,"('PRICE', 'POSITIVE', 'Preise')
+('SERVICE', 'NEGATIVE', 'Service')
+",,"Die Preise waren angemessen, aber der Service war enttäuschend.",GPT-3,fixed,5
+670b8ef2-8ebc-4c1f-ba89-624d654f645d,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und aufmerksam.,GPT-3,fixed,5
+806b4ebb-161d-43f5-b8a9-987d839b8afc,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind viel zu hoch.,GPT-3,fixed,5
+46415741-763b-438b-9dd1-4f2e71f90e87,,"('SERVICE', 'NEUTRAL', 'Service')
+('FOOD', 'NEUTRAL', 'Essen')
+",,"Der Service war in Ordnung, das Essen war durchschnittlich.",GPT-3,fixed,5
+67e7c8ad-a793-47b2-b171-df714385cc85,,"('PRICE', 'NEUTRAL', 'Preise')
+",,Die Preise waren weder besonders günstig noch übermäßig teuer.,GPT-3,fixed,5
+af095015-7211-4a61-ad45-868b9b8bb6b0,,"('PRICE', 'NEGATIVE', 'Preise')
+",,"Für das, was man bekommt, sind die Preise definitiv zu hoch.",GPT-3,fixed,5
+0e2eefd0-0166-44a5-b429-eec4e0ea6e17,,"('FOOD', 'CONFLICT', 'Essen')
+",,"Das Essen ist zwar etwas teurer, aber die Qualität rechtfertigt den Preis.",GPT-3,fixed,5
+ae1468e7-0cd3-4a05-b96a-88d56b1de876,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Das Essen war fantastisch, aber die Preise sind etwas hoch.",GPT-3,fixed,5
+cf3fecc4-b30d-4b4f-9c54-0d82bdf40c01,,"('FOOD', 'NEUTRAL', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Das Essen war okay, aber die Preise waren auch nicht besonders günstig.",GPT-3,fixed,5
+9e6e9438-64d0-4c5b-920d-c5acff0dced2,,"('FOOD', 'NEGATIVE', 'Steak')
+",,Das Steak war zäh und trocken.,GPT-3,fixed,5
+29b56607-b4a6-4015-aeb2-c02dc5da4c64,,"('FOOD', 'NEGATIVE', 'Pizza')
+('FOOD', 'NEGATIVE', 'Teig')
+",,Die Pizza war kalt und der Teig war nicht durchgebacken.,GPT-3,fixed,5
+a2cca02d-2131-48c7-962b-a462188df66f,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war in Ordnung, aber nichts Besonderes.",GPT-3,fixed,5
+b6b87e54-b334-44aa-9106-5642e226b4ae,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war auch lecker.,Llama70B,fixed,5
+a2a0f770-171e-4f58-8b5b-7cf1ccc83523,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,Llama70B,fixed,5
+dd98af7c-1829-4dda-adb4-0d94d57628b4,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen war ok.,Llama70B,fixed,5
+f8bbacc6-5a7f-4dff-ab2a-41ce4adcadaa,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Immerhin ist das Ambiente sehr schön.,Llama70B,fixed,5
+0eee788f-8c1e-4602-bb6b-c614eeb1a362,,"('AMBIENCE', 'NEUTRAL', 'Atmosphäre')
+",,Die Atmosphäre ist eher schlicht.,Llama70B,fixed,5
+2733a336-a337-46ef-9078-9c371b65bd63,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Wir waren mit 2 Kindern da, die Atmosphäre war sehr laut und unruhig.",Llama70B,fixed,5
+cf1b737d-991b-4718-a0a3-40310dcc1e9f,,,,Wir waren aber gerade zu spät dran und mussten warten.,Llama70B,fixed,5
+45541847-c027-490a-85fc-2b1adcf96194,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Die Bedienung war auch sehr freundlich und hilfsbereit.,Llama70B,fixed,5
+acb1c752-225e-4b2f-a7fc-3ee303eba4d2,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+('SERVICE', 'NEGATIVE', 'Bedienung')
+",,Die Atmosphäre im Lokal ist etwas kühl und die Bedienung nicht sehr aufmerksam.,Llama70B,fixed,5
+c8ef9981-11db-416e-93ba-da139daa8b7c,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen ist einfach schrecklich.,Llama70B,fixed,5
+b06c078b-c683-4779-94ba-fdaa6131586f,,"('FOOD', 'NEGATIVE', 'Essen')
+",,"Das Essen war nicht so gut, wie ich es erwartet hatte.",Llama70B,fixed,5
+3e010f34-a696-4da1-bae1-b30304e47a76,,,,Nicht so wie hier.,Llama70B,fixed,5
+fe346e6d-56ff-4dc0-a189-0bebd6e5e3ac,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Leider ist das Restaurant nicht mehr so wie es war.,Llama70B,fixed,5
+37942c93-4a2f-43a3-b4dc-8ff6f4b7162d,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Auch die Atmosphäre ist sehr gemütlich.,Llama70B,fixed,5
+52ae8dba-ca1f-4e02-8452-8eea744a0c62,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Ich finde den Service nicht so gut.,Llama70B,fixed,5
+bf33467d-f2d0-40d5-a952-e40650da4139,,,✅,Ein Gemüse mit etwas Fett und Soße hätte auch gut getan.,Llama70B,fixed,5
+ea3f09f0-82d7-4fc5-a119-9cc879d89bd3,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Das Restaurant hat eine außergewöhnlich schöne und zur richtigen Zeit auch ruhige Atmosphäre,Llama70B,fixed,5
+b072c5bf-9d5c-4631-b80a-02af1d4227d9,,"('PRICE', 'NEUTRAL', 'Preise')
+",,"Die Preise sind angemessen, aber nicht günstig.",Llama70B,fixed,5
+3f44a6ea-80c6-4df2-8aee-9662f1089de1,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Die Atmosphäre war angenehm.,Llama70B,fixed,5
+c013ec7d-56b9-4609-b88e-9fddb66ee06e,,,✅,"Zurück zum Essen: Hätt ich das Essen mit dem Preis vergleichen müssen, hätte ich auch nur 1 Stern gegeben.",Llama70B,fixed,5
+ce00e60e-a9dd-479a-98d3-e0b24976e65e,,"('PRICE', 'NEGATIVE', 'Preis')
+",,Nur der Preis war für uns etwas zu hoch.,Llama70B,fixed,5
+e5198e76-8c3d-4b71-80fb-f30d9159f73e,,"('FOOD', 'POSITIVE', 'Pizza')
+('FOOD', 'NEGATIVE', 'Lasagne')
+('FOOD', 'NEGATIVE', 'Fisch')
+",,"Die Pizza war gut, die Lasagne und der Fisch waren leider nicht so gut.",Llama70B,fixed,5
+49b4c679-b1ee-4c5a-8bad-aaaf96015f1b,,"('PRICE', 'NEUTRAL', 'Preise')
+('SERVICE', 'NEGATIVE', 'Service')
+('FOOD', 'NEGATIVE', 'Essen')
+('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Preise sind ok, aber Service und Essen (Atmosphäre) sind noch zu verbessern.",Llama70B,fixed,5
+1b82fe09-fed3-4f8f-98a2-ae60479ce896,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir waren dort mit 2 Kindern und haben uns sehr wohl gefühlt.,Llama70B,fixed,5
+5a4ea85b-b2fc-478d-b472-49e744a4ed4f,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Mit dem Essen war ich nicht so zufrieden.,Llama70B,fixed,5
+ece5b5f6-b5ce-4d04-a0d2-bbf65110c535,,"('FOOD', 'POSITIVE', 'Küche')
+('FOOD', 'POSITIVE', 'Pizza')
+",,Kalte Küche sehr lecker und Pizza auch.,Llama70B,fixed,5
+b84a7a65-288f-42d5-8914-38d67e44e4a7,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war gut, aber nichts Besonderes.",Llama70B,fixed,5
+cc08fdf9-da94-4cac-9993-e6f772468a12,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,Die Atmosphäre ist leider nicht so wie ich es erwartet hatte.,Llama70B,fixed,5
+632940db-816b-45a5-99a3-d6e252bec329,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,Das Essen war lecker und die Bedienung sehr freundlich.,Llama70B,fixed,5
+4ef54d65-76c3-4246-97a1-b5bcd446de34,,,,Einige Küchengegenstände waren nicht sauber.,Llama70B,fixed,5
+12227901-42e6-4bc9-85c4-551e8c8e99c9,,"('FOOD', 'POSITIVE', 'Steak')
+",,"Wer wirklich ein gutes Steak essen möchte, sollte sich lieber woanders umsehen.",Llama70B,fixed,5
+9db8963b-49a2-40f8-85db-7b2579c7a936,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'Musik')
+",,Ein schöner Abend mit guter Musik.,Llama70B,fixed,5
+8eb63ead-f681-4aad-88aa-485706994b0c,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir waren mit 4 Leuten dort und haben uns alle sehr enttäuscht gefühlt.,Llama70B,fixed,5
+41b8c209-e094-44c6-b722-f7bbe9624bfa,,"('AMBIENCE', 'NEGATIVE', 'Lärm')
+",,Es war einfach zu laut und der Lärm stört.,Llama70B,fixed,5
+26bb3ca9-e6fb-423c-a9ee-19c302f30053,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Restaurant ist sehr schön und das Essen war lecker.,Llama70B,fixed,5
+bc32d0a0-c824-4891-86c7-b05b965daf88,,"('AMBIENCE', 'NEGATIVE', 'Beleuchtung')
+",,Nur die Beleuchtung war etwas zu hell.,Llama70B,fixed,5
+afcad8f3-ba84-47fe-bfc1-9b59596e05c0,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'NULL')
+",,"Immer wenn wir dort essen gehen, ist es schön und gemütlich.",Llama70B,fixed,5
+de322c24-8119-4118-a8e7-7090beb72e60,,"('FOOD', 'POSITIVE', 'Haxen')
+('FOOD', 'POSITIVE', 'Fleisch')
+",,"Die Haxen waren knusprig, das Fleisch zart.",Llama70B,fixed,5
+989b9911-9c71-4c16-9c75-f439c6022c47,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,Die Atmosphäre war eher laut und unruhig.,Llama70B,fixed,5
+2fb46633-22ea-461d-a793-8cbd7e26b245,,"('SERVICE', 'POSITIVE', 'Personal')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Personal ist sehr freundlich und das Essen lecker.,Llama70B,fixed,5
+3e23bb81-d038-4697-adf9-e197d0fe7d02,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'Restaurant')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Wir waren am 24.12.2015 dort und haben uns sehr wohl gefühlt, das Restaurant ist sehr gemütlich eingerichtet und hat eine schöne Atmosphäre.",Llama70B,fixed,5
+7401a708-72dd-4a36-a1c8-a18f357943a7,,"('AMBIENCE', 'NEGATIVE', 'Boden')
+",,Nur leider war der Boden etwas schlüpfrig.,Llama70B,fixed,5
+d074c1b1-315c-4712-b183-fbe89bfcbc36,,"('PRICE', 'NEUTRAL', 'Preis')
+('FOOD', 'NEGATIVE', 'Haxe')
+",,"Der Preis war in Ordnung, aber die Haxe war nicht gut.",Llama70B,fixed,5
+37b35c9d-fea4-4a7a-8f70-234740780431,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Essen war sehr gut, die Preise waren angemessen.",Llama70B,fixed,5
+367add2c-6e6a-4071-9764-91b13d1f9554,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Leider war das Essen nicht so gut wie erwartet.,Llama70B,fixed,5
+d792df28-4b9a-4cf6-948c-8e2a01b66cbc,,"('SERVICE', 'NEGATIVE', 'Service')
+",,"Der Service war langsam, wir mussten mehrmals nachfragen.",Llama70B,fixed,5
+f2d3a48a-c4d1-4e9c-bc0b-9ab28a0d8b4f,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Das Ambiente ist eher schlicht, aber das passt auch zu der Küche.",Llama70B,fixed,5
+775ccd9e-22d2-4681-8bc4-3ab74ebd9b77,,"('PRICE', 'NEGATIVE', 'Kalbsgulasch')
+('PRICE', 'NEGATIVE', 'Gerichte')
+",,"Einige Gerichte, wie das Kalbsgulasch, sind auch etwas zu teuer.",Llama70B,fixed,5
+cbfc15eb-89b6-4ebb-863c-0eaa46efed8c,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Restaurant')
+",,"Das ist nicht das schlechteste, aber auch nicht das beste Restaurant in der Stadt.",Llama70B,fixed,5
+088b043a-ed15-4baa-b3ca-70ae9b82160e,,"('SERVICE', 'POSITIVE', 'NULL')
+",,Wir waren in einer kleinen Gruppe dort und wurden sehr freundlich und schnell bedient.,Llama70B,fixed,5
+1e6535d2-d35b-451f-adca-7633b6bab0b1,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+('SERVICE', 'POSITIVE', 'Bedienungen')
+('PRICE', 'POSITIVE', 'Preis/Leistungsverhältnis')
+",,Ein gutes Restaurant mit sehr netten Bedienungen und einem sehr fairen Preis/Leistungsverhältnis.,Llama70B,fixed,5
+690adefc-fbe1-43a6-be41-12b6b113abac,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,Die Atmosphäre war sehr laut und nicht gemütlich.,Llama70B,fixed,5
+6d43b453-7090-4fde-a128-7d135d50ed0d,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Die Bedienung war sehr freundlich und zuvorkommend.,Llama70B,fixed,5
+e97ac568-0c8c-43eb-aa81-2470f6c3e587,,"('FOOD', 'POSITIVE', 'Hähnchen')
+('FOOD', 'POSITIVE', 'Fleisch vom Kotelett')
+",,Die Hähnchen war sehr zart und das Fleisch vom Kotelett schmackhaft.,Llama70B,fixed,5
+89bcd9ab-8761-4dcc-9a2c-dd2e755b3f3f,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Leider hat der Service sehr zu wünschen übriggelassen.,Llama70B,fixed,5
+b341b1bc-904d-417a-b43c-f5ce07555552,,"('FOOD', 'NEGATIVE', 'Speisen')
+",,Leider ist die Qualität der Speisen nicht sehr gut.,Llama70B,fixed,5
+762e77e5-8f3c-4ade-ad73-e04c8015e41d,,"('PRICE', 'POSITIVE', 'Preis')
+",,"Wir hatten das Gefühl, dass sich der Preis für die Leistung sehr gut ein.",Llama70B,fixed,5
+41abc2a0-8e70-402d-b42a-9ffc0d0ccba3,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service ist sehr gut.,Llama70B,fixed,5
+9fd117bc-96f7-44ce-bc29-ac67d77863cc,,"('AMBIENCE', 'POSITIVE', 'Gästezimmer')
+",,Die Gästezimmer sind sauber und gut ausgestattet.,Llama70B,fixed,5
+e0ac3653-4ff7-46ea-8819-72eebddc744d,,"('AMBIENCE', 'NEGATIVE', 'Kommunikation')
+",,"Einige der Mitarbeiter sprechen auch Englisch, aber wir hatten den Eindruck, dass die Kommunikation etwas holprig abläuft.",Llama70B,fixed,5
+6f8081d5-d126-48f1-ad46-46d107b1fbd2,,"('PRICE', 'NEGATIVE', 'Preise')
+('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,Die Atmosphäre ist etwas kühl und die Preise sind eher hoch.,Llama70B,fixed,5
+a865f5cd-8fc2-452f-aeae-92651884d7cd,,,✅,Die Preise sind wirklich nicht zu vergleichen mit den anderen Restaurants.,Llama70B,fixed,5
+1694a456-0d99-4034-99fe-810d34a1f828,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,Llama70B,fixed,5
+1644be3c-1024-4c4a-9b92-2438c7a6966d,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+('SERVICE', 'NEGATIVE', 'Bedienung')
+",,"Der Tisch war mit Pappdeckchen ausgelegt, das Ambiente düster und die Bedienung unfreundlich.",Llama70B,fixed,5
+42ffc7dc-3761-4113-a999-bc7e277b37d9,,"('PRICE', 'NEGATIVE', 'Preis/Leistung')
+",,Bei der Preis/Leistung bin ich nicht so zufrieden.,Llama70B,fixed,5
+6e2abab1-74af-46e3-8f43-2bd6fe83bd25,,"('PRICE', 'NEGATIVE', 'Preis/Leistungsverhältnis')
+",,Das Preis/Leistungsverhältnis ist nicht sehr gut.,Llama70B,fixed,5
+36e8838b-b44f-4ea3-972b-378ca427f1b9,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir waren dort mit meiner Familie und es war eine schreckliche Erfahrung.,Llama70B,fixed,5
+cd622cf2-352a-46a1-9f26-2ad4ae7dd917,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen war gut, aber nichts besonderes.",Llama70B,fixed,5
+65688869-4ded-4cfb-9d65-490e49df3756,,"('FOOD', 'POSITIVE', 'Kalbskeule')
+",,Wir hatten die Kalbskeule und das war sehr schön zubereitet.,Llama70B,fixed,5
+443bcfa5-4a33-4097-b4fb-9525985a8f76,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Mir hat es sehr gut gefallen.,Llama70B,fixed,5
+64416c33-a483-48ca-8f49-5495cf0bc712,,"('AMBIENCE', 'NEGATIVE', 'Schmuck')
+('FOOD', 'POSITIVE', 'Leberknödelsuppe')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Der Schmuck ist ein bisschen zuviel, aber die Leberknödelsuppe und der Service waren wirklich gut.",Llama70B,fixed,5
+1df37c35-23c7-44b3-923f-9959eb4b16d0,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Die Atmosphäre ist toll, das Essen lecker und frisch.",Llama70B,fixed,5
+5b6fd88d-939b-4e85-8a5b-a438ba36ccde,,"('SERVICE', 'POSITIVE', 'Service')
+",,"Der Service war freundlich, aber nicht besonders.",Llama70B,fixed,5
+b8ecfb37-63de-4db2-8487-104bc495090c,,"('SERVICE', 'POSITIVE', 'Service')
+",,Wir waren mit dem Service sehr zufrieden.,Llama70B,fixed,5
+dcb186be-05b1-45a8-a206-029b69f8877c,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('AMBIENCE', 'POSITIVE', 'Musik')
+('SERVICE', 'POSITIVE', 'Mitarbeiter')
+",,"Die Atmosphäre ist gemütlich, die Musik stimmt und die Mitarbeiter sind freundlich.",Llama70B,fixed,5
+a8a46f9e-4bfb-4ea7-80f5-14033bf538f5,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,"Wir mussten unsere Bestellung mehrmals wiederholen, da der Kellner nicht zuhören konnte.",Llama70B,fixed,5
+6c064f11-f540-4b15-80b7-b8ad806b2356,,"('PRICE', 'NEUTRAL', 'Preise')
+",,Die Preise sind ganz in Ordnung.,Llama70B,fixed,5
+a2bf5c80-37b1-4afb-ae97-54c27bbfc6f6,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Die Atmosphäre war ziemlich kühl, da die Tische etwas abseits voneinander stehen.",Llama70B,fixed,5
+7b2c6949-9dd4-4da1-bf08-447141bfb5ae,,"('AMBIENCE', 'POSITIVE', 'Restaurant')
+('FOOD', 'POSITIVE', 'Auswahl an Weinen')
+('FOOD', 'POSITIVE', 'Cocktails')
+",,"Das Restaurant ist sehr schön eingerichtet, die Auswahl an Weinen und Cocktails war auch gut.",Llama70B,fixed,5
+daa9b513-2ba2-45f6-8cde-a26eac34cffb,,"('SERVICE', 'POSITIVE', 'Servicepersonal')
+",,Das Servicepersonal war hingegen sehr freundlich und zuvorkommend.,Llama70B,fixed,5
+1e8ebea0-ddda-4e63-9311-a58bc4e0b642,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Super leckeres Essen zu fairen Preisen und das in einer sehr schönen Atmosphäre.,Llama70B,fixed,5
+a86feafc-b1dd-4ffc-a971-f6231112e6c8,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Alles in allem ein sehr gutes Erlebnis.,Llama70B,fixed,5
+0db2c0cf-b989-4505-8782-521c05397027,,"('PRICE', 'POSITIVE', 'Preise')
+",,Ich habe mich über die Preise gar nicht zu beschweren.,Llama70B,fixed,5
+4f78e0ca-4d01-4b29-aa23-8b548f4fcf61,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('PRICE', 'NEGATIVE', 'Preisschild')
+",,"Kleines Preisschild, aber gute Qualität.",Llama70B,fixed,5
+11339b2e-8764-458c-9c62-63df90f630e3,,"('FOOD', 'NEGATIVE', 'Kartoffelpüree')
+",,Nur die Kartoffelpüree war etwas zu trocken.,Llama70B,fixed,5
+5dd28d94-4b9e-4d98-82ac-f31bb527ad88,,"('PRICE', 'POSITIVE', 'Preisniveau')
+",,Das Preisniveau ist angemessen.,Llama70B,fixed,5
+0ac02e5f-56b3-4147-8d87-5fe8448cb21a,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war eher schlecht.,Llama70B,fixed,5
+b6383f7f-1870-4d39-9a45-d687ffc7b3e6,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Wir waren zu viert dort und hatten eine tolle Atmosphäre.,Llama70B,fixed,5
+5db6f6d7-2128-4edb-9f77-484758500971,,"('PRICE', 'NEUTRAL', 'Preise')
+",✅,"Die Preise sind zwar nicht gerade billig, aber für den Service, die Qualität und das Ambiente in Ordnung.",Llama70B,fixed,5
+ad2463ea-c53a-4fb6-bef5-efc4483de265,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen war gut, aber nicht herausragend.",Llama70B,fixed,5
+1aacf63c-b065-44c1-8528-36ca3d09344d,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,Leider hat der Kellner sich nicht um uns gekümmert.,Llama70B,fixed,5
+0dc5d0ca-3186-4665-ac45-dc8237e00e91,,"('PRICE', 'NEGATIVE', 'Preis-Leistungsverhältnis')
+",,Dem Preis-Leistungsverhältnis kann ich nichts abgewinnen.,Llama70B,fixed,5
+2b75304d-dc6c-4c16-89f4-0d46e4941afc,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'NEGATIVE', 'Haxen')
+",,"Der Service ist freundlich und schnell, die Haxen leider nicht so gut.",Llama70B,fixed,5
+572b4ff3-c2a5-4828-a921-4d51b219a0d4,,"('PRICE', 'POSITIVE', 'Essen')
+",,Ein guter Preis für das Essen.,Llama70B,fixed,5
+61cf537a-2fb6-40cb-910e-3fefeba56ccf,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Steak Manufaktur')
+",,Wir waren mit Freunden in der Steak Manufaktur und hatten eine sehr schöne Zeit.,Llama70B,fixed,5
+d54d7c8b-1d00-47a0-bbed-66012b36f8e3,,"('AMBIENCE', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+",,Ich habe mich auf jeden Fall wohlgefühlt und das Essen war auch gut.,Llama70B,fixed,5
+e9043cf1-c683-47da-bc0d-1189bb37cb37,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir hatten eine sehr schöne Zeit.,Llama70B,fixed,5
+c39759ba-7ae8-439b-ac0d-6001d07933d4,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Die Atmosphäre im Restaurant ist durchaus schön.,Llama70B,fixed,5
+080290b6-5cef-478a-bbac-7094e4237a87,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Nicht nur das Essen, auch die Atmosphäre ist sehr schön und entspannt.",Llama70B,fixed,5
+2bf80d2e-66db-4bc0-856d-59bff5db8c11,,"('FOOD', 'POSITIVE', 'Hackbällchen')
+",,Die Hackbällchen waren auch super.,Llama70B,fixed,5
+34077ab5-57f8-4fae-bb03-8a6cb64598f2,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Noch nie hatte ich so unappetitliches Essen zu sehen bekommen.,Llama70B,fixed,5
+789e7cf4-9603-4d6d-b96c-3ed4fa7e8c62,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Preis')
+",,"Das Essen war sehr gut, aber der Preis für das was wir bekamen war ein bisschen zu hoch.",Llama70B,fixed,5
+bcffccfe-0615-4b84-9b34-2c1c074fdca6,,"('SERVICE', 'POSITIVE', 'Service')
+",,"Es gab ein paar Minuten Wartezeit, aber der Service war wirklich gut und schnell.",Llama70B,fixed,5
+54353b43-6bb2-4c4c-96b6-19261b61ffc0,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Essen war ok, aber nichts Besonderes.",Llama70B,fixed,5
+13d18fbb-70c9-47fb-990e-ce19c45c3f3c,,"('AMBIENCE', 'POSITIVE', 'Sitzplatz am Tresen')
+",,"Wir hatten uns für den Sitzplatz am Tresen entschieden, da wir die Atmosphäre dort sehr gemocht haben.",Llama70B,fixed,5
+82a8172e-6498-473c-afdd-07160f0ca3bc,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir hatten einen sehr angenehmen Abend.,Llama70B,fixed,5
+e32f4e52-9a2b-4124-80a4-1b042152fbd3,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Das Ambiente ist sehr gemütlich, der Service sehr gut und freundlich.",Llama70B,fixed,5
+a813e5d5-9673-4704-9213-c0fc3dadcff6,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,"Wir kamen zu dritt in die Bar, es war etwas laut und voller Leute.",Llama70B,fixed,5
+06c14cb3-266c-4355-b536-81276a79337a,,"('PRICE', 'POSITIVE', 'Mittagessen')
+",,Wir waren für ein günstiges Mittagessen dort.,Llama70B,fixed,5
+0202c054-dd91-431b-bd90-23374ac60c1a,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war sehr freundlich und hilfsbereit.,Llama70B,fixed,5
+7a5a305d-f006-4e26-8d10-a5c4d15eed8f,,"('FOOD', 'NEGATIVE', 'Fisch')
+",,Wir hatten Fisch bestellt und waren sehr enttäuscht.,Llama70B,fixed,5
+ddb07fb2-2375-4e57-ad95-d86b47c36be6,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Personal')
+",,Das Essen war einfach gut und das Personal war freundlich.,Llama70B,fixed,5
+e4a146fd-30ce-45f1-a83a-12dfd8f3142b,,,✅,"Wir bezahlen 13,80€ für ein Pizza und das war es.",Llama70B,fixed,5
+5a8f279d-98f0-49ea-b754-c58f7eef77e3,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir waren mit 12 Leuten dort und wurden leider schwer enttäuscht.,Llama70B,fixed,5
+1b6d8377-61d0-4b55-8ec2-49937bb718ce,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Essen')
+",,Sehr gutes Essen für einen sehr fairen Preis!,Llama70B,fixed,5
+30815217-4514-4c6e-812d-e3e9f53dd29f,,"('PRICE', 'NEGATIVE', 'Preisklasse')
+",,"Eine Preisklasse, die ich mir nicht gönnen würde.",Llama70B,fixed,5
+d045b2f0-c306-435a-bec2-2009040c023e,,"('FOOD', 'CONFLICT', 'Essen')
+('PRICE', 'NEGATIVE', 'Preise')
+",,Das Essen war lecker aber nichts besonderes und die Preise sind auch etwas hoch.,Llama70B,fixed,5
+336f5dc9-a4d4-4164-b5ce-5d2dd0aed73e,,"('FOOD', 'NEGATIVE', 'Essen')
+",,"Das Essen, das wir bekamen, war leider nicht gut.",Llama70B,fixed,5
+3590ed9b-e22a-4257-bfa1-96ae54764645,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war nicht gut.,Llama70B,fixed,5
+c7cd6622-5305-4b06-a147-1b0a2ee14578,,,✅,Die Pizza war schnell vorbei.,Llama70B,fixed,5
+68cd1f41-f510-473b-a7c8-a824a76ab40f,,"('PRICE', 'NEGATIVE', 'Preise')
+('SERVICE', 'NEGATIVE', 'Personal')
+",,Leider sind die Preise zu hoch und das Personal wenig motiviert.,Llama70B,random,5
+2661a7da-6cb9-486c-b642-52593d2bd3d1,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Nicht zu empfehlen, wenn man das Geld nicht so aus der Tasche werfen möchte.",Llama70B,random,5
+04cd1dd0-2b0b-4be2-b25c-b68cc8c366fe,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEGATIVE', 'Service')
+",,"Das Essen ist gut, aber der Service hat noch Potential.",Llama70B,random,5
+355298ff-bc95-49cf-a498-42bdbe19e899,,"('SERVICE', 'POSITIVE', 'Bedienung')
+('PRICE', 'NEGATIVE', 'Preise')
+",,"Die Bedienung war gut, aber die Preise sind etwas zu hoch.",Llama70B,random,5
+83807c16-717a-4d3e-acba-a5d1229b96f3,,"('PRICE', 'POSITIVE', 'Preis-Leistungsverhältnis')
+",,Das Preis-Leistungsverhältnis war super.,Llama70B,random,5
+9b19a561-5a75-47c6-bdf3-f3dc3f920f88,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente ist nichts Besonderes.,Llama70B,random,5
+a7b06c51-4f3b-4040-8d04-ee4bf854c68e,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Die Atmosphäre könnte man sicher besser sein lassen, aber das Essen ist wirklich gut.",Llama70B,random,5
+51d33069-5112-4a17-9911-a88f041eb63b,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Die Bedienung war sehr freundlich und zuvorkommend.,Llama70B,random,5
+7cf6933a-829a-4746-aa0f-8089a866565f,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,"Das Ambiente ist eher schäbig, nichts besonderes.",Llama70B,random,5
+125c85fa-4b33-4983-a594-84b12aa419d7,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war lecker.,Llama70B,random,5
+8c93375f-0943-40d6-b297-539fcf43c663,,"('PRICE', 'NEUTRAL', 'Preisniveau')
+",,"Wir wurden dann nicht gefragt ob wir noch etwas trinken möchten und wie das Preisniveau war, dachten wir das ist ja auch ok.",Llama70B,random,5
+fecd570b-b115-4681-981d-d6ef49b68b26,,"('FOOD', 'NEGATIVE', 'Burger')
+",,"Die Burger waren ok, aber ein bisschen klein.",Llama70B,random,5
+45cbb973-cfb1-4547-8b82-f876ec5c8721,,"('FOOD', 'POSITIVE', 'Küche')
+('SERVICE', 'NEGATIVE', 'Personal')
+",,"Die Küche ist gut, aber das Personal sollte etwas mehr auf die Gäste achten.",Llama70B,random,5
+0d716b3f-8118-4b07-a127-b8068bcbb829,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Das Ambiente ist schön, aber nicht spektakulär.",Llama70B,random,5
+438e84f3-0eb9-45ae-b23a-9e6218e465cd,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Die Atmosphäre war sehr gemütlich.,Llama70B,random,5
+b5826ec3-b55d-4e70-8878-2818c49074c3,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Das Ambiente ist gemütlich und sehr schön.,Llama70B,random,5
+a7a1e867-706a-4547-8ddc-6269988eae70,,"('FOOD', 'POSITIVE', 'Speisen')
+('PRICE', 'NEGATIVE', 'Speisen')
+",,"Die Speisen sind gut, aber sehr teuer.",Llama70B,random,5
+b6898bfb-1a66-423a-8aec-360d75b5f9e3,,"('FOOD', 'NEGATIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Essen')
+",,Das Essen war sehr schlecht und teuer.,Llama70B,random,5
+650e4635-9866-474f-ae27-8c2329a5dd60,,"('PRICE', 'NEGATIVE', 'Preis Niveau')
+",,Auch das Preis Niveau ist nicht mehr zeitgemäß.,Llama70B,random,5
+bbf77403-cd1b-4ef2-966c-5d04f3a53a6e,,"('PRICE', 'POSITIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Gute Atmosphäre, leckeres Essen, nicht zu teuer.",Llama70B,random,5
+fc840e05-43be-4052-823b-cdfed8bf2710,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir hatten einen schönen Abend.,Llama70B,random,5
+2a366756-f0fa-4944-8d05-a1a927c9aa01,,"('SERVICE', 'POSITIVE', 'Personal')
+",,"Das Personal war zwar freundlich, aber ungeschickt und wenig motiviert.",Llama70B,random,5
+cbcf4958-bce8-4b80-bf78-d4133f3e1c93,,"('FOOD', 'POSITIVE', 'Speisen')
+('PRICE', 'NEUTRAL', 'Preise')
+",,"Die Speisen sind sehr lecker, die Preise sind in Ordnung.",Llama70B,random,5
+341ad8fb-12d3-429a-8ee6-f5c4ab6478df,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'NEGATIVE', 'Kellner')
+",,"Die Atmosphäre war sehr schön, es hat aber etwas zu lange gedauert bis der Kellner kam.",Llama70B,random,5
+17142b5a-182f-439b-82de-6260779c1330,,"('SERVICE', 'POSITIVE', 'Servicepersonal')
+('PRICE', 'NEUTRAL', 'Preise')
+('FOOD', 'NEUTRAL', 'Essen')
+",,"Das Servicepersonal war sehr freundlich, die Preise eher im mittleren Bereich und das Essen wirkte auch nicht schlecht.",Llama70B,random,5
+4a533990-fc50-477b-9ed7-4aa9c7018fbf,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen ist gut, aber nicht überragend.",Llama70B,random,5
+9f8bfcc1-3eb6-40bd-86ea-90da9e443253,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Wir waren am 10.9.2017 dort und das Ambiente war eher schlecht.,Llama70B,random,5
+91fce230-a5cf-4e11-bbf2-5933e3f9da10,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEGATIVE', 'Warten auf die Bedienung')
+",,"Sehr leckeres Essen, aber das Warten auf die Bedienung war unangenehm.",Llama70B,random,5
+dd6d29af-f1f8-4828-8e9b-580fc7c6ea23,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind sehr hoch.,Llama70B,random,5
+e541eeaa-9d5c-4642-9a71-a6f5e689babc,,"('FOOD', 'NEGATIVE', 'Portion')
+",,Die Portion war auch noch zu gross.,Llama70B,random,5
+5aff0593-de12-405e-ac08-b5ca2c76173c,,"('SERVICE', 'POSITIVE', 'Bedienung')
+('PRICE', 'NEUTRAL', 'Preise')
+",,Tolle Bedienung und Preise in Ordnung.,Llama70B,random,5
+17556410-bb0f-4eb0-a900-60f26afff7ce,,,✅,Wir hatten uns für die Preise und das Ambiente entschieden.,Llama70B,random,5
+79a7e744-2bbe-4ffb-a907-81bdf94498ed,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Ambiente ist eher karg, aber das Essen war gut und die Preise sind angemessen.",Llama70B,random,5
+95492d30-c4b0-481b-8b49-5714ee6a6fa2,,"('FOOD', 'POSITIVE', 'Speisen')
+",,Die Speisen waren sehr gut.,Llama70B,random,5
+be2de65b-14ac-442d-bf4c-44a4b1b363b7,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen gerne wieder!,Llama70B,random,5
+1793ea09-e239-4479-93bb-e8498ca0c15a,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Klasse Essen, sehr lecker und frisch.",Llama70B,random,5
+0218548b-80b8-4f46-9872-ef0e790f1f75,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Das Restaurant ist leider in einem schlechten Zustand.,Llama70B,random,5
+62ca373e-63e4-487a-8245-506d71b79a4e,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,"Nicht unbedingt ein Schönheitsfehler, aber auch nichts Besonderes.",Llama70B,random,5
+014fb5be-b9b7-420e-92aa-c5c9d5f21a6d,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Ein schöner Abend.,Llama70B,random,5
+f5fd6199-48b3-4c50-96e2-261399bf59fe,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,"Wenn man dann noch mitteilt, dass der Preis für das Essen höher ist als im Internet angegeben wurde, wird es ein bisschen ungemütlich.",Llama70B,random,5
+685dbb4f-bf0c-4250-8b89-1629ca9d741a,,"('FOOD', 'NEGATIVE', 'Essen')
+('FOOD', 'NEGATIVE', 'Pizza')
+",,"Das Essen war ungenießbar, die Pizza schmeckte nicht.",Llama70B,random,5
+9d8116bd-605c-47a7-9d27-edffd03a5496,,"('FOOD', 'POSITIVE', 'Küche')
+('PRICE', 'POSITIVE', 'Weine')
+",,"Eine sehr schöne Küche und gute, preiswerte Weine.",Llama70B,random,5
+09aca801-3fc9-4352-8df0-334e48ee7b4b,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Die Atmosphäre ist ein bisschen ""kühl"".",Llama70B,random,5
+610b82a0-466f-4e21-b663-e28429d3c642,,,,Ein Selbstversorger.,Llama70B,random,5
+972e91cf-f661-40f8-8f0e-191b46e8edf9,,"('AMBIENCE', 'POSITIVE', 'Lage')
+",,Die Lage ist schön.,Llama70B,random,5
+4c6d9ff5-2255-4324-980e-3e5ad553a946,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Sehr empfehlenswert!,Llama70B,random,5
+566df340-5736-4c1e-9819-56b5c021778c,,"('PRICE', 'NEGATIVE', 'Preis')
+",,Für den Preis sollte es aber mehr sein.,Llama70B,random,5
+3b8659bf-423f-42dc-8371-cbc9bb16727a,,"('PRICE', 'NEGATIVE', 'Wein')
+",,Der Wein war sehr günstig.,Llama70B,random,5
+4c177811-ae2a-4f3c-b6db-0c844610aed3,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('FOOD', 'NEGATIVE', 'Essensqualität')
+",,"Ein schönes Ambiente, aber die Essensqualität ist nicht mehr so gut.",Llama70B,random,5
+075259f3-ea4b-4954-b58d-2db2a765ff1e,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war sehr lecker.,Llama70B,random,5
+2b5a790e-8794-4726-b8bd-fd2cdfcd092a,,"('PRICE', 'NEUTRAL', 'Preis')
+",,"Der Preis ist in Ordnung, aber nicht so günstig wie bei der Konkurrenz.",Llama70B,random,5
+3a4c14ed-bbc0-454b-afdc-01f85d9cd020,,"('PRICE', 'NEGATIVE', 'NULL')
+",,"Sehr teuer, was man da bekommt.",Llama70B,random,5
+23cdd3e1-02ec-4753-b778-7a96d3b29af6,,"('FOOD', 'NEUTRAL', 'Pizza')
+",,"Die Pizza war nicht wirklich schlecht, aber definitiv nicht gut.",Llama70B,random,5
+fcbc7294-f63b-4f14-8e57-8eef74b10564,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war gut.,Llama70B,random,5
+57bb6212-6a5b-4aa5-9e9e-a29b544f9453,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,Unterschiedliche Erfahrungen.,Llama70B,random,5
+5e825691-8e40-4815-ba48-10434b37a648,,"('PRICE', 'NEGATIVE', 'Preise')
+",,"Die Preise, die man dort verlangt, sind einfach nur lächerlich.",Llama70B,random,5
+5f055e51-3c30-4627-9385-b6b29684e809,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Aber die Atmosphäre ist schon sehr ""karg"".",Llama70B,random,5
+9c824fb5-cfa4-43f1-92d3-3ad50d3e80ac,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind sehr hoch.,Llama70B,random,5
+7247f590-e766-4aa9-9bf0-fabb8c5962e9,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,Llama70B,random,5
+0da8a716-e3f9-4107-acc8-974ba5c1b006,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Der Service war sehr schlecht.,Llama70B,random,5
+faa4ca66-c824-43fd-b7f2-3b12c088a324,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Die Atmosphäre ist sehr angenehm.,Llama70B,random,5
+1d8840be-9495-4b91-9e68-c93bb50fd4ca,,"('SERVICE', 'NEUTRAL', 'Bedienung')
+",,"Die Bedienung war freundlich, aber nicht überragend.",Llama70B,random,5
+9f5d3772-dbc3-47ac-aaa8-516b30f2a338,,"('SERVICE', 'NEGATIVE', 'Servicepersonal')
+",,"Das Servicepersonal ist arrogant, unfreundlich und überheblich.",Llama70B,random,5
+d8196f47-3d8f-4412-8ea0-772b55ee3511,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Das Ambiente ist eher schlicht, aber sauber.",Llama70B,random,5
+956cbd44-7da5-4a94-b1b5-5826c01356b1,,"('PRICE', 'POSITIVE', 'Preisniveau')
+",,Sonst alles ok - das Preisniveau ist angemessen.,Llama70B,random,5
+7ea8ce1e-03a5-420a-858a-2ef10d6b67a1,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,"Einmalig, aber nichts Besonderes.",Llama70B,random,5
+4cb6f7f9-420b-4c37-9b3d-2047a391f327,,"('FOOD', 'NEGATIVE', 'Essen')
+",,Das Essen war kalt und nicht scharf.,Llama70B,random,5
+4f679523-3c57-4714-846a-716cb3b0274a,,"('PRICE', 'NEGATIVE', 'Preis')
+",,Man bekommt dafür aber nicht das was man für den Preis erwarten darf.,Llama70B,random,5
+87d4d570-1a7b-4973-bcf1-1980eb657cee,,"('PRICE', 'NEGATIVE', 'Preis')
+",,Aber der Preis ist in diesem Fall völlig unverhältnismäßig.,Llama70B,random,5
+21e147ba-6ef6-45b0-939a-8f47d7c2027f,,"('PRICE', 'NEGATIVE', 'Speisen')
+",,Die Preise sind bei der Qualität der Speisen überzogen.,Llama70B,random,5
+3c9bbe7e-ed2e-4caf-ba27-a695085d60a7,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen war gut, aber nicht herausragend.",Llama70B,random,5
+73342e07-8e59-4fb3-bfc8-401a3b5cb60a,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir waren sehr enttäuscht.,Llama70B,random,5
+6c7d4554-268a-40d8-b97c-13ab1b2ae6a1,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Nur der Service ist nicht ganz so wie er sein sollte.,Llama70B,random,5
+9d67422d-a20d-4013-b348-80b6406222af,,"('FOOD', 'NEGATIVE', 'Kaffee')
+",,Ein schlechter Kaffee zum Abschluss.,Llama70B,random,5
+d099c7f2-0b7e-4a8e-88b0-a58c37d2e426,,"('PRICE', 'NEGATIVE', 'Preis-Leistungsverhältnis')
+",,Die Preis-Leistungsverhältnis ist schlecht!,Llama70B,random,5
+e2e95bdf-d8dc-4fef-9c54-2cbbe46bcb2c,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Mir war auf jeden Fall nichts dabei.,Llama70B,random,5
+afb1f44e-4a53-442f-b1f9-17bcee46e2e2,,"('SERVICE', 'POSITIVE', 'Service')
+",,Großartiges Service.,Llama70B,random,5
+f7131a7c-9104-433e-8903-850001a6cafc,,"('PRICE', 'POSITIVE', 'Preise')
+",,Die Preise sind angemessen.,Llama70B,random,5
+b224eb34-07f3-461e-a591-90b1dbfcde47,,"('AMBIENCE', 'POSITIVE', 'Lokal')
+",,Der Lokal ist gemütlich eingerichtet.,Llama70B,random,5
+b7cde8fe-9b15-44db-bb50-33759fcd5f6f,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,"Doch nachdem wir unsere Bestellung abgegeben hatten und der Kellner weg war, haben wir nichts mehr von ihm gesehen.",Llama70B,random,5
+aaced2ae-b522-4991-adb6-12d5e39599de,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war einfach nur lecker.,Llama70B,random,5
+388b107e-df81-4bf9-80f8-03f2e18a3fde,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war auch sehr freundlich.,Llama70B,random,5
+9172cde5-f106-436d-8669-ba46e91d9a5a,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'NEUTRAL', 'Service')
+('PRICE', 'POSITIVE', 'Preise')
+",,"Das Essen war lecker, der Service durchschnittlich und die Preise waren nicht überteuert.",Llama70B,random,5
+a0f575e8-6df2-49d9-b5ad-182904e78d3c,,"('SERVICE', 'NEGATIVE', 'Service')
+",,"Schade, dass man vom Service so negativ berichten muss.",Llama70B,random,5
+7cfe78db-ac4a-41b8-8f62-c9b46bbdd5ad,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen wieder.,Llama70B,random,5
+056c6c43-b46d-42c9-aed5-7b16db4aeb4c,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Eine sehr schöne, gemütliche Atmosphäre und ein ausgezeichnetes Essen, lecker, frisch, abwechslungsreich.",Llama70B,random,5
+248212ab-135d-4a57-b74a-8ca7ace61d97,,"('PRICE', 'NEGATIVE', 'Preise')
+",,"Bei der Qualität des Essens und dem Service habe ich den Eindruck, dass man hier einfach die Preise hochgetrimmt hat.",Llama70B,random,5
+36bbdde2-d1fe-4187-8c87-ea8932b9e670,,"('FOOD', 'NEUTRAL', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Essen war nicht so schlecht aber auch nicht ausgezeichnet, Service dagegen sehr gut.",Llama70B,random,5
+93337de3-612d-4bb2-8be5-bb5425a5912b,,"('SERVICE', 'NEGATIVE', 'Service')
+",,"Der Service war nicht so, wie ich es mir erhofft hatte.",Llama70B,random,5
+50c57e83-e8c6-4df4-9748-40748fa7129e,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal ist sehr freundlich und hilfsbereit.,Llama70B,random,5
+d47ef4bd-ff08-4d52-9005-1489c490ff93,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+('AMBIENCE', 'POSITIVE', 'Blick auf den LOC')
+",,"Das Ambiente ist nicht spektakular, aber es gibt einen schönen Blick auf den LOC.",Llama70B,random,5
+69a3a891-d39c-4173-95e2-fb1ed4017a91,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,Die Atmosphäre war auch nicht besonders.,Llama70B,random,5
+a71ae8cf-f625-4a2f-ba41-f6a4beb304a8,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Auch wenn es schon etwas älter ist, so ist das Ambiente doch sehr angenehm.",Llama70B,random,5
+6cb9bfba-7463-45c8-8436-672c2dc596bd,,"('PRICE', 'NEUTRAL', 'Preise')
+",,Die Preise sind okay.,Llama70B,random,5
+47fa6f86-6f11-4262-97b8-fbf5cf309934,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich und zuvorkommend.,Llama70B,random,5
+d82dd46b-2b69-4553-bdd0-c2b74fed1b84,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir waren noch nie so zufrieden.,Llama70B,random,5
+e41b5fb2-aee5-4d1b-814a-723f892b466c,,"('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'Portionen')
+",,Das Essen war sehr lecker und die Portionen ordentlich.,Llama70B,random,5
+7c1a74b5-731a-47a7-ad3d-6db7403160e3,,"('AMBIENCE', 'POSITIVE', 'LOC')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das LOC war sehr schön und das Essen auch.,Llama70B,random,5
+da857fd3-e205-4fc2-90ca-96c0aa581cd8,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Ein feiner Ort, um sich mit Freunden zu treffen und sich mit einem guten Essen wohl zu fühlen.",Llama70B,random,5
+aa068b8d-d9a2-4c4d-b10d-0e5062757d7a,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war sehr lecker.,Llama70B,random,5
+68837d18-a17c-44b7-92ad-d7075260b7ae,,"('SERVICE', 'POSITIVE', 'Service')
+",,"Ein besonderes Lob an den Service, der unsere Wünsche und Bedürfnisse stets sehr schnell umsetzte.",Llama70B,random,5
+4c1932f3-8685-4322-bb3e-fdc2ae0ed985,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Sieht von außen zwar etwas trist aus, aber das Ambiente ist wirklich angenehm.",Llama70B,random,5
+38751a8f-ceed-4824-974c-b9a79efb957d,,"('PRICE', 'NEGATIVE', 'Essen')
+",,!Leider hat sich der Preis für das Essen erheblich erhöht.,Llama70B,random,5
+c0e04246-029a-4d98-947f-80c62badeb10,,"('PRICE', 'NEGATIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'Essens')
+",,Die Qualität des Essens war durchwachsen und der Preis für die Leistung zu hoch.,Llama70B,random,5
+839e3311-f9dc-4255-9582-bd2dfe18e721,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,Nur Atmosphäre ist etwas dünn.,Llama70B,random,5
+31015357-0884-4767-ad6a-f804f7cab897,,"('PRICE', 'NEGATIVE', 'Preise')
+",,"Wir hatten das Gefühl, dass die Preise nicht dem Niveau der Qualität entsprachen.",Llama70B,random,5
+b5de19d0-230a-4eee-a7b2-1e03627d9b44,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Wir waren schon öfter im LOC, das Essen und die Atmosphäre war immer gut.",Llama70B,random,5
+2ce10b59-6e96-42fe-98ae-116d00116261,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise sind sehr hoch.,Llama70B,random,5
+4f6a8a40-570b-4090-b5e0-ff252db7c58b,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente ist eher schlicht gehalten und wirkt etwas altbacken.,Llama70B,random,5
+f78b1c09-dd9d-4998-acfb-58892a89dda2,,,✅,Wir sind mit einem Mittleren Budget im Restaurant.,Llama70B,random,5
+32ae720b-f44e-4399-b0fa-21043b833db7,,"('PRICE', 'POSITIVE', 'Gebührenfreie Kreditkarten')
+",,"Gebührenfreie Kreditkarten, was sehr angenehm war.",Llama70B,random,5
+baf9e657-7845-4087-aa78-a860a77cb73e,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war sehr lecker und auch reichlich.,Llama70B,random,5
+0500bf4d-fdea-41b5-94d5-36f728acd86f,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir waren mit 3 Generationen (Alter: 11 - 93) zu sechst sehr wohl gefühlt und kommen gern jederzeit wieder!,Llama70B,random,5
+c53f8bfc-a147-46f3-bb8c-c399be999a54,,"('FOOD', 'NEGATIVE', 'NULL')
+",,Ich bin aber in der Lage eine pizza zu backen die besser schmeckt als die hier.,Llama70B,random,5
+e0ba611d-fb99-4ac0-a6d6-9f16f6fd884b,,,✅,"Einige Tische waren mit Tischdecken gedeckt, andere nicht.",Llama70B,random,5
+547cf992-3416-4c7d-9574-6171afcde808,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Ambiente ordentlich.,Llama70B,random,5
+5eaf80eb-759a-4a0b-bf27-09045e416368,,"('PRICE', 'NEGATIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Getränke')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Bei den Preisen für das Essen und die Getränke bin ich etwas enttäuscht, dafür sind aber das Ambiente, die tolle Atmosphäre und der Service sehr gut.",Llama70B,random,5
+9b1b0342-df05-43d0-b374-0a69defe9629,,"('SERVICE', 'NEGATIVE', 'Service')
+('FOOD', 'NEGATIVE', 'Essen')
+",,Aber der Service war schrecklich langsam und das Essen war auch nicht so besonders.,Llama70B,random,5
+cd280c0b-e69c-41d9-af3f-7fd489898820,,"('PRICE', 'NEUTRAL', 'Preis')
+",,Der Preis ist in Ordnung.,Llama70B,random,5
+1abe6a5e-f0a5-4fb2-80a7-c8e01737eded,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Essen')
+",,Das Ambiente war sehr gemütlich und das Essen auch.,Llama70B,random,5

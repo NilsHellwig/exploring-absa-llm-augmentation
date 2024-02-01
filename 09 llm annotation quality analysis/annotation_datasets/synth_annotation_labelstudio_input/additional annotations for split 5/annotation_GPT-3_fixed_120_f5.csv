@@ -1,0 +1,121 @@
+,id,text,model,split,few_shot_condtion
+0,14d7683a-51a1-4771-9303-6891efbe8a0c,"Das Essen war okay, aber nichts Besonderes.",GPT-3,5,fixed
+1,b219b064-0fcb-4690-bab2-2856fee90abf,"Das Essen war zwar etwas teurer, aber die Qualität hat sich gelohnt.",GPT-3,5,fixed
+2,442191b7-2d45-47b4-897c-5ee89d1e3626,"Die Speisen waren okay, aber nicht besonders beeindruckend.",GPT-3,5,fixed
+3,8c3aa26a-b7b4-492c-98c1-4412e4a3ce43,Die Atmosphäre war weder besonders gut noch schlecht.,GPT-3,5,fixed
+4,f4f84e43-351a-4312-b90e-c68cfd211b24,Das Restaurant hat eine durchschnittliche Atmosphäre.,GPT-3,5,fixed
+5,7a896d85-e262-46d2-81ca-f3701f17c34e,Die Musik war zu laut und der Service war in Ordnung.,GPT-3,5,fixed
+6,3bcbae07-c0cf-46e7-acb2-8375330b8302,"Der Service war enttäuschend, aber das Essen war ausgezeichnet.",GPT-3,5,fixed
+7,ff2d6105-ed30-44c8-bc0d-cc71aabba69d,Das Personal war sehr freundlich und aufmerksam.,GPT-3,5,fixed
+8,d507ec65-d6a1-4264-b781-481af00dfce2,Die Musik war viel zu laut und hat die Atmosphäre negativ beeinflusst.,GPT-3,5,fixed
+9,3c852772-6c53-49b8-ad59-9d303bfc6e19,Die Pasta war leider zu salzig.,GPT-3,5,fixed
+10,c9f5044e-73a5-4f43-9070-318efd0f1fea,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,5,fixed
+11,fab55867-ac17-4aa8-8f00-357b1d1dc1d8,Das Personal war sehr unfreundlich und unprofessionell.,GPT-3,5,fixed
+12,19175e14-1ec1-4009-b12e-b66e38cd4ffe,Das Restaurant hat uns enttäuscht.,GPT-3,5,fixed
+13,9d337853-fc99-4ef7-a641-cb11247300b9,Die Einrichtung ist modern und gemütlich.,GPT-3,5,fixed
+14,f7dd0414-0e7d-4d5b-b652-e430e3bca924,Der Service war in Ordnung.,GPT-3,5,fixed
+15,84182a41-b9ae-4d42-b50e-3705a13b52ef,"Das Essen war in Ordnung, aber insgesamt war ich nicht beeindruckt.",GPT-3,5,fixed
+16,92369f39-6394-4a8c-bc52-da1223b2f645,Das Restaurant bietet eine tolle Auswahl an Gerichten und der Service ist sehr freundlich.,GPT-3,5,fixed
+17,d4226825-1443-4cd4-aaee-eade2ef8a50d,Die Preise sind angemessen.,GPT-3,5,fixed
+18,f542a1e2-2c45-40e7-8bbf-fa05e981ab75,Die Einrichtung des Restaurants ist schlicht und unauffällig.,GPT-3,5,fixed
+19,25e9b627-24d2-4111-a0f9-7fccfa2064c9,"Das Essen war enttäuschend, der Service war in Ordnung, das Restaurant hatte eine angenehme Atmosphäre und insgesamt war der Besuch eher durchschnittlich.",GPT-3,5,fixed
+20,3d2a1104-fce8-4187-8bf1-58e997388796,"Die Preise waren zu hoch und insgesamt war der Eindruck eher neutral, auch das Ambiente war nicht besonders.",GPT-3,5,fixed
+21,b5c8e647-cf1e-479e-84bd-be6f21dd1c8b,"Das Essen war lecker, die Getränke waren in Ordnung, aber der Dessert war enttäuschend.",GPT-3,5,fixed
+22,a41d9280-ff03-464d-bde8-33c007c48ec0,"Die Preise waren angemessen, der Service ließ jedoch zu wünschen übrig, das Essen war jedoch sehr gut, aber das Ambiente war nicht besonders schön.",GPT-3,5,fixed
+23,ca49d4d7-e94a-4c4e-91d2-dca3ca965e85,"Das Essen war hervorragend, der Service war in Ordnung und die Preise waren angemessen.",GPT-3,5,fixed
+24,e8675423-62ad-42c4-ba0b-fab27f270c26,Das Essen war leider ungenießbar.,GPT-3,5,fixed
+25,1c6a1eaa-149c-4601-bb4b-bfe3a0df6d22,"Die Pizza war sehr lecker, das Pasta-Gericht war in Ordnung und das Preis-Leistungs-Verhältnis stimmte.",GPT-3,5,fixed
+26,1bbd7b7a-3302-4ce3-9baf-82d768d65b88,Die Preise sind angemessen.,GPT-3,5,fixed
+27,258fa150-6f90-4d64-b02b-0e447ff50e27,Die Einrichtung war etwas veraltet und wirkte nicht sehr gemütlich.,GPT-3,5,fixed
+28,acb2f891-81ca-4246-9c27-5641cc75fae6,"Der Service war sehr aufmerksam, das Essen hat ausgezeichnet geschmeckt und das Ambiente war angenehm.",GPT-3,5,fixed
+29,ec304d1a-6e1a-4510-affa-871c706b9e0b,"Das Essen war enttäuschend, das Gesamtbild des Restaurants war nicht gut, der Service war in Ordnung, aber insgesamt war es trotzdem eine positive Erfahrung.",GPT-3,5,fixed
+30,cdc0efd1-f2ec-416d-8277-43b733ba79a8,Das Restaurant hat uns enttäuscht.,GPT-3,5,fixed
+31,481a2967-c60b-4865-99bb-a7c71a2669d0,Das Restaurant hat eine tolle Atmosphäre und wir kommen gerne wieder.,GPT-3,5,fixed
+32,e9359a8d-0611-4d1c-b93b-373af7c41f47,Wir waren von unserem Besuch im Restaurant sehr enttäuscht.,GPT-3,5,fixed
+33,7eac1ff6-6987-4412-8707-67342a2e8c65,Die Musik war viel zu laut und das Restaurant wirkte sehr ungemütlich.,GPT-3,5,fixed
+34,7e48c2d6-59f3-48ad-95fb-39ff0b94f852,"Das Restaurant hat eine außergewöhnlich schöne und zur richtigen Zeit auch ruhige Atmosphäre, und der Service ist freundlich und schnell.",GPT-3,5,fixed
+35,8c5e6678-5ea8-497f-b553-e0f8eca4de3c,"Das Restaurant hat eine insgesamt positive Atmosphäre, jedoch könnte die Beleuchtung etwas schöner sein.",GPT-3,5,fixed
+36,fd2ca360-ecd1-4b8d-a1b1-cf5e58c8921d,"Der Service war in Ordnung, aber die Preise waren zu hoch, obwohl das Essen gut war.",GPT-3,5,fixed
+37,e6e21525-99ed-41c1-a2d9-81ef8ceceb3e,Die Speisen waren köstlich und haben uns sehr gut geschmeckt.,GPT-3,5,fixed
+38,6ff330a9-96be-4d9c-aa91-de08b6685415,"Die Musik war zu laut, und insgesamt war der Eindruck eher neutral.",GPT-3,5,fixed
+39,908e76e4-325a-4888-b33c-fdb29c192824,"Der Service war sehr freundlich und zuvorkommend, insgesamt hatten wir einen positiven Eindruck von dem Restaurant, obwohl die Atmosphäre etwas ungemütlich war, aber die Beleuchtung hat uns gut gefallen.",GPT-3,5,fixed
+40,b5a53df1-6a99-4f26-8049-a892127e3ea7,Das Restaurant hat eine tolle Atmosphäre und das Essen war köstlich.,GPT-3,5,fixed
+41,205f161e-e824-4fd6-8aa4-88193a350a0f,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,5,fixed
+42,fda4be45-def2-4af7-878b-3f66c809f557,"Die Preise sind angemessen, das Essen ist okay, aber der Service lässt zu wünschen übrig.",GPT-3,5,fixed
+43,981738a0-6b62-4801-a9c5-72859c43fd15,Die Preise sind angemessen.,GPT-3,5,fixed
+44,81cdaa92-d669-4af0-9391-7a32e61f052e,Das Essen war leider nicht gut.,GPT-3,5,fixed
+45,5fcace1e-5200-4961-865f-ef4eff46817d,Das Personal war unfreundlich und überfordert.,GPT-3,5,fixed
+46,220ce7d3-9778-43f7-8c16-0acc1b42dd3a,Das Restaurant war sehr laut und ungemütlich.,GPT-3,5,fixed
+47,140a7acb-fe88-4844-817c-d4e1c0f8d1d2,Die Preise sind viel zu hoch für die gebotene Qualität.,GPT-3,5,fixed
+48,2515f049-cf0b-45bd-bb43-168b9b3f7e3f,"Es war ein durchschnittlicher Besuch, nichts Besonderes.",GPT-3,5,fixed
+49,5ca64bef-d630-4d00-ac66-0a251c2f692a,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,5,fixed
+50,bc9003a5-1d87-462b-8ae7-0d6a187582fe,"Das Essen war zwar gut, aber die Preise waren etwas hoch.",GPT-3,5,fixed
+51,a131fe7b-1001-4dea-925c-905be19b24a5,Das Restaurant hat uns insgesamt enttäuscht.,GPT-3,5,fixed
+52,16471d6f-6376-4546-804b-b5badc457364,Der Service war in Ordnung.,GPT-3,5,fixed
+53,017d5b2e-b94e-494a-a4cc-aeeb7bc23dc5,Das Essen war wirklich köstlich.,GPT-3,5,fixed
+54,fc1ba1ab-798f-4bbf-ad38-a028b3257617,Die Bedienung war sehr unfreundlich und langsam.,GPT-3,5,fixed
+55,b8cbf3a6-536a-4395-982a-7563249fa3bb,Das Essen war leider nicht besonders gut und insgesamt waren wir von dem Restaurant enttäuscht.,GPT-3,5,fixed
+56,add104f2-fc6d-43b1-a9c7-c0922f4341b7,Die Preise sind angemessen.,GPT-3,5,fixed
+57,1ea372ff-47c5-4036-a0b4-7c57bf3f3426,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,5,fixed
+58,6d90b275-f4fa-4b97-acf0-e615efabed92,Das Personal war sehr freundlich und aufmerksam.,GPT-3,5,fixed
+59,de865bae-0c45-4fda-b869-bb5eb601cedd,"Der Service war durchschnittlich, weder besonders gut noch schlecht.",GPT-3,5,fixed
+60,1e86667a-0e7e-4aa0-b0ef-cc9fbbfde414,Die Lautstärke im Restaurant war unangenehm hoch und die Preise waren übertrieben hoch.,GPT-3,5,fixed
+61,e0a77f11-1bb6-4e21-8f2b-e72b540789f8,Die Preise sind meiner Meinung nach zu hoch.,GPT-3,5,fixed
+62,ae320eff-6a73-4e32-a6eb-9eb00f328139,Die Preise waren angemessen für die gebotene Qualität.,GPT-3,5,fixed
+63,f083dab7-da7d-4854-bd7b-0a86c17352ad,Leider war unser Besuch im Restaurant enttäuschend.,GPT-3,5,fixed
+64,c09aef50-6220-49e6-bf9d-de7d624db477,Die Preise waren angemessen.,GPT-3,5,fixed
+65,a17ea820-4274-4688-8397-cca44ee3e74b,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,5,fixed
+66,c0e05876-9bc1-4546-8752-e30fc7f45654,Das Restaurant hat uns insgesamt enttäuscht.,GPT-3,5,fixed
+67,d862053c-5dbf-4aff-b829-d4686a5167df,"Die Preise waren angemessen, aber insgesamt waren wir von dem Restaurant enttäuscht.",GPT-3,5,fixed
+68,a6100f2e-bbf2-458f-b3e7-19dd03c58c1e,Das Restaurant ist wirklich toll und die Preise sind angemessen.,GPT-3,5,fixed
+69,32c7e893-8f34-4cf7-98da-59d8d4955538,Das Restaurant hat eine tolle Atmosphäre und das Essen war sehr lecker.,GPT-3,5,fixed
+70,fad1af23-b024-49bd-b392-639c3467f5a1,"Die Atmosphäre war okay, das Essen war lecker, aber der Service ließ zu wünschen übrig.",GPT-3,5,fixed
+71,5f46ae44-11a0-4627-b3ff-c76fcdf68d99,Die Atmosphäre war sehr gemütlich und das Essen köstlich.,GPT-3,5,fixed
+72,9c72faf7-337f-4eb2-9599-d32f9ed211c1,"Der Service war okay, aber der Preis war zu hoch, das Ambiente war schön, und insgesamt hatten wir einen positiven Eindruck, obwohl der Preis nicht perfekt war.",GPT-3,5,fixed
+73,ac411caf-fc1c-401b-9fc7-46079e71f57b,Das Personal war sehr freundlich und zuvorkommend.,GPT-3,5,fixed
+74,8445d1f2-130c-414d-b7a3-7d9b61ab3c00,Die Location ist sehr gemütlich und stilvoll eingerichtet.,GPT-3,5,fixed
+75,fceab80d-a9c5-4041-a42b-7896b81f7860,Das Personal war unfreundlich und langsam.,GPT-3,5,fixed
+76,82cf25f7-95c5-4457-a072-6820e9e93101,Die Preise sind angemessen.,GPT-3,5,fixed
+77,802dc710-b079-4712-94d3-4a50ffcb1630,Die Lautstärke im Restaurant war unerträglich.,GPT-3,5,fixed
+78,a1533408-5998-4b8d-af7d-1ed7be2b0460,Das Restaurant hat eine tolle Atmosphäre und das Essen war sehr lecker.,GPT-3,5,fixed
+79,aaba172f-df0c-4854-877a-8d248b15ecd9,Der Service war sehr unfreundlich und langsam.,GPT-3,5,fixed
+80,7cad1067-45bb-4d8d-9488-330f17409e7c,Die Preise sind angemessen und das Essen ist köstlich.,GPT-3,5,fixed
+81,95f34a90-96d0-414b-8c49-a3493fc69a6b,Das Restaurant hat eine tolle Atmosphäre und das Essen war auch sehr gut.,GPT-3,5,fixed
+82,2805088a-d8ae-47f6-9004-d1ce9b1b9c4d,Die Preise sind angemessen für die gebotene Qualität.,GPT-3,5,fixed
+83,b4d698ee-05f5-4390-987e-f5cb3696e9cd,Die Preise sind angemessen.,GPT-3,5,fixed
+84,d7747755-4bba-4b71-90f6-7ba4aa95eaf2,"Die Speisen waren okay, aber nicht besonders beeindruckend.",GPT-3,5,fixed
+85,aa8a678a-9b7b-488f-a9b8-5a4bbb4f6cd5,Die Preise sind viel zu hoch für die Qualität des Essens.,GPT-3,5,fixed
+86,8913ec15-72fa-4dbc-9d1c-538b0eb2d2d6,Die Pizza war leider kalt und geschmacklos.,GPT-3,5,fixed
+87,bc766b28-6133-4680-b52f-5eb8d5435a94,Die Einrichtung ist modern und gemütlich.,GPT-3,5,fixed
+88,088654cc-7e37-4a36-af91-baad832edc0d,Die Preise waren angemessen und das Essen war jeden Cent wert.,GPT-3,5,fixed
+89,21572fb1-c835-48b4-8806-01179fb7e6fc,"Der Gesamteindruck war okay, das Essen war durchschnittlich und die Preise etwas hoch.",GPT-3,5,fixed
+90,d208e223-1d32-4dbd-b4ea-9d17fb7e975d,Der Service war sehr langsam und unfreundlich.,GPT-3,5,fixed
+91,aa1922df-e3c5-4727-aa61-630ea94f9691,Die Preise sind definitiv zu hoch für die Qualität der Speisen.,GPT-3,5,fixed
+92,929dbdc6-e8db-4413-887a-4b12a0529fd0,"Der Service war sehr freundlich und zuvorkommend, jedoch war das Essen leider nicht besonders gut.",GPT-3,5,fixed
+93,798f4ce7-e5dc-4708-9b58-dd599d248adb,"Die Preise sind angemessen, das Essen war okay, aber insgesamt waren wir enttäuscht.",GPT-3,5,fixed
+94,d4a258fc-bfa5-4f7d-a2c7-59912763f631,Das Restaurant hat eine angenehme Atmosphäre und das Essen ist in Ordnung.,GPT-3,5,fixed
+95,6fb01217-1f05-42f1-a7d2-04f7f360de6c,Das Essen war köstlich.,GPT-3,5,fixed
+96,4aec35bb-565d-44aa-8692-e77a5d295863,"Das Restaurant war okay, aber es gab nichts Besonderes.",GPT-3,5,fixed
+97,969e9b33-bf87-4805-bb41-5c7c9f018c48,Die Einrichtung des Restaurants war schlicht und unauffällig.,GPT-3,5,fixed
+98,cb4c7fc2-d531-4cbf-8354-d150c191242f,"Das Restaurant war okay, aber es gab einige negative Punkte.",GPT-3,5,fixed
+99,f97bd607-b554-43dd-a754-8ec07329318e,Das Essen war köstlich.,GPT-3,5,fixed
+100,fdeb9e57-6617-4a0d-a0bb-95da1bb9e06c,Das Essen war ungenießbar und der Service katastrophal.,GPT-3,5,fixed
+101,df036245-ff84-4b00-8ea8-73b7615ed2e4,"Die Preise für die Vorspeisen sind etwas hoch, aber die Hauptgerichte sind ihr Geld wert.",GPT-3,5,fixed
+102,a3829718-22d4-4067-82ec-a3858bd379c1,"Der Service war sehr aufmerksam und freundlich, aber das Essen ließ zu wünschen übrig.",GPT-3,5,fixed
+103,ac3b5217-48ba-40c1-a522-23a63ac0d750,"Der Service war in Ordnung, aber die Preise waren etwas hoch.",GPT-3,5,fixed
+104,67ebce22-aa66-4435-a9ab-956ccc428ac8,Das Restaurant hat eine außergewöhnlich schöne und zur richtigen Zeit auch ruhige Atmosphäre.,GPT-3,5,fixed
+105,b411bca7-06f9-412b-9677-c43954fe7b0b,"Das Restaurant war okay, aber nichts Besonderes.",GPT-3,5,fixed
+106,32f68757-6f61-4028-ae9d-7990151bad50,"Die Atmosphäre war leider nicht besonders gemütlich, aber der Service war freundlich und das Preis-Leistungs-Verhältnis war in Ordnung.",GPT-3,5,fixed
+107,604c7284-0f48-45e9-99c8-0a9b2dd584b0,"Der Service war in Ordnung, aber das Ambiente könnte besser sein.",GPT-3,5,fixed
+108,ac0a3f71-4762-4661-8987-596eec628e55,"Die Preise waren angemessen, aber der Service war enttäuschend.",GPT-3,5,fixed
+109,670b8ef2-8ebc-4c1f-ba89-624d654f645d,Das Personal war sehr freundlich und aufmerksam.,GPT-3,5,fixed
+110,806b4ebb-161d-43f5-b8a9-987d839b8afc,Die Preise sind viel zu hoch.,GPT-3,5,fixed
+111,46415741-763b-438b-9dd1-4f2e71f90e87,"Der Service war in Ordnung, das Essen war durchschnittlich.",GPT-3,5,fixed
+112,67e7c8ad-a793-47b2-b171-df714385cc85,Die Preise waren weder besonders günstig noch übermäßig teuer.,GPT-3,5,fixed
+113,af095015-7211-4a61-ad45-868b9b8bb6b0,"Für das, was man bekommt, sind die Preise definitiv zu hoch.",GPT-3,5,fixed
+114,0e2eefd0-0166-44a5-b429-eec4e0ea6e17,"Das Essen ist zwar etwas teurer, aber die Qualität rechtfertigt den Preis.",GPT-3,5,fixed
+115,ae1468e7-0cd3-4a05-b96a-88d56b1de876,"Das Essen war fantastisch, aber die Preise sind etwas hoch.",GPT-3,5,fixed
+116,cf3fecc4-b30d-4b4f-9c54-0d82bdf40c01,"Das Essen war okay, aber die Preise waren auch nicht besonders günstig.",GPT-3,5,fixed
+117,9e6e9438-64d0-4c5b-920d-c5acff0dced2,Das Steak war zäh und trocken.,GPT-3,5,fixed
+118,29b56607-b4a6-4015-aeb2-c02dc5da4c64,Die Pizza war kalt und der Teig war nicht durchgebacken.,GPT-3,5,fixed
+119,a2cca02d-2131-48c7-962b-a462188df66f,"Das Essen war in Ordnung, aber nichts Besonderes.",GPT-3,5,fixed
