@@ -25,7 +25,7 @@ def get_trainer_TASD(train_data, test_data, tokenizer, results, cross_idx):
         weight_decay=constants.WEIGHT_DECAY_TASD,
         metric_for_best_model=constants.METRIC_FOR_BEST_MODEL_TASD,
         seed=constants.RANDOM_SEED,
-        fp16=torch.cuda.is_available(),
+        fp16=False,
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
         evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",

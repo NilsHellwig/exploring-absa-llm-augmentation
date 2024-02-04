@@ -19,7 +19,7 @@ EVALUATE_AFTER_EPOCH = True
 N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
 
 # ------------------ ACD ------------------
-MODEL_NAME_ACD = "deepset/gbert-base"
+MODEL_NAME_ACD = "deepset/gbert-large"
 LEARNING_RATE_ACD = 2.01e-05
 N_EPOCHS_ACD = 4
 BATCH_SIZE_ACD = 32
@@ -27,7 +27,7 @@ MAX_TOKENS_ACD = 256
 OUTPUT_DIR_ACD = "outputs/output_ACD"
 
 # ------------------ ACSA ------------------
-MODEL_NAME_ACSA = "deepset/gbert-base"
+MODEL_NAME_ACSA = "deepset/gbert-large"
 LEARNING_RATE_ACSA = 3.5e-05
 EPOCHS_ACSA = 3  # 5
 BATCH_SIZE_ACSA = 8
@@ -49,7 +49,7 @@ ID_TO_LABEL_E2E = {0: 'B_POSITIVE',
                    4: 'I_NEUTRAL',
                    5: 'I_NEGATIVE'}
 
-MODEL_NAME_E2E = "deepset/gbert-base"
+MODEL_NAME_E2E = "deepset/gbert-large"
 MAX_TOKENS_E2E = 256
 BATCH_SIZE_E2E = 16
 STEPS_E2E = 1500
@@ -59,7 +59,7 @@ WEIGHT_DECAY_E2E = 0.01
 
 # ------------------ TASD ------------------
 
-MODEL_NAME_TASD = "t5-base"
+MODEL_NAME_TASD = "t5-large"
 MAX_TOKENS_TASD = 256
 BATCH_SIZE_TASD = 16
 LEARNING_RATE_TASD = 3e-4
