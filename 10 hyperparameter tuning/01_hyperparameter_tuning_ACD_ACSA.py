@@ -16,7 +16,10 @@ import warnings
 import sys
 import shutil
 import subprocess
-warnings.filterwarnings("ignore", category=FutureWarning, module="transformers.optimization")
+warnings.filterwarnings("ignore", category=FutureWarning,
+                        module="transformers.optimization")
+import random
+
 
 class CustomDataset(TorchDataset):
     def __init__(self, encodings, labels):
@@ -24,12 +27,14 @@ class CustomDataset(TorchDataset):
         self.labels = labels
 
     def __getitem__(self, idx):
-        item = {key: val[idx].clone().detach() for key, val in self.encodings.items()}
+        item = {key: val[idx].clone().detach()
+                for key, val in self.encodings.items()}
         item["label"] = self.labels[idx].clone().detach()
         return item
 
     def __len__(self):
         return len(self.labels)
+
 
 class MultiLabelABSA:
     def __init__(self, data_path, result_path, model_name, n_samples):
@@ -37,12 +42,13 @@ class MultiLabelABSA:
         self.result_path = result_path
         self.model_id = model_name
         self.n_samples = n_samples
-    
+
     def preprocess_data(self, data, tokenizer):
         texts = data["text"].tolist()
         labels = data.iloc[:, 1:].astype(float).values.tolist()
         labels = torch.tensor(labels, dtype=torch.float32)
-        encodings = tokenizer(texts, padding=True, truncation=True, max_length=256, return_tensors="pt")
+        encodings = tokenizer(
+            texts, padding=True, truncation=True, max_length=256, return_tensors="pt")
         return CustomDataset(encodings, labels)
 
     def create_model(self):
@@ -60,11 +66,15 @@ class MultiLabelABSA:
 
         accuracy = accuracy_score(labels, predictions)
 
-        f1_macro = f1_score(labels, predictions, average="macro", zero_division=0)
-        f1_micro = f1_score(labels, predictions, average="micro", zero_division=0)
-        f1_weighted = f1_score(labels, predictions, average="weighted", zero_division=0)
+        f1_macro = f1_score(labels, predictions,
+                            average="macro", zero_division=0)
+        f1_micro = f1_score(labels, predictions,
+                            average="micro", zero_division=0)
+        f1_weighted = f1_score(labels, predictions,
+                               average="weighted", zero_division=0)
 
-        class_f1_scores = f1_score(labels, predictions, average=None, zero_division=0)
+        class_f1_scores = f1_score(
+            labels, predictions, average=None, zero_division=0)
 
         hamming = hamming_loss(labels, predictions)
 
@@ -77,20 +87,25 @@ class MultiLabelABSA:
             "class_f1_scores": class_f1_scores.tolist(),
         }
 
-    def multilabel_stratified_sampling(self, data, n_splits=4, random_state=42):
-        skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
+    def split_train_test(self):
+        shuffled_indices = self.data.index.tolist()
+        random.shuffle(shuffled_indices)
 
-        # Convert multilabel targets to multiclass targets
-        targets = data.iloc[:, 1:].values.argmax(axis=1)
+        train_indices = shuffled_indices[:self.n_samples]
+        train_data = self.data.loc[train_indices]
 
-        for train_index, test_index in skf.split(data["text"], targets):
-            train_data, test_data = data.iloc[train_index], data.iloc[test_index]
-            yield train_data, test_data
+        test_indices = shuffled_indices[self.n_samples:self.n_samples+500]
+        test_data = self.data.loc[test_indices]
 
-    def objective(self, trial):        
-        learning_rate = trial.suggest_float("learning_rate", self.hyperparameters["learning_rate"][0], self.hyperparameters["learning_rate"][1], log=True)
-        num_train_epochs = trial.suggest_int("num_train_epochs", self.hyperparameters["epochs"][0], self.hyperparameters["epochs"][1])
-        per_device_train_batch_size = trial.suggest_categorical("per_device_train_batch_size", self.hyperparameters["batch_size"]) # Times two since the system uses 2 GPUs
+        return train_data, test_data
+
+    def objective(self, trial):
+        learning_rate = trial.suggest_float(
+            "learning_rate", self.hyperparameters["learning_rate"][0], self.hyperparameters["learning_rate"][1], log=True)
+        num_train_epochs = trial.suggest_int(
+            "num_train_epochs", self.hyperparameters["epochs"][0], self.hyperparameters["epochs"][1])
+        per_device_train_batch_size = trial.suggest_categorical(
+            "per_device_train_batch_size", self.hyperparameters["batch_size"])  # Times two since the system uses 2 GPUs
 
         f1_micro_scores = []
         f1_macro_scores = []
@@ -103,8 +118,12 @@ class MultiLabelABSA:
         # Start measuring the runtime
         start_time = time.time()
 
-        for train_data, test_data in self.multilabel_stratified_sampling(self.data, n_splits = 4, random_state = 42):
-            train_dataset = self.preprocess_data(train_data[0:self.n_samples], self.tokenizer)
+        random.seed(43)
+
+        for k in range(5):
+            train_data, test_data = self.split_train_test()
+            train_dataset = self.preprocess_data(
+                train_data[0:self.n_samples], self.tokenizer)
             test_dataset = self.preprocess_data(test_data, self.tokenizer)
 
             model = self.create_model()
@@ -136,7 +155,8 @@ class MultiLabelABSA:
                 compute_metrics=self.compute_metrics
             )
 
-            print("Using the following hyperparameters: lr=" + str(learning_rate) + " - epochs=" + str(num_train_epochs) + " - batch=" + str(per_device_train_batch_size))
+            print("Using the following hyperparameters: lr=" + str(learning_rate) + " - epochs=" +
+                  str(num_train_epochs) + " - batch=" + str(per_device_train_batch_size))
 
             trainer.train()
             eval_metrics = trainer.evaluate()
@@ -149,10 +169,8 @@ class MultiLabelABSA:
             loss.append(eval_metrics["eval_loss"])
             hamming.append(eval_metrics["eval_hamming_loss"])
 
-
         shutil.rmtree(f"output_{sys.argv[2]}")
         subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
-
 
         # Calculate runtime
         runtime = time.time() - start_time
@@ -174,27 +192,30 @@ class MultiLabelABSA:
         ]
 
         # Save the results as a TSV file
-        self.results_df.to_csv(self.result_path, sep="\t",index=False)
+        self.results_df.to_csv(self.result_path, sep="\t", index=False)
 
         return np.mean(hamming)
-            
+
     def hyperparameterSearch(self, hp_config):
         # Load data
         self.hyperparameters = hp_config
-        
-        self.data = pd.read_csv(self.data_path, delimiter="\t", index_col=0).reset_index(drop=True)
-        self.data.columns = ["text"] + [f"aspect_{i}" for i in range(1, self.data.shape[1])]
+
+        self.data = pd.read_csv(
+            self.data_path, delimiter="\t", index_col=0).reset_index(drop=True)
+        self.data.columns = ["text"] + \
+            [f"aspect_{i}" for i in range(1, self.data.shape[1])]
 
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
         self.data_collator = DataCollatorWithPadding(tokenizer=self.tokenizer)
 
         # Update the results_df DataFrame
-        self.results_df = pd.DataFrame(columns=["trial", "learning_rate", "num_train_epochs", "per_device_train_batch_size", "runtime", 
-                                           "loss", "hamming_loss", "accuracy", "f1_micro", "f1_macro", "f1_weighted", "class_f1_scores"])
+        self.results_df = pd.DataFrame(columns=["trial", "learning_rate", "num_train_epochs", "per_device_train_batch_size", "runtime",
+                                                "loss", "hamming_loss", "accuracy", "f1_micro", "f1_macro", "f1_weighted", "class_f1_scores"])
 
         # Optuna optimization
         study = optuna.create_study(direction="minimize")
-        study.optimize(self.objective, n_trials=self.hyperparameters['num_trials'])
+        study.optimize(
+            self.objective, n_trials=self.hyperparameters['num_trials'])
 
 
 print(sys.argv[1], sys.argv[2])
@@ -208,7 +229,7 @@ if sys.argv[2] == "ACSA":
 if sys.argv[2] == "ACD":
     result_path = f"optuna_20_gbert_acd_{n_samples}.tsv"
     data_path = "./datasets/fehle-2023-hotel-absa/complete_re_df_cat.tsv"
-    
+
 
 model_name = "deepset/gbert-large"
 
@@ -221,7 +242,7 @@ hyperparameters = {
 
 # deepset/gbert-large
 # dbmdz/bert-base-german-uncased
-# distilbert-base-german-cased 
+# distilbert-base-german-cased
 
 absa = MultiLabelABSA(data_path, result_path, model_name, n_samples)
 absa.hyperparameterSearch(hyperparameters)
