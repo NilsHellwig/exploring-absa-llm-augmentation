@@ -33,10 +33,7 @@ def get_trainer_ACSA(train_data, test_data, tokenizer, results, cross_idx):
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
         evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
-        seed=constants.RANDOM_SEED,
-        lr_scheduler_type="constant",
-        warmup_steps=0,
-        warmup_ratio=0
+        seed=constants.RANDOM_SEED
     )
 
     compute_metrics_ACSA_fcn = compute_metrics_ACSA(results, cross_idx)

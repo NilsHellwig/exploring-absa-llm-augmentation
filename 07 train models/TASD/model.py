@@ -29,10 +29,7 @@ def get_trainer_TASD(train_data, test_data, tokenizer, results, cross_idx):
         report_to="none",
         do_eval=True if constants.EVALUATE_AFTER_EPOCH == True else False,
         evaluation_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
-        generation_max_length=256,
-        lr_scheduler_type="constant",
-        warmup_steps=0,
-        warmup_ratio=0
+        generation_max_length=256
     )
 
     data_collator = DataCollatorForSeq2Seq(tokenizer)
