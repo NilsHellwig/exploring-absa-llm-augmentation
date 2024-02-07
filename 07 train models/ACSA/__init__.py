@@ -1,5 +1,5 @@
 from ACSA.preprocessing import preprocess_data_ACSA
-from helper import format_seconds_to_time_string
+from helper import format_seconds_to_time_string, get_hyperparameters
 from ACSA.model import get_trainer_ACSA
 from transformers import AutoTokenizer
 import subprocess
@@ -40,8 +40,12 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         n_samples_train.append(len(train_data))
         n_samples_test.append(len(test_data))
 
+
+        # Get Hyperparameters
+        hyperparameters = get_hyperparameters("acsa", N_REAL + N_SYNTH)
+
         # Train Model
-        trainer = get_trainer_ACSA(train_data, test_data, tokenizer, results, cross_idx)
+        trainer = get_trainer_ACSA(train_data, test_data, tokenizer, results, cross_idx, hyperparameters)
         trainer.train()
 
         # save log history

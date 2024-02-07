@@ -1,5 +1,5 @@
 from transformers import AutoTokenizer
-from helper import format_seconds_to_time_string
+from helper import format_seconds_to_time_string, get_hyperparameters
 from ACD.preprocessing import preprocess_data_ACD
 from ACD.model import get_trainer_ACD
 from transformers import AutoTokenizer
@@ -43,8 +43,11 @@ def train_ACD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_datas
         n_samples_test.append(len(test_data))
 
 
+        hyperparameters = get_hyperparameters("acd", N_REAL + N_SYNTH)
+
+
         # Train Model
-        trainer = get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx)
+        trainer = get_trainer_ACD(train_data, test_data, tokenizer, results, cross_idx, hyperparameters)
         trainer.train()
 
         # save log history
