@@ -195,7 +195,7 @@ class MultiLabelABSA:
         # Save the results as a TSV file
         self.results_df.to_csv(self.result_path, sep="\t", index=False)
 
-        return np.mean(loss)
+        return np.mean(f1_micro_scores)
 
     def hyperparameterSearch(self, hp_config):
         # Load data
