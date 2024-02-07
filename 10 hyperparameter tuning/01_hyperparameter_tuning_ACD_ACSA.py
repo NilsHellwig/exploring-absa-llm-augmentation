@@ -119,9 +119,9 @@ class MultiLabelABSA:
         # Start measuring the runtime
         start_time = time.time()
 
-        random.seed(43)
 
         for k in range(5):
+            random.seed(43 + k)
             train_data, test_data = self.split_train_test()
             train_dataset = self.preprocess_data(
                 train_data[0:self.n_samples], self.tokenizer)
