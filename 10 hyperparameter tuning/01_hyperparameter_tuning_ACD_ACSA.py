@@ -91,12 +91,13 @@ class MultiLabelABSA:
         shuffled_indices = self.data.index.tolist()
         random.shuffle(shuffled_indices)
 
-        train_indices = shuffled_indices[:self.n_samples]
-        train_data = self.data.loc[train_indices]
+        train_indices = shuffled_indices[:2000]
+        train_data = self.data.loc[train_indices][0:self.n_samples]
 
-        test_indices = shuffled_indices[self.n_samples:self.n_samples+500]
+        test_indices = shuffled_indices[2000:2500]
         test_data = self.data.loc[test_indices]
 
+        print("n samples_train", len(train_data), len(test_data))
         return train_data, test_data
 
     def objective(self, trial):
@@ -194,7 +195,7 @@ class MultiLabelABSA:
         # Save the results as a TSV file
         self.results_df.to_csv(self.result_path, sep="\t", index=False)
 
-        return np.mean(hamming)
+        return np.mean(loss)
 
     def hyperparameterSearch(self, hp_config):
         # Load data
