@@ -1,3 +1,4 @@
+import random
 import pandas as pd
 import numpy as np
 from datasets import Dataset
@@ -18,7 +19,6 @@ import shutil
 import subprocess
 warnings.filterwarnings("ignore", category=FutureWarning,
                         module="transformers.optimization")
-import random
 
 
 class CustomDataset(TorchDataset):
@@ -100,12 +100,12 @@ class MultiLabelABSA:
         return train_data, test_data
 
     def objective(self, trial):
-        learning_rate = trial.suggest_float(
-            "learning_rate", self.hyperparameters["learning_rate"][0], self.hyperparameters["learning_rate"][1], log=True)
+        learning_rate = trial.suggest_categorical(
+            "learning_rate", self.hyperparameters["learning_rate"])
         num_train_epochs = trial.suggest_int(
             "num_train_epochs", self.hyperparameters["epochs"][0], self.hyperparameters["epochs"][1])
         per_device_train_batch_size = trial.suggest_categorical(
-            "per_device_train_batch_size", self.hyperparameters["batch_size"])  # Times two since the system uses 2 GPUs
+            "per_device_train_batch_size", self.hyperparameters["batch_size"])
 
         f1_micro_scores = []
         f1_macro_scores = []
@@ -235,9 +235,9 @@ model_name = "deepset/gbert-large"
 
 hyperparameters = {
     "num_trials": 20,
-    "epochs": [3, 20],
+    "epochs": [2, 20],
     "batch_size": [8, 16, 32],
-    "learning_rate": [2e-5, 5e-5]
+    "learning_rate": [2e-5, 3e-5, 4e-5, 5e-5]
 }
 
 # deepset/gbert-large
