@@ -134,7 +134,7 @@ class MultiLabelABSA:
                 learning_rate=learning_rate,
                 num_train_epochs=num_train_epochs,
                 per_device_train_batch_size=per_device_train_batch_size,
-                per_device_eval_batch_size=16,
+                per_device_eval_batch_size=per_device_train_batch_size,
                 evaluation_strategy="epoch",
                 save_strategy="epoch",
                 logging_dir="logs",
