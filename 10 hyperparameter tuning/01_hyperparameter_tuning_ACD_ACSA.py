@@ -134,13 +134,14 @@ class MultiLabelABSA:
                 learning_rate=learning_rate,
                 num_train_epochs=num_train_epochs,
                 per_device_train_batch_size=per_device_train_batch_size,
-                per_device_eval_batch_size=per_device_train_batch_size,
-                evaluation_strategy="epoch",
-                save_strategy="epoch",
+                per_device_eval_batch_size=16,
+                evaluation_strategy="no",
+                save_strategy="no",
+                do_eval=True,
                 logging_dir="logs",
                 logging_steps=100,
                 logging_strategy="epoch",
-                load_best_model_at_end=True,
+                load_best_model_at_end=False,
                 metric_for_best_model="f1_micro",
                 fp16=True,
                 report_to="none"
@@ -214,7 +215,7 @@ class MultiLabelABSA:
                                                 "loss", "hamming_loss", "accuracy", "f1_micro", "f1_macro", "f1_weighted", "class_f1_scores"])
 
         # Optuna optimization
-        study = optuna.create_study(direction="minimize")
+        study = optuna.create_study(direction="maximize")
         study.optimize(
             self.objective, n_trials=self.hyperparameters['num_trials'])
 
