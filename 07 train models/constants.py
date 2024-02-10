@@ -21,7 +21,6 @@ N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
 # ------------------ ACD ------------------
 MODEL_NAME_ACD = "deepset/gbert-large"
 LEARNING_RATE_ACD = 2.01e-05
-N_EPOCHS_ACD = 4
 BATCH_SIZE_ACD = 32
 MAX_TOKENS_ACD = 256
 OUTPUT_DIR_ACD = "outputs/output_ACD"
@@ -29,7 +28,6 @@ OUTPUT_DIR_ACD = "outputs/output_ACD"
 # ------------------ ACSA ------------------
 MODEL_NAME_ACSA = "deepset/gbert-large"
 LEARNING_RATE_ACSA = 3.5e-05
-EPOCHS_ACSA = 3  # 5
 BATCH_SIZE_ACSA = 8
 MAX_TOKENS_ACSA = 256
 OUTPUT_DIR_ACSA = "outputs/output_ACSA"
