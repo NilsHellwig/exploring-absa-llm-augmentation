@@ -15,7 +15,7 @@ N_SPLITS_MAP_REAL = {
     1500: 3,
     2000: 4
 }
-EVALUATE_AFTER_EPOCH = True
+EVALUATE_AFTER_EPOCH = False
 N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
 
 # ------------------ ACD ------------------
