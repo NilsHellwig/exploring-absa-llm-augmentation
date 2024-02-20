@@ -1,6 +1,22 @@
-\multirow{2}{*}{\textbf{Llama-2-70B}} & \textbf{LRS\textsubscript{25}} & 40.25 & 25.20 & 36.74 & 44.50 \\
- & \textbf{LRS\textsubscript{500}} & 43.62 & 27.89 & 40.05 & 47.89 \\
+\multirow{3}{*}{\textbf{Real Examples}} & \multirow{3}{*}{-} & 500 & 0 & 64.77\textsubscript{1.67} & 47.92\textsubscript{1.80} \\
+ &  & 1,000 & 0 & 67.33\textsubscript{1.37} & 50.76\textsubscript{1.54} \\
+ &  & 2,000 & 0 & 70.11\textsubscript{0.96} & 53.98\textsubscript{1.13} \\
 \hline
-\multirow{2}{*}{\textbf{GPT-3.5-turbo}} & \textbf{LRS\textsubscript{25}} & 56.68 & 39.55 & 55.39 & 58.03 \\
- & \textbf{LRS\textsubscript{500}} & 56.30 & 39.17 & 55.89 & 56.71 \\
+\multirow{6}{*}{\textbf{Llama-2-70B}} & \multirow{3}{*}{\textbf{LRS\textsubscript{25}}} & 25 & 475 & 34.29\textsubscript{2.55} & 20.72\textsubscript{1.86} \\
+ &  & 25 & 975 & 34.84\textsubscript{1.63} & 21.11\textsubscript{1.20} \\
+ &  & 25 & 1,975 & 34.91\textsubscript{3.12} & 21.19\textsubscript{2.25} \\
+\arrayrulecolor{gray}\cline{2-6}\arrayrulecolor{black}
+ & \multirow{3}{*}{\textbf{LRS\textsubscript{500}}} & 500 & 500 & 58.25\textsubscript{0.77} & 41.10\textsubscript{0.76} \\
+ &  & 500 & 1,000 & 54.45\textsubscript{0.92} & 37.41\textsubscript{0.87} \\
+ &  & 500 & 1,500 & 53.28\textsubscript{1.94} & 36.34\textsubscript{1.78} \\
+\arrayrulecolor{gray}\cline{2-6}\arrayrulecolor{black}
+\hline
+\multirow{6}{*}{\textbf{GPT-3.5-turbo}} & \multirow{3}{*}{\textbf{LRS\textsubscript{25}}} & 25 & 475 & 38.88\textsubscript{2.71} & 24.16\textsubscript{2.11} \\
+ &  & 25 & 975 & 37.44\textsubscript{4.23} & 23.11\textsubscript{3.18} \\
+ &  & 25 & 1,975 & 35.47\textsubscript{2.89} & 21.60\textsubscript{2.12} \\
+\arrayrulecolor{gray}\cline{2-6}\arrayrulecolor{black}
+ & \multirow{3}{*}{\textbf{LRS\textsubscript{500}}} & 500 & 500 & 61.52\textsubscript{1.20} & 44.43\textsubscript{1.26} \\
+ &  & 500 & 1,000 & 59.91\textsubscript{1.56} & 42.79\textsubscript{1.59} \\
+ &  & 500 & 1,500 & 59.67\textsubscript{1.04} & 42.53\textsubscript{1.05} \\
+\arrayrulecolor{gray}\cline{2-6}\arrayrulecolor{black}
 \hline
