@@ -1,0 +1,6 @@
+\multirow{2}{*}{\textbf{Llama-2-70B}} & \textbf{LRS\textsubscript{25}} & 40.25 & 25.20 & 36.74 & 44.50 \\
+ & \textbf{LRS\textsubscript{500}} & 43.62 & 27.89 & 40.05 & 47.89 \\
+\hline
+\multirow{2}{*}{\textbf{GPT-3.5-turbo}} & \textbf{LRS\textsubscript{25}} & 56.68 & 39.55 & 55.39 & 58.03 \\
+ & \textbf{LRS\textsubscript{500}} & 56.30 & 39.17 & 55.89 & 56.71 \\
+\hline
