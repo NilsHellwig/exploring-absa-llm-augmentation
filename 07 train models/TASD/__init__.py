@@ -26,7 +26,7 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
     n_samples_test = []
     metrics_models = []
     log_history = {}
-    
+
     start_time = time.time()
 
     tokenizer = T5Tokenizer.from_pretrained(constants.MODEL_NAME_TASD)
@@ -47,9 +47,10 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
                                       [encode_example(example, tokenizer)["attention_mask"]
                                        for example in test_data],
                                       [encode_example(example, tokenizer)["labels"] for example in test_data])
-        
+
         # Train Model
-        trainer = get_trainer_TASD(train_data, test_data, tokenizer, results_meta, cross_idx)
+        trainer = get_trainer_TASD(
+            train_data, test_data, tokenizer, results_meta, cross_idx)
         trainer.train()
 
         # save log history
@@ -59,9 +60,8 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
         eval_metrics = trainer.evaluate(test_data)
         print(f"Split {cross_idx}:", eval_metrics)
 
-         # Save Evaluation of Split
+        # Save Evaluation of Split
         results["single_split_results"].append(eval_metrics)
-
 
         # Save Metrics for fold
         for metric in eval_metrics.keys():
@@ -70,21 +70,34 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
                 metrics_models.append(metric)
 
             results[metric].append(eval_metrics[metric])
-        
+
+        for comb in [(ac, pol) for ac in constants.ASPECT_CATEGORIES for pol in constants.POLARITIES]:
+            aspect_category = comb[0]
+            polarity = comb[1]
+            for metric in ["n_examples", "f1", "recall", "precision", "accuracy"]:
+                if metric+"_"+aspect_category+"_"+polarity not in results:
+                    results["eval_"+metric+"_" +
+                            aspect_category+"_"+polarity] = []
+                    metrics_models.append(
+                        "eval_" + metric+"_"+aspect_category+"_"+polarity)
+
+                results["eval_"+metric+"_"+aspect_category+"_"+polarity].append(
+                    eval_metrics["eval_" + metric+"_"+aspect_category+"_"+polarity])
+
         loss.append(eval_metrics["eval_loss"])
 
-        path_output = constants.OUTPUT_DIR_TASD + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
+        path_output = constants.OUTPUT_DIR_TASD + "_" + results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(
+            results["N_SYNTH"]) + "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx)
         shutil.rmtree(path_output)
 
         subprocess.call("rm -rf /home/mi/.local/share/Trash", shell=True)
-    
+
     runtime = time.time() - start_time
 
     results["eval_loss"] = np.mean(loss)
-    
+
     for metric in metrics_models:
         results[metric] = np.mean(results[metric])
-
 
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)

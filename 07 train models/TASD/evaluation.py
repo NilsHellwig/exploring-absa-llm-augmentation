@@ -36,17 +36,35 @@ def compute_metrics_TASD(results, cross_idx):
         for metric in ["f1", "recall", "precision", "accuracy"]:
             metrics[metric] = total_metrics[metric]
 
-        # Calculate metrics for each aspect category
-        for aspect_category in constants.ASPECT_CATEGORIES:
-            pred_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
-                               == aspect_category] for example in pred_tuples]
-            labels_tuples_ac = [[tuple for tuple in example if tuple["aspect_category"]
-                                 == aspect_category] for example in labels_tuples]
-            ac_metrics = calculate_metrics_for_examples(
-                labels_tuples_ac, pred_tuples_ac)
+        for comb in [(ac, pol) for ac in constants.ASPECT_CATEGORIES for pol in constants.POLARITIES]:
+            aspect_category = comb[0]
+            polarity = comb[1]
+
+            pred_tuples_ac_pol = [[tuple for tuple in example if tuple["aspect_category"] ==
+                                   aspect_category and tuple["aspect_polarity"] == polarity] for example in pred_tuples]
+            labels_tuples_ac_pol = [[tuple for tuple in example if tuple["aspect_category"] ==
+                                     aspect_category and tuple["aspect_polarity"] == polarity] for example in labels_tuples]
+
+            n_examples = sum([len(tuple) for tuple in labels_tuples_ac_pol])
+            metrics["n_examples_"+aspect_category+"_"+polarity] = n_examples
+
+            ac_pol_metrics = calculate_metrics_for_examples(
+                labels_tuples_ac_pol, pred_tuples_ac_pol)
+
             for metric in ["f1", "recall", "precision", "accuracy"]:
-                metrics[metric+"_"+aspect_category] = ac_metrics[metric]
+                metrics[metric+"_"+aspect_category+"_" +
+                        polarity] = ac_pol_metrics[metric]
+
+        f1_macro_sum = 0
+        for comb in [(ac, pol) for ac in constants.ASPECT_CATEGORIES for pol in constants.POLARITIES]:
+            aspect_category = comb[0]
+            polarity = comb[1]
+            f1_macro_sum += metrics["f1_"+aspect_category+"_"+polarity]
+
+        metrics["f1_macro"] = f1_macro_sum / \
+            len(constants.ASPECT_CATEGORIES) / len(constants.POLARITIES)
         return metrics
+
     return compute_metrics
 
 
@@ -101,7 +119,8 @@ def calculate_metrics_for_examples(labels, predictions):
     recall = tp_total / \
         (tp_total + fn_total) if (tp_total + fn_total) > 0 else 0
     accuracy = (tp_total + tn_total) / \
-        (tp_total + tn_total + fp_total + fn_total)
+        (tp_total + tn_total + fp_total + fn_total) if (tp_total +
+                                                        tn_total + fp_total + fn_total) > 0 else 0
 
     f1 = 2 * (precision * recall) / (precision +
                                      recall) if (precision + recall) > 0 else 0
