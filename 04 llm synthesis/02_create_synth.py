@@ -49,9 +49,9 @@ COMBINATIONS = [(aspect, polarity)
 
 STOP_CRITERIA = ["\n"]
 
-MODELS = ["Llama13B", "Llama70B", "Falcon40B", "GPT-3"]
+MODELS = ["Llama3_8B", "Llama3_70B", "Llama13B", "Llama70B", "Falcon40B", "GPT-3"]
 # 175B, 70B und 40B
-MODEL_PATHS = {"Llama13B": "llm_models/llama-2-13b.Q4_0.gguf",
+MODEL_PATHS = {"Llama3_8B": "llm_models/llama-3-8b.Q4_0.gguf", "Llama3_70B": "llm_models/Meta-Llama-3-70B-Q4_K_M.gguf", "Llama13B": "llm_models/llama-2-13b.Q4_0.gguf",
                "Llama70B": "llm_models/llama-2-70b.Q4_0.gguf", "Falcon40B": "llm_models/falcon-40b-Q4_K_S.gguf"}
 MODEL_NAME = MODELS[MODEL_ID]
 
@@ -73,7 +73,7 @@ with open(DATASET_PATH, 'r', encoding='utf-8') as json_file:
 
 # Setup Model
 
-if MODEL_NAME == "Llama70B":
+if MODEL_NAME == "Llama70B" or MODEL_NAME == "Llama3_70B":
     llm = Llama(model_path=MODEL_PATHS[MODEL_NAME], seed=SEED,
                 n_gpu_layers=44, n_ctx=CONTEXT_SIZE, verbose=False, n_gqa=8)
     clear_output(wait=False)
@@ -81,10 +81,12 @@ if MODEL_NAME == "Llama70B":
     def llm_model(text):
         return llm(text, max_tokens=MAX_TOKENS, stop=STOP_CRITERIA, echo=True, top_p=1, temperature=TEMPERATURE)["choices"][0]["text"][len(text):]
 
-if MODEL_NAME == "Llama13B" or MODEL_NAME == "Falcon40B":
+if MODEL_NAME == "Llama3_8B" or MODEL_NAME == "Llama13B" or MODEL_NAME == "Falcon40B":
+    print("enter")
     llm = Llama(model_path=MODEL_PATHS[MODEL_NAME], seed=SEED,
                 n_gpu_layers=1, n_ctx=CONTEXT_SIZE, verbose=False)
     clear_output(wait=False)
+    print("out")
 
     def llm_model(text):
         return llm(text, max_tokens=MAX_TOKENS, stop=STOP_CRITERIA, echo=True, top_p=1, temperature=TEMPERATURE)["choices"][0]["text"][len(text):]
@@ -103,7 +105,6 @@ if MODEL_NAME == "GPT-3":
             stop=STOP_CRITERIA
         )
         return response.choices[0].message.content.strip()
-
 
 # Load Labels and Examples
 
@@ -179,15 +180,18 @@ for idx, label in enumerate(labels):
 
                 if invalid_xml_names:
                     # für den fall, dass es invalide xml namen gab z.B. "apsect-term" statt aspect-term, wird trotzdem der restliche text
-                    # analysiert. 
-                    prediction_as_json = xml_to_json(remove_xml_tags_from_string(prediction), label, MODEL_NAME, SPLIT)
+                    # analysiert.
+                    prediction_as_json = xml_to_json(
+                        remove_xml_tags_from_string(prediction), label, MODEL_NAME, SPLIT)
                 else:
-                    prediction_as_json = xml_to_json(prediction, label, MODEL_NAME, SPLIT)
+                    prediction_as_json = xml_to_json(
+                        prediction, label, MODEL_NAME, SPLIT)
 
                 # 01 check if aspects are present in label
                 if prediction_as_json == "not-in-label":
                     # since some checks will be made afterwards, we need the json format with all meta data
-                    prediction_as_json = xml_to_json(prediction, label, MODEL_NAME, SPLIT, check_label=False)
+                    prediction_as_json = xml_to_json(
+                        prediction, label, MODEL_NAME, SPLIT, check_label=False)
                     valid_language_check = False
                     aspect_polarity_in_text_but_not_in_label += 1
 
@@ -195,7 +199,7 @@ for idx, label in enumerate(labels):
                 if len(prediction_as_json["text"]) == 0:
                     valid_language_check = False
                     no_token_in_sentence += 1
-                
+
                 # 03 count number of sentences
                 if count_sentences_in_text(prediction_as_json["text"]) > 1:
                     valid_language_check = False
