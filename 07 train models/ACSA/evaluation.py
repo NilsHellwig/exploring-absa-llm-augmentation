@@ -40,15 +40,16 @@ def compute_metrics_ACSA(results, cross_idx):
                 class_labels, class_predictions, zero_division=0, average='micro')
             recall = recall_score(
                 class_labels, class_predictions, zero_division=0, average='micro')
-            f1 = f1_score(class_labels, class_predictions, zero_division=0, average='micro')
+            f1 = f1_score(class_labels, class_predictions,
+                          zero_division=0, average='micro')
             accuracy = accuracy_score(class_labels, class_predictions)
 
             metrics[f"precision_{aspect_category}"] = precision
             metrics[f"recall_{aspect_category}"] = recall
             metrics[f"f1_{aspect_category}"] = f1
             metrics[f"accuracy_{aspect_category}"] = accuracy
-            metrics[f"n_examples_{aspect_category}"] = sum(1 in sublist for sublist in class_labels)
-
+            metrics[f"n_examples_{aspect_category}"] = sum(
+                1 in sublist for sublist in class_labels)
 
         # performance for each category and sentiment
         for i, aspect_category_sentiment in enumerate(constants.ASPECT_CATEGORY_POLARITIES):
@@ -62,11 +63,20 @@ def compute_metrics_ACSA(results, cross_idx):
             f1 = f1_score(class_labels, class_predictions, zero_division=0)
             accuracy = accuracy_score(class_labels, class_predictions)
 
-            metrics[f"precision_{aspect_category_sentiment}"] = precision
-            metrics[f"recall_{aspect_category_sentiment}"] = recall
-            metrics[f"f1_{aspect_category_sentiment}"] = f1
-            metrics[f"accuracy_{aspect_category_sentiment}"] = accuracy
-            metrics[f"n_examples_{aspect_category_sentiment}"] = class_labels.count(1) 
+            if all(el == 0 for el in class_labels):
+                metrics[f"precision_{aspect_category_sentiment}"] = "no examples for evaluation"
+                metrics[f"recall_{aspect_category_sentiment}"] = "no examples for evaluation"
+                metrics[f"f1_{aspect_category_sentiment}"] = "no examples for evaluation"
+                metrics[f"accuracy_{aspect_category_sentiment}"] = "no examples for evaluation"
+                metrics[f"n_examples_{aspect_category_sentiment}"] = "no examples for evaluation"
+            else:
+
+                metrics[f"precision_{aspect_category_sentiment}"] = precision
+                metrics[f"recall_{aspect_category_sentiment}"] = recall
+                metrics[f"f1_{aspect_category_sentiment}"] = f1
+                metrics[f"accuracy_{aspect_category_sentiment}"] = accuracy
+                metrics[f"n_examples_{aspect_category_sentiment}"] = class_labels.count(
+                    1)
 
         return metrics
     return compute_metrics
