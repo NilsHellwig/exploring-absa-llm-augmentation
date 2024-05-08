@@ -27,3 +27,7 @@ pip install -r requirements.txt
 python -m spacy download de_core_news_lg
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 ```
+
+## Download Synthetic Dataset
+
+[Google Drive Download](https://drive.google.com/file/d/14zz0eBFEJssVORUB0NGiYx4trwK3oVQJ/view?usp=drive_link)

@@ -45,3 +45,6 @@ __tests/
 07 train models/split_results/
 EV Erklärungen/VP2.pdf
 EV Erklärungen/VP1.pdf
+07 train models/synth/Llama3_70B/
+07 train models/synth/Llama2_70B/
+07 train models/synth.zip
