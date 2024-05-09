@@ -31,7 +31,7 @@ def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
     start_time = time.time()
 
     tokenizer = AutoTokenizer.from_pretrained(constants.MODEL_NAME_ACSA)
-    metrics_prefixes = ["accuracy", "hamming_loss", "f1_macro", "f1_micro", "f1_weighted"] + [
+    metrics_prefixes = ["accuracy", "hamming_loss", "f1_macro", "f1_micro", "f1_macro_fct", "f1_weighted"] + [
         f"{m}_{ac}" for ac in constants.ASPECT_CATEGORIES for m in ["precision", "recall", "f1", "accuracy", "n_examples"]] + [
         f"{m}_{ac}-{polarity}" for ac in constants.ASPECT_CATEGORIES for polarity in constants.POLARITIES for m in ["precision", "recall", "f1", "accuracy", "n_examples"]]
     metrics_total = {f"{m}": [] for m in metrics_prefixes}

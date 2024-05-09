@@ -1,6 +1,7 @@
 from sklearn.metrics import f1_score, accuracy_score, hamming_loss, precision_score, recall_score
 from scipy.special import expit
 from helper import save_pred_and_labels
+import numpy as np
 import constants
 
 
@@ -25,7 +26,7 @@ def compute_metrics_ACSA(results, cross_idx):
         metrics = {
             "hamming_loss": hamming,
             "accuracy": accuracy,
-            "f1_macro": f1_macro,
+            "f1_macro_fct": f1_macro,
             "f1_micro": f1_micro,
             "f1_weighted": f1_weighted,
         }
@@ -52,6 +53,7 @@ def compute_metrics_ACSA(results, cross_idx):
                 1 in sublist for sublist in class_labels)
 
         # performance for each category and sentiment
+        f1_macro_dedicated = []
         for i, aspect_category_sentiment in enumerate(constants.ASPECT_CATEGORY_POLARITIES):
             class_labels = [label[i] for label in labels]
             class_predictions = [prediction[i] for prediction in predictions]
@@ -74,9 +76,11 @@ def compute_metrics_ACSA(results, cross_idx):
                 metrics[f"precision_{aspect_category_sentiment}"] = precision
                 metrics[f"recall_{aspect_category_sentiment}"] = recall
                 metrics[f"f1_{aspect_category_sentiment}"] = f1
+                f1_macro_dedicated.append(f1)
                 metrics[f"accuracy_{aspect_category_sentiment}"] = accuracy
                 metrics[f"n_examples_{aspect_category_sentiment}"] = class_labels.count(
                     1)
+        metrics["f1_macro"] = np.mean(f1_macro_dedicated)
 
         return metrics
     return compute_metrics
