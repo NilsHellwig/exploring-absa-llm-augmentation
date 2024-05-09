@@ -19,10 +19,10 @@ def get_trainer_ACSA(train_data, test_data, tokenizer, results, cross_idx, hyper
         output_dir=constants.OUTPUT_DIR_ACSA+"_" +
         results["LLM_NAME"]+"_"+str(results["N_REAL"])+"_"+str(results["N_SYNTH"]) +
         "_"+results["TARGET"]+"_"+results["LLM_SAMPLING"]+"_"+str(cross_idx),
-        learning_rate=hyperparameters["learning_rate"],
-        num_train_epochs=hyperparameters["n_epochs"],
-        per_device_train_batch_size=hyperparameters["batch_size"],
-        per_device_eval_batch_size=hyperparameters["batch_size"],
+        learning_rate=constants.LEARNING_RATE_ACSA,
+        num_train_epochs=constants.EPOCHS_ACSA,
+        per_device_train_batch_size=constants.BATCH_SIZE_ACSA,
+        per_device_eval_batch_size=constants.BATCH_SIZE_ACSA,
         save_strategy="epoch" if constants.EVALUATE_AFTER_EPOCH == True else "no",
         logging_dir="logs",
         logging_steps=100,

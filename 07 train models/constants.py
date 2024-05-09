@@ -20,17 +20,19 @@ N_EPOCHS_EARLY_STOPPING_PATIENCE = 25
 
 # ------------------ ACD ------------------
 MODEL_NAME_ACD = "deepset/gbert-large"
-LEARNING_RATE_ACD = 2.01e-05
-BATCH_SIZE_ACD = 32
+LEARNING_RATE_ACD = 2e-5
+BATCH_SIZE_ACD = 16
 MAX_TOKENS_ACD = 256
 OUTPUT_DIR_ACD = "outputs/output_ACD"
+EPOCHS_ACD = 3
 
 # ------------------ ACSA ------------------
 MODEL_NAME_ACSA = "deepset/gbert-large"
-LEARNING_RATE_ACSA = 3.5e-05
-BATCH_SIZE_ACSA = 8
+LEARNING_RATE_ACSA = 2e-5
+BATCH_SIZE_ACSA = 16
 MAX_TOKENS_ACSA = 256
 OUTPUT_DIR_ACSA = "outputs/output_ACSA"
+EPOCHS_ACSA = 3
 
 # ------------------ E2E ------------------
 LABEL_TO_ID_E2E = {'B_POSITIVE': 0,
