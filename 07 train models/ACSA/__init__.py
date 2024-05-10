@@ -1,5 +1,5 @@
 from ACSA.preprocessing import preprocess_data_ACSA
-from helper import format_seconds_to_time_string, get_hyperparameters
+from helper import format_seconds_to_time_string, get_hyperparameters, filter_str
 from ACSA.model import get_trainer_ACSA
 from transformers import AutoTokenizer
 import subprocess
@@ -7,10 +7,6 @@ import numpy as np
 import constants
 import time
 import shutil
-
-
-def filter_str(values):
-    return [value for value in values if isinstance(value, (int, float))]
 
 
 def train_ACSA_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_dataset, test_dataset):

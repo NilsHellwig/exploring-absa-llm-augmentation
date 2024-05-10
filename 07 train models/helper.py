@@ -51,3 +51,6 @@ def get_hyperparameters(task, sample_size):
         'learning_rate', 'num_train_epochs', 'per_device_train_batch_size', 'f1_micro', 'accuracy']]
 
     return {"n_epochs": int(values_at_max_f1_micro["num_train_epochs"]), "learning_rate": float(values_at_max_f1_micro["learning_rate"]), "batch_size": int(values_at_max_f1_micro["per_device_train_batch_size"])}
+
+def filter_str(values):
+    return [value for value in values if isinstance(value, (int, float))]

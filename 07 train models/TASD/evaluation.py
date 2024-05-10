@@ -1,5 +1,5 @@
 from TASD.translate_sequence_to_tuples import preprocess_for_metrics
-from helper import save_pred_and_labels
+from helper import save_pred_and_labels, filter_str
 from transformers import AutoTokenizer
 from datasets import load_metric
 import numpy as np
@@ -52,17 +52,19 @@ def compute_metrics_TASD(results, cross_idx):
                 labels_tuples_ac_pol, pred_tuples_ac_pol)
 
             for metric in ["f1", "recall", "precision", "accuracy"]:
-                metrics[metric+"_"+aspect_category+"_" +
-                        polarity] = ac_pol_metrics[metric]
+                if n_examples > 0:
+                    metrics[metric+"_"+aspect_category+"_" +
+                            polarity] = ac_pol_metrics[metric]
+                else:
+                    metrics[metric+"_"+aspect_category+"_" + polarity] = "no examples for evaluation"
 
-        f1_macro_sum = 0
+        f1_classes = []
         for comb in [(ac, pol) for ac in constants.ASPECT_CATEGORIES for pol in constants.POLARITIES]:
             aspect_category = comb[0]
             polarity = comb[1]
-            f1_macro_sum += metrics["f1_"+aspect_category+"_"+polarity]
+            f1_classes.append(metrics["f1_"+aspect_category+"_"+polarity])
 
-        metrics["f1_macro"] = f1_macro_sum / \
-            len(constants.ASPECT_CATEGORIES) / len(constants.POLARITIES)
+        metrics["f1_macro"] = np.mean(filter_str(f1_classes))
         return metrics
 
     return compute_metrics
