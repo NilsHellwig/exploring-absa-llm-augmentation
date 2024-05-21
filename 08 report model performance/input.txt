@@ -1,5 +1,4 @@
-\multirow{3}{*}{\textbf{LRS\textsubscript{500}}} & 500 & 500 & 61.52\textsubscript{1.20} & 51.26\textsubscript{6.09} & 44.43\textsubscript{1.26} \\
- &  & 500 & 1,000 & 59.91\textsubscript{1.56} & 49.17\textsubscript{7.75} & 42.79\textsubscript{1.59} \\
- &  & 500 & 1,500 & 59.67\textsubscript{1.04} & 48.14\textsubscript{3.80} & 42.53\textsubscript{1.05} \\
-\arrayrulecolor{gray}\cline{2-7}\arrayrulecolor{black}
-\hline
+\multirow{3}{*}{\textbf{LRS\textsubscript{500}}} & 500 & 500 & 61.39\textsubscript{1.15} & 50.83\textsubscript{6.11} \\
+ &  & 500 & 1,000 & 59.51\textsubscript{1.90} & 50.51\textsubscript{6.63} \\
+ &  & 500 & 1,500 & 59.42\textsubscript{1.74} & 48.76\textsubscript{5.04} \\
+\arrayrulecolor{gray}\cline{2-6}\arrayrulecolor{black}
