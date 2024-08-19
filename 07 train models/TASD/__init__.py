@@ -1,4 +1,4 @@
-from helper import format_seconds_to_time_string
+from helper import format_seconds_to_time_string, filter_str
 from transformers import T5Tokenizer
 from TASD.preprocessing import CustomDatasetTASD, encode_example
 from TASD.model import get_trainer_TASD
@@ -97,7 +97,8 @@ def train_TASD_model(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING, train_data
     results["eval_loss"] = np.mean(loss)
 
     for metric in metrics_models:
-        results[metric] = np.mean(results[metric])
+        # "no examples for evaluation" will be filtered this way
+        results[metric] = np.mean(filter_str(results[metric]))
 
     results["runtime"] = runtime
     results["runtime_formatted"] = format_seconds_to_time_string(runtime)

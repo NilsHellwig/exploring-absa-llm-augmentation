@@ -44,10 +44,13 @@ def save_pred_and_labels(predictions, labels, results, cross_idx):
 
 def get_hyperparameters(task, sample_size):
     print(task, sample_size)
-    tsv_file_path = f"../10 hyperparameter tuning/optuna_20_gbert_{task}_{sample_size}.tsv"
+    tsv_file_path = f"hyperparameter tuning classification tasks/optuna_20_gbert_{task}_{sample_size}.tsv"
     df = pd.read_csv(tsv_file_path, delimiter='\t')
     max_f1_micro_index = df['f1_micro'].idxmax()
     values_at_max_f1_micro = df.loc[max_f1_micro_index, [
         'learning_rate', 'num_train_epochs', 'per_device_train_batch_size', 'f1_micro', 'accuracy']]
 
     return {"n_epochs": int(values_at_max_f1_micro["num_train_epochs"]), "learning_rate": float(values_at_max_f1_micro["learning_rate"]), "batch_size": int(values_at_max_f1_micro["per_device_train_batch_size"])}
+
+def filter_str(values):
+    return [value for value in values if isinstance(value, (int, float))]
