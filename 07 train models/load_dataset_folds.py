@@ -25,7 +25,7 @@ def check_for_duplicate_ids(train_dataset, test_dataset):
                 "Ids used in both training and test data: " + str(common_ids))
 
 
-def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random):
+def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random, with_translation=False):
     if LLM_SAMPLING == "fixed" and N_SYNTH == 0:
         raise Exception(
             "Fixed adds 25 real samples. Please use random for LLM_SAMPLING to evaluate only real examples.")
@@ -61,8 +61,6 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random):
         # Wenn N_REAL = 1000, dann ist n_splits_required_real = 2
         n_splits_required_real = constants.N_SPLITS_MAP_REAL.get(N_REAL, 0)
 
-
-
         # load first split
         for idx_real in range(constants.N_FOLDS):
             train_dataset.append([])
@@ -70,6 +68,13 @@ def load_dataset_folds(LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random):
                 real_split = json.load(json_datei)
             for example in real_split:
                 train_dataset[idx_real].append(example)
+
+            if with_translation:
+                with open(f'../07 train models/real_bt/split_{constants.SPLIT_LOOP[1:constants.N_FOLDS+1][idx_real]}.json', 'r') as json_datei:
+                    real_split = json.load(json_datei)
+                for example in real_split:
+                    train_dataset[idx_real].append(example)
+
             random.shuffle(train_dataset[idx_real])
 
         # load more splits if required

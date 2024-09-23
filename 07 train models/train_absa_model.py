@@ -28,6 +28,8 @@ LLM_SAMPLING = sys.argv[5]
 if LLM_SAMPLING not in ["random", "fixed"]:
     raise ValueError("Error: Not a valid sampling strategy")
 
+WITH_TRANSLATION = sys.argv[6]
+
 print(LLM_NAME, N_REAL, N_SYNTH, TARGET, LLM_SAMPLING)
 
 # Settings
@@ -66,7 +68,7 @@ for folder in folders:
 
 # Load Dataset
 train_dataset, test_dataset = load_dataset_folds(
-    LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random)
+    LLM_NAME, N_REAL, N_SYNTH, LLM_SAMPLING, random, with_translation=WITH_TRANSLATION)
 
 
 # Load Model

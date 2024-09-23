@@ -18,3 +18,4 @@ rouge-score==0.1.2
 more_itertools==10.1.0
 llama-cpp-python
 python-Levenshtein==0.24.0
+deep_translator==1.11.4
