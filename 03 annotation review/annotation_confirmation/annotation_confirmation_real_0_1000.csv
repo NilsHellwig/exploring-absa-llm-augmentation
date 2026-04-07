@@ -1,0 +1,1801 @@
+id,second_annotator_comment,annotation,aspect_available_without_judgement,text
+7a8af706-b7e9-40db-80ca-03fb392df7d6,,,✅,"Die Gäste, die dann noch im Restaurant sind, haben eben Pech."
+0eee5bde-a56e-490c-865e-ee38b5b68b02,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade!
+92ceb6b4-7d93-4b9f-a08c-645318d605a4,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Das Ambiente ist auch super und für ein Bräustüberl absolut stimmig.
+8bc6666b-9a3c-408c-86dc-a56726e9a22a,,"('GENERAL-IMPRESSION', 'POSITIVE', 'LOC')
+",,Hier waren wir nach einem Konzert in der LOC und es hat uns sehr gut gefallen.
+709d6b9c-9565-46fb-8b34-b442e186b7a7,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Lokal')
+",,Und ich weiß dass ich niemals irgendwo anders eine Haxe testen werde und hoffe einfach nur dass dieses Lokal uns noch lange erhalten bleibt.
+f4547f28-7222-42e0-b477-c7c8e4c58e2c,,,✅,"Da slle Köche sus LOC kommen, wäre ein Coaching mit einem Könner angebracht."
+dccc0686-8165-4f9d-982a-f80a2a060191,,"('FOOD', 'POSITIVE', 'Lammkoteletts')
+('FOOD', 'POSITIVE', 'Fusili mit salciche3')
+('FOOD', 'NEGATIVE', 'Mozarella')
+",,"Das Essen : Licht und Schatten: die Antipasti misto mit billigen Mozarella - die Lammkoteletts waren dafür 1a, ebenso die Fusili mit salciche3."
+ef331aea-c581-4ec9-be31-10f239834542,,,✅,Tische blieben auch den restlichen Abend frei.
+06aacbb0-fc65-4bc5-8068-7d743f34d32a,,"('AMBIENCE', 'POSITIVE', 'Räumen')
+('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Köbesse')
+",,"Der Laden ist ein wahrer Fuchsbau mit zahlreichen urigen Räumen, die Köbesse sind grimmig-gleichgültig, das Essen gut-bürgerlich."
+2d1ab6cd-00c1-47ba-b342-eb5cae2332ed,,"('SERVICE', 'POSITIVE', 'Team')
+('SERVICE', 'POSITIVE', 'Chefs')
+('FOOD', 'POSITIVE', 'Küche')
+('SERVICE', 'POSITIVE', 'Personal')
+",,"Man muss dem gesamten Team mit ihren Chefs großen Respekt zollen, wie sie es in der Gastronomiebranche geschafft haben - in diesen verrückten schwierigen vergangenen 2 Jahren- eine tolle Küche und ausgesprochen nettes Personal zu halten und zu motivieren, bei einer nicht mehr reichlich vorhandenen Auswahl des gleichen."
+cde5a7d6-85a0-44ac-9915-adf6b0d0008c,,"('FOOD', 'NEGATIVE', 'Pizza')
+",,"), da die Pizza so schlecht und unappetitlich war."
+6054bffa-0f93-4e26-825f-37599a1978fa,,"('FOOD', 'POSITIVE', 'rote Bete')
+('FOOD', 'POSITIVE', 'Vorspeise')
+",,Die Vorspeise (rote Bete) war sehr lecker.
+ed96fef7-fcc0-47fa-808f-9c101f87de52,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Nur noch Masse obwohl der Service es nicht mehr schafft.Seezungen nicht gut, trocken und nur teuer."
+340810a7-c0d7-44d2-84ae-4d324f0d65f9,,"('PRICE', 'NEGATIVE', 'Kölsch')
+",,"Preise für das Kölsch (0,2 l) empfinde ich etwas übertrieben."
+5bdfe275-f3a7-49f0-ae6c-c92b76d60a97,,,✅,Wir hatten beide als Vorspeise das Rindertartar - in mild aber auch scharf.
+83945dc1-8aa4-4fe6-bf08-b253a2c97ec9,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Der Service ist eine Katastrophe!
+c2c25218-b301-4cb2-95c0-0309f2cd6522,,,✅,Teller blieben nach dem LOC fast eine Stunde noch auf dem Tisch stehen.
+5cf16caf-a6f1-42a6-8af7-df1c91ad85c0,,"('FOOD', 'NEUTRAL', 'Schnitzel')
+",,Das Schnitzel okay.
+1fd173e0-d865-4f0e-809f-b367ac6bb98e,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Spielplatz')
+",,Gutes Essen Schöner Spielplatz
+82fbab37-81ed-4f32-9aa6-6559a14732f4,,,✅,Wir waren auf einem Sonntagabend hier.
+525c6dd2-c0eb-4f5d-baec-bfb28d47af0b,,"('FOOD', 'NEGATIVE', 'NULL')
+",,Geschmacklich war es leider auch absolut traurig.
+74a03f12-b7d7-40c5-900b-3b97479c3c9f,,,,Ich hatte da aber auch keine Lust mehr danach zu fragen.
+9e3f9f32-075f-4cd2-b022-ef591dd405d6,,"('FOOD', 'NEUTRAL', 'NULL')
+",,"das Frühstück wird als Highlight auf Etageren serviert, die Auswahl der Produkte entspricht dem Standard, leider nicht außergewöhnlich oder detailverliebt angerichtet."
+c0016a3c-5409-4420-8b95-8b957125211e,,,✅,"Noch einmal draußen sitzen, den Abend genießen und Schnorr Bräu trinken."
+3e7f9f62-2604-481c-bf18-25bf18a6cf98,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('SERVICE', 'POSITIVE', 'Dario')
+",,Dario war ein super Kellner und hat den Abend zu einer sehr schönen Erinnerung gemacht.
+b56408e8-e062-41fc-9ca9-8e40aab206fa,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Ähnliches beobachteten wir dann wiederholt, wurden immernoch nicht bedient und verließen dann das Café."
+e753718b-3c54-4b3e-923a-df60d11bc9b9,,"('PRICE', 'NEGATIVE', 'Preis')
+",✅,"Die große Platte beinhaltete zwar 12 Beilagen, aber dieser Preis war nicht fair."
+785d2d71-3abf-457d-bfbf-c5abdfacc6d5,,"('SERVICE', 'POSITIVE', 'NULL')
+",,"Nach wie vor super, mega aufmerksam und freundlich."
+f6784649-2736-4759-a342-77d8f6c2cd41,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Die gewünschte Beilage war auf der Speisekarte, da wär etwas mehr Flexibilität wünschenswer."
+8e4475b6-23c4-4449-93f5-b60aea5dae85,,,✅,Der Laden hat genau einen(!)
+b2f7122a-67e5-4c37-839c-ae8f826171f1,,"('SERVICE', 'NEGATIVE', 'Servicepersonal')
+",,Das Servicepersonal ist unfreundlich bis respektlos.
+118a3ed1-9dde-4907-8db9-7e91d7fd5252,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Schade, das war keine Empfehlung um hier noch mal mit Familie oder Freunden hinzugehen."
+88f5df13-2099-48be-b264-1bf5512ddfb0,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'Bier')
+",,"Schneller freundlicher Service im Restaurant, Es bleibt natürlich Großgastronomie, aber eine die gut funktioniert und in der das Essen uns geschmeckt hat, das Bier ebenfalls."
+6d8a5e75-c446-48b9-a190-743987cb78ee,,"('FOOD', 'POSITIVE', 'NULL')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Top Service, dazu lecker und gute anzusehen."
+3fa80fdd-79a7-47f4-ac99-96d49d390ab2,,"('FOOD', 'POSITIVE', 'Frühstück')
+",,Frühstück war super lecker.
+5301dcee-77b4-485e-96f6-34e393c95ba0,,,✅,"Zum guten Schluss muss ich leider noch ergänzend erwähnen, dass wir beide eigentlich unmittelbar nach Verlassen des Restaurants LOC mit Toilettenfolgen hatten."
+48f98c5e-f8ac-4bb6-b6cc-0b99dfd9f7d8,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,Sehr unhöflicher Kellner.
+55858c4a-69ab-49d0-a367-aab17fa07344,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Absolut unprofessionell und unhöflich.Insgesamt also guter Start, unangenehmes Ende."
+46ba8881-3bb7-4a55-81e2-44cfee848a31,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Aber anderswo kostet es ja dasselbe.Wir kommen wieder.
+8377f13d-b27d-4f4c-8e6d-7f448abbc445,,"('FOOD', 'POSITIVE', 'Wein Empfehlung')
+",,Auch die Wein Empfehlung war super.
+46ddaac1-0d6e-450a-97cb-0417f1b2ec0f,,"('FOOD', 'NEGATIVE', 'Tappas')
+",,Die Tappas dagegen waren absolut unterirdisch und gelinde gesagt eine Frechheit.
+9c245d48-d7d2-4308-a6a6-18a3b4eb1d26,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Nun aber zum Essen.Ich bestellte mir eine Portion warmer Leberkäse und meine Frau eine LOC.
+de93d29d-83b3-4551-a340-3098cf53aa14,,"('AMBIENCE', 'NEGATIVE', 'Live-Musik')
+",,"Die Live-Musik durch einen ""Alleinunterhalter"" ist auf Pop getrimmt (mit Gesang) und viel zu laut."
+9230f175-758d-4b77-860e-d993fdac2e20,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Essen ist in Ordnung.
+ca3f985a-6887-46ec-bc78-b146cb25dacc,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war sehr gut!
+b3000eb7-235d-49f4-b966-354b38421549,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Abzocke pur.Bei der Bestellung wird ich gefragt ob ich meine Bratkartoffeln mit Zwiebeln möchte.
+a5fb7656-6782-4d96-ad13-b304d96bc4ab,,,,Keine Ahnung warum man solche Möchtegern - Security auf die Gesellschaft loslässt.
+9d853b9d-07d1-4555-9347-a9f668268e5e,,,,Stühle beim Putzen aufstellen?
+4feb5a8a-b861-4f1c-80e7-bf71a7cab9d5,,,,LOC einen Stock höher.
+0995ff99-95d4-4d63-9b9b-6dfc57653d7f,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Rundum ein schönes Erlebnis, jederzeit wieder."
+134870e0-c2a5-4da7-a78c-6b814fb03836,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Schaute neue Gäste an, aber sich um sie zu kümmern war dann wohl nicht angedacht."
+2fdda901-a4d4-4313-9f4d-831196fefe1b,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Getränk nachbestellt und wieder mehr als 10 Minute darauf warten müssen.
+a4eceafa-28b4-4260-a2a8-bbeed1c99087,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Aber der Service ließ zu Wünschen übrig.
+dde3877b-522b-4cd3-9cf5-1cc0b6d329d0,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Tolles und gemütliches Ambiente
+2d688bdb-40de-4e2b-9961-0353b4cef0ff,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Fleisch')
+",,Hervorragender Service und Fleisch von Spitzenqualität.
+2d3dd382-ce81-4c40-95cf-278b5b815882,,,✅,Ich hatte das Essen anders in Erinnerung.
+9e1c468d-2775-49eb-b988-e48f9a0b2a17,,,✅,"Bitte macht, dass es so mega lecker wie früher wird!!"
+b35f5568-9889-49f6-98f4-66ebb99020fb,,"('FOOD', 'NEUTRAL', 'Hamburger')
+",,Der Hamburger meines Mannes war ok.
+cf11aa4f-3934-43d9-8a25-3d5c70b0f4af,,"('FOOD', 'POSITIVE', 'Speisen')
+('FOOD', 'POSITIVE', 'Getränken')
+",,Tolle Auswahl an Speisen und Getränken.
+d631afb8-0b4c-413b-b307-d8eae099e070,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Von der Vorspeise bis zum Dessert einfach klasse.Auch als allein Reisende wurde ich freundlich und herzlich bedient.
+51e18638-c70b-4a16-91c2-08c3f65eef0b,,"('SERVICE', 'NEGATIVE', 'NULL')
+",✅,"Eine halbe Stunde nach der Bestellung des Weines (LOC) wurden wir über dessen nicht mehr Vorhandensein informiert, und es dauerte 1 weitere Stunde bis der Alternativwein serviert wurde."
+acbf9139-6e2c-4764-91d0-c46d1a92763f,,,✅,Als LOC genieße ich natürlich das Augustiner Bier.
+43c4a560-372e-4022-939a-64594145336d,,"('FOOD', 'NEGATIVE', 'Vorspeise')
+('FOOD', 'NEGATIVE', 'Paprika Frischkäse')
+('FOOD', 'NEGATIVE', 'Datteln')
+",,Vorspeise trieft leider vor Fett egal ob Paprika Frischkäse oder Datteln.
+86f9a78c-3b1a-44ab-96b6-b7e4a5af18ee,,"('SERVICE', 'POSITIVE', 'Wirt')
+",✅,"Das allerbeste, obwohl wir recht kurzfristig reservierten und das Lokal ausgebucht war, fand der Wirt noch ein Plätzchen für uns."
+44583247-4a1d-40c4-99b9-a3e33712f1e3,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Das Personal ist freundlich, die Toiletten sind sauber, Ich kann es nur empfehlen.Und ein ganz besonderes Lob an den Humorvollen freundlichen Kellner Emanuele."
+92bd43c3-ff72-4ae9-b7bb-fde7b1152155,,,,Als wir ankamen warteten ca.
+7881f289-65ad-4970-b8aa-df87838b5cae,,"('FOOD', 'NEGATIVE', 'Salat')
+('FOOD', 'NEGATIVE', 'Cheeseburger')
+",,"Ein Cheeseburger fùr 16 €, kann man ja machen, aber dafür erwartet man mehr als LOC einen winzigen Klecks Salat und unter dem Patty ein sogenanntes Blockhousebrot, quasi ein ein Stück Bouguete auf der Schnittseite angeröstet."
+00a95062-473e-4cca-b213-b5ad72fe47e1,,,,"Aber der Spruch, der dann kam, war dann doch zuviel."
+2650bd5f-a9ad-4315-8fc2-ada6e2b2cab5,,,✅,Parken im neuen LOC gut möglich.
+f1fd7fc8-d9f3-4fbe-aca8-0fd05de0eac9,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen wieder!
+590bae4a-0ba1-45ea-bdd3-577ccf2d42a7,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Dass es am Verkaufstalent etwas mangelte, fand ich traurig; ein leeres Bierglas animierte niemanden nachzufragen, ob ich noch etwas trinken wollte."
+b5c7ce31-6c54-4208-be70-1a2db0a65561,,,,"Trotz den Umständen, dass fast alle Corna-Maßnahmen in LOC (außer in medizinischen Einrichtungen) aufgehoben wurden, muss man hier immer noch vor der Tür anstehen und warten bis man einen Platz zugewiesen bekommt."
+8cb5063d-f73a-4bb8-89f3-e859a7e1d747,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,Nicht mehr - aber auch nicht weniger.
+4350a03d-3261-4c0a-8d51-450d12df9195,,"('AMBIENCE', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Man sitzt bequem, das Essen ist sehr gut, man muss allerdings Fleisch mögen."
+9a85c828-1c85-40cb-9213-2a58b41de7f1,,"('SERVICE', 'POSITIVE', 'Sophie')
+",,Wurde sehr freundlich von Sophie bedient!
+0773efd4-390b-42d8-8f7e-200b20d32db4,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Sorry, aber wenn alle Tische auf sind, wie kann dann ein einziger Tisch nicht bedient werden?"
+e7f57c97-f9eb-43df-ba68-90ee019a0d6b,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Eine Nachfrage zwischendurch, ob noch etwas gewünscht wird, blieb aus."
+a67d193b-bb74-416c-89d1-85e758fbe4ce,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,Zum Korrigieren war der Kellner nicht bereit!
+0d57ff9d-73d8-43d7-a0d6-875593ecfe9b,,,✅,"Sollte man auch nicht erwarten, bedenkt man die Größe des Restaurants."
+cd8638a1-c7da-4a10-875e-7164b9712c95,,,,Auch ihr werdet definitiv fündig!
+55aa3b26-0c9c-4d43-9450-be3996bd5e92,,"('SERVICE', 'NEGATIVE', 'Geschäftsführerin')
+",,hat uns die Geschäftsführerin ohne Begrüßung oder freundlicher Ansprache an einen freien Tisch geführt...
+359f5b00-257a-44fd-9535-b43e29cc288e,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,So schade!
+6fc52942-257a-4b83-86d5-ee9ae6e767ab,,"('AMBIENCE', 'POSITIVE', 'Lokal')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Ein sehr schönes Lokal mit ansprechendem Ambiente.
+1f4c853e-bb99-4cef-aa41-264228d298a5,,"('FOOD', 'POSITIVE', 'NULL')
+",,Es war sehr lecker.
+2707d2a9-0bd1-4f88-a68e-dedeeb4af1e2,,"('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'chorizo')
+",,"Das Essen war grandios, vor allem die gegrillte chorizo als Vorspeise, das war die beste die ich bisher in LOC gegessen habe."
+8e7c7abd-5f33-4046-8ca0-73b660897150,,,✅,"Spezialität, die LOC Bratwürste, haben mit dem Original rein gar nichts zu tun."
+177585a0-cac7-4cc3-8ab7-cecccf1170e3,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Schönes Ambiente.
+d132fc9e-145a-4855-94ca-bc9bca5960bb,,,✅,"Das ist ein Filialbetrieb, alles daher typisch."
+8e9d39d8-a86d-4d7c-bb5b-7ae001573c07,,"('FOOD', 'POSITIVE', 'Knödel')
+",,Portion direkt bestellt) mit leckeren Knödel.
+63123d3f-7367-4a61-99d1-a3b0e5119435,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Wenn wir wieder einmal in LOC sind, kommen wir gerne wieder."
+c39b1c16-c941-4c9b-a7ac-92e2fe6961af,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Im Sommer ist der Kellner ohne Haare ein Garant für guten Service.Im Winter ist die Kellner Klientel leider mehr als unfreundlich.
+37f91f39-3422-4119-bb2e-9143b42ea9f6,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Sehr enttäuschend!!!
+6ba81de3-dda5-4e98-bf04-f9deae82bf43,,"('SERVICE', 'NEGATIVE', 'Servicekräfte')
+",,"Das einzige mango ist die freundlichkeit der Servicekräfte, das könnte besser sein, ansonsten gab es nichts zu meckern."
+873c0925-969c-4bc4-92b7-1e3214cea9d9,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('SERVICE', 'POSITIVE', 'Lena')
+",,"Unsere Bedienung, Lena, war sehr höflich und es war im Allgemeinen ein gutes Erlebnis."
+345b4c78-5120-4bc8-b83e-a71b812a27d9,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Gasthaus')
+",,Gutes Essen in einem schönen und geräumigen Gasthaus.
+bee56ffd-9cc1-4f52-af78-1bf314ff0501,,"('SERVICE', 'NEGATIVE', 'System der Annahme von Bestellungen')
+",,"30% - ausreichend Personal, System der Annahme von Bestellungen nicht erkennbar."
+a91dc248-6004-4f27-b248-73af9c140da6,,,✅,"Als wir einen Blick auf die Speisekarte warfen, war von portugiesischen Essen nicht viel zu sehen."
+02a4efdc-8431-4592-baa1-c4a581288648,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen war ganz in Ordnung.
+3c1003b3-8921-4c02-973c-9b12346396f2,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Gutes Essen und toller, freundlicher Service."
+929b3dd1-3e45-4fae-b4e2-376462905092,,,,"Gern wieder, da der tolle Blick über der LOC die Location nochmal besonders macht."
+733debd6-1204-4212-9e38-0e535c2253c1,,,✅,"Nachdem direkt der Nachbar-Tisch neben mir noch zwei Getränke bestellt hat und sich wiederum andere Gäste an einen anderen freien Tisch gesetzt haben und sofort bedient wurden, habe ich freundlich gefragt, ob sie mich bedienen wolle."
+2a91f99f-e534-46e8-86da-c6ba832012f3,,,✅,"Das Restaurant wurde uns auf Tripadvisor empfohlen, da es auf dem ersten Platz steht."
+0093adb4-5e05-4256-9f27-4fdaffb14733,,,,"Da der LOC uns diese angepriesen hat, bestellten wir sie auch."
+5230fdb3-d245-46bb-91e5-b8bd8544fe18,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Gern in Zukunft wieder !
+bd4a86ec-1ea4-49e2-a0e4-0f6141866c3d,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Einfach Daumen hoch!!
+7d69fd44-1886-4602-be19-7949715f279f,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,"Um uns zu unterhalten, mussten wir uns fast schon anschreien."
+93024b57-852c-49f5-b6a8-29248d9de2e5,,"('FOOD', 'NEGATIVE', 'Leberknödel')
+",,Zudem schmeckte der Leberknödel grauenhaft.
+e4181183-5b5a-4b20-94f5-37ce6174c10b,,"('FOOD', 'NEGATIVE', 'Spätzle')
+('FOOD', 'NEGATIVE', 'Ziegenkäse mit Salat')
+",,Hätten wir mehr Zeit gehabt wären die Spätzle und der Ziegenkäse mit Salat sofort wieder in die Küche zurückgegangen.
+cfc99b00-450d-4fc7-bd18-a9a6135ca8ee,,,,Punkt.
+39f3b551-7465-4e17-ae31-6ddd1a6a2910,,"('FOOD', 'POSITIVE', 'Kalbsschnitzel mit warmen Kartoffel-Gurkensalat')
+",,Auch das Kalbsschnitzel mit warmen Kartoffel-Gurkensalat sehr schön auf einem Holzbrett und einem Töpfchen serviert war sehr lecker.
+47af3168-2371-4e37-a0e3-1966660a6b59,,,,"Dann meinte er, dass er später käme."
+191f7706-7256-4c9e-b02c-3298d8cc9ad3,,"('FOOD', 'NEUTRAL', 'LOC')
+('FOOD', 'NEGATIVE', 'Sauvignon im Glas')
+('PRICE', 'NEGATIVE', 'Sauvignon im Glas')
+",,"Der LOC (42,50€) aus der Flasche war ordentlich, nicht mehr, der offene Sauvignon im Glas dagegen sehr blass und mit 6,90€ entschieden zu teuer veranschlagt."
+150d7987-4b1f-460f-b24c-c3c34dabcac1,,,,Daher 2 Punkte Abzug.
+a993099d-533f-4366-85f6-73571ecead16,,"('FOOD', 'NEGATIVE', 'NULL')
+('PRICE', 'NEGATIVE', 'NULL')
+",,Es gab keine reine Rebe und zudem recht teuer.
+daef1998-3ccc-42ed-a5ba-6ddb9d2203ba,,"('SERVICE', 'POSITIVE', 'Bedienung')
+('PRICE', 'POSITIVE', 'Preise')
+('FOOD', 'POSITIVE', 'Portionen')
+",,"Portionen sind mehr als ausreichend, Preise sind human und Bedienung ist sehr freundlich."
+4927ec28-c9e3-4890-9e61-380dc8065e56,,"('SERVICE', 'NEGATIVE', 'NULL')
+",✅,"Meine Frau ist Veganerin, hat anstatt Käse extra Rucola bestellt, aber nicht bekommen."
+619aa2ac-5448-42d5-86f2-6c70bffac4b0,,,✅,"Zur Hygiene und der Qualität der Lebensmittel kann ich nichts sagen, da ich keinen Einblick habe."
+dabdd901-0348-4914-b969-97edfd7853be,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Allerdings war es unglaublich laut, also nichts für einen gemütlichen Abend."
+7d8dad99-2083-4b67-b519-e152614c6229,,"('FOOD', 'POSITIVE', 'Produkte')
+",,Wir konnten uns von der vorzüglichen Qualität der regionalen und selbst gemachten Produkte überzeugen.
+7712fec9-a677-4e6b-8ca9-47fb805f65b3,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Service überragend!Wir waren als große Gruppe da und alles kam zusammen und die Empfehlungen waren sehr gut
+42fce213-31f1-4323-a43a-4be6c08da173,,"('FOOD', 'NEGATIVE', 'NULL')
+",✅,"Dieser war dermaßen zäh und ungenießbar, dass unser Dessert ziemlich unangetastet wieder abgeräumt wurde."
+dec5a42c-f02c-407a-96e2-3c7016615871,,"('FOOD', 'POSITIVE', 'Maß')
+('FOOD', 'NEGATIVE', 'LOC')
+",,Mit den LOC kann man Fenster einschmeißen - jeder Bahnhof serviert bessere…Einzig und alleine die Maß war lecker.
+af72236c-4268-47a6-bc95-d06817ebd5fb,,"('FOOD', 'NEGATIVE', 'Knödel')
+('FOOD', 'NEGATIVE', 'Haxe')
+",,Die Haxe war extrem fett und der Knödel poppig und geschmacklos.
+b4ad0f45-b7ed-4051-bb0e-e4df24417d9b,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Eine Mischung aus Takeaway und kleinem Restaurant mit wenigen Tischen.Im Angebot sind viele vegetarische Speisen, aber auch leckere Fleischgerichte.Die Qualität der Gerichte ist absolut ok."
+284923e1-8a1e-4a34-82a7-4466105a60e1,,,,Grüße aus LOC
+cbc1ab03-5d3b-45e6-ada4-c7b27310d8d3,,"('FOOD', 'NEGATIVE', 'Steaks')
+",,"Die Steaks waren ausnahmslos zu schwach angebraten, so dass jedes eine breiten hellbraunen LOC, aber ohne die nötigen Röstaromen hatte."
+f2dbfcc1-05c3-45e5-8441-1b5f9de8fe3a,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wir konnten trotzdem unsere Bestellung aufgeben und wurden bedient.Die Speisen entsprachen jedoch nicht der Qualität, die wir für den Ruf und die Preise erwartet hatten."
+3c770b78-fe33-4b48-90ae-ba92765a4f02,,,✅,"Wir haben uns für unseren Besuch in LOC das RESTAURANT_NAME ausgesucht, um einen entspannten Abend in schöner Atmosphäre genießen zu können."
+08c156be-1efd-4146-823d-6689f7d65ba9,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Ebenso ist auch das Service-Team kunden-orientiert und nett.Preislich überhöht, man zahlt halt einen gewissen Prozentsatz ob der Lage!"
+310efeac-874a-4ac1-9622-79eeaa8be697,,"('FOOD', 'NEGATIVE', 'Wein')
+",,Der Wein eher gewöhnungsbedürftig!
+0e0135db-4759-488f-b2ae-0f4c4b30ec7f,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade eigentlich.
+9bda6382-a362-47bc-8733-3a59e4a50223,,"('FOOD', 'POSITIVE', 'Vorspeise')
+('FOOD', 'POSITIVE', 'Hauptgang')
+('FOOD', 'NEGATIVE', 'Nachspeise')
+",,"Vorspeise und Hauptgang waren lecker, Nachspeise enttäuschend."
+55f01e1a-7313-4427-a756-46d320485adc,,"('SERVICE', 'NEGATIVE', 'Service')
+",,"Leider lässt der Service sehr zu wünschen übrig, man wartet ewig bis man bestellen kann wenn überhaupt einer kommt."
+c3b46307-1fe0-49aa-9465-8221bc0a7e6d,,,✅,Für die kleinen Gäste gab es Malsets.
+03768f8e-2b1b-4aa0-9bcb-27ac43f5eb76,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+('SERVICE', 'POSITIVE', 'Bruno')
+",,"Sehr gutes Essen, nettes Ambiente und besonders nett war der Kellner „Bruno“."
+daf41546-45b6-45c4-a8c3-95c62771c879,,"('PRICE', 'NEGATIVE', 'Geld')
+",,Es war das Geld nicht wert.
+c9b81aab-251e-431e-b4fe-07a6992ef5fd,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Reservierung vor Ort, ging nicht.Online, aber kein Problem."
+1929dbd6-5814-4c41-9e8e-9a012108a4a6,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,"Die Location...trotz Reservierung Wochen im Voraus wurden wir im ""Nebenzimmer"" mit null Ambiente plaziert."
+ccdbf376-8177-4727-8af7-bb6e58220d9f,,,✅,Ziemlich zentral in der Nähe der LOC gelegen.
+3d95b0eb-dbd9-42fc-b507-80b682a64a23,,"('FOOD', 'POSITIVE', 'NULL')
+",,"Für jeden Geschmack, auch vegan 🌱, war etwas dabei."
+d2689aef-7aaa-4e65-bdee-b253187038c5,,"('SERVICE', 'NEGATIVE', 'Bedienung')
+",,"Meine Frau war so perplex und überrumpelt, dass sie der Bedienung ein Trinkgeld in die Hand gab, was nach dem Spruch nicht verdient war."
+97a01af4-82b6-4bc6-bd50-342d876bd77e,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,LOC wurde teilweise falsch serviert.
+3e0813e6-d36e-449d-b4a4-b80379b15223,,,,Auch gestern… mit einer Ausnahme.
+7d09ce50-f1e2-40c4-a503-4a007ec14183,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+",,Ich kann das Restaurant weiter empfehlen!
+a153e5f8-cc48-44ed-ba27-c3a89d81a1fa,,"('SERVICE', 'POSITIVE', 'Lena')
+",,"Lena hat uns gut, freundlich und kompetent beraten."
+dcdfba32-9306-4542-a14f-6038ecdca721,,,✅,"Was uns schon auffiel war, das von dem uns bekannten Personal niemand mehr da war."
+f627a988-3eba-46fa-af2d-b15a6e82c588,,,,"Aber es kommen ja noch genug Touristen, so dass man auf Stammkunden nicht angewiesen zu sein scheint."
+76807c37-7fc5-4e6b-808e-59463ee72711,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Auf Touristen zugeschnitten.Ueberfülltes LokalMan konnte nur Grösse 0,2 Biere bestellen.Das Essen war einfach.Qualität so so LOC war es .Bedienung, na ja sagen wir es so ,Potential nach oben vorhanden.Es gibt bessere Lokale mit Tradition in Köln.qx besuchen, das war es dannMan konnte nicht reservieren"
+15cf18de-f546-4f4c-bf00-675fa42c913a,,"('AMBIENCE', 'POSITIVE', 'Platz')
+",,Er bietet viel Platz drinnen und draussen.
+e76f3668-3071-4e41-a6b1-3365839c292a,,"('SERVICE', 'POSITIVE', 'Gilles')
+('SERVICE', 'POSITIVE', 'Natrup')
+('SERVICE', 'POSITIVE', 'Torres')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Besonders Herr Gilles, Herr Natrup und Herr Torres (Aufzählung in alphabetischer Reihenfolge) erfreuen uns immer wieder aufs Neue durch professionellen Service."
+72a9783c-e5f0-44d0-a65a-68e5da417800,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Sehr schade.
+2ab5aeb5-4f3c-4aa6-9307-7bfc5d38361a,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Steak und Gemüseteller völlig daneben.Lokal konnte man früher noch empfehlen - heute völlig überlastet
+666bdc6f-498f-49c9-ae45-301c8e092f5d,,,,Ich finde nicht.
+1814e279-9835-487f-ba09-15f2c74f1d5e,,,✅,Im Nachtisch war ein Haar im Apfelmus - volle Abrechnung.
+f04b7cda-2e86-4d53-9ca6-1fa16660cd81,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('AMBIENCE', 'POSITIVE', 'Blick in die offene Küche')
+",,"Tolles Ambiente, Blick in die offene Küche, für die wärmeren Jahreszeiten gibt es auch eine Möglichkeit draußen zu sitzen."
+dc956f4e-4773-4cc4-9518-38ffe952bcd7,,,,"Wer da die guten Gefälligkeitskritiken schreibt, ist mir ein Rätsel."
+9668c36f-5079-4f27-a90d-f65133550a7b,,,,für einfache LOC Bratwürste gedauert.
+4efc8339-cfe6-4ea3-a4b3-1e7a2a0d535c,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Das Essen, der Service, das Ambiente waren sehr gut, und der Abend hätte schöner nicht sein können."
+cd7281d9-cf3c-48e0-8d5e-f9b52bfb78be,,"('SERVICE', 'POSITIVE', 'Kellnerin')
+",,"Dass mir zuerst eine englische Karte präsentiert wird, lasse ich der freundlichen Kellnerin gerne durchgehen."
+170e4dcd-4943-4701-9d41-f3bf54c16288,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Sehr freundliche Bedienung.
+d8e5ba4b-bc07-4c70-a698-0a967f8612be,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Ich würde gern weniger als 0 Sterne bewerten ist leider nicht möglich!
+d87e9327-2cec-419b-8594-39b59ce241c4,,,,Wir waren fünf Personen und hatten auf 20h einen Tisch reserviert.
+e8498cad-669e-4574-84ca-947660bd6175,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Leider.P.
+089df593-ba43-4dc3-8a70-b09e1555c9f6,,"('FOOD', 'NEGATIVE', 'Beilagen')
+",,"Insgesamt fehlen aber Beilagen, wenigstens die eine Tomate oder die drei Karottenschnipsel zur Begleitung wären nett."
+6b376e54-d9b9-43cb-baa4-4bf4ed024985,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Herzlichen Dank wollen wir sagen!
+30b6bb93-4cb5-4b01-9649-fcd017212616,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Wir waren uns einig: Sooo schlecht wir hier, war das Paket noch nie !"
+2536a345-dde6-40bb-9dcd-4d983bd4b6fd,,"('FOOD', 'NEUTRAL', 'Essen')
+",,"Auch wenn das Essen OK war, werden wir diesen Laden mit Sicherheit nicht mehr betretetn."
+28b9f629-dd3d-4aa7-a54b-154516c59a81,,,,Offenbar will man durch Mittelmäßiges mehr junges Publikum anlocken.
+68169986-e6ae-4781-b1a4-01dc721ccf6c,,"('FOOD', 'POSITIVE', 'Essens')
+",,Wir waren hier essen und mit der Qualität des Essens wirklich super zufrieden.
+0a8c2a48-b64c-44fd-a900-73d10678af07,,"('FOOD', 'POSITIVE', 'Essen')
+",,Essen - wie immer - GRANDIOS!
+2d6c722f-778c-45e8-969c-8bc5aa004435,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Ich kenne sämtliche Kaschemmen, aber wenn ich in LOC in einer billigen Teestube einen Köfte- Teller mit Salat zum Reinsetzen bekomme, alles handgemacht und das mit der hingequälten LOC im LOC vergleiche setze ich mich lieber für 12 Euro in die Teestube.Das Publikum im LOC ist auch ein echter Nervfaktor, Wichtigtuer die echte türkische von einer Fake- Küche nicht unterscheiden können."
+0ee5f182-07cf-4f19-8054-edf29495ca65,,,✅,Wir waren am Freitagabend zu siebt in der Trattoria essen.
+6c31d038-3057-4794-b79f-1b8cbdc6b1f5,,"('SERVICE', 'POSITIVE', 'NULL')
+('FOOD', 'NEUTRAL', 'Schweinsbraten')
+",✅,"Der Schweinsbraten war o. k., wir haben noch Knödel nachgeordert, da es für uns ein bisschen wenig war, das hat beim Personal zusätzlichen Stress ausgelöst, der Knödel kam dann aber zeitnah."
+a641a096-dc92-4209-aa0f-30641f0917a7,,"('FOOD', 'POSITIVE', 'Kartoffelsalat')
+",,"Als sehr schmackhaft empfinde ich den Kartoffelsalat, der nicht aus dem Eimer kommt und frisch zubereitet wird."
+752053b5-f9c7-41a2-81f5-1ea3d035b86a,,"('SERVICE', 'POSITIVE', 'Lena')
+('SERVICE', 'POSITIVE', 'Andrea')
+",,"Sehr positiv überzeugt von ""meinen"" beiden Kellnerinnen Lena und Ihre Ausbilderin Andrea."
+bea5f9ac-5b9f-4883-a673-bc61ececa8b6,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Das Fleisch war trocken und zäh, die Sauce fertig aus der Tüte.Herr Anders ist sicherlich fünf Mal an uns ohne zu Grüßen vorbeigegangen."
+cc8ee740-f387-40a4-b8cb-3ec77ac56641,,,,!Sowohl im Oktober bei meinem Besuch als auch im November laufen die immer wieder um den Wagen herum und lassen sich auch von den vielen Menschen nicht verschrecken.
+679a636d-c9d1-4d63-aeba-d2ee5041d3ab,,"('FOOD', 'POSITIVE', 'Essens')
+",,Die Qualität des Essens war ausgezeichnet.
+019d8017-4b62-445d-b91f-021194eb698b,,"('FOOD', 'POSITIVE', 'Küche')
+('GENERAL-IMPRESSION', 'POSITIVE', 'Lokal')
+",,Schönes Lokal mit gutbürgerlicher Küche und regionalen Produkten.
+2c5ce415-f468-4447-a120-19a2dd97f744,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Wenn wir mal wieder in LOC sind, werden wir sicher wieder da essen gehen ☺️"
+d64a7012-5820-4f62-81db-f5441a64ddf7,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Es ist sehr schade, dass die Gäste in diesem Restaurant so behandelt werden."
+c5ff34d1-d60b-4a80-ace1-1c8b25ca9e0d,,,,Der kann auch nach 2 1/2 Stunden später.
+df2138b2-79ad-4815-a4f4-9d9a92b42e4e,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die Reservation über das Internet klappt gut und wir bekamen unseren Tisch.Der Service ist schnell und freundlich.Zuerst ein Gläschen Wein, die Auswahl ist Ok.Zum Essen bestellten wir Hähnchen mit Spargelragout und Reis und eine Portion Spargeln mit Kartoffeln und Schinken.Das Essen wurde prompt serviert."
+4e3bec5d-d8d0-4a01-a035-0bd7b190ca8a,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir werden zurückkommen!
+ef1d0882-b498-46f4-a0f1-ca91b8058361,,,,Wir wollten zu unserem 10.
+4b3ed4e5-6fc2-41a4-a4da-4ae7f9abda1a,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Geht gar nicht.
+2b156d9e-62f5-4099-a54f-ae0fb25825f5,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wollten einen angenehmen Drink im Sonnenschein in entspannter Atmosphäre verbringen: gelang nur halbwegs...Leute, ein freundlicher Ober kriegt auch Trinkgeld."
+eb80f301-b4de-4c91-b8f0-86a9f043e663,,"('FOOD', 'POSITIVE', 'Menü Karte')
+",,Die Menü Karte ist nicht groß aber ich denke es hat etwas für jeder Mann.
+541ef777-1f22-4d01-a5d5-fd3d221b70a9,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+",,Sehr netter Service und leckeres Essen.
+4f906e63-c751-4e9e-acc0-71be3233d6cf,,,,Eine Oase!
+481aea1d-9242-4359-bc6e-a40d6186a532,,"('FOOD', 'NEGATIVE', 'NULL')
+",,Ich/Wir haben (zum Glück) seit Jahren nicht mehr so schlecht gegessen wie hier.
+1a241a14-f2ba-48ab-8852-69b59a64584c,,"('FOOD', 'NEGATIVE', 'NULL')
+",,Sie gingen nur schwer vom Knochen.
+8bf1baec-e1ce-442b-acb0-3089f6fbc9e9,,,✅,Leider knapp am Service für den Gast vorbei
+8ffe3842-5e02-4adb-838b-a23d5032b02c,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die Speisen und Getränkeauswahl bietet etwas für jeden Appetit.Hier ist der Platz um regionale Gerichte in ferfekter Form zu geniessen.
+d9918550-7590-426c-81f1-e5bfac6251fb,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Der Besuch bei der RESTAURANT_NAME war eine 11/10.
+f80e25cf-bb23-4757-9076-9455c53e5631,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Das kriegen andere besser hin !
+0ce7df3a-7db7-41f9-b6a1-43e232b10590,,,,Nicht der Fall.
+fe35fb88-6433-4a37-a2c4-fb4ab72e11ed,,,,"Wir sind nicht reingekommen, weil nicht reserviert."
+a7a6b856-cb4d-40dc-82ea-737beee09f5f,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen gern wieder.
+02eca8aa-b6e7-45fc-91d4-71e867ab8f46,,,✅,Das Glas ist genau dann gefüllt oder gebracht wenn der Gedanke an etwas zu trinken gerade auf dem Weg ins Hirn ist.
+0277fc11-c065-4365-a1e3-19b4480fe0d6,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Völlig überbewertet.
+566e3314-e771-466b-b99a-8afbe3c87aa0,,,,Die Gräfin Cosel war ein Highlight des Abends.
+fd2bc5cf-bf97-47ac-842b-cb1075026237,,,✅,Das Bier zudem nur 4 statt 5dl gefüllt (auch bei den Nachbartischen).
+460299f3-b23c-43e0-9ca9-a9ab336a149c,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade.
+46df984f-d42d-4578-9d04-2c47e2d734ea,,"('SERVICE', 'POSITIVE', 'Jaques')
+('SERVICE', 'POSITIVE', 'Kollegen')
+('FOOD', 'POSITIVE', 'LOC')
+",✅,Bei bestem Service von Jaques und seinen Kollegen und hausgemachter Pasta konnten wir heute ein Stück LOC genießen.
+982d072e-07f3-48c2-be30-468915ed83fb,,"('SERVICE', 'NEGATIVE', 'Begrüßung')
+",,Angefangen mit relativ nüchterner Begrüßung: die Garderobe ist dort hinten.
+c8f5493d-676d-4000-bdde-79160c97c322,,,,Das portugiesische Viertel ist dennoch sehr empfehlenswert.
+bda52a0c-21d5-410c-9e89-72a2c023a360,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,"Es hat gezogen an unserem Platz, es war etwas kalt."
+6a2cfefa-b84f-4487-b9d6-1c161943d6cb,,"('FOOD', 'CONFLICT', 'Vitello Tonnato')
+",,"Vitello Tonnato gut, wenn auch etwas zu trocken vom Fleisch her."
+c646be6f-506a-41a3-936b-c13a31158e75,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Fisch')
+",,"Die Institution in LOC, wenn es um Fisch & Co."
+27b63edf-7ced-4612-bdd9-481f44ae044c,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Echt schlimm.
+e4b7821e-ebe6-49e4-a8a2-e09a2fff23d6,,,,Wiesn' in LOC...ein Trauerspiel .
+627a13f3-d02d-4c83-8040-ec31cc4750e8,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Uns hat es leider nicht überzeugt.
+53538a8f-9ce5-4936-8d7e-0a1a2513c741,,,,Es gibt - natürlich wie erwartet - spanische Küche.
+143c8772-fd46-43b1-8527-6bc0f4e5b1ca,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Beratung')
+('SERVICE', 'POSITIVE', 'Service')
+('SERVICE', 'POSITIVE', 'Marco')
+",,"Toller Abend, tolles Ambiente, mit leckerem Essen und einer sehr guten Beratung und zuvorkommendem, sehr freundlichem Service, danke Marco!"
+04b2ba06-c80c-422a-8a6b-cdb277f9d2f5,,"('AMBIENCE', 'POSITIVE', 'Lage')
+",✅,"Ich dachte, die tolle Lage dieser Lokalität ist optimal für ein Mittagessen."
+5a25c506-bfd2-4919-a418-8b54e99673c2,,,,Wir soll man auch sonst diesen Massenansturm von Einheimischen (bei der Qualität komisch) und Touristen aus allen Ländern der LOC zeitnah verköstigen.
+ca39e1ab-122e-4fca-8784-003c4a83da8f,,,✅,"Lange Zeit war das CUBE in LOC die lobens- und bemerkenswerte Ausnahme von der Regel, wonach Restaurants, die durch eine spektakuläre Lage glänzen oft eine mangelhafte Küche haben."
+06a005b4-2c45-4d65-b20e-97a36e1f99d6,,,✅,Stilechter RESTAURANT_NAME mit sächsischer Kost.
+2e37dc3e-b2ec-4b5d-9b09-5e12f2bc9f7c,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,... der im Ganzen einfach sehr stimmig und rund war!Hatten uns für das 7 Gänge Menü mit Weinbegleitung entschieden.
+eebab5d1-cc43-4c5f-80b6-08fbbb773b06,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Bratkartoffeln trocken, teils verbrannt und Steinhart...!Steak an einem Ende LOC verbrannt...!Gemüse roh!Als Entschädigung hat man das Gleiche angeboten, was ich dankend abgelehnt habe.Ich habe nur das Steak zu einem Teil gegessen was nicht verbrannt war."
+10338025-084e-4f61-88ec-19f9c3979562,,,✅,Aber nur fürs Bier ins HBH - nein danke.
+4744722a-b959-4e76-a7c2-6aff81bd4dbc,,"('SERVICE', 'NEGATIVE', 'NULL')
+('SERVICE', 'NEGATIVE', 'Platzzuweisung')
+",,"Schon die Platzzuweisung war sehr ""von oben herab"", bis zur Bestellungsaufnahme dauerte es trotz etlicher herumwuselnder LOC sehr lange, und die Getränke wurden erst nach zweimaliger Erinnerung an verschiedene Servicekräfte geliefert, als wir mit dem Essen bereits zu mehr als der Hälfte fertig waren."
+90c8311c-7ac5-4cff-a915-ab9951fdfdd6,,"('FOOD', 'POSITIVE', 'Speisen')
+",,"Die Speisen sind einfache, bayerische Klassiker in guter Qualität."
+2bb0738f-0330-42ac-8b67-53b1ad6fde91,,,✅,"Einmal Fisch, enmal Flesich."
+c03a8881-2bca-450f-9b77-942ca2e212bb,,,,"Man konnte am Telefon deutlich hören, wie es eher wie ein Zwieback klang."
+bab3718a-b02c-414b-ac8d-def3ecfb8a56,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,"Wie dieses Restaurant auf Platz 1 landet, ist und völlig schleierhaft."
+56c0fdcd-09f9-4e8f-a0d8-20f09a07fc27,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Der Aperol ist ok, das schmeckt in LOC schon woanders besser und die Kartoffelsuppe brauchte fast 20 Minuten bis zum Eintreffen am Tisch.Im LOC gegenüber war ich mehrmals, das klappte immer alles zu bester Zufriedenheit."
+cbefbb34-2719-4221-be96-c3a62d5b8e34,,"('FOOD', 'POSITIVE', 'NULL')
+",,Uns hat es allen bestens geschmeckt.
+b34f2c65-020c-469c-a512-701e6d5ed2cd,,"('SERVICE', 'POSITIVE', 'Susanna')
+",,Wir wurden bedient von dem netten Fräulein Susanna.
+80931812-4734-445d-8506-079085fee4a4,,,,Meine Reklamation könne nicht sein.
+58c21f67-e897-45d0-92f8-59eebb53aebf,,"('SERVICE', 'POSITIVE', 'Auslieferungsfahrer')
+",,Der Auslieferungsfahrer war sehr nett und hat sich entschuldigt.
+34e45d5a-d3f5-49ed-b4bb-b202632b2e93,,"('FOOD', 'NEUTRAL', 'essen')
+('SERVICE', 'POSITIVE', 'personal')
+",,die sossedünn/wässrig/geschmack ist anders... schade..das essen meiner partnerin war auch einfach ok...das personal ist das beste am ganzen!
+faba699d-4e19-4a21-8a10-a41b2f6285b7,,"('SERVICE', 'POSITIVE', 'Yassin')
+",,"Spitzen Kellner Yassin - zuvorkommend, höflich und nicht zu aufdringlich."
+df5721fc-bb77-4f9a-88e2-6e85d091800e,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Komme gern wieder.
+00fc3a4e-6662-49ef-bcaa-322a308cf818,,"('FOOD', 'NEGATIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Geld')
+",,"Also; dass in so einem Laden kein 5 Sterne Essen serviert wird ist schon klar, aber so ein überaus schlechtes Essen ist unter allem, was man einem Gast für das Geld anbieten sollte."
+f6bac3be-bc0b-4ea9-9a68-cd1e2f8f9664,,,,Die Ratten!!!
+dbd92c5d-0bc5-42ef-8167-fd7368ca4033,,"('FOOD', 'POSITIVE', 'Filet')
+",,"Zugegeben das Filet war sehr gut, aber das war auch schon das Beste an dem ganzen Abend."
+950a4229-79bd-4417-afbc-1d428f3f5ade,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Bedienung war zuvorkommend und schnell.
+56f10427-f583-49a2-ae5a-c9ec8c93f4b3,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war jetzt nicht berauschend aber in Ordnung.
+5211b4d2-434d-4678-af1b-6897f64b10bd,,,✅,"Wir wollten seit langem mal wieder im RESTAURANT_NAME essen gehen und wir können uns schon als ehemalige Stammgäste bezeichnen, da wir vor einigen Jahren wöchentlich da waren und den Absturz des früher unter alter Führung vortrefflich geleiteten Restaurants wortwörtlich am eigenen Leib miterlebt haben."
+678f7d51-8747-422b-a363-735288426e60,,"('SERVICE', 'NEGATIVE', 'servicekraft')
+",,So eine Aussage einer servicekraft geht nicht.
+22e6c2c5-a0c6-4d06-bd23-8c485fe80a7e,,"('SERVICE', 'POSITIVE', 'Bedienung')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Die Bedienung war sehr freundlich, das Essen entsprach einem guten Convenience Durchschnitt und ist auf die breite Masse ausgelegt."
+9269479f-c6a5-4752-8583-4b2889d8c014,,,✅,Hier hätte ich mich mir als Entgegnung auf die Beschwerde- letztendlich ist ein derartiger Hinweis nichts anderes- beispielsweise das Angebot eines kostenfreien Espressos gewünscht.
+e548ab88-1791-4b75-b540-8c7392c9829a,,,,Ein Stück LOC in LOC.
+5d64c34f-988a-4a03-8ea1-20aa22165f75,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,"Dazu kam ein extrem unfreundlicher Kellner, der die Gäste am Nachbartisch sogar aufforderte wieder zum Weihnachtsmarkt zu gehen, wenn sie einen Tee zum Aufwärem bestellen wollten."
+66f3a747-d3f0-4466-bb84-e48b1884da8b,,,,Es gibt unserer Meinung nach bessere und gemütlichere LOC in LOC.
+3988dd9d-a5a7-471a-ba0f-55998528f3c1,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Uerige')
+",,Im Vergleich zum Personal im Schlüssel und LOC bleibt das Uerige aber doch zurück.
+92d902e6-07f6-4fdf-a77f-e4a7724b6ef8,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Man muss alles daran mögen, aber für ein bis vier Alt sollte man hier schon einkehren, wenn man in LOC ist."
+0fa4bd14-994e-4290-9387-b8d2d3324837,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Mitarbeiter')
+",,Das Essen ist super lecker und die Mitarbeiter total nett!
+91388ce1-0a54-4e9f-a97e-dd423982e298,,,✅,"Ach ja, fast hätte ich es vergessen: Bei 76 Euro ist auch selbstverständlich kein Ouzo oder ähnliche Beigabe drin."
+46268f1f-ef41-430e-8133-f2a2f87e40e1,,"('FOOD', 'NEGATIVE', 'Küche')
+",,Den Versuch einer über Döner & Co angesiedelten Küche kann man als gescheitert ansehen.
+ec04a387-24fd-4060-bde7-75c0fef5f50c,,,✅,"Die Lautstärke passte hierzu, da diese an eine Bahnhofshalle erinnerte."
+89543c84-8a87-4b59-ab46-ac912b3d0be3,,"('FOOD', 'POSITIVE', 'Rahmschwammerl in Rahm mit Semmelknödel')
+",,Ich hatte Rahmschwammerl in Rahm mit Semmelknödel und war zufrieden.
+8350557f-71cf-46fa-96dc-a0d97c293280,,"('FOOD', 'POSITIVE', 'essen')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'POSITIVE', 'Bedienung')
+('AMBIENCE', 'POSITIVE', 'Erreichbarkeit')
+('AMBIENCE', 'POSITIVE', 'Parkmöglichkeit')
+",,"Super essen deliziös, gute Atmosphäre, freundliche Bedienung, gute Erreichbarkeit und Parkmöglichkeit"
+f61a32a6-3ef8-4309-98ff-00f1feb97e91,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Der Personalchef sollte sich dringend Gedanken machen.
+220c71bd-a009-4d67-991a-b770bdedbcb0,,"('SERVICE', 'NEGATIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,"Gutes Essen, freundliche Bedienung, allerdings wurde wieder bei der Abrechnung geschummelt."
+8ff9e448-ae02-4f24-bbc4-82b4db9d0e2d,,"('FOOD', 'NEGATIVE', 'Leberkäse')
+",,Der Leberkäse war eher ein Fleischkäse und hatte mit einem bayerischen Leberkäse nichts zu tun.
+d3cddccf-771d-4daa-b1c8-371465eaa35b,,"('SERVICE', 'POSITIVE', 'NULL')
+",,Die Möglichkeit online zu bestellen ist innovativ.
+081ba886-821b-4363-8184-e33a5527b8aa,,"('FOOD', 'POSITIVE', 'Auswahl der Sprizz')
+",,Die Auswahl der Sprizz sind groß - schmeckt auch ohne Alkohol.
+aac1d77f-041a-4fcd-9e83-f9cd67e4adeb,,,✅,Aber.... wenn mir - logischerweise vorher von einem LOCmitarbeiter - in Papier-Servietten eingewickeltes (!!!)
+fc483b8c-c9fe-48ee-8d11-5c7e94edf918,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Leider war der Service unaufmerksam und langsam.
+8ff00b7e-4785-4bcb-9c75-3be564fcac61,,,,Wir waren zu dritt zur Mittagszeit für ca 3 Stunden vor Ort.
+b398c74b-c505-45ca-8649-1f131b41ebdc,,,✅,Wir hatten frittierte Calamaris und jeder einen Salat.
+13eb32fc-b3b3-4d50-ad24-86d107fa4480,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Campari-O sehr großes Glas (0,3) und mit 9 Euro ok.Das Brot frisch, und insbesondere die Oliven lecker."
+dffda937-f9a9-4282-8437-bdcb8c2be5d7,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Waren 2x dort, da uns das Ambiente eigentlich gut gefällt."
+a241e754-04e5-4faa-ae5e-0d19c792dc62,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Preise waren inflationsangepasst nicht günstig.
+bc743aa4-6bf1-4b53-96cc-0912e8bbf33f,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'LOC')
+",,"LOC war gut,aber nicht unbedingt umwerfend."
+d2878ced-af1f-4bc6-ba40-67c6659acd7d,,"('SERVICE', 'NEGATIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienungen')
+",,"Essen lecker, (vielleicht ein klein wenig zu lange gebraucht), Bedienungen freundlich und sauber!"
+f7737855-0af7-4977-bee6-109545ffffd2,,"('SERVICE', 'POSITIVE', 'NULL')
+",,"Wer ""neu"" in der Tapaswelt ist, wird super beraten - vom Essen bis zum passenden Wein."
+ae7e6b0a-a499-41ed-b658-99166da374b0,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die Schnitzel waren viel zu dunkel, besonders das Wiener Schnitzel war kein Wiener Schnitzel, keinerlei Blasenbildung in der Panade, offenbar wurde altes Fett benutzt.Die Küche war offenbar schlecht besetzt, die Essen kamen zu spät, zu unterschiedklichen Zeiten, keine saubere Tisch-Zuordnung."
+0e778ee7-5456-4425-aa6c-583209966b25,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir kommen nicht wieder!
+e535f84b-7c23-4007-a01e-c05c8b46d99a,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Und Besteck einfach so auf einen Holztisch zu legen, geht gar nicht!"
+a0bb31bb-1544-47d6-a3f8-85e473791c4c,,"('SERVICE', 'POSITIVE', 'NULL')
+",,Wir saßen draußen auf der Terrasse und wurden zügig und freundlich bedient.
+92adc9fc-b248-4c5a-b67f-c6602a7b66af,,,✅,"Wir kamen eine Stunde zu spät zu unserer Reservierung, was mit einem Lächeln und dem Kommentar „Sie hatten doch angerufen!“ an einem schönen Samstag Abend überhaupt kein Thema werden konnte."
+3c2a6c91-228b-4446-b61e-4996daed3b6b,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Das sind Verhältnisse wie zu DDR-Zeiten.
+597c8db9-6ba5-4581-97e1-0aa7f69b892d,,"('PRICE', 'NEGATIVE', 'Preis')
+('FOOD', 'NEGATIVE', 'Schnitzel mit Bratkartoffeln')
+('FOOD', 'NEGATIVE', 'Salat')
+('FOOD', 'NEGATIVE', 'Champignonsoße')
+",,"Schnitzel mit Bratkartoffeln und Salat und Champignonsoße für 19,50 Euro, wenn es gut wär dann wäre der Preis OK aber für ein Schnitzel aus der Fritteuse mit Champignons aus der Dose vielleicht 2 Stück Pilze ein no Go."
+54a97d77-8de1-44fa-9374-f00978c80f89,,"('PRICE', 'NEGATIVE', 'Preisleistung')
+",,"Auch für den Rest, ist die Preisleistung nicht unbedingt passend."
+07f13ffb-7c46-4b02-bbc1-aaebcf3fb806,,,,So etwas kennen wir aus der LOC zu Hause nicht.
+aaa49bea-cc5f-44dc-9692-893688b026a6,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Zum Abschluss gab es sogar noch eine kleine Aufmerksamkeit des Hauses für uns.Alles in allem hätte unser Essen nicht besser sein können.
+4797de50-734c-41eb-b498-a659eae9a9b6,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir werden nicht mehr hierher kommen.
+f5703d79-aa04-44dd-bc8a-8de01602f472,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Service absolut unterirdisch.
+a31b4847-9489-4d0f-9d88-14a5c8c88305,,,,"Denn, das ist das LOC."
+51ff6e78-211b-4c3c-b81f-348a26c1e869,,"('SERVICE', 'POSITIVE', 'Kellner')
+",,Wir wurden von einem super freundlichen Kellner bedient.
+082ddb27-c12c-4adb-961d-c6bc7c0a633c,,"('FOOD', 'POSITIVE', 'Tapas-Auswahl')
+",,Die Tapas-Auswahl war riesig und köstlich.
+86f39450-0acc-4f54-a7c3-dee509ebd152,,,,Mehr nicht.
+af48335d-fd6a-45e8-ba54-51a72809d679,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Das nächste Mal gehen wir mit unseren nordhessischen Freunden in ein richtiges Restaurant.Zum guten Ende: der Service ist zu bewundern, wie er die Massen an Menschen sehr schnell und sehr freundlich wegmoderiert, Respekt"
+6373b2b8-7000-4352-b6f8-b34a96c8205e,,,,Aber.
+0c34a8ee-796b-475c-9e84-79deb2dd07ed,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Gute Auswahl, sehr schön angerichtet und sehr kurze Wartezeiten.Geschmacklich ok, sicher schon besser griechisch gegessen."
+e6bd184a-6ba1-40e3-85bd-6e161fa3257f,,"('FOOD', 'POSITIVE', 'Gerichte')
+",,"Individuelle Gerichte, liebevoll zubereitet."
+6f164c0f-5b1a-45a4-8c6a-c2e29f1a768b,,,,"Wir bestellten, obwohl wir schon ein ungutes Gefühl hatten."
+4d9a0ae6-46db-45bb-8ad0-5cfa02b5e91a,,"('SERVICE', 'NEGATIVE', 'Bedienungen')
+",,Bedienungen haben den Tisch nach dem Hauptgang ignoriert.
+b2ec0493-00e0-43c3-81bc-993df351f352,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Was man bekommt und der Preis passen hier leider nicht mehr.Ansonsten war alles in Ordnung...Wir kommen trotzdem gerne ins Hard Rock, aber die Preise sind echt hoch."
+e523c594-1a07-4cba-bb78-64e81f4600e8,,,✅,"Dazu ein Weissbier, ein Schoppen Schwarzriesling und das Ganze 35€ inklusive einem grosszügigen Trinkgeld."
+cb55361d-6d6e-4b66-a37f-cd1ef053fcf5,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Personal')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Tolles Essen, kompetentes Personal und gemütliches Ambiente… Ein gelungener Abend für uns und absolut weiterzuempfehlen!!"
+f7bab67c-0a85-4acd-bd4b-82d36c267e90,,,,Nie wieder Hätte doch lieber zum Griechen oder LOC gehen sollen.
+d3f3fff7-8066-4f23-8dbc-7605db8a5ef0,,,,Meine Familie besucht das Cafe schon seit 30 Jahren in regelmäßigen (jahrelang 1x wöchentlich) Abständen.
+b6865ee3-303a-4946-9318-691341bc1089,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die ersten Gänge waren sehr überschaubar, ein Schweinenacken im Hauptgang zu geringwertig, der vegetarische Hauptgang auch nicht zum sattwerden.Das Personal sehr freundlich, der Ablauf reibungslos."
+064388a4-9f84-4306-8d6f-e13b5ea2646e,,"('FOOD', 'NEUTRAL', 'Speisen')
+",,Qualität der Speisen und Optik in Ordnung.
+c2c5eb8a-71f9-46c0-bf4c-e251f8bf6ede,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'POSITIVE', 'Bedingungen')
+('FOOD', 'POSITIVE', 'Gerichte')
+('PRICE', 'POSITIVE', 'Preis Leistung')
+",,Schöne Atmosphäre Schnelle und aufmerksame Bedingungen Super lecker und viele verschiedene Gerichte Preis Leistung super
+cf294a77-bd91-4e9f-8047-7c6a0a225b6a,,"('FOOD', 'NEGATIVE', 'NULL')
+",,"Wir können nur jedem abraten dort essen zu gehen, der sich eine gute Qualität erhofft!"
+c77b4822-6b22-49cc-9212-b52f86035f68,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Von uns sicher kein zweites mal und keine Empfehlung
+3e464b6b-d65c-4d49-beed-fb4b6115525f,,"('PRICE', 'NEGATIVE', 'Preis/Leistung')
+",,Preis/Leistung passt in unseren Augen nicht zusammen.
+13ef36f0-ecd6-4d6f-a7d0-eda3ffeafe19,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Nix zu bemängeln.
+2733169a-11e3-4b8b-af45-b3a74b120c29,,"('GENERAL-IMPRESSION', 'POSITIVE', 'RESTAURANT_NAME')
+",,"Würde RESTAURANT_NAME immer weiter empfehlen und werde auch immer, wenn ich in LOC bin, wieder kommen."
+7c6490e7-4ac6-4032-ba05-3602f9d1c947,,,✅,"!Nachdem wir zufällig einen Platz ergattert hatten, mussten wir 20 Minuten beobachten, wie der zugeteilte Kellner alle Tische runderherum bediente, sogar für 1 (!!!)"
+8b5be337-a4a1-46dc-b3d8-ade24a8d18f2,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Obwohl man dabei immer nette Leute kennenlernt.Ich denke, dass die lange Schlange vor dem Imbiss eine clevere Marketingstrategie ist."
+47017e5d-adec-48d5-ae94-665f159d7dc1,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Bedienung freundlich und flott.
+46b038c5-c65d-42f3-b4c4-be3069aeb7b3,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",✅,"Das Ambiente passt zu 100 Prozent für einen RESTAURANT_NAME, sehr gemütlich, stilvoll."
+4d2b1c34-8e7a-4d19-841b-b39d141fd55e,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,Mega leckeres Essen und super freundliche Bedienung.
+fbf43f77-26a3-4b9f-bc3d-acba1a5ee923,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"40 Minuten auf Essen gewartet, nach Nachfrage nochmals 10 Minuten."
+56e6a3fe-47c3-43d6-9a70-3cec7f45c1bf,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Beide Male gab es Kohl .Das Essen im Restaurant war gut.
+721650d6-e099-4688-8a8f-91d0f952c435,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,War komisch!
+f538fd8c-9847-44ef-8d60-d1fa3d753e84,,,,"Am Wochenende ist es empfehlenswert zu reservieren, den Abends wird's voll."
+6b588b8d-6208-4783-a048-34c044dcb830,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir freuen uns auf ein Wiedersehen!
+2ef925e3-d0b9-4141-95cb-a99c2d721ce4,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Schlechtester Service ever!
+be369b2d-3844-4905-ba23-2dd9d96b0196,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Aber so schlecht haben wir es noch nie in einem Hard Rock gehabt.Bedienung nur englisch (kein Problem aber komisch wenn man in LOC in ein Restaurant geht).
+b987afe7-f338-4b01-b58e-53392d13a486,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Essen und Atmosphäre waren gut.
+849650bd-26a8-4988-a39c-0e96a5d0d418,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Personal ist sehr freundlich und aufmerksam.
+142fa2f7-d9c5-49f1-ba62-d71e31a240f1,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Und das Essen war super super lecker.Und Sehr schön angerichtet
+7ce4e604-760c-4bf9-851a-8e52ddd993f5,,,,Wir waren als Familie im Außenbereich und hatten bestellt.
+f55e42f4-3cda-47b8-8d44-87291f359ec5,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Auf das Hauptgericht haben wir nach der Vorspeise fast eine Stunde gewartet.Auch das Essen war diesmal eine total Enttäuschung.
+26af9894-6e27-49b5-8541-999e61641847,,"('PRICE', 'NEGATIVE', 'Preis-/Leistung')
+",,In Summe Preis-/Leistung aber nicht angemessen.
+847661e9-9ab4-4e3b-8e32-590fbcb59bd2,,,✅,"Dadurch werden einem aber auch Getränke, wie bspw."
+289f10f0-333d-4917-ab2d-099181b7b265,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Kann nur gutes berichten.
+09f9e50c-31cb-4eb3-a477-33d4eb8fe0c6,,"('PRICE', 'NEGATIVE', 'Preis')
+",,Der Preis war mit etwas mehr als 50€ pro Person inkl. Wasser und einer halben Flasche Wein schon heftig.
+266bc829-28bc-4a5e-9937-b1a29d688fd0,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen kommt im Minutentakt und ist gerade noch mittelmäßig.
+c330f406-a2e7-45b0-8768-ab36d4970039,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Leider wurde ich durch die sehr vielen guten Bewertungen hierher gelotst.
+e35f57b4-6fce-48d2-a681-ce083e5666fa,,,,Typisch österreichische Restaurants sind bei uns dünn gesät.
+226e3795-18c2-4926-b1ab-a6b2aaf29cde,,"('SERVICE', 'POSITIVE', 'Service')
+",,Wir werden also schon erwartet und sofort kümmert sich der Service um unser Wohl.
+610fc67c-fd13-4dca-a296-7db97d0814e1,,,✅,Der gesamte Teller schwimmt im Bärlauch.
+918a5ad1-5388-4752-8d77-47ee3c688bbf,,"('FOOD', 'NEGATIVE', 'NULL')
+",,"Letztendlich eine Frechheit, so etwas in einem solchen traditionsreichem Restaurant anzubieten."
+3cf1c79e-79b8-4f30-a354-3c2e4f6e8bc4,,"('FOOD', 'NEGATIVE', 'Bier')
+",,Das Bier ist selbstgebraut - mein Geschmack ist es nicht.
+7351829d-1d04-4836-98b1-33179c3da13d,,,,Auch wird ganz offensichtlich bei den Produkten auf Qualität geachtet.
+a9cd7cf5-e675-46f6-bedb-db6fd437da89,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Das Essen war wirklich sehr hochwertig und geschmacklich und optisch toll angerichtet.Zur Krönung bekam unser Hund auch noch einen leckeren Happen aufs Haus und einen Napf zu trinken.Kurz gesagt, wir haben uns echt wohl und gut aufgehoben gefühlt, DANKE dafür !"
+adb74fa6-2a7a-46ed-9397-1390c156d792,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Doch ich konnte keine Petersilie finden und die Pizza war so trocken, dass man höchstens die Mitte essen konnte, wenn überhaupt.Der Mitarbeiter behauptete, dass die Pizza so sei, wie sie sein sollte."
+f4765bc5-827a-472c-9089-fa58511de40c,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Klos unsauber… einfach einteilen zum Checken, ob sauber… easy!Keiner sollte sich zu schade sein, etwas mehr anzupacken, als wäre es der eigene Laden.Pommes etwas lappig aber gut im Geschmack.Viel Erfolg, weiterhin"
+81b135c5-1c7f-4557-8ca0-13eaa12b4cc6,,"('SERVICE', 'POSITIVE', 'NULL')
+",,super freundlich und sehr engagiert und auf zack!
+813c175c-aef8-4a45-ba12-4f7962d74865,,"('GENERAL-IMPRESSION', 'POSITIVE', 'LOC')
+",,Der LOC bekommt von uns eine sehr gute Bewertung.
+599b86fb-1402-4dab-92ec-317e388554c0,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Unser neuer Favorit in LOC!
+b39785fe-add2-42c0-9d54-00dadb6f8dc8,,"('FOOD', 'NEGATIVE', 'Wurst')
+",✅,Auf dem Salat lagen :- einige wenige Scheiben Wurst ( mit Fettrand und sicherlich kein Kalbfleisch !
+7319d037-2020-4e7b-ac40-7029f06887c2,,"('FOOD', 'NEGATIVE', 'Wassergläser')
+",,"Wassergläser uralt und mit x Gebrauchsspuren, was die Gläser sehr unansehnlich macht."
+5d161087-8238-4bc6-847e-5791c160165e,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Den Käse zur Pasta verspätet nachgereicht.
+5499961f-6515-43dc-b3bd-3eb4607c84ce,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Man findet eine urige Atmosphäre, die an die Anfänge des letzten Jahrhunderts erinnert."
+6301a3b5-b075-49fc-91a9-7788bc193626,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir waren mit allem sehr zufrieden und kommen gern wieder!
+954cde7e-648a-418d-a1b1-132164a5c839,,,,Bei meiner Reklamation wurde ich zudem von ihm durch einen Stoß an der Schulter attackiert.
+f5372cc3-32e7-49b6-9b54-ce4223388a55,,,✅,"Keine Weißwurst, kein schweinebraten, keine Würste."
+8143d22f-fa82-421c-98b6-3dd14d41b673,,"('PRICE', 'NEGATIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'NULL')
+",,Ich habe schon deutlich besser gegessen und nur die Hälfte bezahlt.
+dd656bcd-0191-4a15-9527-1aee321b301b,,,,Beim Vorbeigehen schauten wir den anderen Gästen auf den Teller und alles sah ordentlich aus.
+100c211b-a44b-43e3-b861-61907e4cb3fe,,"('SERVICE', 'POSITIVE', 'Beratung')
+",,"Super Fleisch Beratung, essen gleichzeitig auf dem Tisch."
+207b824e-2458-44bb-bbcf-867c3dc5d6e9,,,✅,Der angebotene Tisch war zwischen Tresen und einem Stehtisch fürs Personal und ohne Fenster.
+ccaf7d28-7e55-4c87-8627-68b8f570b0c1,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Selbst Kölsch wurde nicht nachgeschenkt.
+d65f54e2-4055-4130-b266-eef318199a90,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,Im gesamten bekommt es von mir immer noch 3 Sterne.
+ed2341b0-7c6c-4e0d-a707-60b7f5eb58b4,,,✅,10liter Faß.... .Schöner Nachmittag.
+a150624b-560a-40ac-aa41-d647b8c263a8,,"('FOOD', 'POSITIVE', 'NULL')
+('SERVICE', 'POSITIVE', 'NULL')
+",,"Delikat angerichtet, tolle Performance beim Servieren."
+b6a84ee0-d6da-42c4-8a04-edfd68972959,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Wir können vom Besuch nur abraten.
+e82e3271-672d-4cd9-b15b-f8fc1420903b,,"('SERVICE', 'NEGATIVE', 'Chef')
+",,Der Chef kann mit Kritik ja mal überhaupt nicht umgehen wie man hier in den Antwort Kommentaren ließt.
+5b879282-974a-4b26-8f75-ef50bfb170b4,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Leider hat der Service nach der Pandemie abgebaut.
+58caaa61-8571-4763-8fa1-ed2915292cea,,,,Leider spricht dort keiner mehr echten bayrischen Dialekt!
+2ba81550-bb50-4053-aee8-19bf45c90fc2,,,,Keine Billigware.
+e1f93557-3a2b-4441-aec6-04a1bbc6fbfb,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"""Der Kunde ist König"" ist hier Fehl am Platz!30 Minuten gewartet bis wir etwas zu trinken bestellen konnten, dann wollten wir zahlen und bekommen in einem sehr unfreundlichen Ton gesagt man kann nur bar bezahlen, daraufhin sagten wir dem Kellner, dass der Tisch nebenan auch mit Karte bezahlt hat, der Kellner antwortete in einem genervten Ton ""tja manchmal funktioniert es, manchmal nicht"".Also wir wurden behandelt als wären wir nicht willkommen und keiner hätte Lust auf uns, obwohl wir uns ganz normal verhalten haben.Könnte ich 0 Sterne geben, würde ich das jetzt tun."
+e1f74c18-5be9-496d-8399-e59a1e468a5a,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Lediglich die Bedienung war sehr freundlich.
+ddf81f2f-b111-4d6b-9ee9-eb2831f18509,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"!Preise für das Essen ok!Aber ich war erschüttert über den Preis von einem Glas Wasser € 4,60!"
+7b6318be-7e16-4202-af7e-982838bda69b,,"('FOOD', 'POSITIVE', 'Gericht')
+",,Jedes Gericht war ausgezeichnet.
+671b80d8-c802-4211-99b6-028af57c7117,,"('FOOD', 'POSITIVE', 'Weinkarte')
+('FOOD', 'POSITIVE', 'Grappa Spezialitäten')
+",,Auch die Weinkarte ist sehr zu empfehlen sowie eine hervorragende Auswahl an Grappa Spezialitäten!
+e004961e-4335-4524-95ad-c03c44679142,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Café')
+",,Dieses Café passt so gar nicht in die uns überall entgegen gebrachte Leipziger Freundlichkeit.
+2aaa29c9-1eaf-426d-bca5-40c716d703c2,,,✅,Mein Bier das mir vorgesetzt wurde war entweder nur zur Hälfte befüllt oder durch die Hitze im Restaurant einfach auf dem weg zum Tisch verdunstet.
+8d1e06da-4f53-4bce-bb6b-01cec825c8e0,,"('AMBIENCE', 'POSITIVE', 'LOC')
+('AMBIENCE', 'POSITIVE', 'Sitzplätzen')
+",,"Das ""LOC"" ist ideal gelegen am LOC und bietet eine Vielzahl an Sitzplätzen innen und außen."
+763d4845-6a7d-4364-b8de-1eff79ce008d,,,,Die Bierkultur der Wirtshaus- oder Kleinbrauereien in LOC ist einfach sensationell.
+da03fb87-5893-46bb-9c5b-171aa017d19f,,"('SERVICE', 'POSITIVE', 'Service')
+",,"Der Service im LOC war freundlich, schnell und aufmerksam."
+717336ea-7ebd-49f9-bb82-643a7b474a6f,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Wir waren sehr unzufrieden, werden auch nicht mehr zu Gast sein."
+81146778-0591-48a1-92e3-7b7593e5ddfe,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Mehr als 2 Punkte gibt es nicht.
+a70d4604-ff86-4c06-af3b-5056e20a198d,,"('SERVICE', 'POSITIVE', 'Kellnerin')
+",,"Auch die Kellnerin, die eigentlich für unseren Tisch zuständig war, war sehr nett."
+7ffbe144-3af9-4ac5-b511-039351e97425,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Dorade und andere Steaks am Tisch ebenfalls auf den Punkt.Auch der Service war sehr zuvorkommend und Getränke auch gut, bzw. haben das Essen gut begleitet.Einziger kleiner Kritikpunkt: Preislich gesehen ist das Restaurant schon hochpreisig, vor allem verglichen mit anderen Restaurants im LOC (ähnlich qualitativ hochwertiges Essen) doch schon etwas teuer."
+04fa423c-c880-4f31-a74e-0a2bde18c56c,,"('AMBIENCE', 'POSITIVE', 'sonne')
+('SERVICE', 'POSITIVE', 'Bedienung')
+('FOOD', 'POSITIVE', 'essen')
+",,"Bei einem schönen Sonnen Abend den richtigen Tisch zum rausschauen und die sonne wie sie untergeht genießen ,einfach romantisch, Die Bedienung ist sehr nett und das essen schmackhaft."
+2232157d-e564-4fb4-a9ac-5a07cdc8ad9c,,,✅,Die Getränke kamen fünf Minuten später.
+377c520c-8dab-4bb6-bc5f-711ac55b826c,,,✅,Im Restaurant hatten wir wegen der Maß an LOC zwei Schnitzel mit Bratkartoffeln gewählt.
+b2bfc3f8-cd60-4fb8-85a7-8bf5ba5bb811,,,✅,"Die letzte Überraschung war, um 22.45h wurde uns mitgeteilt, das wir die letzte Getränkerunde bestellen dürfen, obwohl das Lokal bis 0.00 h offen ist."
+f08566dd-2f1d-412d-a4c7-75e6022448b7,,"('FOOD', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'NULL')
+",,War durchaus interessant und geschmackvoll.
+67b2f3f6-ffc8-45ef-80cb-d395a917b102,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Kommen bestimmt wieder.
+f78e6742-61ac-4f1d-8ad6-71f2769539b0,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Das dort ausschließlich männliche Personal hatte nun so gar keine Lust.
+73f6eb78-3512-4ead-b7ed-740e061d1682,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Sehr unmotiviertes PersonalEssen auch nur MittelmaßDie Lage ist natürlich unschlagbar schön / direkt an der LOC - aber da kann man wirklich ein besseres Lokal findenObwohl nicht so viel los war wurde der Tisch nach dem Essen nicht abgeräumt und man musste um Service betteln ... nein Danke
+4013a35d-c0b0-4fdb-86ea-ebb8a1485741,,,✅,Werden nach dem letzten Besuch nun eine Pause einlegen.
+3af7b28e-a894-4a5b-81f3-67d063c2f6a2,,"('PRICE', 'NEGATIVE', 'Bier')
+",,"Das Bier mit 3,60€/ 0,3l zu teuer."
+b58dda49-4dcb-4d83-8ee1-aec378ad1c5a,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Gerne wieder!
+17b637ea-8943-46f0-957f-47be8754855e,,,✅,"Der Kellner brachte eine Flasche Mineralwasser mit und ich sagte ihm, dass ich stilles Wasser angefordert hatte."
+43470ebd-5c44-415b-b6ec-ba84a232f5f5,,"('FOOD', 'NEGATIVE', 'NULL')
+",,Übel in der Optik und dem faden Geschmack.
+99cbeb0e-cb73-454e-89bc-97afd3ebf0f3,,,✅,"Es reicht nicht, bekannt zu sein, um als Gastgeber einen schönen Abed zu gestalten."
+5ddb0f5b-1436-4caa-9385-7959ea118b79,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Leckere und gut gewürzte Speisen erreichten uns durch den gut geschulten Service.JA, wir kommen wieder."
+ebc39970-f331-4f30-a18c-35bbea525bcc,,,✅,Die Küche hatte noch auf.
+548168f2-2024-4a12-8e33-28b0f10afee0,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Schweinesteak war totgebraten, die Rahmsauce war so dünn wie Wasser usw.Dieses Restaurant kann ich nicht empfehlen!!"
+e7444295-70e9-47a4-bd12-7b31676f5c0e,,"('PRICE', 'NEGATIVE', 'NULL')
+('SERVICE', 'NEGATIVE', 'NULL')
+",,"Zudem war alles sehr überteuert, da hätten wir wenigstens etwas mehr Entgegenkommen erwartet."
+e65f61fe-637c-4844-94d4-1dfb6b5bd37a,,,✅,Bekommen haben wir einen Tisch im LOC zur Toilette.
+78256b36-56ff-4da9-8505-8f2749d11e94,,,,Wir waren mit der Familie am Ende eines langen Tages dort.
+5e2322c2-6752-4ea9-b513-ad2680e3d79a,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Tolle, urgemütliche Atmosphäre."
+4331eba4-ddaa-402c-95f6-460b3b0a9ed9,,,✅,"Hauptgang: Lammfleisch im "" knusprigen"" Blätterteig."
+28165d5a-31c6-4a9b-a510-9afd0fc279dc,,"('FOOD', 'POSITIVE', 'Bier')
+('FOOD', 'NEGATIVE', 'Essen')
+",,"Das selbstgebraute Bier ist wirklich lecker, das Essen hingegen nicht zu empfehlen."
+340030e5-125d-4dbf-aa30-e62a7147be9e,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Das Essen war OK, aber nichts besonderes .Für den Preis kann man mehr erwarten.Am schlimmsten war aber die Geräuschkulisse."
+09c2d669-f00c-416d-9d26-fb53ef900fd5,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die Bewertung war aufmerksam und nett.Ebenso konnte man sich in den Räumlichkeiten wohlfühlen.
+fa0edc09-f484-4786-92ad-a32519625334,,"('FOOD', 'POSITIVE', 'Speisekarte')
+",,Toll finde ich auch die Speisekarte.
+d260c025-ecf9-4836-b6ed-8016799c6e6d,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Nachdem wir die Karte begutachtet hatten sind wir dann aufgestanden und gegangen.Zum einen saßen am Nachbartisch Raucher(nicht schön wenn man unter Schirmen sitzt und der Qualm da rumwabert,) zum anderen waren mir 4,40 Euro für eine 0,2lCola einfach zu teuer."
+aeaf3b25-76b9-47b8-9559-90130e5ff676,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Ich habe es reklamiert und bekam es dann getoastet...Der ebenfalls bestellte ""Obstteller"" für 6,50 Euro enthielt vor allem ein Schälchen Apfelmus (vermutlich nicht selbst gemacht), eine (!)"
+fefc085a-1e6c-4b0b-b053-03e9d27667e5,,"('FOOD', 'POSITIVE', 'NULL')
+",,"Ich wollte es unbedingt flambiert, weil das beim letzten Mal sooo gut roch."
+2cdf5d74-99ed-40cd-9960-2c540fcb188d,,,✅,"Die Rechnung mit einem kleinen Bier und einem Glas Wein betrug EUR 48.00, dazu kam ein grosszügiges Trinkgeld."
+7f36f8d2-1aae-46a3-96c6-eaa8145cfaf8,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Gerichte')
+",,"Tolles Ambiente, sehr guter Service und vor allem exquisite und köstliche Gerichte."
+bb989396-0551-4222-a66e-ed4bcfaba2ca,,,,"War nicht ganz klar warum, denn der Weg zum Gast ist im Haus kürzer als außen."
+ea53a73a-34ba-44b5-bfb1-9fced39f91b9,,,✅,"Da wird wirklich jede Kartoffel- und Gemüsescheibe einzeln auf das Brot gelegt, dabei gescherzt und gelacht, gute Freunde im Vorbeigehen begrüßt und natürlich auch gequatscht."
+3f9a921f-97f2-4657-9469-e9d76a34848d,,"('FOOD', 'NEGATIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'Speckkloß')
+('PRICE', 'NEGATIVE', 'Speckkloß')
+",,"Leider etwas zäh und nicht warm genug, der Speckkloß lauwarm und das für 29€!"
+0a7688a6-f335-4622-ba5a-77f5d5e00224,,"('FOOD', 'POSITIVE', 'Knödel')
+('FOOD', 'POSITIVE', 'Dessert')
+",,"Auch die Knödel sind sehr lecker 😋 Habe ein Dessert gegessen, auch dass war schön angerichtet und 😋."
+7ec15605-135e-4ae7-a8ca-73d48b275c7b,,"('AMBIENCE', 'POSITIVE', 'Interieur')
+",,Das Interieur ist bemerkenswert schön und im Sommer sitzt man draußen im Leben von LOC.
+8db971ff-7148-475d-ac00-a54d8b4ed37e,,"('SERVICE', 'NEGATIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'Essen')
+",,Nun gut…Das Essen kam kalt an den Tisch und nicht gemeinsam.
+a328a9b8-0300-4b5f-a7dc-4d4e558dc925,,,,Da konnte auch die Küche nichts mehr retten.
+f740460b-65aa-4682-b09b-477d8b027b1f,,"('PRICE', 'NEGATIVE', 'NULL')
+",,Kapp 60€ waren für das Angebotene eine Frechheit.
+cb3e09dc-7ad4-4806-8f5a-c28876258fc2,,"('SERVICE', 'POSITIVE', 'Bedingungen')
+",,"Nette freundliche Bedingungen und schnelles bringen der Speisen, obwohl es voll war."
+c3c3ca9e-0841-4e12-ac86-ce4251cb3502,,"('FOOD', 'POSITIVE', 'Königsberger Klopsen')
+('FOOD', 'POSITIVE', 'Rumpsteak')
+",,Meine Frau war von den Königsberger Klopsen und ich von dem Rumpsteak aus dem 800° Grill begeistert.
+8d707bf2-705a-4ad0-8780-639ffb14653d,,"('FOOD', 'NEGATIVE', 'NULL')
+('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Aber was hier aktuell kredenzt wird und vor allem das unprofessionelle Ambiente schreckt ab.
+23aa3869-e93a-4e1e-a42f-523d56a9ad0c,,,✅,"Wir kommen extra immer aus LOC in die RESTAURANT_NAME, aber das lohnt sich im Moment nicht mehr."
+11c04a00-18f8-41a8-83cc-f36ed737dae2,,,✅,"Beim Abräumen der Vorspeisen haben wir das auf Nachfrage auch mitgeteilt, aber keine nennenswerte Reaktion erhalten."
+2b0851bc-54b0-4881-aea9-b5c936198a17,,"('FOOD', 'POSITIVE', 'Lachsfilet')
+",,Besonders das Lachsfilet war sehr lecker.
+6aba2a8f-844d-4544-9543-57cc7f0f1dba,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Grüße aus der Küche')
+('FOOD', 'POSITIVE', 'Pré- und Postdesert')
+",,"Entspanntes Ambiente, auch die Grüße aus der Küche sowie Pré- und Postdesert waren unglaublich lecker und besonders!"
+f6782ea3-cea5-48b7-a0bf-29e33f886664,,,,"Keine Soße, kein Gemüse, so wie es eigentlich auf der Karte stand."
+f96aadf8-c886-4f20-bf4e-0751ee51ae34,,"('FOOD', 'NEGATIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Essen')
+('PRICE', 'NEGATIVE', 'Töttchen')
+('PRICE', 'NEGATIVE', 'Wiener Schnitzel')
+",,"Das Essen hatte Schnellimbißcharakter und war sehr teuer: großes Töttchen € 14, Wiener Schnitzel € 25."
+c4a722cd-a5b9-4764-b489-38e7e0a9dd96,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Nudeln waren hausgemacht, war ok, hatte angesichts der Bewertung mehr erwartet.Service freundlich."
+d168807b-566e-4e1b-821f-31f2d4132215,,"('FOOD', 'POSITIVE', 'Schnitzel')
+",,Auch Schnitzel war gut.
+f4e8ac01-74e3-4f07-8ba8-6a8bd5fbca74,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Immer wieder gerne wenn wir in LOC sind.
+8a51394d-8876-4807-a31c-1bfedb5430e9,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"2x umgesetzt werden, nach 45 min immer noch keine Bestellung aufgenommen."
+14a50e4c-c787-410f-9106-74f43f17d8fa,,"('SERVICE', 'POSITIVE', 'Service')
+('SERVICE', 'POSITIVE', 'Ladenbesitzer')
+",,Super Service (der Ladenbesitzer ist köstlich und ein super Typ!)
+59518715-1ad2-4a7b-8c47-0c7ec5f6412a,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die Apfelkücherl waren ok.Insgesamt hatten wir den Eindruck, dass die Qualität von Jahr zu Jahr abnimmt und das Lokal trotz seines Charmes überbewertet ist."
+87c61891-eb44-4ed8-a351-c3435cb6f6c4,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Nachdem meine letzte Bewertung um den Biergarten ging, nun mal zum Keller.Wir waren mit ein paar Arbeitskollegen abends hier.Der Kellner war schnell und ein wenig verpeilt, aber es hat alles gestimmt.Sowohl das Bier als auch das Essen war schnell da."
+c4f210c5-7718-4cf3-866d-c63136a34d49,,"('PRICE', 'NEGATIVE', 'Preis')
+",,Preis deutlich zu hoch.
+a5a51a1e-6960-4bea-afab-471b6e143eb0,,,✅,"Wir hatten Brauhausteller, Roulade und Schnitzel."
+55acceee-52b5-48c5-ad73-549dd97d61ca,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"120,- €, müssen wir ganz ehrlich sagen, schenken wir uns den nächsten Besuch.Dafür gibt es einfach zu viele Restaurants in dieser Preiskategorie, bei denen wir bisher ein deutlich besseres Ergebnis auf den Teller bekommen haben.Sehr schade, aber da sind wir sehr konsequent, weil wir eigentlich nahezu jedes Wochenende min."
+2467c80e-e7f9-4237-9e61-81e75e06804e,,"('FOOD', 'NEUTRAL', 'Essen')
+('SERVICE', 'POSITIVE', 'Bewirtung')
+",,"Eher durchschnittliches Essen, Bewirtung hat versucht sich zu bemühen."
+450633b7-1fd6-475e-a4e2-00330d672a19,,,,Das Lokal scheint eher für Gruppen konzipiert zu sein.
+f24a932b-9643-4d7f-a743-9546d3a2787e,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wieder empfehlenswert!
+0dadcccf-3a3d-4ff7-bb97-d3e5aa731836,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Der Besuch lohnt sich wirklich nicht!
+7e375863-06bb-45b9-94e3-198ed44f05f5,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"„Es können doch Fehler passieren.“ Natürlich können die passieren, denn niemand von uns ist fehlerfrei, aber zu sagen: „Ich habe alles bestellt, ich bin aus dem Schneider.“ ist das Allerletzte!"
+66ee4b61-2f0d-47ef-a8ba-8f297a22187c,,"('SERVICE', 'NEGATIVE', 'Wartezeiten')
+",,"Neben den langen Wartezeiten, bekamen wir ein Trinkglas mit Sprung, was wir frühzeitig genug bemerkten."
+b60b9660-ded0-4c38-b75a-b949f264ff44,,,✅,Die Servicekräfte sind alle historisch gekleidet.
+a3eea15d-8a63-4e35-81aa-effaf00e4939,,,✅,Faire Preise sind mir wichtig.
+8f60ff15-71b4-4e52-9db0-a32f9664ecf7,,,✅,"Der LOC kam an den Tisch, wollte witzig sei in dem er sagte man könne nichts zu essen bestellen da die Küche ne Pause brauche."
+00d1c651-6cd5-49d4-be13-eae7e87621a7,,"('PRICE', 'NEGATIVE', 'Pizza')
+",✅,"Außerdem sind die Pizzen wirklich groß und es gibt nur die eine Größe, sodass man für die einfachste Pizza schon 9 Euro zahlt."
+4a498dd2-e081-484e-b95a-47076fda67f2,,"('AMBIENCE', 'POSITIVE', 'Beleuchtung')
+",,"Allerdings fanden wir, dass die Beleuchtung etwas schöner sein könnte."
+719b5f82-50f1-42cd-9651-33393f62c304,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Ich bin hier immer sehr zufrieden und kann einen Besuch empfehlen,"
+fb0d239f-1142-4479-9329-a6456e4311aa,,"('SERVICE', 'POSITIVE', 'Service')
+",,Service super humorvoll und zuvorkommend!
+da66a2b6-eda1-4f6a-8c43-ed4f5b039d00,,,,Als wir gegen 21 Uhr wieder gegangen sind waren immer noch ca.
+75499a8d-51ca-44b9-abf0-9683ecb10788,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade.
+e19ec08b-1b53-4d70-b104-c709b178bdb0,,"('FOOD', 'POSITIVE', 'NULL')
+",,"Geschmacklich/Konsistenz ok, hatten wir aber auch schon deutlich zarter."
+c901b832-6167-47d0-aca2-0eb87393ec4d,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Kölsch')
+",,Das Ambiente passt und das Kölsch schmeckt auch.
+791e4b55-0716-4f49-813f-2a08e665d39b,,"('FOOD', 'POSITIVE', 'NULL')
+",,"Lecker gegessen, beste Qualität!"
+54f6fd32-0d34-4ae8-a08d-f53a44a3f6d1,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Im LOC wurden wir dann mit nicht besonders freundlichen Kommentaren darüber empfangen, dass wir lustig seien, für sechs Personen einen Platz finden.zu wollen.Der Kellner dutzte uns, was ich befremdlich fand, eine Bedienung sprach meine 92-jährige Mutter mit den Worten an: ""Dann setzen wir die ""Oma"" aufs Sofa."""
+cbe1d69f-d2e2-479d-850a-6c8d551b1de8,,,✅,Dann brachte man uns nach dem Essen noch ein Stück Brot.
+ee93d164-7387-447f-bfbf-b5bcde7ea0dc,,"('SERVICE', 'NEGATIVE', 'Unterbesetzung')
+",,"Es lag nicht an den einzelnen Kellnern, sondern an der (offensichtlich gewollten) Unterbesetzung im Service."
+5c7c3bdf-6c24-43e2-9b88-6baa060ed508,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Die LOC hat gut geklappt und ist am Wochenende auch zu empfehlen.
+5f983d0d-d0ab-4ac7-a936-c4b22c8c3bac,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen wieder!
+e34e1e58-ffda-4a60-8b61-a16801420fc0,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wirtshaus mit einer Küche, welche man nur als Schande für Münchner Gastfreundschaft bezeichnen kann.Wir sind seit Jahre ein Stammtisch im LOC."
+1d92b7b3-9eb2-45fd-b76a-6a6255fe0d31,,"('SERVICE', 'POSITIVE', 'Koch')
+('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'pfefferschnitzel')
+",,Der Koch hat dabei allerdings sehr gute arbeit geleistet und ein leckeres Essen gekocht (pfefferschnitzel).
+c7cb060b-d3b5-48e9-8c87-aa8d2961ef9a,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Leider ist dem nicht so, das Preis Leistungsverhältnis passt nicht.Auch sehr störend fanden wir das Hunde im Restaurant erlaubt sind, in einem Steakhouse, und davon abgesehen das Personal die Hunde anfasst und streichelt und im Anschluss wieder Besteck verteilt ohne sich die Hände zu waschen!"
+944981ae-257d-4148-90f0-6c08b2a7d167,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Bei unserem ""Starlight Express""-Besuch in LOC waren wir im MOMO zum Abendessen, da das Restaurant nur wenige Meter entfernt war.Man kann dort sehr schön (auch draußen) sitzen und das Personal ist sehr freundlixh und aufmerksam!Die Weinauswahl ist sehr gut...ebenso die Gerichte!Wir waren von unserer Vorspeise und der Pasta sehr begeistert-das war wirklich Top-Niveau!Schade nur, dass das leckere selbst gebackene Brot zur Vorspeise mit € 5,90 berechnet wird!In der Preiskategorie sollte das inklusive sein..."
+be61b48b-bde1-4429-a664-eb8d948583ed,,"('SERVICE', 'POSITIVE', 'NULL')
+",,Alles war schnell und unkompliziert.
+4329d89f-8594-41b5-bb6f-e412cbf32651,,,✅,Am 30.9 waren wir nur zum trinken da und warteten mindestens 15 Minuten auf unsere Getränke.
+970aeac3-c932-44e2-b816-eb3db8560361,,,✅,"Man zahlt den Namen mit .. Kartoffelstampf für 6,- mit großen Stücken und 3 Happen .. wer den Hype mitmachen möchte .. Viel Spass und guten Hunger beim Döner danach !"
+b76ee61f-df4c-408c-a147-33e03eb120b6,,"('AMBIENCE', 'POSITIVE', 'Location')
+",,Location macht einen etwas angetaubten und unaufgeräumten und dennoch recht authentischen Eindruck.
+621b6bae-4a07-4c34-99c4-b69d7b49c7ec,,"('AMBIENCE', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'NULL')
+",,"Gemütlich, einheimisch und immer lecker."
+520673f5-1ff8-410a-bbbb-a7bcf9a827f3,,"('AMBIENCE', 'POSITIVE', 'Toiletten')
+('SERVICE', 'POSITIVE', 'Empfang')
+('SERVICE', 'POSITIVE', 'Servicekraft')
+",,"Was immer und sofort hängen bleibt: supersaubere Toiletten, der persönliche Empfang durch kleine Kärtchen am Tisch (Reserviert für XX und ihre Gäste bzw. Ich freue mich, dass Sie heute mein Gast sind) und eine herzliche Servicekraft, die jeden Wunsch von den Augen abliest."
+c4a90259-ae96-49f4-a495-761f1de21146,,,,Es ist zu empfehlen jede Rechnung zu prüfen!
+0f06b89f-74dd-4a58-9dbe-f911372853cb,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Der nächste Versuch war dann nach langer Wartezeit medium rare.Die Restaurantleiterin bestätigte dies, doch sagte, dass sie es noch einmal mit einem neuen Steak versuchen würden, öfter jedoch nicht mehr, denn es würde mir dann ja wohl auch nicht passen."
+5935b139-8742-4905-9151-df3d8d2d4894,,,✅,"Damit muss man rechnen, wenn man in ein Düsseldorfer Brauhaus einkehrt."
+0a7bf20a-38fe-4e52-9f57-de228249de24,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Ja, es gibt Töttchen - ja es gibt Dicke Bohnen, aber eben auch viele weitere Speisen, die nicht westfälisch sind.Preislich am oberen Ende, wie man es in LOC eben kennt..."
+fd8a22e4-66ae-49e5-b7ba-16e316b8e307,,"('SERVICE', 'POSITIVE', 'Susanna')
+",,"Unsere Bedienung, Susanna, war sehr freundlich und zuvorkommend."
+92c68f7f-1fef-4ef1-a89e-155a06464fd9,,,✅,Wir waren gegen 20.00 Uhr im Restaurant.
+d08ca016-85fc-45c4-84ac-b50dc64677c6,,"('PRICE', 'NEGATIVE', 'Preisen')
+('FOOD', 'NEGATIVE', 'Kartoffelsalat')
+",✅,Abgesehen von den überhöhten Preisen ist z.b. der Kartoffelsalat zu den Bratwürsten viel weniger geworden und schmeckt auch nicht mehr.
+15733cb0-d2ff-4ad5-b4e4-8be5f100a27e,,"('PRICE', 'NEUTRAL', 'Preise')
+",,"Das Lokal war trotz Wochenende wirklich schlecht besucht, so hoch wie ich die Preise in Erinnerung hatte, waren sie aber gar nicht."
+c0cabdc1-c5fa-4030-af63-9cc31878733c,,"('SERVICE', 'POSITIVE', 'Marta')
+",,Die Bedienung Frau Marta war sehr freundlich und speditiv.
+e625d824-6d39-4709-9f6a-3704d16e6e65,,,✅,Wir wurden nach oben in einen Nebenraum geführt.
+26c97927-b038-465a-9453-b59001acb933,,,✅,"Auf der Karte stand LOC 6 - 10 Jahre und hat 4,90€ gekostet."
+7c9ae38c-6b50-45c9-9b27-f1ac55b77f3d,,"('FOOD', 'NEUTRAL', 'Hochzeitssuppe')
+",,Die Hochzeitssuppe war o.k.
+50cab7b9-300c-45de-bc1d-5aa31e0ef990,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die Aussicht ist der LOC.Preis nur für die Aussich 2Erw.2Kind bis 14jahr.78.- dazu kommt noch das Essen 104.-Euro.
+7f85c1b3-b024-4ada-bec8-89daafb3c673,,"('FOOD', 'POSITIVE', 'Zander')
+('FOOD', 'POSITIVE', 'Kassler')
+",,Der Zander und das Kassler sind zu empfehlen.
+c55d7d31-05f6-40a2-abef-7c80519c9542,,"('SERVICE', 'POSITIVE', 'Service')
+",,Besonders ist aber der Service zu erwähnen.
+f14b3b2f-6c43-4cbd-96b7-3bc1067c2d15,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wir sind hier nicht in LOC, sind die freundlichen Worte des BetriebsleiterAls man ihn Aufmerksam macht, dass in der LOC anstatt eines „Leberködel“ drei Vierteln eines solchen schwimmen.Natürlich darf der Wirt machen was er will, nur dann sollte er auch in der Karte hinweisen, dass man keinen Leberknödel bekommen wird (wie üblich) sondern nur 3 Viertel.Im übrigen sollte der Betriebsleiter einmal eine Schulung machen, wie er mit Kunden und Gästen umgeht, aber wie ja angemerkt, sind wir ja hier nicht in LOC."
+4635f13c-0024-40c0-9ea4-b7d3726a789a,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+('SERVICE', 'POSITIVE', 'Kellner')
+",,"Gut es war ziemlich voll und somit war alles etwas gestresst, aber unser Kellner war höflich und bemüht."
+87aa6167-7352-43b6-8ba6-677e036e9edd,,,✅,"Die Fleischpräsentation gibt es wohl nicht mehr, zumindest haben wir keine bekommen oder gesehen."
+706d47b2-bd3b-4aa5-9bcf-65e6c9ba9abf,,"('SERVICE', 'POSITIVE', 'Kellnerinnen')
+('SERVICE', 'POSITIVE', 'Kellner')
+",,"Nette Kellnerinnen und Kellner in nettem Outfit, mit Gatsby-Mütze und Hosenträger – also: Ich habe mich wohlgefühlt."
+106b6dca-ba45-4a2e-9f3d-45ed4b12963d,,"('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'DJ')
+",,"Sehr gute Kohlparty, Essen ausgezeichnet, DJ spitze."
+5bcdfa2f-7002-4bbd-9069-fa3b71ba0807,,"('AMBIENCE', 'NEGATIVE', 'Atmosphäre')
+",,"Die Atmosphäre ist wie auf einem Bahnhof: Chaos, viel zu viele Menschen (die meistens betrunken) und viel zu laut!"
+b26ee9ad-a027-47cf-bc15-eda856b6734a,,,✅,"Frühstück: 4x, 2x Rührei, 2 Flaschen Wasser, Kaffee, Tee."
+015e6ebb-d5bd-4a03-b753-6cfd5f95e25a,,,,Fazit für Touristen wohl ausreichen.
+81ca5934-bedc-444d-a1a9-195ea8480f70,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen gerne wieder!
+e5668b2c-1eec-49fb-b25a-cfe38f06bce2,,"('FOOD', 'POSITIVE', 'Filetsteak')
+",,Filetsteak perfekt auf den Punkt gebraten.
+a83da3ba-bea6-4af8-b80f-fec317a40432,,,✅,"Der Chef beschimpft beim Ankommen gerade Gäste, die mit Hund kommen wollte."
+91c4d03a-a6c7-465f-9c25-fefded714960,,,✅,Der LOC war säuerlich und wurde uns als die gehobene Alternative zur Promotion angeboten.
+1838c991-443b-49b4-98d1-a57d0ee853be,,,✅,Heute Abend war ich mit einer Freundin im RESTAURANT_NAME.
+821fe5aa-76a0-4a44-bcff-2f9dac0e83f8,,,✅,Daher aßen wir leider nichts.
+73a8bd00-6119-4002-9701-adca18e344dc,,"('FOOD', 'POSITIVE', 'Essen')
+",,Sehr sehr gutes Essen.
+151867d4-86b1-47a5-a5e0-70332cb5f81b,,,✅,Von den 10 Nudeltaschen waren 7 nicht gefüllt.
+7e843223-7726-44e2-8df8-c708f32c72a5,,"('FOOD', 'NEGATIVE', 'Brot')
+",,Brot nicht kross sondern kalt!
+cd1c5c5a-77a1-4494-a2f4-aab9adfa155d,,"('FOOD', 'NEGATIVE', 'Pflaumen')
+",✅,"5 halbe, zu harte Pflaumen eine Kugel Movenpick Walnusseis und etwas Sprühsahne für 12,50€."
+c7f61b5e-3db1-4648-a733-6451f4648273,,,✅,"Wie gut, dass wir vor unserer Anreise nach LOC für ein Frühstück in der Metzgerei an einem Donnerstag Morgen im Voraus einen Tisch reserviert hatten."
+72532b3e-c022-47bf-9910-9a0add158265,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,Leider ist es aber sehr laut.
+401468e0-29be-4e1e-80d9-fa640f51bd70,,"('FOOD', 'NEGATIVE', 'Obst')
+",,Obst braun.
+d5a1e25a-c7d5-4b75-839e-81fac086b16c,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"?Als ich darauf hinwies das ich die erst zum Schluss haben möchte(Take away)sagte man nur...OK bringe ich die wieder weg.Man kann sich denken das ich später die selbe Pizza (KALT natürlich)bekam.Da ich meine Platte nicht schaffte,bat ich darum den Rest einzupacken."
+481952d2-23ec-4a85-83fd-f76323f210ce,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die Bratkartoffeln sehr fettig und der Speck schon ziemlich angebrannt.Im Verhältnis zu unserem Besuch 2020 hat es leider sehr nachgelassen.
+2790773b-7304-4b27-a725-5d1085c5ba33,,"('FOOD', 'POSITIVE', 'Bier')
+",,Bier hat uns geschmeckt und essen ging zügig und war gut.
+5de73963-2f8b-4874-9de4-a7874b7d9b90,,"('SERVICE', 'POSITIVE', 'NULL')
+",,wahren alle super zuvorkommend und lieb.
+a34352d8-368d-4b39-af07-d9143a373b1d,,"('SERVICE', 'NEGATIVE', 'Dame')
+",,Leider hat die Dame ihren Beruf verfehlt.
+5002fe95-fd87-4920-a10c-445b7c720fa4,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Schlechter Service.
+968eefcc-5eae-4941-8c70-7645f8f4d6a9,,"('FOOD', 'NEGATIVE', 'Fischqualität')
+",,Leider hat die Fischqualität in letzter Zeit sehr stark nachgelassen.
+39c60d36-4f60-4056-ba12-768a193ed4fb,,"('FOOD', 'POSITIVE', 'Garnelen')
+",,Auch die Garnelen waren noch saftig und nicht zu trocken.
+b2f8b0cb-c1ab-4876-8cfd-4fa1cfccd56b,,,✅,"Das Restaurant war rappelvoll, dem entsprechend die Lautstärke wie in LOC auf dem LOC."
+55c93697-9be8-4a14-9cb1-97211bd5cc16,,"('FOOD', 'NEGATIVE', 'NULL')
+('PRICE', 'NEGATIVE', 'Preise')
+",,Im LOC hat man die Preise stark angehoben und die Qualität verschlechtert.
+e4ee5ca8-93e6-4193-aa37-335b3a22e6f7,,,,Kein Vergleich zu einem Besuch vor 4 Jahren.
+8f968e3f-a98a-4c47-99b2-c931555eb72f,,"('SERVICE', 'NEGATIVE', 'Leitung')
+",,"In Bezug auf Servicequalität kann die Leitung des Hauses nach unserer Erfahrung noch deutlich nachbessern und den Anreiz für Gäste erhöhen, dort zu speisen."
+06c45d4d-76c6-4049-8bdf-7b2432ed5018,,"('FOOD', 'POSITIVE', 'Bier')
+",,Bier schmeckt super.
+107e2bad-7521-46a7-8ed6-43a9636275b5,,,,Wir haben am 27.09.2008 mit unseren Gästen unsere Hochzeit in Ihrem Haus gefeiert.
+fbec9032-0a82-4a32-a8f0-00dde6e22448,,,,Schon merkwürdig...
+364b1570-9ea2-4708-b34e-f3f2dde8d54e,,"('SERVICE', 'NEGATIVE', 'Chef de Service')
+",,"Der sogenannte Chef de Service wurde sehr laut und wiederholte sich ständig, dass wir ja schliesslich zu spät gekommen seien."
+8b289b92-441f-4715-933e-1d8cc5438d79,,"('FOOD', 'NEUTRAL', 'Wiener Schnitzel')
+('PRICE', 'NEUTRAL', 'Wiener Schnitzel')
+",,"Das „Wiener Schnitzel“ im Uerige (bzw. richtig: das Schnitzel „Wiener Art“, also vom Schwein und nicht vom Kalb) war geschmacklich in Ordnung und mit knapp unter 20,- € auch preislich nicht zu beanstanden."
+ce1d141d-af0d-4c9c-be65-30239e886f4c,,"('SERVICE', 'POSITIVE', 'Personal')
+('FOOD', 'POSITIVE', 'Burger')
+",,Personal auf zack und der Burger war wirklich seeehr lecker!
+374d01f7-3e55-407b-9ba1-03fb0cd84835,,"('FOOD', 'POSITIVE', 'Speisekarte für die Veggies und Veganer')
+",,Hervorzuheben ist hier auch die angepasste Speisekarte für die Veggies und Veganer.
+d3380843-ca91-4e37-b51f-647077ceca44,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade!
+4e2b6819-3fc2-4cbd-899b-a887b364d305,,"('AMBIENCE', 'NEUTRAL', 'Ambiente')
+('AMBIENCE', 'NEGATIVE', 'Umgebungsgeräusche')
+",,Das Ambiente war dementsprechend durchschnittlich und die Umgebungsgeräusche sehr laut.
+256aaaea-841b-43ae-a3d0-3b12e0d1a924,,,✅,Überwiegend Fisch- & Fleischkarte.
+71d951ee-5877-4c43-9d8c-960ad803e3f0,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal freundlich.
+5406e2cf-de9b-4294-8322-56ba4c193315,,"('GENERAL-IMPRESSION', 'POSITIVE', 'LOC')
+",,"Wenn wir wieder in LOC sind, steht der LOC auf jeden Fall wieder auf unserer Liste."
+29eb8a29-461f-462f-9a8c-892597e00ee1,,,,Das ist schon dreist.
+bccca539-c51b-45d2-9ba0-2da2e48a6818,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade.
+dea5ea66-0a10-4b3b-8263-a850888d3026,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Vom Trinken her gäbe es deshalb die volle Punktzahl.Leider muss ich persönlich einen kräftigen Abzug für das Essen machen.
+24b73cbe-e4d0-46f6-8b1d-60df76e61c83,,"('SERVICE', 'POSITIVE', 'Jacques')
+",,"Besonders hervorzuheben, war der Kellner Jacques."
+04bce48f-7a6d-484b-bedd-71f8e1f952fa,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Obwohl es ein sehr großes Lokal ist, konnten wir uns sehr gut unterhalten und fanden die Atmosphäre sehr angenehm."
+6614f67d-0475-4cab-bc06-687f4794405d,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Früher war es hier lecker und angemessen im Preis.Gestern war der Gemüse Kebap richtiggehend öde - viel zu ölig und ohne richtigen Gemüse-Geschmack.
+7578b3d4-c042-4584-ad42-3d68f906e31b,,"('FOOD', 'NEGATIVE', 'Spannferkel')
+",,"Ich musste meine erste Portion Spannferkel zurück schicken, es war ein grosses Stück Fett."
+faa31dc8-2e76-4728-9810-5dcc339ed100,,"('SERVICE', 'NEGATIVE', 'Kellner')
+('SERVICE', 'NEGATIVE', 'Platzanweiser')
+",,Einem männlichen Kellner bzw. Platzanweiser passte dies nicht und er blaffte uns unverschämt an.
+b05c9656-87dd-435b-aae6-f754189ea9ea,,"('FOOD', 'POSITIVE', 'Fleisch')
+('FOOD', 'POSITIVE', 'Sauce')
+",,"Das Fleisch ist toll, die Sauce raffiniert."
+1e0ceee7-cd49-4226-8e38-0d6fbc38e609,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+",,Prima Service und sehr leckeres Essen.
+fc5ffeae-80c2-4f0b-86e6-31d4c1d49e63,,,✅,"Und dann trank er im Dienst noch Kölsch was Freunde ihm in ein Kindergetränkeglas umfüllten, damit es nicht auflief."
+d78c3c39-2fab-49d1-a5d6-aece4d792d8b,,,✅,"Als die Pizzen dann geliefert wurden, hatte man das LOC vergessen."
+822754a7-752c-41f8-8cdb-642747596b0b,,"('FOOD', 'NEGATIVE', 'Kuchenstücke')
+('PRICE', 'NEGATIVE', 'Kuchenstücke')
+",,"Heute waren wir alle wirklich einmal enttäuscht, weil die Kuchenstücke allesamt irgendwie immer kleiner zu werden scheinen und dazu eher noch teurer werden."
+8685f3b5-a635-496f-be9f-9a92647c3db3,,,✅,Ich war hier einmal Stammgast: Mindestens 1-2 mal pro Monat war ich hier Essen.
+a7359e73-428f-4d74-9cef-576c143a7da7,,"('FOOD', 'POSITIVE', 'Tapas')
+('FOOD', 'POSITIVE', 'Fleisch- und Fischgerichte')
+",,"Mit vier Personen von Tapas, Fleisch- und Fischgerichte alles probiert und alles war sehr lecker."
+98b22969-5227-4cbf-b636-f1324d089c06,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Man muss Angst haben eine Frage zu stellenSehr schnelle Abfertigung ist ja auch egal , die nächsten Touristen stehen i der Reihe.Nur aufs Geld aus, man wird nicht als Gast behandelt…Sehr enttäuschend"
+1266e65c-b158-42fb-9b02-e46fea3aeee6,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Von der Bestellung bis zum Servieren 4Min.Jedes Essen sah gleich aus,unterschied sich nur durch Braten oder Roulade usw..Der Rotkohl und die Klöße vorgefertigt.Die Champions aus der Dose.Der Braten war gut.Die Käseplatte war ok.Leider keine Nachfrage der Bedienug nach weiteren Wünschen.Als dann noch eine Reisegruppe mit ca.50Leuten kam war an Service garnicht mehr zu denken.Wir haben dann auch schnellstens bezahlt.Von Aufgabe der Bestellung bis zum verlassen des Kellers 45Min.Sowas schlechtes hatten wir lange nicht!!!"
+ec99deae-deae-4753-9ee1-c0cd06d6b2cb,,"('SERVICE', 'NEGATIVE', 'NULL')
+",✅,"Wir mussten ewig warten, bis sie überhaupt einmal kam, war dann nicht besonders freundlich und kam dann auch nur einmal um uns Essen und Trinken zu bringen."
+953ce5f1-1a28-442a-8dde-dc3753954ff1,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Mit den Preisanpassungen - wie in der gesamten Gastronomie - musste allerdings gerechnet werden.Es war ein tadelloser kulinarischer Auftakt zu 2023!
+3cf58eb5-3505-482c-b9d0-4ee0f5a9a11c,,"('SERVICE', 'POSITIVE', 'Service')
+('PRICE', 'POSITIVE', 'Preis')
+('PRICE', 'POSITIVE', 'Preis-Leistungsverhältnis')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Service, Preis, Preis-Leistungsverhältnis, Ambiente alles nicht zu übertreffen."
+02d34b9e-ccdb-49e3-96dd-eb42e6f14120,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Totaler Massenbetrieb, macht kein Spass zwischen LOC gesehen dabei zu sein."
+85e69c10-3666-4e14-b18d-873bc48a57de,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Essen Gulaschsuppe für 9.90Entschuldigung habe niemals zuvor eine Gulaschsuppe ohne Fleisch bekommen bestand nur aus Zwiebeln und Paprika mit Sosse die etwas nach Gulasch geschmeckt hat.So was sollte man nicht anbieten dann macht lieber den Preis etwas höher und tut Paar brocken Fleisch rein.
+77054277-7270-4e9e-8f02-c8c4751157ad,,"('SERVICE', 'POSITIVE', 'keller')
+('FOOD', 'NEUTRAL', 'küche')
+('PRICE', 'NEGATIVE', 'küche')
+",,"netter keller, küche OK zu etwas höheren preisen."
+812ec906-1b11-4926-921a-61bc68ffa555,,,✅,"Nun, es ist laut, es ist fast immer voll… aber das ist ein grosses Traditionsgasthaus, das weiß man….."
+891bced6-ba0d-4594-b3b9-311d0e2194dd,,"('SERVICE', 'POSITIVE', 'Bruno')
+",,Der Service bei Bruno war wunderschön.
+ba009324-1ebd-47f0-9f43-592e066ea39a,,"('PRICE', 'NEGATIVE', 'Preis/ Leistung')
+",,Preis/ Leistung: UNTERIRDISCH!
+01178e55-dcf0-4daf-9941-c9a0b1144d80,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Leere Getränke wurden nicht abgeräumt, dazugekommene Personen wurden nicht nach Getränken gefragt und generell wirkte es eher so als wäre jede Frage zu viel und die Gäste eher störend."
+7e94dac0-7566-4eec-8da2-f8798714122c,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Tuscolo')
+",,"Da ich immer sehr gerne im Tuscolo gegessen habe, war ich sehr enttäuscht als ich in der letzten Woche mit einer Freundin aus LOC, die das erste Mal in LOC war, dort gegessen habe."
+6997b304-6965-4a2f-b321-599d18fce3d1,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,Das Essen schmeckt sehr gut und die Bedienung ist sehr hilfsbereit.
+a3dcb716-4598-455a-8d07-3d783d7ff61d,,"('FOOD', 'POSITIVE', 'Muscheln')
+",,Muscheln als Vorspeise fantastisch.
+dfe2454e-1ef7-4929-9ac3-cd067bb9fab7,,,✅,Wir wollten Kölsch für alle bestellen.
+14d79cea-433b-4a1d-a902-f5107fd333e2,,,,Verrückt.
+d2006c9a-af08-406a-bd47-682facdfa6f0,,"('AMBIENCE', 'POSITIVE', 'NULL')
+",,"Das ist eine sehr schöne Location, in der man sich wohlfühlen kann."
+862a64c5-2f53-43e4-92af-a1ec30ead867,,"('AMBIENCE', 'NEGATIVE', 'Deko')
+",,"Manche neue Deko-Idee oder Kombinationen müssten gar nicht sein, wie ich finde."
+8c179bfe-ebed-405e-bd32-fc263a03c594,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,"Essen top, Bedienung freundlich und schnell."
+c2177120-28ca-4af5-9603-2086d0cd3838,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Mir wurde aber nicht gesagt das man dann 3,50€ extra bezahlen muss.Meine Tochter wurde bei der Bestellung gefragt,ob sie ihre Pommes mit Ketchup und Mayonnaise möchte.Es wurde aber nicht gesagt,das dafür 4€ extra berechnet werden.Dies alles war erst beim bezahlen auf der Rechnung sichtbar.Die Schnitzel hatten nicht viel mit Sxhnitzel zu tun.Sehr fad und die Pomade klebte am Fleisch."
+cffc4f81-fed9-4cd6-998b-d87ae15e268f,,"('FOOD', 'NEGATIVE', 'Kabeljau')
+('FOOD', 'POSITIVE', 'Steak')
+('FOOD', 'POSITIVE', 'Lammrücken')
+",,"Bei der Hauptspeise war der Kabeljau verkocht, das Steak und der Lammrücken waren gut, nichts auszusetzen."
+384bae68-2dfc-4011-ab91-7eddbc7e7351,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Ich war ein absoluter Stammkunde, aber das hat jetzt ein Ende."
+984cb431-3fe1-4044-95ab-c1af8a6f4036,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Das Gasthaus lebt von der Atmosphäre.
+4387c332-b6a1-4a62-afdb-13ad251ca0e4,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Einfach toll wie Sie das machen.
+e1f96026-6792-497b-8209-f37bccfd1e19,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Toller Teig , riesengroß und sehr lecker.Das war’s mit den positiven Punkten.Haben reserviert für 11 pers."
+ca2621d0-876e-4258-b874-fa7f02c7695a,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Leider war das Essen nur sehr durchschnittlich.
+59bc604c-c30e-4748-8ad9-147dab19c306,,,,"Bereits die Wahl des Tisches schien problematisch, obwohl einigefrei war während unseres ganzen Aufenthaltes."
+5a26d5d8-137e-405c-8f1c-1b07a1cd202b,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Lokalität')
+",,Auf jeden Fall eine Lokalität die man besuchen sollte wenn man in LOC ist.
+1489b50e-88c1-42d9-8023-99bdd5196854,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Ihr habt uns den Abend gerettet...
+9348d11d-cf52-45c5-aa16-7ae7019b1ab8,,,,Wir waren so gehen 20:45 dort an al einem Freitag Abend und uns wurde gesagt die Küche würde im 21:00 Uhr zu machen.
+26010ca5-788e-4e2f-8ef0-6e588c217e74,,"('FOOD', 'NEGATIVE', 'Schnitzel')
+('FOOD', 'NEGATIVE', 'Jägersoße')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,"Wir wollten uns zum Hochzeitstag mal was besonderes gönnen , doch sind wir beide sehr entäuscht worden , das Schnitzel war nicht nur schlabberig sondern auch ungewürzt , die Jägersoße war auch nicht besser , ein kleiner Salat sollte eigentlich zu jedem Gericht gehören , einzig die Bedienung war freundlich ."
+54615b20-946d-4769-8b72-b63fdbcb952f,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Das Essen war schon mal besserDas Personal super nett und zuvorkommend.Ich habe Entenbrust bestellt.
+c5bf3994-b393-48f3-a5cc-cfaccdb65895,,,,Während eines Fußballtrips nach LOC sind wir nach dem Spiel in der DAMPFE gelandet.
+cc97854d-c4c1-444d-bc46-8435fdac73f0,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Sehr zu empfehlen.
+5c49649a-0cff-4172-afa9-82e6cca6b94b,,,✅,"Das hier nicht der volle Preis erstattet werden kann, erwartet auch niemand!"
+f67c55fa-0f84-409f-b511-d1815ac22399,,,,"auf die Hauptspeisen gewartet hatten, haben wir begonnen zu essen und uns nach den ersten Bissen trotzdem dagegen entschieden, die Speisen zurückgehen zu lassen und auf neue zu warten."
+967a51ff-50f3-4478-ba4b-78eb8aca3d8f,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Leider enttäuschend.
+1e28d765-22e6-4340-b541-a7fa485e6240,,"('FOOD', 'NEGATIVE', 'Küche')
+",,Was mir etwas fehlte ist eine noch klarere Ausrichtung der Küche - natürlich optimalerweise auf die westfälische Küche.
+f0a0124c-5df8-4792-9b9d-f584790fdbca,,"('SERVICE', 'POSITIVE', 'daVino-Team')
+",,Das daVino-Team hat am Wochenende beim Weihnachtstreffen des BMW Z1 Clubs in LOC für ein allseits hochgelobtes Highlight gesorgt.
+aaa3078e-c54f-46aa-b0c6-23c523c34c8c,,,,Jetzt wissen wir auch warum!
+eb64f0d1-f1bd-470d-a406-02bf9cd20fb7,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Ein sehr enttäuschender Abend.
+56bf0d9e-d1a2-46de-b71d-3d85e797aba4,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Zentrale Lage und Räumlichkeiten mit Brauhaus Atmosphäre sind mit Sicherheit die Pluspunkte des Lokals.Angebotene Biere waren gut, aber allgemein sind die Getränkepreise schon grenzwertig teuer (Eine Flasche Mineralwasser für fast 8,- € - dafür bekommt man im Supermarkt mehr als eine komplette Kiste - ist einfach LOC waren eher mittelmäßig im Durchschnitt mit deutlich Luft nach oben....Wir hatten u.a. den Haxensalat: Haxenfleisch war gut und knusprig, der Salat aber ansonsten eher langweilig und lieblos angemacht."
+94db10eb-800f-4c7a-bc1f-afb1a16c0abc,,"('GENERAL-IMPRESSION', 'POSITIVE', 'Restaurant')
+",,Ich werde wiederkommen und dieses Restaurant meinen Freundin empfehlen (war mit Familie da).
+3df6dc52-efe3-4441-ae05-1e2cd1f24ebc,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Sehr zum Empfehlen.
+2fc7a0f5-2abb-4ff7-94f1-d1fde64522d9,,"('FOOD', 'NEGATIVE', 'Spätzle')
+",,Spätzle weiche Teigmasse.
+e1c53e5d-c294-4a2a-ac09-c6cce79f59cb,,,✅,"Himbeere, zwei Trauben, zwei kleine Scheibchen Melone und eine Scheibe Orange."
+565936e7-0afa-40e9-97f2-e20093190fde,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Oder ich habe einfach keine Ahnung von portugiesisch.Im Restaurant stehen die Tische sehr eng, und man kann sich schwer unterhalten."
+d7932f34-5e0a-461d-b64d-a1b24db0dd9f,,,,Danke dafür
+d8f570ab-670b-4238-8b34-b122076fee8d,,"('SERVICE', 'POSITIVE', 'Service')
+",,Ich kann es jedem wegen des hervorragenden Service empfehlen
+30cde737-9ff8-4e3b-9dcd-aeb42954ebd1,,,,…Mein Versuch einen zugegeben recht alten wiederentdeckten Gutschein einzubringen wurde abgelehnt.
+bf6cb97c-76c8-4045-a24d-3773a9770277,,"('SERVICE', 'NEGATIVE', 'Bedienung')
+",✅,"Aber die Bedienung war schon sehr unfreundlich und wollte das Menu nicht ein klein wenig erklären, was bei den Preisen schon ganz nett wäre."
+59968565-b07d-4987-bdfc-1237f86d4930,,,✅,Meine Rösti waren dann ebenfalls mehr als nur knusprig.
+09ce1d4e-350f-469d-b8ba-c18508440ee3,,"('FOOD', 'POSITIVE', 'Flammkuchen')
+('FOOD', 'POSITIVE', 'steig')
+",,"Flammkuchen spitze, Tochter fand steig megagut!"
+b4a735c9-a002-42d3-beb5-aebbbaca77e7,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wer einen Vorgeschmack von portogesischer Küche bekommen möchte ist hier genau richtig.
+cea04754-77df-45bb-874d-109f6c8ce4dc,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Momo')
+",,"Aber für uns heißt es erstmal, Abstand von Momo auf unbestimmte Zeit."
+7cf534c2-38d9-4def-8d3a-36ccd4f0e7d2,,,✅,"Befragt sagte der Ober, das sei Thunfisch!!"
+4334b144-52ec-4e2a-a143-1551cb7e5159,,,,Leider wurden wir 10 vor 11 Uhr (Reservierung nur im LOC möglich.
+1ab6edc5-d57a-4579-b23d-2753b79c17ce,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Speisen')
+",,"Auch wenn das Ambiente nicht so ansprechend war, hat uns doch das Konzept und die Frische der Speisen überzeugt."
+cb7f897d-2136-405a-9737-280244c50538,,"('FOOD', 'POSITIVE', 'Beilagen')
+('FOOD', 'POSITIVE', 'Stampf')
+('FOOD', 'POSITIVE', 'Schlotze')
+('FOOD', 'POSITIVE', 'Spinat')
+",,"Wir haben Entrecotes/Filets, dazu superfeine Beilagen (zB Stampf, Schlotze oder Spinat) gegessen, im Nachgang noch die Spaghetti mit Tomatensauce (Eis-Dessert)."
+c1ad35f9-0592-45ce-be0d-ef901fba8bf4,,,,"Beim rausgehen haben wir auch gesehen, daß schon viele Biergläser vorgefüllt waren und vorm servieren mir noch einmal kurz unter den Zapfhahn gehalten wurden."
+a3259e91-697e-4708-a50e-25c0c6caa29a,,,✅,Auf ein längeres Verweilen haben wir daher verzichtet und die weiteren Kölsch lieber woanders getrunken.
+9d3813fe-8bca-407f-b8b2-0e0841a56943,,,,Also alles nach Wunsch?
+0b5e70fb-afc5-47b7-91de-c6f19619efc9,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Ich war zum erstenmal 2016 da und das Niveau ist noch so gut wie vor sieben Jahren.
+25f75661-5b2d-4565-8623-cbc0e350b349,,,,"Wenn man durch den Eingang hereinkommt, weitet sich eine große Landschaft von 4er- und 6er-Tischen vor einem aus, wohl Platz für mehrere Hundert Personen."
+05bac986-d30f-4cf8-b8bf-8aff275a658c,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"War früher oft gerne bei Ihnen, das hat sich erledigt."
+0349453a-e723-4649-a9c0-61f86f831ed7,,,,Jahrelang freu ich mich auf die Wiesn in LOC.
+83d3dc94-ae35-48d2-a8f0-0fdf5ab5874e,,"('AMBIENCE', 'NEGATIVE', 'Toiletten')
+",,Toiletten hätte ich für so eine Gastronomie auch sauberer erwartet!
+4ac56d58-646e-4185-932b-529b202a45c9,,,✅,Im Sommer gibt es zudem im Außenbereich noch Sitzplätze.
+cef9f1ac-1664-4881-93f8-e3ad440b9084,,"('FOOD', 'POSITIVE', 'Abendessen')
+",,Hatten Freunde aus den USA zu Besuch und nach gelungenen Stadtrundgang war das Abendessen ein sehr schöner Abschluss des Tages.
+b63e4082-96cf-4420-8d1b-45f7dcd93f8b,,"('SERVICE', 'NEGATIVE', 'Chef')
+",,"Wir mussten über 30 Minuten warten bis die Angelegenheit endlich geregelt werden konnte, ein persönliche Entschuldigung vom Chef blieb aus."
+12e34767-4f93-4322-bb64-1fcb21eaa2d2,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Haben die Vorspeisenplatte für 4 Personen bestellt - laut Karte 16 € pro Person bzw. 30€ für 2 Personen ( so steht es auch in der Karte) Als die VP Platte kam, waren wir wirklich enttäuscht und erkundigten uns ob dies alles sei."
+766650dc-5caf-4294-a9d9-a043c60e1048,,,,Mehr nicht.
+65babb8b-543c-4f24-a2ad-577d9a0a00f6,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+('PRICE', 'NEGATIVE', 'Hofbräu Bier')
+('SERVICE', 'NEGATIVE', 'Kellner')
+",,"Um es vorweg zu nehmen: Es ist laut hier, die Halbe Hofbräu Bier ist mit 5,40 Euro ziemlich teuer, und unser Kellner war überfordert."
+d7375747-2bae-4c75-9915-8f5090421e95,,"('FOOD', 'POSITIVE', 'Steaks')
+",,Viel Auswahl an tollen Premium Steaks.
+77ce2343-22a4-4a18-9036-bea505772909,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,"Es war so laut, dass man sein eigenes Wort nicht verstand."
+491bd2b1-ad5d-4d42-8312-b699cfc36fde,,,✅,"Es ist ein Brauhaus, da muss man die Lautstärke wohl in Kauf nehmen."
+036153b9-1c5a-4276-a13d-72c8a4cc0f24,,"('AMBIENCE', 'POSITIVE', 'Blick auf die wunderschöne Binnenalster mit all den angrenzenden historischen Gebäuden')
+",,"Wir hatten das große Glück, einen Tisch direkt am Fenster zu bekommen, mit Blick auf die wunderschöne Binnenalster mit all den angrenzenden historischen Gebäuden."
+5377ad74-1db6-4cae-bf35-cd65fe80d22e,,"('FOOD', 'POSITIVE', 'Schnitzel')
+('FOOD', 'POSITIVE', 'Soßen')
+",,Die Schnitzel war sehr lecker und auch die Soßen waren nicht pampig.
+4ed3936d-e965-4f2a-8f7b-0fb08baf2490,,,,Bin schon seit über 40 Jahren Stammgast.
+9631f2e4-0ed8-46ab-93cc-c28863624d94,,,✅,Das Restaurant war sehr voll.
+e84532bc-4b3b-4da8-8be2-f2998ec1310d,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Vor fünf Jahren waren wir schon mal Gäste und waren sehr zufrieden.
+9a11ec66-5719-4333-8d71-ebe9d6cc8780,,"('FOOD', 'POSITIVE', 'NULL')
+",,"Und kein deutsches, denkt man schon das man hier auch sehr gut essen kann."
+19ff30ef-7f4f-472a-9bd2-bd02e9cb11d2,,,,Man bekommt eigentlich auch schnell einen Platz.
+a2da8d56-49c5-4090-b872-692c293bbb9f,,,,Unbedingt Tisch reservieren.
+934633bf-51ee-4976-a95c-32722bb55047,,"('FOOD', 'NEGATIVE', 'Schnitzel')
+",,"Weiterhin waren die Schnitzel viel zu dick, ungewürzt und mit Fettrand."
+327042e9-a141-4d67-96ce-856d778db630,,"('FOOD', 'NEGATIVE', 'LOC')
+",,Die LOC war recht geschmacklos.
+26c4c67e-6447-4f9e-a074-ad9b4a6cca2b,,,,"Das LOC ist recht trinkbar, leider nicht steuerfrei."
+ec005121-2fe0-4eb7-b895-403c6ea12161,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Immer wieder schön für ein entspannten Abend.
+225e4f79-04a8-4342-9dfb-94c806180e89,,"('FOOD', 'POSITIVE', 'Pizza')
+",,"Ausgezeichnete Pizza, wirklich Konkurrenzlos ."
+db4e8ffa-58cb-41fe-8b1a-bd3b34f72540,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die beiden Fischfilets waren totgebraten und völlig ausgetrocknet, das Gemüse aus Lauch und Möhren passte gar nicht.Vom Besuch muß dringend abgeraten werden."
+31f33ccf-ee4e-43d3-9030-18677b1fbcc6,,"('FOOD', 'POSITIVE', 'Vorspeise')
+",,Vorspeise war zwar sehr lecker und kam nach ca.
+bb9eb532-82be-4cf2-b143-185378bb6900,,,✅,"Als Hauptspeise Scholle (24,50 €) und Skreifilet (32,50 €)."
+123f6d28-0e06-4159-961c-f9cca4568358,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Gerne beim nächsten Besuch in LOC wieder.
+e9d1c772-42c5-48c1-922d-51a4a59ee18d,,"('FOOD', 'POSITIVE', 'Speisen')
+",,Gute Qualität der Speisen und der Empfehlungen.
+de2e524b-00c2-48b6-b38d-ab2f12ff0d74,,,✅,"Entschuldigung war ein Getränk, welches meinem Hunger dann natürlich auch nicht mehr hilft."
+32aa4aa8-56f6-470d-b3c6-4c1c97d4a318,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Da gibt es überhaupt nichts zu meckern.
+70799170-0314-4058-b90e-10dae74d76c6,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Steakhouse')
+",,Ein Steakhouse ohne Ofenkartoffel ist an Absurdität nicht zu überbieten!
+6d3ddcd0-65aa-475e-8e51-338cea56446a,,"('AMBIENCE', 'POSITIVE', 'Terrasse')
+",,"Mitten in der LOC umgeben von einer bunten Sammlung internationaler Speiselokale sticht eine große, gepflegte Terrasse hervor."
+35f76b6c-4655-4dbf-b2e2-70050051a68c,,"('FOOD', 'POSITIVE', 'NULL')
+",,Sehr Lecker gegessen.
+839c8a63-9e51-49f3-9890-108c71115ee4,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Auch die Gaststube verströmt ein gewachsenes authentisches Ambiente, wie es in LOC nur noch selten zu finden ist."
+b736a352-725d-465b-87f4-3ff658896d09,,"('SERVICE', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Bier')
+",,"Bier kam schnell, war frisch, kalt und gut."
+e80f0d5e-a7d8-4b8d-900c-e92681c232f3,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,Leider sind die Kellner extrem gestresst und kurz angebunden.
+5837b622-56d4-4bbb-a235-162913d14ce9,,"('FOOD', 'POSITIVE', 'Kölsch')
+('SERVICE', 'POSITIVE', 'Köbis')
+('FOOD', 'POSITIVE', 'Brauhausküche')
+",,"LOC, süffiges Kölsch, netter Köbis und gute Brauhausküche."
+d3ea4661-d2b1-432d-a3dc-128c88bedcd2,,"('SERVICE', 'POSITIVE', 'Bedienung')
+('SERVICE', 'POSITIVE', 'Service')
+",,Sehr nette Bedienung und super Service.
+662f36f3-3dff-4f9a-9d6e-8476ebf482cf,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Das war leider das letzte Mal!
+14f2139d-cc48-4a3c-bb08-0b0ca2a86aa0,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Auf dem Tisch wird sich mit einem Aufsteller dafür entschuldigt, dass es Personalengpässe gibt.Wir wurden in den 1,5 Stunden, die wir im Restaurant verbracht haben, von 4 Mitarbeiter:innen ""betreut""; von zu wenig Personal kann man also nicht sprechen."
+e3c30ce3-0501-4b2d-809b-ef3cdc8ff313,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Schönes Ambiente.
+a59fda2b-1352-45ab-b796-908536964e02,,,,Oder auch zwei.
+ac9c707f-1081-4839-98a6-0c71382f65b3,,,,"Irgendwie waren wir unschlüssig, was wir bestellen sollen weil wir zum ersten Mal in LOC sind ."
+e58ca104-cff9-434b-8eff-fbbc5698e3e4,,,,"Komisch war schon, dass man das Essen schon bei der online Buchung per PayPal bezahlt werden musste."
+d64875eb-a312-4aeb-89a9-051d1ffed062,,,✅,Wir wissen wie das essen und das Ambiente hier ist.
+ba854dc9-23f1-4912-a30a-1275b09dd670,,"('SERVICE', 'NEGATIVE', 'Bedienung')
+",,".Unsere Bedienung an diesem Abend war trotz Unterstützung anderer Mitarbeiter nicht so flott, so wurde z.LOC Wein erst nach der Vorspeise serviert."
+9b5289d0-089c-41ea-adf6-cd237fdfac82,,,,"Bei ihr kamen auch das Gespräch, zu uns Gästen, nicht zu kurz."
+1a90e9ed-9756-4cfc-86a4-ffd8c8ce0e32,,"('SERVICE', 'POSITIVE', 'Gastgeber')
+('SERVICE', 'POSITIVE', 'Team')
+",,Sehr freundlicher Gastgeber mit einem tollen Team.
+5b76216f-9ab6-4e7c-8e16-addcaa209da3,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Service schlecht.
+c1dcd7de-b1b6-4640-ab8f-d6d80fe60ad3,,,,"Einzig das Kellergewölbe wusste zu gefallen,"
+edf8350c-d84d-4d30-a812-bf53f92ee9ad,,,,"Und irgendwo dazu setzen und schnell Anschluss finden nach LOC oder LOC, wer halt grad da ist."
+fd97a29b-6f9a-4cc1-8e94-ce294a9c58a1,,,✅,Bis auf die Cocktails.
+618df919-1b79-44bc-bace-3a474570d00f,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Uns wurde ohne große Probleme ein sehr schöner Tisch in der LOC angeboten.Der Service und das Essen waren sehr gut, wir freuen uns darauf, wieder einen Tag in LOC mit einem Besuch im LOC zu bereichern!"
+01a6b411-5d52-4b21-a886-922ba54219ae,,"('SERVICE', 'NEGATIVE', 'Begrüßung')
+",,Die Begrüßung war kühl und wirkte gezwungen und lieblos.
+070091cf-dca3-498e-9b74-5db44c0c0ee9,,"('SERVICE', 'NEGATIVE', 'Oberkellner')
+",,"Moment: Platz nehmen ist nicht so einfach, das regelt der „Oberkellner“, der ein strenges Regiment über die drei Tischreihen auf der Terrasse führt."
+0138dd0f-22ba-4791-b8d2-f8932229b252,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Der mitbestellte Zucker für den Tee kam ebenfalls nicht zeitgleich.Das Essen entsprach den Erwartungen.Wir werden diese RESTAURANT_NAME nicht mehr besuchen, auch nicht als öffentliche Toilette."
+e627ecb4-4f8f-4406-b6b4-534f93ac9255,,,✅,"der laden ist eine goldgrube, hoffe ich zumindest!"
+fd5cc712-0d8d-48b8-8518-4e0edffe4cbd,,,✅,"Dazu gibt es noch ein paar Zutaten, wie Zitronenpfeffer, getrocknete Tomaten und Kräuter."
+69202d91-63b1-4f0b-b9ae-4caba92eaafb,,,✅,Trotzdem war die LOC gut besucht.
+019b6315-77c9-4f0f-8e52-be8ea41e400b,,"('FOOD', 'NEGATIVE', 'Haxe')
+",,"Die Haxe war trocken und faserig, die Kruste hätte man mit dem Presslufthammer bearbeiten müssen, um sie zu zerteilen."
+76fafc32-8dee-4128-86de-bd063ad2a3ea,,"('FOOD', 'POSITIVE', 'Brot mit Dip')
+",,Leckeres Brot mit Dip.
+8d733d04-72c6-4afe-8edb-6a5565fc7ecc,,,,Zur Mittagszeit unbedingt reservieren.
+add3b428-74f5-4611-ad95-fbef292a13a7,,"('SERVICE', 'POSITIVE', 'Service')
+",✅,"lokale Küche (Töttchen), ein eigenes Bier und vor allem super Service."
+56e1e3ec-ec4b-4589-b12c-406120398390,,,✅,"Zweimal über die Webseite des Restaurants versucht, habe eine E-Mail bekommen, dass schnellstmöglich eine Reservierungsbestätigung kommt und es ist nichts gekommen."
+8c0e76ba-1885-48da-a81d-a13dd3806746,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Die Qualität war gut, das Essen ansprechend angerichtet."
+df2226e5-9802-43cb-9b03-7ea75b6b529b,,,,Wir waren gestern abend hier.
+034aeede-a823-495c-b2e3-41ff7839ca8b,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Sehr ansprechend eingerichtet das Restaurant im Kellergewölbe.Essen super lecker, maximale Qualität, frisch und es mundet sehr gut.Es gab Wildkräutersalat und Büffelmozzarella,Bärlauch Ravioli mit Sellerie Lauch Vinaigrette."
+719847ea-5c09-47ca-aac0-1501ba3cafc9,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,Es ist eine super Atmosphäre
+7e61f91d-fa43-4020-98c2-512347192e45,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Haben uns beschwert - hat aber nicht viel genützt...wsl weil ja trotzdem jeder da rein will und auch reingeht... wir sicher nie wieder!
+abee3176-5447-4331-a4a9-92f7bc841a12,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Ich werde das nächstes Mal woanders hingehen.
+83ce17c8-91c2-45bc-841b-2e0268810a77,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Um es kurz zu machen, sehr schöner Innenbereich (haben aber draußen gesessen), freundliche und schnelle Bedienung.Das Essen aber war echt enttäuschend!"
+91c18cc9-f858-48d9-890b-dabe7f347565,,"('AMBIENCE', 'POSITIVE', 'Restaurant')
+",,Das Restaurant ist schon mal was fürs Auge .
+7ff27615-6f72-4db0-9c5e-0f6323399597,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Gerne wieder.
+b88281c8-11af-4c6d-b734-62cc4a35c069,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Es ist nicht in Ordnung in so einem historischen Ort und unzulässig gegenüber den Gästen!
+d8c44e55-2777-4491-95b6-0a89e9dff31b,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Langsamer Service, Massenabfertigung, schlechter Platz.An einem Tisch sechs Personen wurde nur für 5 Personen serviert."
+ec494d95-1cc1-4919-a029-4559a56548fb,,"('PRICE', 'NEGATIVE', 'Preise')
+",,Die Preise (für den Gesamteindruck) dann doch recht sportlich.
+108f6dfc-93bc-44cd-983b-7a4cae96aace,,,,5 Min).
+da731193-5e4c-4993-8a8e-0cc3de33e594,,"('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('FOOD', 'POSITIVE', 'Hauswein')
+('SERVICE', 'POSITIVE', 'Personal')
+",✅,"Sehr schöne Atmosphäre, guter Hauswein, freundliches Personal, haben nur was getrunken, daher kann ich Essen nicht beurteilen."
+90b39ad3-85f7-4b3e-94ba-c5033caedbd6,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Trotz Reservierung unfreundlich abgewiesen.
+210c4463-0798-4ff7-8b68-ab37fe267c82,,"('FOOD', 'NEGATIVE', 'NULL')
+('PRICE', 'NEGATIVE', 'Preisen')
+",,"Schlecht kann ich auch woanders, besonders bei den Preisen."
+7e80ea69-0f4d-4e9d-acf6-2c70452b819c,,,,"Wir waren im Lagerkeller untergebracht, aussuchen kann man sich nicht wo einem die Reservierung gemacht wird."
+6e21cfed-061d-44ce-afd5-6763835a42b0,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Daneben ist die Küche absolut hervorragend.Wenn man einen schönen Abend mit toller Lokation und verbinden möchte ist man hier richtig!
+d8552e34-0810-4fd1-a65c-d7915daf1fa9,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen gerne wieder
+45d63d5b-de8e-4b9d-9f8d-3e8aac653214,,,,Bezahlen: hierfür muss man zur Theke gehen.
+0aadab8e-0285-4e3d-8389-bd6ef90aba18,,"('FOOD', 'NEGATIVE', 'Essen')
+('FOOD', 'NEGATIVE', 'Gambas')
+('FOOD', 'NEGATIVE', 'Lauch')
+",,"Das Essen war außerdem nicht warm genug, die Gambas trocken und der Lauch war alt und hart und ungenießbar."
+f4eb947c-a4ef-4352-8806-bd7ce6a53073,,,,nur bestenfalls lauwarm.
+83540bf8-5fcd-4bac-bd60-4376d4479e58,,"('FOOD', 'POSITIVE', 'Absacker')
+",,Toll um einen Absacker zu trinken
+4bde3572-1719-4d8b-b262-95ca6e35743f,,"('AMBIENCE', 'POSITIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'Biergarten')
+",,Schön eingerichtet und ein zauberhafter Biergarten im Sommer.
+4193810c-26fe-4bc5-8789-0ed5372bc783,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Zu Beginn mussten wir lange warten, um überhaupt bedient zu werden."
+28d16c34-2c0a-41da-b893-ca2a75d1aa6c,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'Massenabfertigung')
+",,"Ist leider total überlaufen, darum Massenabfertigung, laut, unruhig, hektisch."
+e97e4117-77d3-4bdd-ac13-8042b21f605d,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,Alles in alles OK aber auch das ist alles !
+75b998c6-5ee1-4314-ac57-be004fc7b89d,,"('FOOD', 'NEUTRAL', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Das Essen war in Ordnung, die Portionen groß und der Service nett."
+f716ef41-dbd4-4dea-a70f-54233762ca3a,,,,Frisch.
+af0a02aa-d062-4980-a02d-50a85b7ea563,,"('SERVICE', 'NEGATIVE', 'Kellner')
+('FOOD', 'NEGATIVE', 'Massenabfertigung')
+",,"Was wir dort erlebt haben, war Massenabfertigung sowie ein Kellner, der Gäste, die kein Kölsch oder Änderungen beim Essen wollten, eigentlich permanent beleidigt hat."
+b24d5c17-7d9b-43f9-8877-7bd92f4e01c5,,"('SERVICE', 'POSITIVE', 'Personal')
+",,"Positiv zu bewerten ist das Personal, welches uns am Eingang sogar ein kleines Bier brachte, weil noch kein Platz frei war."
+c8733d92-323c-479d-83ad-9f451b9c5b1c,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Da sich niemand für uns interessierte, setzten wir uns auf der leeren Terrasse an einen Tisch mit Tischtuch."
+2b2fb1f2-2c94-410a-8a29-598d62844b78,,,,"Aufgrund der Corona-Pandemie waren wir längere Zeit nicht im RESTAURANT_NAME, diesen Sommer haben wir es dafür aber gleich mehrfach nachgeholt."
+c673950f-6ccb-4a92-a3fa-80fb9fa38f55,,"('SERVICE', 'POSITIVE', 'Service')
+('FOOD', 'POSITIVE', 'Essen')
+",,Sehr freundlicher Service und das Essen war qualitativ und geschmacklich sehr gut.
+8a33a7b8-d902-4650-b14d-5b648dafed86,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Gut die Leistung der Küche war noch nie berauschend, aber war gerade noch halbwegs zu akzeptieren.Seit Monaten sinkt das Niveau aber leider immer mehr ab und gestern konnte man die Haxen und Schweinebraten nur noch als Katastrophe bezeichnen."
+447758d2-cd11-4ec3-b980-f36d01f210a2,,"('FOOD', 'NEGATIVE', 'Lammmediallions')
+('FOOD', 'NEGATIVE', 'Bifteki')
+('FOOD', 'POSITIVE', 'Schafskäse Sauce')
+",,"Bifteki nicht gefüllt, aber dafür mit guter Schafskäse Sauce, Lammmediallions zäh und doch eher trocken."
+bce29c1a-443b-451b-9218-e6bfbf1a3489,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Denn es sind viele Tische frei, eher kunstlich erzeugt.Am ersten Abend gabs einen Burger der leider mehr kalt als warm war (Fleisch trocken), einen Salat und sehr mangelhafte Teigwaren mit „Tomatensauce“ (ebenfalls kalt) für unsere Tochter.Wegen der freundlichen Bediehnung und dem vollen Betrieb sahen wir hinweg und gaben am nächsten Abend dem Alex in LOC eine zweite Möglichkeit.Doch auch diesesmal, ein Salat ohne Sauce (wurde aber nachgereicht nach Hinweis) ein Chicken Teriyaki (eher Fleisch mit Pommes) ohne Liebe angerichtet, bestätigt leider die mehrheitlichen aktuellen Bewertungen."
+a4f78a06-5373-413a-b909-28269425a1ef,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Waren zu Mittag im LOC und angenehm vom Ambiente überrascht.
+d4bc4775-e9e3-4c47-bf96-a150e3ad7109,,"('FOOD', 'POSITIVE', 'Gericht')
+",,"Als der Kellner unsere Pfanne zu uns gebracht hat, haben alle Besucher ihre Köpfe zu uns gedreht, echt))) Das Gericht sah märchenhaft aus und hat genauso gut geschmeckt!"
+e8803058-f1b0-4ddb-961d-74687c0558f2,,,✅,Wir waren mit Freunden Tappas essen.
+11406069-38fe-465a-b725-15354f3d3174,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'Wagner')
+",,"Man kann gerne zum Wagner weil es eine urige Kneipe ist, LOC sollte man aber nicht unbedingt."
+65ae43a3-3f97-4f76-8646-9a6e2f873d9f,,,,?“ zur Kenntnis nahm.
+20b10fd8-8aa3-4a1b-81fe-c4ccd84719c4,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Das Essen u der Service waren wie immer großartig, aber dass die halbe Belegschaft johlend und gröhlend dem Pegida-Häuflein Beifall klatscht, fanden wir sehr befremdlich!Man kann nur hoffen, dass das Restaurant ausschließlich der guten pasta wegen immer so gut besucht ist!!!"
+51974c37-966a-43ef-8fd8-b0b1cdf3667e,,,✅,Vorspeisenteller mit verschiedenen Antipasti und anschliessend einmal die gegrillten Calamares und einmal die frischen Bandnudeln mit Steinpilzen.
+cd321640-349c-40a9-b24b-9e5608967a5c,,"('SERVICE', 'NEGATIVE', 'NULL')
+('SERVICE', 'NEGATIVE', 'Kollegen')
+",,"Stattdessen wurde er absolut aggressiv, baute sich direkt vor uns auf und musste von einem seiner ebenfalls höchst arroganten Kollegen zurück gehalten werden, damit er nicht komplett eskalierte."
+5e350893-8013-4d02-96c1-ac20c4f383ab,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die Suppe wurde sehr schnell serviert, trotzdem war sie nicht mehr besonders heiß und die Croutons waren durchgeweicht.Das hausgebraute „Kupfer“-Bier und das Craft Beer können wir ohne Einschränkung empfehlen."
+9f7faa2e-8002-4dbf-bbb0-665f5e805091,,"('FOOD', 'POSITIVE', 'Trinken')
+",,"Schade, denn vom Trinken her ist es hier perfekt."
+2eb14b5e-f82d-4eb2-bb39-547e6ab3207c,,"('FOOD', 'POSITIVE', 'NULL')
+",,Alle soweit stimmig und lecker.
+015ba798-a94b-496b-84fd-4ca0a05bafd9,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Das Prime Filet war die perfekte Wahl.Butterzart und auf den Punkt gegart.Yassin hat uns sehr gut bedient und war durchweg höflich.
+843187db-7a72-451a-b93a-314c5c3d7623,,,,Für knapp 30 € Eintritt sind in der 2 Ebene die LOC völlig verdreckt und verstopft Am 23.04.23
+6800ff75-dbbb-4428-8b0e-b8eec193582c,,"('AMBIENCE', 'NEGATIVE', 'Lokal')
+('FOOD', 'NEGATIVE', 'Massenabfertigung')
+",,"Massenabfertigung mit einem Zeitfenster von nicht mal 2 Stunden Aufenthalt, sehr lautes, ungemütliches, hektisches Lokal."
+dad4d532-8298-4762-91ef-4f84ad9230e2,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade.
+177fab27-cd9e-4f27-a136-340786cddbbc,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"können wir wirklich empfehlen.Gute Küche und ein freundlicher Service.Sonderwünsche werden soweit möglich, gerne berücksichtigt.Viele Stammgäste um die Mittagszeit.Daher würden wir eine Reservierung empfehlen."
+f7e7b3af-0c17-47e2-8142-bb12f1477593,,,,Das Lokal liegt ein bisschen versteckt.
+f743124a-cdf4-44c7-a4b2-17c2aa058386,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Unternehmen')
+",,Ich wundere mich ehrlich wieso so ein lieblos geführtes Unternehmen überleben kann.
+94a3a7cb-b8e9-4130-820c-82f991c2c9e1,,,✅,Haben das drei Gänge Menü bestellt.
+72dca469-9333-4e8a-9c2c-8fb4dea4bab8,,"('FOOD', 'NEGATIVE', 'Vorspeise')
+('FOOD', 'NEGATIVE', 'Suppe')
+('FOOD', 'NEGATIVE', 'Ziegenkäse')
+('PRICE', 'NEGATIVE', 'Preis')
+",,Die Vorspeise (Suppe und überbackener Ziegenkäse) war leider geschmacklich kein Hit und haben den Preis keineswegs gerechtfertigt.
+08cd493d-0b87-495f-a8e1-e6d32b7ea715,,"('AMBIENCE', 'POSITIVE', 'Altbiergasthaus')
+",,"Von außen recht unscheinbar entpuppt sich das Haus als gemütliches, uriges und stilecht eingerichtetes Altbiergasthaus mit großem Platzangebot."
+b0059fd4-3fc8-4224-9476-4453fb041ae4,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Fazit: Ein sensationeller Abend mit Familie und Freunden!
+2f88b3c6-140d-45e6-903c-9de7ffd1b06b,,"('FOOD', 'NEGATIVE', 'Essen')
+('AMBIENCE', 'NEGATIVE', 'Unterhaltung')
+('AMBIENCE', 'NEGATIVE', 'Umgebung')
+",,"Denn Erholung, was ja ein Abend mit gutem Essen, netter Unterhaltung miteinander und in stilvoller Umgebung, ausmacht, war es nicht."
+1a41ac94-a63a-4b1c-a7de-7ba410fbef39,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade.. das war mal anders.
+1abd93f8-5049-4486-9acd-7d19d52db9db,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Lange drauf gefreut, sehr enttäuscht."
+76198d34-7b8a-423d-a107-c688218add8c,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen trotzdem gerne wieder!
+77c0701f-d455-42ab-9cae-8c1bbe7097d4,,,,"Mag sein, dass der ""LOC nebenan"" günstiger ist, der treibt beim LOC aber einen viel geringeren Aufwand."
+89396578-d446-437f-8834-dc508274737d,,,✅,"Meine Mutter ist alt und gehbehindert, sie sitzt im Rollstuhl - am Empfang hiess es, es habe keinen Platz für uns, wo ein Rollstuhl (welcher übrigens zusammenklappbar war, was wir dem Personal mitteilten!)"
+5ffdd8d1-368d-4cee-936a-2c4d826dadba,,"('FOOD', 'NEGATIVE', 'Kartoffelsuppe')
+",,Von der Kartoffelsuppe waren wir enttäuscht.
+3bfe9ffc-96bd-4a76-bc58-e5d1e08a9ead,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Soweit die gute Schule auch im LOC angekommen ist sollten ""weibliche Gaeste"" am Tisch zuerst angesprochen werden.Die LOC waren recht gross, der Boden des Kaesekuchen aber bereits trocken."
+175fa675-5903-48ce-97d1-4eef87a9783b,,"('FOOD', 'POSITIVE', 'Bier')
+",✅,Das Bier im RESTAURANT_NAME ist einfach top.
+95774654-2287-4eeb-a704-36cdec992ffa,,"('SERVICE', 'POSITIVE', 'Lena')
+",,"Vielen herzlichen Dank, Lena!"
+61388eb6-a81a-4deb-b5e3-19489a4a1c38,,"('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'Altbier')
+('GENERAL-IMPRESSION', 'POSITIVE', 'Füchschen')
+",,"ich kenne das ""Füchschen"" jetzt schon mehr als 30 Jahre und bin immer gerne dort eingekehrt, sowohl zum Essen als auch einfach so, um ein paar Altbier zu trinken und Freunde zu treffen."
+73dff123-2744-4519-aac4-ac04d385b46a,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Hier kann man keinen netten Abend verbringen, zwar ist in der direkten Nähe die imposante LOC, aber das Etablissement „Augustiner“ ist eine Schande für das Denkmal."
+063d5b77-3b02-4178-964a-0b16f3bf8c7d,,,✅,Gibt es einen logischen oder kulinarischen Grund das LOC zu besuchen.
+f3e4a5db-0488-4e8c-a7d7-51b45b70e7f9,,,,"Ich vermute, dass die Leute jetzt weniger trinken!"
+af40a0b7-be44-4f4b-a412-3e181fae6e8d,,"('FOOD', 'POSITIVE', 'Curry-Garnelen')
+",,B leckere knusprige Curry-Garnelen diese waren der Hammer!
+7a01adb5-c719-4b71-8c53-5ccf5336d881,,"('FOOD', 'NEGATIVE', 'Austern')
+",,Austern die nicht frisch waren.
+e403c81a-a423-442e-a825-68c4fe52415d,,,,"Können Sie machen, mich wird’s nicht jucken."
+14145c04-76ba-4ee5-8342-f83f29d2a79e,,"('SERVICE', 'POSITIVE', 'Kellnerin')
+",,"Als Nicht-Bayern brauchten wir ein paar Erläuterungen bei der Speisekarte, wobei uns die Kellnerin freundlich behilflich war."
+f3391d4c-26a1-4a99-bc12-10a1d04f4cfc,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Die Speisekarte war angenehm kurzgehalten und versprach, auf Grund der Menüpreise, eine hochwertige Küche.Leider kam es zu einer Wartezeit von 50 Minuten, welche wir uns nicht erklären können.Auch das jeweilige Menü, versprach nicht ganz dem Preisniveau.Kurzum, wir hatten trotz allem einen schönen Abend und werden auch wiederkommen."
+eab8872a-adfa-45bb-a056-bd1423ad1c9e,,"('SERVICE', 'POSITIVE', 'Chefin')
+",,Die Chefin war sehr freundlich und es hat Spaß gemacht sich mit ihr zu unterhalten.
+370d3eb0-377b-44fe-bbff-ef5cc389452d,,,,"Als personalisierte Abendkarte für die Erinnerung schon mal direkt verloren, da vieles nicht gepasst oder wir essen konnten."
+15cb1f74-71bf-4053-acc5-d9304549c1e1,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'LOC')
+",,Leider kann ich den LOC nicht empfehlen .
+a17c8627-206e-4b1d-8b74-9f7a382f707b,,,✅,Kein richtiges reinigen der verschüttet Sauce.
+93c12115-ddaa-4dc9-be3a-47a1df260b45,,"('SERVICE', 'POSITIVE', 'Service')
+",,"Service zuvorkommend u locker, hat uns gut gefallen."
+77ba613f-1b14-4200-8176-0b831594fd4c,,"('FOOD', 'POSITIVE', 'Beilagen')
+",,"Fisch mit Kräutern, super Beilagen."
+95072206-e52e-46c0-b87d-3865947c789a,,"('SERVICE', 'NEGATIVE', 'Wartezeiten bei Reservierung')
+('SERVICE', 'NEGATIVE', 'Schlangen')
+('FOOD', 'NEGATIVE', 'Essen')
+",,"Schlangen und Wartezeiten bei Reservierung, Reservierung verloren, Essen sehr geschmacksneutral (soll früher im kleinen Restaurant besonders gewesen sein), die Einheitlichkeit des Essens läßt Vermutungen zur Herstellung aufkommen."
+ab283fea-4e37-483c-8844-300ba83e200d,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Getränke haben mehr als 20 Minuten gedauert bis diese da waren.Vorspeise und Hauptgang bestellt.Vorspeise Bruschetta.
+bc3990a5-afe3-45dc-abc7-7255c8cf5c85,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Eine typische Touristenlocation die von ihrem Mythos lebt.
+356401f9-d3f5-4413-b607-bac3faa6c180,,,✅,Beim nächsten Mal passt bestimmt alles zu 100%
+b94a3196-2e75-475c-b29c-0be0c0755276,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die Atmosphäre ist sehr gemütlich und locker.Der Service ist hervorragend und sehr aufmerksam.
+5b31d732-dc41-4860-b30a-0c7012174644,,"('FOOD', 'NEUTRAL', 'Salsiccia')
+('FOOD', 'NEGATIVE', 'Pizza Gamberetti')
+",,"Während die Salsiccia noch in Ordnung war, war die Pizza Gamberetti komplett trocken."
+d37ad2df-e725-41f4-8404-f7a7ab2b3b67,,"('FOOD', 'NEGATIVE', 'SpareRibs')
+",,Die SpareRibs waren total trocken und hatten keinen Geschmack.
+bad93aff-41b1-4b10-b4cf-6ba47c4195ad,,"('SERVICE', 'NEGATIVE', 'Kellnerin')
+",,Die Kellnerin bediente uns genervt.
+1bbdd3ef-ebce-4de5-8a03-4780f5a53913,,"('SERVICE', 'POSITIVE', 'Personal')
+",,"Der Laden ist voll, das Personal bleibt freundlich und angenehm nett."
+45a8ef37-77c1-4e39-a120-ae48d0207074,,"('SERVICE', 'POSITIVE', 'Service')
+",,"Der Service war herausragend gut, leidenschaftlich und engagiert."
+58aa214a-0ee7-4d68-ae8b-68f91b10864d,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'LOC')
+",,Ich hatte vor Kurzem eine äußerst enttäuschende Erfahrung mit dem Restaurant LOC gemacht.
+829317b4-d445-4823-bf4c-f60d1dfe728e,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Der Kunde von unserer Firma war auch negativ gestimmt und weitere Kundengespräche werden nicht mehr dort durchgeführt.
+937df3fd-3b3d-4f36-ae52-7c7a3ee85acf,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Mengenmässig waren beide Gerichte identisch.Geschmacklich waren alles gut.
+391fe5f3-84bb-4975-8f42-9c6e9c569350,,"('FOOD', 'POSITIVE', 'Duett vom Hirsch')
+('FOOD', 'POSITIVE', 'Roulade')
+('FOOD', 'POSITIVE', 'Frikadelle')
+",,"Diesmal überzeugte uns das ""Duett vom Hirsch, Roulade und Frikadelle"" eine äußerst gelungene Komposition, die wir mehrmals aßen, weil so noch nie gefunden."
+684fd47f-9d70-4c18-a9fd-9c9ce181f730,,"('FOOD', 'POSITIVE', 'Salate')
+('FOOD', 'POSITIVE', 'Dressings')
+",,Die Salate waren reichhaltig mit leckeren Dressings.
+cba6e04a-36a6-4dee-9a23-1a8d6d40d0bc,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Schade.Der Espresso ging aufs Haus Das ist dann irgendwie lächerlich bei 150 € für zwei Personen
+c8f5a33e-5736-492b-8a3b-a6ad44de2a6c,,,✅,Der Höhepunkt war das der Keller zum Schluss solange gebettelt hat bis wir ihm ein Trinkgeld gegeben haben.
+f965d7e8-663d-42b3-a3b7-438140bf4776,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Schade
+935a3b30-bce3-468d-a9c1-ef72d005a489,,"('FOOD', 'POSITIVE', 'Speisen')
+('SERVICE', 'POSITIVE', 'Service')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Die Speisen sind solid und lecker, der Service professionell und das Ambiente stimmig."
+718fcd48-b1cd-413f-b279-9e827b9992c7,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Das ist sehr empfehlenswert.
+4f0b52e4-11f4-4b39-bae3-c98d5f980101,,,✅,"Wir haben bei einer Mitarbeiterin bestellt, die unsere Getränke dem Kellner weitergeben hat."
+383e804c-f7b3-4bb9-9960-6da6a905c107,,"('FOOD', 'NEGATIVE', 'Schwertfisch')
+",,"Dann war leider auch noch mein Schwertfisch nicht essbar, weil noch roh ( damit meine ich nicht glasig, sondern wirklich noch komplett roh auf einer Seite) und musste reklamiert werden."
+45c711d1-e237-4e07-a83f-e5e27a1c16c8,,,,"Auf Nachfrage wurde uns erklärt, dass man das später am Abend erwarten muss."
+baf5569f-6497-4ce5-86ba-cbd58f2019cf,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Sehr nette Location neben der LOC.
+438e4c2b-8405-4acb-af29-d2c7907c22e6,,,✅,"Was dann jedoch an Speisen den Tisch erreichte war so, trotz der guten Bewertungen, nicht zu erwarten gewesen."
+5f326368-6fa1-445b-894b-7c8111579f0d,,,,Leute bleibt mal auf dem Boden!
+e54d5c61-1ff3-4f6b-bb12-a32cc407051b,,"('SERVICE', 'NEGATIVE', 'Personal')
+('FOOD', 'NEGATIVE', 'Massenabfertigung')
+('FOOD', 'NEUTRAL', 'Speisen')
+('SERVICE', 'NEGATIVE', 'Personal')
+",,"Sehr unfreundliches Personal, Massenabfertigung, die Qualität der Speisen war in Ordnung, das Personal eindeutig überfordert"
+01f90b89-43a6-40ba-9e07-67e4bffd7dc3,,"('SERVICE', 'POSITIVE', 'Personal')
+",,Das Personal war sehr freundlich.
+558fb896-a0fa-4748-8d00-d9685f81f5c1,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Mit seinem rustikalen LOC versetzt es die Gäste in eine andere Zeit und schafft eine gemütliche Atmosphäre.Die Speisekarte des LOC konzentriert sich hauptsächlich auf verschiedene Steak-Spezialitäten.
+2a989dd6-aa29-41e4-b40e-c7196212f01d,,"('FOOD', 'POSITIVE', 'Abendmenü')
+",✅,Das Abendmenü hat uns sehr überzeugt und wir haben noch einen passenden Rotwein für den Hauptgang bestellt.
+3194d934-1378-49b9-acca-3b7ee4f5a16e,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Auch die anderen Familienmitglieder waren sehr enttäuscht.
+d07cb016-58c4-40c2-99e8-df9c40c3ebe9,,,✅,"Das gekippte Essen wurde nicht berechnet und mit den Worten, "" wird immer so gemacht, die Geschmäcker sind verschieden "" kommentiert."
+f44f4268-e19f-49b2-bca5-9dd6b8103e39,,,✅,"In sehr viel Fett gebackene Spätzle mit Käse, mehr nicht."
+d7c9ff17-0f64-410a-b578-abd72fac3f1a,,"('FOOD', 'POSITIVE', 'Fleischgerichte')
+('FOOD', 'POSITIVE', 'Fischgerichte')
+",,Sehr gute Fleischgerichte und gute Fischgerichte.
+664b6d74-571b-43d2-a2fc-0623fb9db794,,"('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'Herrencreme')
+",,Das Essen war sehr gut und die Herrencreme ein Gedicht.
+ae6f9b57-463a-4e43-8e90-29994357e97d,,,✅,Hatten das Restaurant auf Grund der überwiegend guten Bewertungen ausgesucht.
+7117c2c2-6b3d-4552-9d36-5291612a520b,,,✅,Die Bratkartoffeln waren ungewürzt.
+dd3994a8-fe56-4cca-a796-02fd148c8bd8,,"('FOOD', 'NEGATIVE', 'Panade')
+",✅,"Das vom Kindergesicht ebenfalls, wurde aber nachträglich in Soße ertränkt, was der Panade nicht gut tat."
+bbf17473-5acc-47b0-ae09-b6f4bdb8e162,,,,Weiter so!
+d8c406bf-e94a-43e2-ae6f-fd7f18b40f5d,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Was sich lohnt.Ambiente 1a
+b7bf053f-37b3-4c23-9c05-12b737e07887,,"('SERVICE', 'NEGATIVE', 'Personal')
+",,Sehr unfreundliches Personal verweigerte mir einen Platz an einem LOC Platz.
+5e15be7d-b2f4-4c62-9b70-b60c8098ff08,,,,"Noch einmal hin und zurück 60 km dorthin zu fahren, tue ich mir nicht an."
+4f857442-1341-4337-8666-02156d0a261e,,"('FOOD', 'NEGATIVE', 'Brauhausessen')
+",,Das schmackhafte-deftige Brauhausessen fand ich leider nicht vor.
+12461e38-4fe9-41aa-9c12-78c8370f03b9,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('SERVICE', 'POSITIVE', 'Bedienung')
+('FOOD', 'POSITIVE', 'Speisen')
+('FOOD', 'POSITIVE', 'Biere')
+",,LOC… einfache und zünftige Speisen… Nette Bedienung… selbstgebraute Biere… Immer wieder gerne
+13bfe12a-12e3-4267-899a-e63a23923665,,,✅,Von Vorspeise bis Nachspeise.
+307b5c02-1b82-40fb-9862-8ebdc9812c25,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Ente war aus, gesagt hat man es einem bei der Bestellung (wieso nicht schon beim Austeilen der Karte, das erspart viel LOC das Essen kam, ich hatte eine Haxe."
+76c5e9f6-2f0a-4eec-9732-800083b44841,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Spekulieren, dass man (am Samstag ) länger sitzen bleiben kann sollte man nicht , wir wurden um 19:45 höflich darauf hingewiesen , dass unsere Zeit um sei, da hilft auch der LOC aufs Haus nicht .Insgesamt eher eine Abfertigungskantine mit nur tw guten Essen mehr aber auch nicht ."
+1348f580-8c21-40aa-a3ef-a10e29ddba10,,"('FOOD', 'NEGATIVE', 'Braten')
+('FOOD', 'NEGATIVE', 'Nudeln')
+",,"Der empfohlene Braten war zäh und statt der versprochenen Spätzle gab es ""nur"" Nudeln."
+f746882c-1a96-4ccf-88bc-4173e7e79348,,,,"Wir waren sehr überrascht, wie voll es schon um 18:30 Uhr war."
+3ca5e2a6-4499-4bc6-b2c9-952e3ca26d9d,,,✅,"Ich bin ehrlich, manchmal träume ich Nachts von diesem Fleisch."
+ac3770f5-fe47-48bd-8057-eef4104a0d33,,,,"Klar, das macht mehr Umsatz."
+f387deaf-7266-4596-9c52-a8af61575a99,,"('SERVICE', 'NEGATIVE', 'Kellner')
+",,"Die beiden Kellner haben aber auch nach 50 Minuten keine Bestellung aufgenommen, obwohl die Tische neben uns bedient wurden."
+b2f368e7-a25b-4269-8f8d-99a3c51ddb87,,"('AMBIENCE', 'NEGATIVE', 'Ambiente')
+",,Das Ambiente ist auch nicht sehr ansprechend und ein bisschen abgeranzt.
+4c0f34bb-3d31-4125-a090-66f213ff8eca,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Service')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+",,"Das Essen war wirklich lecker, der Service freundlich und die Atmosphäre nett u authentisch."
+ee62e9af-b496-43ce-96b4-aa3f223c2d9b,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Man muss nur wissen auf was man sich einlässt und anscheinend wissen genau das viele Leute nicht.Das LOC ( die ""Schwemme"" ) im Erdgeschoß ist in erster Linie ein Bierlokal, einmalig groß, mit Musik und internationalem Publikum in dem man auch bayrisch essen kann."
+50aa1cd8-124e-4017-8014-fb94894127b8,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wir waren nach längerer Zeit eimal wieder im LOC, welches ja zu "" Maassen"" Zeiten eine Institution in LOC war, und vielleicht noch immer ist.An diesem Abend war das Restaurant und die Terrasse wieder gut besucht."
+3a4953cf-79d8-439a-94b6-011c94489423,,,✅,Wir besuchten zum wiederholten male die LÒsteria in LOC.
+820fa3c7-15c0-46c5-a8f5-fe3433317710,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Das Essen wurde dann lieblos aufgenommen und serviert.
+8e5bd548-5c4b-45fd-87d4-90727e7540d9,,"('AMBIENCE', 'NEGATIVE', 'NULL')
+",,"Mir war's persönlich zu laut in dem Laden, daher ein Punkt Abzug."
+3c56e254-6683-4f82-ac57-dddbf8b9fbe8,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Vom Empfang ab duften wir einen sehr freundlichen und stets aufmerksamen Service genießen.Die kurze Wartezeit auf den Tisch haben wir in der Lounge mit Champagner genossen.
+81cfb4bb-75df-4a69-b1d3-de5a78934fab,,,,Ich glaub ich brauch noch einen Magenbitter zum Aufräumen des Magen.
+79f2fed3-8a8b-4f47-99c0-db396c728406,,,,Entschuldigung Fehlanzeige!
+67d3ed95-b7fc-43b3-98e1-f7174e46c83f,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Nach dem wir jedoch 2 mal unaufgefordert und bei noch vollen Cafétassen die Rechnung bekommen haben obwohl wir gerne noch etwas bestellt hätten, sind wir dann auch gegangen.So fühlt man sich nicht willkommen und wir werden uns in Zukunft 2 mal überlegen ob wir dort nochmal hingehen."
+e6b96f82-81a2-4651-b34c-e8580db5b2b5,,,,Vor der geführten Besichtigung des LOC haben wir (11 Personen) diesen Ratskelker besucht.
+429287a3-dc54-4d0d-821a-7fbb0295b743,,"('AMBIENCE', 'POSITIVE', 'Sonnenschein')
+",,Bei Sonnenschein ist das LOC unschlagbar!
+cbe76ba3-8797-4a9c-84c8-184fe7c78ffc,,"('FOOD', 'NEGATIVE', 'Wein')
+",,"Der türkische Wein ist unterirdisch schlecht, wird aber angepriesen als besonders hochwertig."
+af887dd6-8fd4-4889-b976-4ef47b8ef3aa,,,,Möchten Sie gesund bleiben?
+35afbbc3-a937-4d1e-b173-dbc818152b2b,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Schönen Feierabend!
+edf26a2d-1cb9-40e5-a6de-0e4b89ce9c5e,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Kommen gern wieder.
+ca49392f-b2f7-4e23-b626-53aaf8f388d4,,,,"Das Restaurant war um 09.00 h morgens, sofort nach Öffnung, voll besetzt."
+6301bbfa-0403-4cfe-bdb5-e30542f0e58d,,"('FOOD', 'NEGATIVE', 'Saure Lüngerl')
+",,"Aber das Saure Lüngerl (eine der Spezialitäten des Hauses) war so sauer, dass es leider nicht essbar war, außerdem war es lauwarm."
+0cf40f79-87b8-49d5-91d3-c8d762c892bd,,,✅,"Auf meinem Teller, den ich nach angemessener Wartezeit bekam, befanden sich:1 Ganz normale Bratwurst (wie man sie in jedem Imbiss bekommt)1 Scheibe ca."
+4d350a3a-6fa1-413a-b821-6088c46bc1a4,,"('PRICE', 'NEUTRAL', 'Alex')
+",,Preislich ist das Alex absolut ok.
+c8b11d62-2635-4630-9a34-4558d1dd6b3c,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Dieser sollte mal an einer Schulung teilnehmen in der Ihm der korrekte Umgang mit Gästen und Kollegen näher gebracht wird.
+bc46af7b-dddf-4801-96c3-90a14cc37ec9,,,,Einfach hingehen und sich selbst überzeugen.
+32661709-b65c-4136-a1c0-5ed07e45bb56,,,✅,"Ober, dann Koch, danach wohl Restaurantleiter) Der Koch habe 23 Jahre Erfahrung."
+d7484e97-425c-47d7-96d1-bc7fc78f0d16,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die kam dann mehr als 45 Minuten später.Leider waren die Pizzen eiskalt und ziemlich Lappig und fade.
+9062017b-8ae2-40cc-9125-6a9809adcf45,,"('FOOD', 'NEGATIVE', 'Gruß aus der Küche')
+",,Der „Gruß aus der Küche“ für 5 Personen sehr mager.
+bf2e5672-4380-4664-ac76-461c25984c72,,"('FOOD', 'POSITIVE', 'LOC')
+('FOOD', 'POSITIVE', 'Spätzle')
+",,"Das LOC schmeckte sehr gut, die hausgemachten Spätzle exzellent."
+6a458009-f670-4b0e-929b-585f00af7f5e,,"('FOOD', 'POSITIVE', 'Gerichte')
+",,"Authentisch überragend gute Gerichte von ausgezeichnete Qualität, man fühlt sich fast wie in LOC."
+09dddda0-401c-477d-80e0-5e0e66996345,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Leider!Das Essen kam wahnsinnig schnell - und nicht für alle zeitgleich.
+8ce7bfd0-4657-4962-a3fb-10396e649db1,,,✅,"LOC, wie es den Namen schon trägt, ein Restaurant dass den Portugiesischen Flair aufzeigen soll."
+a7f5533c-e021-465e-9d17-cbcf4cfe9be8,,,✅,"Vielleicht zu viel, ich dachte in diesem Viertel sind alle authentisch portugiesisch (das Restaurant hatte jemand anderes ausgesucht)."
+0057db89-541a-4181-9977-964f50b258c9,,"('SERVICE', 'POSITIVE', 'NULL')
+",,Bereits die Online-Reservierung war komplett unkompliziert.
+d0bb355b-e939-4248-a3bb-5b3e17854b6f,,"('SERVICE', 'POSITIVE', 'Bruno')
+",,Besonders charmant war unser Kellner Bruno.
+58bae240-83c5-4258-9864-bec2db87c476,,,,"Mussten amEnde voll bezahlen, waren dann auch schon gegen 20 Uhr fertig."
+e383332f-7278-4c4c-a1c6-063eabd81afa,,,,Zum Glück sind wir ehrliche Menschen :-)
+930761cc-5274-4c18-8ad5-2f7d672bfddc,,"('FOOD', 'POSITIVE', 'Essensqualität')
+('SERVICE', 'NEGATIVE', 'Servicequalität')
+",,"Mein Fazit: Aufgrund der Essensqualität würde ich dem Brauhaus noch eine Chance geben (darum auch drei Sterne), aber an der Servicequalität muss definitiv schwer gearbeitet werden."
+f4e043aa-ccc2-420b-aab5-219e85951949,,,✅,noch ein Brötchen dazu.
+538dbff6-4549-4d2a-ab45-dcc80d968ee6,,"('FOOD', 'POSITIVE', 'Bratwurst')
+",,"Ich kann das LOC nur empfehlen, wenn Sie die beste Bratwurst in der LOC genießen möchten!"
+2b0139ab-1f99-4bb1-ba50-7dec1132f42f,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Restaurant')
+",,Danke im Namen von 180 Personen die dieses Restaurant den Valentinstag mal richtig versaut hat!
+e6c85c4d-8fc4-42f2-99dd-b93b33aa15a3,,"('PRICE', 'NEGATIVE', 'Haxe')
+",,"Eine Haxe für EUR 26,50 ist schon preislich ambitioniert."
+6653f437-83d1-4635-a89d-1788d8d0e930,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,So etwas lautes und ungemütliches habe ich in einem Restaurant noch nicht erlebt.Wir waren enttäuscht vom Ganzen.
+8bbd7630-2d67-45e7-9e42-7e918e736bf2,,"('AMBIENCE', 'POSITIVE', 'Brauerei')
+('FOOD', 'POSITIVE', 'Bier')
+",,"Die Brauerei ist urig eingerichtet, immer gut besucht (sind auch Abends daran vorbei gelaufen) und das Bier ist süffig."
+1cdbb840-ae25-4c6d-a931-780fd066ba25,,"('FOOD', 'POSITIVE', 'Wein')
+",,"Sehr guter Wein, sowohl rot als auch weiß."
+c1e798b9-17cd-42be-9d01-1879405309aa,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Zum Schluss erhielten wir einen ""Abrechnungsbeleg"" mit dem Hinweis ""Dies ist keine Rechnung"".Nie wieder!"
+74b633fe-7b2a-4f47-b34d-41bf22f65e21,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Unsere 6 jährige Tochter kann ""leider"" noch kein Englisch - das hat das LOC aber scheinbar nicht verstanden 😉 Für uns war es der letzte Besuch."
+103b5f3d-e8ec-4382-a0cc-e116b4f9e779,,"('PRICE', 'NEGATIVE', 'Essen')
+",,"Wir hoffen, wir finden für unseren nächsten Besuch in LOC einen entspannteren Ort um gut bayrisch Essen zu können."
+9f332fd7-f0b7-4b84-b68d-a750aa01071a,,"('SERVICE', 'POSITIVE', 'NULL')
+",,"Ob mit Reservierung oder ohne, jeder wird irre nett empfangen."
+4e1c84dc-4ccd-4442-b054-bb9cce16b54c,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Auch das Dressing war glutenfrei (Joghurtdressing).Zu viert mit 6 Getränken (Cola und Bier) insgesamt 113 Euro bezahlt - für die gebotene Qualität, top Bedienung und das schöne Ambiente ein Schnäppchen.Wir kommen wieder."
+f227481f-a1b6-4c57-a79a-90b1c4cdd7fc,,"('SERVICE', 'NEGATIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,"Schade, denn das Essen und das Ambiente ist wirklich gut beim Röslein, aber bei den Preisen kann ich zumindest einen freundlichen Umgang erwarten."
+2e794efd-5d87-4449-a243-1fc893738196,,,✅,"Wir konnten weder eine Nachspeise noch, wie wir das eigentlich in allen Städten die wir bereisen uns einen Abschluss Cocktail gönnen."
+1a96ca29-b2da-4f14-ad1d-6196d4b61c6a,,,,Potenzial haben die schon.
+8b18aeeb-7396-4966-9084-8fb660bd524d,,,,Wir waren am Vorabend in LOC zum Abendessen.
+01b05840-6095-470b-a4ed-37ab1e920e59,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('SERVICE', 'POSITIVE', 'Herzlichkeit')
+",,Wir waren vom Ambiente und der warmen Herzlichkeit sehr angetan und haben uns sofort sehr wohl und sehr gut gefühlt.
+a1051d56-8108-4d3f-a23e-9d42d41aac7b,,,,"Daher vielen Dank für den Rauswurf, obwohl ich schon so häufig im LOC war."
+287e7f06-564b-44f1-afb6-174c1be6db81,,,,Wir bezweifeln das.
+1e1a67c3-c236-4519-b179-d4ec49a4cb1f,,,,keine Zeit ist.
+9b0d2901-1ed8-4981-ac4e-4e8ae275be53,,,✅,Man bezahlt einen Pauschalpreis und kann sich am Frühstück Büfett bedienen.
+e6581136-0792-426a-aaf7-d54884a819d5,,,,"Mal sehen, ob uns das auch so gut gefällt."
+21a2e0c9-b81c-4d54-bf77-6cd3b9d4423a,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wir haben selten so schlecht gegessen wie an diesem Abend in der RESTAURANT_NAME.Trotz Reklamation wurden wir zweimal vergessen, als die Hauptspeise kam, war das Fleisch kalt und das Kartoffelgratin trocken.Der Serviceleiter forderte uns bei der Reklamation auf, doch in eines der anderen Lokale der Kette zu gehen, wenn das Essen dort besser sei."
+c06eacbd-d2f3-418c-8b2d-87e9070b2358,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Statt sich um die Gäste zu kümmern wurde vorgezogen lautstark und vor den Gästen zu telefonieren, private Unterhaltungen zu führen oder Raucherpausen zu machen."
+2af97902-63ae-4bb3-ac9d-4a20e41f25c3,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Pizza nichts Besonderes, Fleisch und Nudelgerichte OK.Der Service war zufriedenstellend, aber nicht sehr herzlich oder zuvorkommend."
+f457d66c-da7a-4e38-bde8-dc1c3a35d30b,,,,Leider wurden Getränke nicht so oft angefragt.
+f4b2e647-8cca-455d-ac82-ce9e5e8b7a53,,"('SERVICE', 'POSITIVE', 'Bedienung')
+",,Sehr nette und zuvorkommende Bedienung.
+5a3341d1-c932-4de7-afc6-1c0c06cc244c,,"('SERVICE', 'NEGATIVE', 'Eigentümer')
+",,"Es sei denn, man steht darauf, vom Eigentümer beleidigt zu werden."
+83747561-bd69-41a1-876a-89320931b694,,,,Nicht einmal ein Lächeln kommt zustande!
+14a38c3a-b264-400c-9708-ad7943dfce78,,"('FOOD', 'POSITIVE', 'Currywurst')
+('FOOD', 'NEGATIVE', 'Pommes')
+",,"Die Currywurst war lecker, die Pommes ziemlich versalzen."
+1c8ea2fe-b6b2-4206-8de4-555186467ccb,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen sicher wieder.
+52156ddf-df77-4dc4-8b45-7ad32e5a5ff9,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Kommen sehr gerne wieder!
+db3bce07-59cd-44aa-b3ac-802c017e2aa4,,"('FOOD', 'NEGATIVE', 'Fische')
+",✅,"Allerdings sahen die präsentierten frischen Fische an diesem Abend absolut nicht mehr frisch aus, weshalb ich mich nur für eine Fischsuppe entschieden habe."
+ada95494-aad7-4f43-b257-1e07bb9751bc,,,,Ich konnte mich kaum entscheiden.
+c6fecd06-96e1-4ba4-9109-e28ac1b5c4d0,,,✅,Essen vor dem Eisstockschiessen.
+dcf9f17b-32b8-4a3e-9913-0d43521d9a6b,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Wir waren zufrieden, für den starken Geschäftsgang, kann das Restaurant ja nichts."
+6526121c-0139-4594-99ff-fbeb4fe62348,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen ist super lecker.
+d543c1e0-7334-4093-8665-3b4802964703,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Um 21:30 wird man unfreundlich abgewiesen.
+2ebc91b8-ec90-4be9-b874-d08faf3097c8,,"('FOOD', 'NEUTRAL', 'Essen')
+('PRICE', 'NEGATIVE', 'Essen')
+",,"Das Essen war soweit in Ordnung, Standard würde ich sagen dafür aber 2-3 Euro zu teuer."
+b2709831-aaed-4594-b68a-ea3cab29c27f,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Leider nicht mehr zu empfehlen.
+846de131-9773-4837-9999-f85fde26206f,,"('AMBIENCE', 'POSITIVE', 'Gastraum')
+",,Sehr schöner Gastraum.
+b738fd66-d871-4e3c-a5d0-c69749facbf1,,"('FOOD', 'POSITIVE', 'Essen')
+('PRICE', 'POSITIVE', 'Essen')
+",,Authentisches griechisches Essen für einen super Preis.
+27139c9b-5a80-436a-9172-cbd9b39cca77,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Nicht kulant, knauserig, überheblich."
+b8cf3e4a-aad8-4fd0-9810-1a4424c416c6,,,✅,Der Servicemitarbeiter hat uns einen Tisch für eigentlich 4 Personen zugewiesen.
+4012492e-3f40-44e5-b103-6807fb206dd6,,"('AMBIENCE', 'NEGATIVE', 'Musik')
+",,"Dass der Musiker am Keyboard seine Aufgabe für unseren Geschmack etwas fehlinterpretierte, ist wahrscheinlich unser individuelles Gefühl, aber Musik sollte in diesem Fall Tischgespräche untermalen, nicht übertönen und für Stimmung sorgen."
+49f6399a-4348-4c5a-b2ec-e9a4c8ab36ba,,,,Beinahe wie in LOC.
+37c54626-004f-495e-97bb-23b3415e0433,,,,Eins ist immer gleich und das ist was uns in einen perfekten Abend starten lässt.
+2a845193-4e1e-4081-b289-3debfeb53161,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'Pizzabude')
+",,Eine Pizzabude ohne Ambitionen.
+d5569f58-afac-4542-8921-ea74ff0d1605,,"('FOOD', 'NEGATIVE', 'Käsespätzle')
+",,Die Käsespätzle haben leider keinen Käse gesehen.
+4b0d2a6f-d24c-4c07-8e60-a232700fc30e,,"('SERVICE', 'NEGATIVE', 'NULL')
+('FOOD', 'NEGATIVE', 'NULL')
+",,"Es sah aus bzw. schmeckte nicht nach einem Ausrutscher aus der Küche, sondern nach strukturellem mangelndem Engagement und Lustlosigkeit gegenüber dem Kunden."
+aaceb23e-f4f8-47d3-b49e-93ceadb9bae9,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Bedienung')
+",,"Das Essen war lecker, auch die Bedienung hat uns sehr freundlich bedient."
+aacc6e21-b06d-4ee5-bb42-1691ce8c2d85,,"('AMBIENCE', 'POSITIVE', 'Ecktisch')
+",,"Ecktisch oben- perfekt, wenn man ungestört essen will."
+08a219eb-846b-49a0-b543-e34e856063ae,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Das nächste Mal, ach nein - das wird es nicht geben."
+4d757412-f2c8-4947-8589-8d3e331239b7,,,✅,"Versteht mich jetzt nicht falsch: jeder möchte seine Bestellung ordentlich und vielleicht auch mi ""ein bisschen Liebe"" zubereitet bekommen und natürlich muss Arbeit auch Spaß bringen, besonders wenn man weiß, dass es den ganzen Tag nicht besser wird."
+cfc670b9-e6bd-4aa2-bc38-5acd2ae2623b,,"('FOOD', 'POSITIVE', 'Speise-Erlebnis')
+",✅,"Das RESTAURANT_NAME bietet in einem Ambiente von Großmutters Eßzimmer, wenn Feiertag ist, ein zuverlässiges gutes Speise-Erlebnis."
+852fe1e3-4d0a-44dd-9780-6d2230628739,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,"Uns hat es hier gut gefallen, wir werden auf jeden Fall wiederkommen."
+f1698a7e-96b5-4243-af62-70b82238a037,,,,"Als Norddeutscher bevorzuge ich eigentlich LOC, aber in LOC geht mir nur Augustiner über den Tisch."
+b291eda7-4aba-427d-b735-9fde1a1d2620,,"('FOOD', 'NEGATIVE', 'Bierfleisch')
+",,Peters Bierfleisch eine Zumutung.
+e9b4eaa0-e870-435e-b14a-43349468320e,,,✅,Ab der dritten würde dann wieder 16€ pro Person berechnet.
+e38e4325-3158-47a2-87e8-4150be8316b9,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Zum Dessert hatten wir einen Kaiserschmarrn, der war gut.Fazit: wer einmal die Stimmung erleben möchte und ein gutes Bier trinken möchte, ist im LOC sicher am richtigen Ort."
+24cd6df1-e62f-49fc-bd13-5fd77e609f7a,,,,Ich würde das aber auf jeden Fall jederzeit wieder bestellen.
+6c056692-8a17-4560-8833-a7a7d3fb2c6c,,,,Wir waren aufgrundder Bewertungen spontan da.
+95828448-7cf0-41ff-bc2a-387c11807b31,,"('SERVICE', 'NEGATIVE', 'Personell')
+",,"Da wurde wohl etwas geschludert, als wir mal vorsichtig nachfragten ob es noch lange dauern würde...Personell war der Abend komplett fehlgeplant."
+0304a0e0-4875-4aad-9f3f-5ab2dc8e1861,,,✅,Diverse Spieße genommen.
+a86c182b-1304-419b-9095-d39b4fb78aa2,,,,So jedenfalls nicht.
+601a47b6-48ec-4649-832a-b448f7674d92,,"('SERVICE', 'POSITIVE', 'Service')
+",,Der Service war sehr freundlich.
+944dd906-e533-4be7-8e1d-aaf4973def2d,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen war spitze, viel selbst gemacht."
+e0c7eaad-7c1e-415e-a1cd-57848afcbacd,,"('FOOD', 'NEGATIVE', 'NULL')
+",,Wer weiß wie es in LOC schmeckt wird hier bitter enttäuscht!
+8e6c21ff-2a12-4d41-aca5-8653ad7908eb,,,,Bahnhofshalle.
+307533e9-234f-458b-b218-7a88d0bb9f71,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Am Sonntag um 9:00 zum Frühstuck das erste mal da , Die Tische stehen so eng zusammen so das man fasst beim Nachbarn auf den Schoss sitzt Bedienung freundlich Speisen sind Ok aber für Bedinung kaum möglich das Essen anzureichen halt total Überfullt und daher total ungemütlich werden das Lokal nicht weiter empfelen und nicht mehr besuchen ."
+3dbd4702-bf33-4e78-a63c-3b9be1feb884,,"('SERVICE', 'POSITIVE', 'NULL')
+",,"Wir wurden gut bedient, obwohl der Laden sehr voll war und die Kellner kaum zum Verschnaufen kamen."
+dbe8db86-7914-492a-911f-5fc161f836fe,,,,Wir haben Sonntag Mittag mit einer Runde von 13 Personen zum Mittag gegessen.
+867668b9-7c3e-4af1-9ebf-fb152bd71522,,"('PRICE', 'NEGATIVE', 'NULL')
+",,Sehr Enttäuscht für über 200 €
+3f88e761-69a3-4037-9109-6856f71aef89,,,,Wir hatten 3St.
+15ab3e43-4fe8-486c-b859-c29fcdf501ca,,"('AMBIENCE', 'NEUTRAL', 'Einrichtung')
+",✅,"Klassische Einrichtung, ohne dass es zu finster wirkt."
+73531c60-d6b2-4417-803a-dc69361b8891,,,✅,"Und natürlich Tapas in jeder Form, Farbe und Geschmack."
+6a804f14-ea28-4340-86fe-adfd3e02f749,,"('SERVICE', 'POSITIVE', 'Ioulianos')
+",,Ioulianos Ist super freundlich und gibt tolle Empfehlungen denen wir gerne gefolgt sind.
+00678ce3-e08b-4312-937d-390e84d0509a,,,,"In der heutigen Tag akzeptierbar, dann muss diese Knappheit durch Freundlichkeit egalisiert werden."
+1c2721b6-a088-42d2-a226-0ed6c781f5a1,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,Die Reaktion darauf leider Achselzucken.
+860c0f4e-5381-440d-b2ae-e84691066e28,,"('AMBIENCE', 'POSITIVE', 'Umgebung')
+",,Gute Umgebung immer voll.
+ac3858b9-ceb0-4c12-b070-51f5f3868afa,,"('FOOD', 'POSITIVE', 'Getränken')
+",,An den Getränken gibt es nichts auszusetzen.
+8ae6dfaa-9609-467e-914b-ca64f790cb81,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Sehr lecker, nette Bedienung (Francesco)Tolles Ambiente, HundefreundlichGute Cocktails und tolle Weinkarte"
+84051f1b-d1e2-4b4f-a64c-afbe41f5821b,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Der Ausblick war super, das war’s mit der Bewertung.Von eingefrorene Kuchen, zum matschigen Baguettes rüber zur lieblosen Bruschetta, alles ohne Geschmack.Aber das geschmacksloseste war die beleidigende, inkompetente Bedienung.Leute, wenn ihr Alex besucht, trink nur ein Getränk, aber geht woanders Essen ."
+8bd32048-15a2-4d93-9522-883f36d1f614,,"('FOOD', 'NEGATIVE', 'Steak Menü')
+",,Steak Menü für 5 Personen ist mega mickrig!!
+c879262b-71d2-4409-bf2d-c5107f9d7714,,"('SERVICE', 'POSITIVE', 'Service')
+",,Service sehr freundlich und mit Getränken sehr flott.
+9b8e3d6e-f44a-410b-93a2-c8c401055de7,,"('SERVICE', 'NEGATIVE', 'Küche')
+",,Schnelle Küche mit geringem Anspruch.
+881873ed-6294-415e-85d5-3d7c1afb5470,,,,"Dirk Roman, der LOC und neben den lieben, herzlichen, Kellnerinnen, das Herz im Service!"
+33ae398f-e937-431f-ac86-cdb4996f2dd3,,,✅,Die Gerichte so wie eine bouillabaisse Suppe die aussah wie eine Tomaten Suppe aus der Dose mit Fish.
+0c585a8b-7000-4aa6-bf11-59591f9e6b0e,,,,Die KohlPrty das absolute Gegenteil.
+46cc64af-652e-46b4-a069-f0cad9680c77,,"('SERVICE', 'POSITIVE', 'Personal')
+('FOOD', 'NEUTRAL', 'Frühstück')
+('AMBIENCE', 'POSITIVE', 'Location')
+",,"Die Location spannend, das Personal grundsätzlich freundlich, das Frühstück allerdings qualitativ durchschnittlich."
+916397e9-cded-4459-bf05-fe28a83de766,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Obwohl Samstag Abend, bekamen wir dennoch einen Sitzplatz, der dafür aber am Durchgang nach außen etwas zugig lag.Der Service war sehr nett und schnell.Prosecco, wie auch der Vernaccia waren beide sehr lecker und einigermaßen bezahlbar.Sowohl Vorspeise, wie auch die Hauptgerichte waren sehr lecker und empfehlen sich daher selbst wieder.Insgesamt,preislich gehoben, dennoch empfehlenswert."
+437cd91a-84fa-4d8f-a442-db3e83280fb2,,"('SERVICE', 'POSITIVE', 'Gastfreundlichkeit')
+",,Typische Gastfreundlichkeit aus LOC.
+ca890c3f-44d0-4706-b275-6b087c238206,,,,Wollten zum Mittagessen.
+d6cd93ab-c64b-4ea2-89e9-7566abadb525,,"('SERVICE', 'POSITIVE', 'Empfang')
+",✅,"Der Empfang war nett, der Tisch im hinteren Bereich des aus Brettern gebauten Restaurants."
+d4ac26ee-3ee5-4ae2-bad8-1498a2c57ef4,,,,Bin 45 Min.
+da07e4ea-704e-4e1c-9795-023045de8098,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Der einzige negative Punkt war nur, dass es etwas laut war.Echt empfehlenswert."
+48012c02-3213-454a-bb2a-e1d40c67196f,,"('FOOD', 'POSITIVE', 'Essen')
+",,Das Essen war ein Genuß.
+e334b552-e0b5-4ff6-bdfd-35b2b7875ec5,,"('FOOD', 'NEGATIVE', 'Käsespätzle')
+('PRICE', 'NEGATIVE', 'Preis-Leistungsverhältnis')
+",,"Die Käsespätzle waren dicke Knöpfle und mit zu wenig Käse… nicht zu empfehlen.., Preis-Leistungsverhältnis stimmt nicht."
+fd1f9c79-791b-40b9-8150-20c499eafb0a,,,✅,Am letzten Samstag haben wir drei Pizzen und LOC online als Lieferung bei der LOC in LOC bestellt.
+efc40a5b-222c-4f30-b769-6aa683f49032,,"('SERVICE', 'NEGATIVE', 'NULL')
+('AMBIENCE', 'POSITIVE', 'Einrichtung')
+('FOOD', 'POSITIVE', 'Essen')
+",,"Geschmackvolle Einrichtung und tolles Essen, leider lässt man die Kunden längere Zeit in der Tür stehen obwohl nicht mal ein Viertel des Lokals gefüllt ist."
+54220a44-07e9-4525-8265-68156ace00bd,,"('FOOD', 'POSITIVE', 'Essen')
+",,"Das Essen war hervorragend, wie in solchen Restaurants üblich sind die einzelnen Portionen so ausgelegt, dass man mindestens 3 Gänge zum Satt werden benötigt."
+5a97326a-d117-4de8-a20f-ae895be9138e,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+('FOOD', 'POSITIVE', 'Essen')
+",,Mal zum Essen dort und sind immer wieder begeistert von dem Ambiente und dem leckeren Essen.
+624ca5af-0a90-4e3c-9c09-272e71558477,,,✅,Es wurde aufgrund der langen Wartezeit nichts erstattet
+97b97132-2406-4ac9-9394-419c63dfa9d8,,,✅,Das ganze für knapp zwanzig Euro.
+ca16fb7d-4a31-4bb5-853c-7a84d74a742b,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Die Räumlichkeiten und die Einrichtung sind beeindruckend schön!Die Kuchen und Torten waren sehr gut!Die Kellnerin war sehr freundlich und aufmerksam und hat uns nach kurzem Warten einen schönen Platz gleich vorne neben dem Eingang angeboten.
+ce08a206-90c0-4fca-a03e-502ba939eb2a,,,,"S. Pfützenreuter & Familie (LOC, LOC, LOC)"
+cfdffbdd-2b2a-4625-920c-28fd2f93f5d2,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir kommen auf jeden Fall wieder!
+be9004ea-4f8a-42fc-8484-36c66665d824,,"('SERVICE', 'NEGATIVE', 'NULL')
+('SERVICE', 'NEGATIVE', 'Morawek')
+",,"Ein sehr unfreundlicher Gastronomiebetrieb, bei Raklamationen wegen falscher Abrechnung wird der LOC Herr Morawek ausfallend und beleidigend."
+1f424834-bf06-4efb-982e-2ee4a4ee6cc1,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Unser Service war stets bemüht.Vom Essen waren wir so richtig enttäuscht.
+0f3fbe6b-0df4-4f5a-8a81-55af9086bb1b,,,✅,Aufgrund des Bekanntheitsgrades natürlich immer gut besucht und dementsprechend muss man manchmal länger auf eine Bedienung warten.
+3a183fdc-de40-4a31-bbf6-a6dc52c0499c,,"('SERVICE', 'POSITIVE', 'Maar')
+",,"Belebter Laden, in dem man von Frau Maar an der Reservierung schon mit einem herzlichen Lächeln empfangen wird."
+ba236c2f-6b76-42fa-8003-29ffa2f3e797,,,,"Wer da nicht bestens satt wird, ist selber schuld!"
+a7513fe8-ecd3-4666-a472-e7c57ae10002,,,✅,"Ich konnte nicht fassen, was ich da auf dem Teller hatte."
+a62b823e-42b9-4731-8407-933b200b953d,,,✅,Der Schweinebraten war lauwarm und der Kaiserschmarrn war gewürfelter Teig.
+4d9d0d8d-fcc2-48b5-b9a0-5d2fc2b2e6cd,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Hauswein ist sehr empfehlenswert.Das Steak war leider sehr trocken und hat aufgewärmt geschmeckt.
+89fd3f5f-0e01-4c27-98e5-50fb928b0bfe,,"('AMBIENCE', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'NULL')
+",,Rundum einfach gemütlich und fein.
+1e575dea-a759-40bf-8aab-c9fa2bfe568a,,"('FOOD', 'POSITIVE', 'Speisen')
+",,Speisen sehr schmackhaft.
+289f7a46-f703-4d3d-86c9-435a6c2df753,,"('SERVICE', 'NEGATIVE', 'Service')
+('FOOD', 'NEGATIVE', 'Suppe')
+",,"Suppe war nicht heiß, kümmerte den Service aber nicht."
+2b5c634d-597d-4031-908a-4d7d6ea075e7,,,,Hat den ganzen Geschmack des LOC zerstört.
+fd1da607-695a-4e72-8dce-077a09e6df6f,,,,Wir sind seit Jahren Gäste und so auch dieses Mal wieder.
+0a4311f1-01e2-4564-8345-4523d92109db,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Wir waren gleich 2x da -sehr zu empfehlen!
+3410127e-63cf-4a5b-b85e-45305fbbe7df,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Ganz klare Empfehlungen unsererseits.
+965af95c-1ed1-48f5-8e63-7f7738f82e12,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Für uns steht klar ,es war das erste und letzte mal ."
+120bad98-7742-406d-999d-9106952d2869,,"('SERVICE', 'NEGATIVE', 'Bedienungen')
+",,"Bedienungen sprechen teilweise nur gebrochen deutsch, ich wurde trotz vieler freier Tische abgewiesen mit der Begründung „nicht genügend Personal“ ….."
+5a6e8d92-7378-4384-980c-eb76f38b20ad,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Allerdings eher ein Abfertigen als gemütlicher Abend.
+5a3e2f0e-0012-4391-a7dc-0d9bd25d5b11,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'NULL')
+",,"Qualität super, gerne werden wir wieder kommen"
+56ffe3c7-ed18-487b-8052-3e40a6f2b961,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Und sicherlich eine Empfehlung für Bekannte und Freunde.Danke an Küche und Personal !
+624fbb7c-4e61-48c1-bfd6-f3034377b344,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"20 Min, man hat Kollegen neben mir nochmals gefragt, aber auf dem gleichen Weg nicht geschafft, Getränke an den Tisch zu bringen."
+280a0685-69d2-4cc9-a60c-822ff9727357,,"('SERVICE', 'NEGATIVE', 'NULL')
+",,"Sollten die Inhaber / Geschäftsführer an dieser Praxis festhalten, werden sie uns als Stammkunden verlieren."
+7868c812-49d4-4b1d-9e96-6fbc3f8112d0,,"('FOOD', 'NEGATIVE', 'Speisen')
+('SERVICE', 'NEGATIVE', 'Service')
+",,Einfaches Restaurant mit schlechten Service und kaum glutenfreie Speisen.
+8864ac5c-e0f2-4cfd-9bf3-2cb1de891066,,"('SERVICE', 'POSITIVE', 'Bedingung')
+",,Die Bedingung war schnell und freundlich.
+151888a6-3cdf-4b61-ab87-c8bec5d8e46f,,"('FOOD', 'POSITIVE', 'Essen')
+('SERVICE', 'POSITIVE', 'Personal')
+",,Sehr leckeres Essen und aufmerksames und stets freundliches Personal.
+5ae372a8-7064-4ebf-b5f0-62ed61b3ee28,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Als gebürtiger Münchner besuche ich das ""Bratwurst Glöckl"" schon von Kindesbeinen an.Seit langem schon ist dort - leider- Usus, einem auch dann, wenn man noch verweilen möchte, ungefragt ein Reserviert-Schild vor die Nase zu setzen."
+829f2012-9b10-464a-bf01-163e397a381d,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Leider dieses Mal enttäuschend.
+2d7f4809-b019-4af8-a0a1-2a2a73c8c930,,"('SERVICE', 'NEGATIVE', 'Service')
+",,Was mich diesmal echt gestört hat war der Service.
+15d3d5ef-79e6-4cb6-a9c8-4ef27245e4bd,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,"Persönliche würde ich deswegen eine solche Lokalität für ein gemütliches Abendessen, eventuell noch mehrgängig, ausschliessen."
+1f0f5c6e-0510-4637-a79e-3e22d07ae995,,"('FOOD', 'POSITIVE', 'Hummer Suppe')
+('FOOD', 'POSITIVE', 'Heilbutt')
+('FOOD', 'POSITIVE', 'Schoko Mousse')
+",,"Die Hummer Suppe ein Gaumenschmaus, gefolgt vom Heilbutt, so lecker und dann das weiße Schoko Mousse- yummy 😋."
+44309d02-759e-411b-b5f1-64933448433c,,,,Das mussten wir selbst herausfinden.
+9853615b-6eec-4bfb-af8b-b8c699cf93cc,,,✅,"Auf der Rechnung merkten wir dann, dass die zweite Flasche 61€ kostet."
+d8eed57e-64ac-4958-990d-083087cd41be,,,✅,"Lammfilet klein geschnitten, lapperige Pommes Reis, etwas Salat, Knoblaubuttef vom Supermarkt und LOC geräucherte babequesauce."
+0fd85c91-a789-4819-a004-f60db4e2bb6e,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,Der Nachtisch war dann auch nochmal ein Highlight.Der Fisch mit der Soße war auch der Hammer.Kritik gibt es aber auch.
+a6cb2d88-d91e-466a-a791-2d7d31fe998f,,"('SERVICE', 'POSITIVE', 'NULL')
+('FOOD', 'POSITIVE', 'Essen')
+('FOOD', 'POSITIVE', 'Wein')
+",,"Sehr freundlich und professionell, seine Empfehlungen für Essen und Wein waren top!"
+16644a8d-58f9-4501-84a2-a972682631c3,,,✅,"In diesem Lokal ist das jetzt das zweite Mal, dass mir das passiert."
+d53f3421-868c-43d4-b2c4-27cfbf362cc1,,,✅,Ebenso auf Qualität bei den Speisen.
+82c5b238-104d-41a1-a26f-75c1a70e9742,,"('FOOD', 'NEUTRAL', 'Essen')
+",,Das Essen war total in Ordnung aber auch nicht mehr.
+e2a32506-1c69-402c-936d-40ad3a02e374,,"('FOOD', 'NEGATIVE', 'Portionen')
+('SERVICE', 'NEGATIVE', 'Zusatzbestellungen')
+",,"Was uns nicht gefallen hat, ist die immer kleiner werdenden Portionen und Zusatzbestellungen."
+5616905b-0014-42ce-b191-b59d5fa8360e,,"('FOOD', 'POSITIVE', 'Brunch')
+('FOOD', 'POSITIVE', 'Essen')
+('AMBIENCE', 'POSITIVE', 'Atmosphäre')
+('SERVICE', 'POSITIVE', 'Service')
+",,"Der Brunch ist sehr empfehlenswert, sehr gutes Essen in angenehmer Atmosphäre bei sehr gutem Service."
+1f6138a5-bab6-436f-9785-89470175eaf5,,,,Wir sind dann zu den Tresen um endlich bezahlen zu können.
+068aa863-e797-42a8-9a55-908eb09f4aae,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Gehe ich nicht mehr hin.
+e3b58038-6b00-4b22-9b68-d9c6566cc89b,,"('GENERAL-IMPRESSION', 'NEGATIVE', 'NULL')
+",,Rubrik Touri-Schrott!
+875267ab-49ad-41b6-99e2-48933f08f3ef,,"('AMBIENCE', 'POSITIVE', 'Ambiente')
+",,Das Ambiente ist schön und wir haben uns wohl gefühlt.
+99b08540-b8d2-4ef1-90e5-5829977eeceb,,⚠️ Mehr als 1 Satz im Text identifiziert von Annoator A,,"Wer richtig leckere selbstgemachte Nudeln, eine schöne Location und super tollen Service sucht, ist im RESTAURANT_NAME genau richtig.Wir waren nur für 1 Tag in LOC und beendeten diesen mit einem wunderbaren Abend mit einem sehr leckeren und unterhaltsamen Dinner."
+814393d4-d43c-42e4-b5f3-154632515082,,,✅,Hatten ein krüstchen bestellt.
+a4f65da8-d2a3-4d01-9094-bf85768abb73,,,,Ziemliche Frechheit.
+5d36a330-fa4f-4108-8f64-dc6677dc966f,,"('GENERAL-IMPRESSION', 'NEUTRAL', 'NULL')
+",,Fast alles in Ordnung.
+345ae479-581c-4e66-ad67-44121f542f45,,"('SERVICE', 'POSITIVE', 'Service')
+",,Fleissiger Service.
+3bf5c34f-9b7e-4c20-a59e-d17a4785e738,,"('GENERAL-IMPRESSION', 'POSITIVE', 'NULL')
+",,Kommen regelmäßig und sind noch nie enttäuscht worden.

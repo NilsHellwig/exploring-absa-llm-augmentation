@@ -1,0 +1,61 @@
+<View>
+  <Header value="Explicit sentiment" />
+  <Text name="normal_text"
+    value="Select an aspect category/aspect polarity and mark the aspect phrase in the restaurant rating:" />
+  <Labels name="label-explicit" toName="text" showInline="true">
+    <Label value="GENERAL-IMPRESSION-POSITIVE" background="green" />
+    <Label value="FOOD-POSITIVE" background="green" />
+    <Label value="SERVICE-POSITIVE" background="green" />
+    <Label value="AMBIENCE-POSITIVE" background="green" />
+    <Label value="PRICE-POSITIVE" background="green" />
+    <Label value="GENERAL-IMPRESSION-NEGATIVE" background="red" />
+    <Label value="FOOD-NEGATIVE" background="red" />
+    <Label value="SERVICE-NEGATIVE" background="red" />
+    <Label value="AMBIENCE-NEGATIVE" background="red" />
+    <Label value="PRICE-NEGATIVE" background="red" />
+    <Label value="GENERAL-IMPRESSION-NEUTRAL" background="orange" />
+    <Label value="FOOD-NEUTRAL" background="orange" />
+    <Label value="SERVICE-NEUTRAL" background="orange" />
+    <Label value="AMBIENCE-NEUTRAL" background="orange" />
+    <Label value="PRICE-NEUTRAL" background="orange" />
+    <Label value="GENERAL-IMPRESSION-CONFLICT" background="gray" />
+    <Label value="FOOD-CONFLICT" background="gray" />
+    <Label value="SERVICE-CONFLICT" background="gray" />
+    <Label value="AMBIENCE-CONFLICT" background="gray" />
+    <Label value="PRICE-CONFLICT" background="gray" />
+  </Labels>
+  <Header value="Implicit Sentiment" />
+  <Text name="normal_text_2"
+    value="If an aspect category is addressed in the text but there is no associated aspect phrase, one of the following labels should be selected and any place in the text marked." />
+  <Labels name="label-implicit" toName="text" showInline="true">
+    <Label value="GENERAL-IMPRESSION-POSITIVE-no-phrase" background="green" />
+    <Label value="FOOD-POSITIVE-no-phrase" background="green" />
+    <Label value="SERVICE-POSITIVE-no-phrase" background="green" />
+    <Label value="AMBIENCE-POSITIVE-no-phrase" background="green" />
+    <Label value="PRICE-POSITIVE-no-phrase" background="green" />
+    <Label value="GENERAL-IMPRESSION-NEGATIVE-no-phrase" background="red" />
+    <Label value="FOOD-NEGATIVE-no-phrase" background="red" />
+    <Label value="SERVICE-NEGATIVE-no-phrase" background="red" />
+    <Label value="AMBIENCE-NEGATIVE-no-phrase" background="red" />
+    <Label value="PRICE-NEGATIVE-no-phrase" background="red" />
+    <Label value="GENERAL-IMPRESSION-NEUTRAL-no-phrase" background="orange" />
+    <Label value="FOOD-NEUTRAL-no-phrase" background="orange" />
+    <Label value="SERVICE-NEUTRAL-no-phrase" background="orange" />
+    <Label value="AMBIENCE-NEUTRAL-no-phrase" background="orange" />
+    <Label value="PRICE-NEUTRAL-no-phrase" background="orange" />
+    <Label value="GENERAL-IMPRESSION-CONFLICT-no-phrase" background="gray" />
+    <Label value="FOOD-CONFLICT-no-phrase" background="gray" />
+    <Label value="SERVICE-CONFLICT-no-phrase" background="gray" />
+    <Label value="AMBIENCE-CONFLICT-no-phrase" background="gray" />
+    <Label value="PRICE-CONFLICT-no-phrase" background="gray" />
+  </Labels>
+  <Header value="Restaurant review (Markable text)" />
+  <Text name="text" value="$text" granularity="word" />
+  <Header value="Metadata" />
+  <Choices name="two_or_more_sentences" toName="text" choice="single">
+    <Choice value="Two or more sentences" />
+  </Choices>
+  <Choices name="aspect_available_without_judgement" toName="text" choice="single">
+    <Choice value="An aspect is addressed in the text without an explicit mention by the author" />
+  </Choices>
+</View>

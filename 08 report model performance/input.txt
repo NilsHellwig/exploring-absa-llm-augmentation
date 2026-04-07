@@ -1,0 +1,4 @@
+\multirow{3}{*}{\textbf{LRS\textsubscript{500}}} & 500 & 500 & 61.39\textsubscript{1.15} & 50.83\textsubscript{6.11} \\
+ &  & 500 & 1,000 & 59.51\textsubscript{1.90} & 50.51\textsubscript{6.63} \\
+ &  & 500 & 1,500 & 59.42\textsubscript{1.74} & 48.76\textsubscript{5.04} \\
+\arrayrulecolor{gray}\cline{2-6}\arrayrulecolor{black}

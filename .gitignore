@@ -1,0 +1,50 @@
+01 corpus acquisition/pages_restaurants_html
+01 corpus acquisition/reviews_restaurants_html
+.ipynb_checkpoints
+.DS_Store
+__tests/Untitled.ipynb
+__tests/tripadvisor.html
+__tests/train16.xml
+__tests/train15.xml
+__tests/checksemeval.ipynb
+.env
+04 llm synthesis/falcon-40b-Q4_K_S.gguf
+04 llm synthesis/llama-2-13b.Q4_0.gguf
+04 llm synthesis/llama-2-70b.Q4_0.gguf
+07 train models/output*
+07 train models/token_classifier/
+07 train models/__pycache__/
+07 train models/ACD/__pycache__/
+__tests/test_t5.ipynb
+07 train models/TASD/__pycache__/
+04 llm synthesis/llm_models/
+__tests/old dataframes/
+__tests/
+07 train models/ACSA/__pycache__/preprocessing.cpython-311.pyc
+07 train models/ACSA/__pycache__/model.cpython-311.pyc
+07 train models/ACSA/__pycache__/evaluation.cpython-311.pyc
+07 train models/ACSA/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/E2E/__pycache__/model.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/evaluation.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+*.pyc
+07 train models/E2E/__pycache__/preprocessing.cpython-311.pyc
+07 train models/E2E/__pycache__/__init__.cpython-311.pyc
+
+04 llm synthesis/semeval/
+04 llm synthesis/few_shot_examples/few_shot_examples_random.json
+04 llm synthesis/few_shot_examples/few_shot_examples_fixed.json
+07 train models/synth/Llama70B/fixed/
+07 train models/synth_original/
+07 train models/pasttrainings/
+07 train models/split_results/
+EV Erklärungen/VP2.pdf
+EV Erklärungen/VP1.pdf
+07 train models/synth/Llama3_70B/
+07 train models/synth/Llama2_70B/
+07 train models/synth.zip
